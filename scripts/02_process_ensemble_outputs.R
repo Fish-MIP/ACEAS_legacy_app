@@ -9,6 +9,8 @@ library(dplyr)
 library(data.table)
 library(stringr)
 library(purrr)
+library(sf)
+library(CCAMLRGIS)
 
 
 # Prepare datasets for use in app -----------------------------------------
@@ -28,7 +30,34 @@ maps_data <- list.files("data/ensemble_outputs/", pattern = "^ensemble",
     "Range: [", round(min_change, 1), ", ", round(max_change, 1), "]%\n",
     "SD: ±", round(sd_change, 1), "%"))
 
-maps_data |> 
+# Extract unique coordinate pairs in dataset above
+coords <- maps_data |> 
+  distinct(longitude, latitude) |> 
+  st_as_sf(coords = c("longitude", "latitude"), crs = 4326, remove = FALSE)
+
+
+# Load CCAMLR datasets to extract info about spatial management areas
+ccamlr_areas <- load_ASDs() |> 
+  select(GAR_Short_Label) |> 
+  rename(subregion = GAR_Short_Label) |> 
+  st_transform(st_crs(coords))
+  
+ccmalr_mpas <- load_MPAs()|> 
+  select(GAR_Short_Label) |> 
+  rename(mpa = GAR_Short_Label) |> 
+  st_transform(st_crs(coords))
+
+# Join CCMALR datasets to unique coordinates
+coords <- coords |> 
+  st_join(ccamlr_areas) |> 
+  st_join(ccmalr_mpas) |> 
+  st_drop_geometry()
+
+maps_data <- maps_data |> 
+  left_join(coords, by = c("longitude", "latitude"))
+
+# Saving data frame with CCAMLR management areas data
+maps_data |>
   write_csv("data/ensemble_perc_change_fish_bio_all-ssp_mid-end-century_all-reg.csv")
 
 
