@@ -2,10 +2,19 @@
 # Author: Denisse Fierro Arcos
 # Date: 2026-02-18
 
+
+# Loading libraries -------------------------------------------------------
+library(readr)
+library(dplyr)
+library(data.table)
+library(stringr)
+library(purrr)
+
+
+# Prepare datasets for use in app -----------------------------------------
 # Load all spatial data files (exclude timeseries files)
-maps_data <- list.files("data/ensemble_outputs/", 
-                            pattern = "^ensemble",
-                            full.names = TRUE) |>
+maps_data <- list.files("data/ensemble_outputs/", pattern = "^ensemble",
+                        full.names = TRUE) |>
   map(fread) |>
   bind_rows() |> 
   select(!c(rowid, name_merge)) |> 
