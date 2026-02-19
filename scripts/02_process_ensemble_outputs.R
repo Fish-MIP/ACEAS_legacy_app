@@ -14,6 +14,8 @@ library(CCAMLRGIS)
 
 
 # Prepare datasets for use in app -----------------------------------------
+
+## Spatial data -----------------------------------------------------------
 # Load all spatial data files (exclude timeseries files)
 maps_data <- list.files("data/ensemble_outputs/", pattern = "^ensemble",
                         full.names = TRUE) |>
@@ -61,6 +63,26 @@ maps_data |>
   write_csv("data/ensemble_perc_change_fish_bio_all-ssp_mid-end-century_all-reg.csv")
 
 
+### Create summary statistics table ---------------------------------------
+summary_stats <- maps_data |>
+  group_by(region_name, scenario, decade) |>
+  summarise(
+    mean_change = mean(mean_change, na.rm = TRUE),
+    min_change = min(min_change, na.rm = TRUE),
+    max_change = max(max_change, na.rm = TRUE),
+    median_change = median(median_change, na.rm = TRUE),
+    sd_change = mean(sd_change, na.rm = TRUE),
+    n_cells = n(),
+    .groups = "drop"
+  ) |>
+  arrange(scenario, decade, region_name)
+
+# Saving data frame with summary statistics
+summary_stats |>
+  write_csv("data/ensemble_perc_change_summ-stats_all-ssp_mid-end-century_all-reg.csv")
+
+
+## Temporal data ----------------------------------------------------------
 # Load all timeseries files (exclude files with spatial data)
 ts_data <- list.files("data/ensemble_outputs", 
                        pattern = "^mean_ensemble_perc_change_fish_bio.*",
