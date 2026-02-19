@@ -34,6 +34,9 @@ for f in dbpm_zarr:
     df['tooltip'] = df.apply(lambda x:
                              f'Lon: {round(x.lon, 2)}°, Lat: {round(x.lat, 2)}°\n{val_colname.capitalize()}: {round(x[val_colname], 2)} tonnes/km²\nRegion:{x.region}',
                              axis = 1)
+                             
+    # Change format of region
+    df['region'] = df.region.str.upper().str.replace('-', ' ')
     
     # Create name for csv file
     fout = f.replace('zarr', 'csv')
