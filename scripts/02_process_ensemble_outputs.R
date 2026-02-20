@@ -24,13 +24,15 @@ maps_data <- list.files("data/ensemble_outputs/", pattern = "^ensemble",
   select(!c(rowid, name_merge)) |> 
   mutate(region_name = str_remove(region_name, ", .*")) |> 
   mutate(region_name = str_remove(region_name, " Ocean")) |> 
-  # Add tooltip for interactive maps
-  mutate(tooltip = paste0(
-    "Region: ", region_name, "\n",
-    "Lon: ", round(longitude, 2), "°, Lat: ", round(latitude, 2), "°\n",
-    "Mean change: ", round(mean_change, 1), "%\n",
-    "Range: [", round(min_change, 1), ", ", round(max_change, 1), "]%\n",
-    "SD: ±", round(sd_change, 1), "%"))
+  #Calculate Coefficient of variation (indicator of high uncertainty)
+  mutate(cv = ifelse(mean_change != 0, sd_change/abs(mean_change), NA),
+         # Add tooltip for interactive maps
+         tooltip = paste0(
+           "Lon: ", round(longitude, 2), "°, Lat: ", round(latitude, 2), "°\n",
+           "Mean change: ", round(mean_change, 1), "%\n",
+           "Range: [", round(min_change, 1), ", ", round(max_change, 1), "]%\n",
+           "SD: ±", round(sd_change, 1), "%\n",
+           "CV: ", round(cv, 2)))
 
 # Extract unique coordinate pairs in dataset above
 coords <- maps_data |> 

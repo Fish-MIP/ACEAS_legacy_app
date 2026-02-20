@@ -8,6 +8,7 @@ library(shinyWidgets)
 library(shinydashboard)
 library(tidyverse)
 library(bslib)
+library(arrow)
 library(cmocean)
 library(scales)
 library(sf)
@@ -15,253 +16,68 @@ library(stars)
 library(terra)
 library(CCAMLRGIS)
 library(ggiraph)
-library(data.table)
 library(rnaturalearthdata)
-## we need BiocManager to perform the installation
-# if (!require("BiocManager", quietly = TRUE))
-#   install.packages("BiocManager")
-# ## install Rarr
-# BiocManager::install("Rarr")
-library(Rarr)  # For reading zarr files natively in R
 
 options(sass.cache = FALSE)
 
-# Load data ------------------------------------------------------------------
-# Load DBPM biomass data from CSV (converted from zarr using Python)
-# The CSV was created using convert_zarr_to_csv_python.py
-if (file.exists("dbpm_biomass_clean.csv")) {
-  message("Loading DBPM biomass data from CSV...")
-  dbpm_biomass_df <- read.csv("dbpm_biomass_clean.csv")
-  
-  # Convert to sf object
-  dbpm_biomass_sf <- dbpm_biomass_df %>%
-    mutate(
-      tooltip = paste0(
-        "Lon: ", round(lon, 2), "°, Lat: ", round(lat, 2), "°\n",
-        "Biomass: ", round(biomass, 2), " tonnes/km²\n",
-        "Region: ", region
-      )
-    ) %>%
-    st_as_sf(coords = c("lon", "lat"), crs = 4326, remove = FALSE)
-  
-  message("Loaded DBPM biomass data: ", nrow(dbpm_biomass_sf), " cells across ", 
-          length(unique(dbpm_biomass_sf$region)), " regions")
-} else {
-  warning("DBPM biomass CSV data file not found!")
-  warning("Please run: python3 convert_zarr_to_csv_python.py")
-  dbpm_biomass_sf <- NULL
-}
+# Loading input data ---------------------------------------------------------
+ant_sectors <- read_csv("data/antarctic_sectors_keys.csv")
 
-# Load DBPM catches data from CSV
-# The CSV was created using convert_catches_zarr_to_csv_python.py
-if (file.exists("dbpm_catches_clean.csv")) {
-  message("Loading DBPM catches data from CSV...")
-  dbpm_catches_df <- read.csv("dbpm_catches_clean.csv")
-  
-  # Convert to sf object
-  dbpm_catches_sf <- dbpm_catches_df %>%
-    mutate(
-      tooltip = paste0(
-        "Lon: ", round(lon, 2), "°, Lat: ", round(lat, 2), "°\n",
-        "Catches: ", round(catches, 2), " tonnes/km²\n",
-        "Region: ", region
-      )
-    ) %>%
-    st_as_sf(coords = c("lon", "lat"), crs = 4326, remove = FALSE)
-  
-  message("Loaded DBPM catches data: ", nrow(dbpm_catches_sf), " cells across ", 
-          length(unique(dbpm_catches_sf$region)), " regions")
-} else {
-  warning("DBPM catches CSV data file not found!")
-  warning("Please run: python3 convert_catches_zarr_to_csv_python.py")
-  dbpm_catches_sf <- NULL
-}
+## DBPM outputs ------------------------------------------------------------
+# Biomass
+dbpm_biomass_sf <- read_csv("data/dbpm_mean_tot-exp-bio_all_regions_simask_1deg_1961-2010.csv") |>
+  left_join(ant_sectors, by = "region") |> 
+  st_as_sf(coords = c("lon", "lat"), crs = 4326, remove = FALSE)
 
-# Load simulated vs observed catches time series data
-if (file.exists("simulated_observed_catches_all.csv")) {
-  message("Loading simulated vs observed catches time series...")
-  sim_obs_catches <- read.csv("simulated_observed_catches_all.csv")
-  
+# Catches
+dbpm_catches_sf <- read_csv("data/dbpm_mean_catch_all_regions_simask_1deg_1961-2010.csv") |>
   # Map FAO regions to CCAMLR names for consistency
-  sim_obs_catches <- sim_obs_catches %>%
-    mutate(
-      region_display = case_when(
-        region == "FAO 48" ~ "Atlantic, Antarctic",
-        region == "FAO 58" ~ "Indian Ocean, Antarctic", 
-        region == "FAO 88" ~ "Pacific, Antarctic",
-        TRUE ~ region
-      )
-    )
+  left_join(ant_sectors, by = "region") |> 
+  st_as_sf(coords = c("lon", "lat"), crs = 4326, remove = FALSE)
   
-  message("Loaded simulated/observed catches: ", nrow(sim_obs_catches), " rows covering ", 
-          length(unique(sim_obs_catches$year)), " years")
-} else {
-  warning("Simulated/observed catches CSV not found!")
-  sim_obs_catches <- NULL
-}
+# Simulated vs observed catches time series data
+sim_obs_catches <- read_parquet("data/simulated_observed_catches_all.parquet") |> 
+  # Map FAO regions to CCAMLR names for consistency
+  left_join(ant_sectors, by = "region")
+ 
 
-# Load Prydz Bay mizer regional model data
-if (file.exists("biomass_timeseries_summary_per_year_tonnes.csv")) {
-  message("Loading Prydz Bay mizer biomass data...")
-  prydz_bay_biomass <- read.csv("biomass_timeseries_summary_per_year_tonnes.csv") %>%
-    mutate(variable = "Biomass")
-  message("Loaded Prydz Bay biomass: ", nrow(prydz_bay_biomass), " rows")
-} else {
-  warning("Prydz Bay biomass file not found!")
-  prydz_bay_biomass <- NULL
-}
+# Mizer outputs -----------------------------------------------------------
+# Regional model outputs for Prydz Bay
+prydz_bay_data <- read_csv("data/mizer_biomass_yield_timeseries_summary_per_year_tonnes.csv")
 
-if (file.exists("yield_timeseries_summary_per_year_tonnes.csv")) {
-  message("Loading Prydz Bay mizer yield data...")
-  prydz_bay_yield <- read.csv("yield_timeseries_summary_per_year_tonnes.csv") %>%
-    mutate(variable = "Yield")
-  message("Loaded Prydz Bay yield: ", nrow(prydz_bay_yield), " rows")
-} else {
-  warning("Prydz Bay yield file not found!")
-  prydz_bay_yield <- NULL
-}
 
-# Combine Prydz Bay data
-if (!is.null(prydz_bay_biomass) && !is.null(prydz_bay_yield)) {
-  prydz_bay_data <- bind_rows(prydz_bay_biomass, prydz_bay_yield)
-  
-  # Get unique species list
-  prydz_bay_species <- unique(prydz_bay_data$Species)
-  message("Available species: ", paste(prydz_bay_species, collapse = ", "))
-} else {
-  prydz_bay_data <- NULL
-  prydz_bay_species <- NULL
-}
+# Ensemble outputs --------------------------------------------------------
+# Spatial data
+maps_data <- read_csv("data/ensemble_perc_change_fish_bio_all-ssp_mid-end-century_all-reg.csv")
+# Load summary statistics table
+summary_stats <- read_csv("data/ensemble_perc_change_summ-stats_all-ssp_mid-end-century_all-reg.csv")
 
-# Load all spatial data files (exclude timeseries files)
-spatial_files <- list.files(
-  pattern = "^ensemble_perc_change_fish_bio_(ssp126|ssp585).*\\.csv$", 
-  full.names = TRUE
-)
-
-# Read and combine all spatial data
-maps_data <- rbindlist(lapply(spatial_files, function(f) {
-  dat <- fread(f)
-  # Extract scenario and decade from filename
-  scenario <- ifelse(grepl("ssp126", f), "ssp126", "ssp585")
-  decade <- ifelse(grepl("2041-2050", f), "2041-2050", "2091-2100")
-  region <- gsub(".*_(atlantic|indian-ocean|pacific).*", "\\1", f)
-  region <- case_when(
-    grepl("atlantic", region) ~ "Atlantic, Antarctic",
-    grepl("indian", region) ~ "Indian Ocean, Antarctic",
-    grepl("pacific", region) ~ "Pacific, Antarctic",
-    TRUE ~ region
-  )
-  dat$scenario <- scenario
-  dat$decade <- decade
-  dat$region <- region
-  dat
-}), fill = TRUE)
-
-# Add tooltip for interactive maps
-maps_data <- maps_data %>%
-  mutate(tooltip = paste0(
-    "Region: ", region_name, "\n",
-    "Lon: ", round(longitude, 2), "°, Lat: ", round(latitude, 2), "°\n",
-    "Mean change: ", round(mean_change, 1), "%\n",
-    "Range: [", round(min_change, 1), ", ", round(max_change, 1), "]%\n",
-    "SD: ±", round(sd_change, 1), "%"
-  ))
-
-# Load time series data
-ts_files <- list.files(pattern = "mean_ensemble_perc_change_fish_bio_timeseries.*\\.csv$",
-                      full.names = TRUE)
-
-ts_data <- rbindlist(lapply(ts_files, function(f) {
-  dat <- fread(f)
-  # Extract region from filename
-  region <- case_when(
-    grepl("atlantic-antarctic", f) ~ "Atlantic, Antarctic",
-    grepl("indian-ocean-antarctic", f) ~ "Indian Ocean, Antarctic",
-    grepl("pacific-antarctic", f) ~ "Pacific, Antarctic",
-    grepl("heard-island-and-mcdonald-islands", f) ~ "Heard Island and McDonald Islands",
-    grepl("kerguelen-islands", f) ~ "Kerguelen Islands",
-    grepl("prince-edward-island", f) ~ "Prince Edward Islands",
-    TRUE ~ NA_character_
-  )
-  dat$region <- region
-  dat
-}), fill = TRUE)
-
-# Add tooltip for time series
-ts_data <- ts_data %>%
-  mutate(tooltip = paste0(
-    "Year: ", year, "\n",
-    "Mean change: ", round(mean_change, 1), "%\n",
-    "SD: ±", round(sd_change, 1), "%"
-  ))
+# Time series data
+ts_data <- read_csv("data/mean_ensemble_perc_change_fish_bio_timeseries_all-ssp_all-reg_1950-2100.csv")
 
 # Load CCAMLR spatial data
 CCAMLR_Areas <- load_ASDs()
-CCAMLR_Subareas <- load_ASDs()  # Load ASDs as subregions
-CCAMLR_MPAs <- load_MPAs()  # Load MPA Planning Areas
 EEZs <- load_EEZs()
 ANT <- load_Coastline()
-wrld <- countries50
-
-# Add CCAMLR subregion and MPA information by spatial join
-# Convert maps_data to spatial points
-maps_sf <- maps_data %>%
-  st_as_sf(coords = c("longitude", "latitude"), crs = 4326, remove = FALSE)
-
-# Transform CCAMLR_Subareas to match CRS of maps_sf
-CCAMLR_Subareas_transformed <- st_transform(CCAMLR_Subareas, st_crs(maps_sf))
-CCAMLR_MPAs_transformed <- st_transform(CCAMLR_MPAs, st_crs(maps_sf))
-
-# Spatial join with CCAMLR subareas
-maps_with_subarea <- st_join(maps_sf, CCAMLR_Subareas_transformed["GAR_Short_Label"], left = TRUE)
-
-# Spatial join with CCAMLR MPAs
-maps_with_mpa <- st_join(maps_with_subarea, CCAMLR_MPAs_transformed["GAR_Short_Label"], left = TRUE, suffix = c("", "_mpa"))
-
-# Convert back to data frame and add subarea and MPA info
-maps_data <- maps_with_mpa %>%
-  st_drop_geometry() %>%
-  as.data.table() %>%
-  mutate(
-    subregion = GAR_Short_Label,
-    mpa = GAR_Short_Label_mpa
-  ) %>%
-  select(-GAR_Short_Label, -GAR_Short_Label_mpa)
 
 # Get spatial region lists (now includes subregions)
-region_list <- maps_data %>%
-  distinct(region_name) %>%
-  arrange(region_name) %>%
+region_list <- maps_data |>
+  distinct(region_name) |>
   pull(region_name)
 
 # Get subregion list
-subregion_list <- maps_data %>%
-  filter(!is.na(subregion)) %>%
-  distinct(subregion) %>%
-  arrange(subregion) %>%
-  pull(subregion)
+subregion_list <- maps_data |>
+  distinct(subregion) |>
+  drop_na() |>
+  pull()
 
 # Get MPA list
-mpa_list <- maps_data %>%
-  filter(!is.na(mpa)) %>%
-  distinct(mpa) %>%
-  arrange(mpa) %>%
-  pull(mpa)
+mpa_list <- maps_data |>
+  distinct(mpa) |>
+  drop_na() |>
+  arrange(mpa) |> 
+  pull()
 
-# Create summary statistics table
-summary_stats <- maps_data %>%
-  group_by(region, scenario, decade) %>%
-  summarise(
-    mean_change = mean(mean_change, na.rm = TRUE),
-    min_change = min(min_change, na.rm = TRUE),
-    max_change = max(max_change, na.rm = TRUE),
-    median_change = median(median_change, na.rm = TRUE),
-    sd_change = mean(sd_change, na.rm = TRUE),
-    n_cells = n(),
-    .groups = "drop"
-  ) %>%
-  arrange(scenario, decade, region)
 
 # Supporting functions -------------------------------------------------------
 # Custom color palette
@@ -270,12 +86,13 @@ scale_fill_custom <- function(..., alpha = 1, begin = 0, end = 1, direction = 1,
                               na.value = "white", guide = "colourbar",
                               aesthetics = "fill") {
   continuous_scale(aesthetics,
-                  palette = gradient_n_pal(
-                    c(cmocean("matter", start = 0.1, end = 0.8, direction = -1)(123),
-                      cmocean("delta", start = 0.49, end = 0.5)(20),
-                      cmocean("deep", start = 0.1, end = 0.8)(123)), 
-                    values, space),
-                  na.value = na.value, guide = guide, ...)
+                   palette = gradient_n_pal(
+                     c(cmocean("matter", start = 0.1, end = 0.8, 
+                               direction = -1)(123),
+                       cmocean("delta", start = 0.49, end = 0.5)(20),
+                       cmocean("deep", start = 0.1, end = 0.8)(123)), 
+                     values, space),
+                   na.value = na.value, guide = guide, ...)
 }
 
 # UI Definition --------------------------------------------------------------
@@ -334,23 +151,24 @@ ui <- navbarPage(
           img(src = "FishMIP_white_no-bg_logo.png", height = 70)
         ),
         h1(class = "title-main", "Southern Ocean Projections Explorer"),
-        h2(class = "title-sub", "Results from the Southern Ocean Marine Ecosystem Model Ensemble")
+        h2(class = "title-sub", 
+           "Results from the Southern Ocean Marine Ecosystem Model Ensemble (SOMEME)")
       ),
       div(
         class = "header-right",
-        img(src = "ACEAS_logo_white.png", height = 120)
+        img(src = "ACEAS_logo_white.png", height = 120, width = 120)
       )
     )
   ),
   
   # Navbar Tab 1: Future Projections
   tabPanel(
-    "Future Projections",
+    "Future Scenarios Projections",
     titlePanel("Projected fish biomass change"),
     br(),
-    "Explore mean estimated changes in fish biomass across the FishMIP ensemble ",
-    "(10 ecosystem models) relative to the reference period (2005-2014) for ",
-    "Antarctic waters.",
+    "Explore mean estimated changes in fish biomass across the FishMIP ensemble",
+    " (including 10 marine ecosystem models) relative to the reference period ",
+    "(2005-2014) for Antarctic waters.",
     br(), br(),
     
     sidebarLayout(
@@ -359,7 +177,8 @@ ui <- navbarPage(
         radioButtons(
           "region_type",
           "Choose region type",
-          choiceNames = c("CCAMLR Area", "CCAMLR Division", "CCAMLR MPA", "EEZ"),
+          choiceNames = c("CCAMLR Statistical Areas", "CCAMLR Division", 
+                          "CCAMLR MPA", "EEZ"),
           choiceValues = c("CCAMLR", "CCAMLR_sub", "CCAMLR_mpa", "EEZ"),
           selected = "CCAMLR"
         ),
@@ -380,14 +199,14 @@ ui <- navbarPage(
         
         radioButtons(
           "map_decade",
-          "Choose time period",
+          "Choose projection period",
           choiceNames = c("2041-2050 (medium term)", "2091-2100 (long term)"),
           choiceValues = c("2041-2050", "2091-2100"),
           selected = "2041-2050"
         ),
         
         br(),
-        p("Click 'Download' to get the data used for plots."),
+        p("Click 'Download' to get the data used to create plots."),
         downloadButton("download_map", "Download")
       ),
       
@@ -395,17 +214,16 @@ ui <- navbarPage(
         tabsetPanel(
           tabPanel("Map",
             br(),
-            p("The map shows the climatological mean change for the selected scenario and time period."),
+            p("Mean change in fish biomass for the selected scenario and time period."),
             girafeOutput("plot_map", height = "600px")
           ),
           tabPanel("Time series",
             br(),
-            p("The time series shows how fish biomass is estimated to change from 1950 to 2100 ",
-              "under two emissions scenarios: SSP1-2.6 and SSP5-8.5."),
-            br(),
-            p("The plot shows the mean percentage change for the FishMIP model ensemble ",
-              "relative to the historical reference period (2005-2014). Shaded areas show ",
-              "the standard deviation across the 10 ecosystem models."),
+            p("Mean percentage change in fish biomass (1950-2100) relative to ",
+              "the historical reference period (2005-2014) derived from the ",
+              "FishMIP model ensemble under two emissions scenarios: SSP1-2.6 ", 
+              "and SSP5-8.5. Shaded areas show the standard deviation across ",
+              "the 10 marine ecosystem models included in the ensemble."),
             br(),
             girafeOutput("plot_ts", height = "500px")
           )
@@ -429,16 +247,16 @@ ui <- navbarPage(
           
           selectInput(
             "global_model",
-            "Choose FishMIP model",
+            "Choose FishMIP marine ecosystem model",
             choices = c("Ensemble", "DBPM", "BOATS", "DBEM", "EcoOcean", "FEISTY"),
             selected = "Ensemble"
           ),
           
           selectInput(
             "global_model_region",
-            "Choose CCAMLR Area",
-            choices = c("Atlantic, Antarctic", "Indian Ocean, Antarctic", "Pacific, Antarctic"),
-            selected = "Atlantic, Antarctic"
+            "Choose CCAMLR Statistical Area",
+            choices = ant_sectors$region_name,
+            selected = "Atlantic"
           ),
           
           selectInput(
@@ -449,7 +267,7 @@ ui <- navbarPage(
           ),
           
           br(),
-          p("Select a global marine ecosystem model, CCAMLR area, and variable to view evaluation metrics.")
+          p("Select a global marine ecosystem model, CCAMLR Statistical area, and variable to view evaluation metrics.")
         ),
         
         mainPanel(
@@ -500,13 +318,15 @@ ui <- navbarPage(
                 selectInput(
                   "perf_obs_source",
                   "Observation source:",
-                  choices = c("Watson" = "obs_watson", "CCAMLR" = "obs_ccamlr", "Pauly" = "obs_pauly"),
+                  choices = c("Watson" = "obs_watson", "CCAMLR" = "obs_ccamlr", 
+                              "Pauly" = "obs_pauly"),
                   selected = "obs_watson"
                 ),
                 selectInput(
                   "perf_model_config",
                   "Model configuration:",
-                  choices = c("Original (1°)" = "1_org", "0.25°" = "025_org", "Calibrated" = "calib_org", "SI run" = "1_si"),
+                  choices = c("Original (1°)" = "1_org", "0.25°" = "025_org", 
+                              "Calibrated" = "calib_org", "SI run" = "1_si"),
                   selected = "1_org"
                 ),
                 br(),
@@ -578,7 +398,7 @@ ui <- navbarPage(
           ),
           
           br(),
-          p("Select up to 5 functional groups to compare in the time series plot."),
+          p("Select up to five (5) functional groups to compare in the time series plot."),
           br(),
           downloadButton("download_regional_ts", "Download Data")
         ),
@@ -627,7 +447,7 @@ ui <- navbarPage(
         h4("Data Sources"),
         tags$ul(
           tags$li("Fish biomass projections: FishMIP ensemble (10 models)"),
-          tags$li("Spatial boundaries: CCAMLRGIS package (CCAMLR areas and EEZs)"),
+          tags$li("Spatial boundaries: CCAMLRGIS package (CCAMLR Stastitical areas and EEZs)"),
           tags$li("Climate scenarios: SSP1-2.6 (low emissions) and SSP5-8.5 (high emissions)"),
           tags$li("Reference period: 2005-2014 mean")
         ),
@@ -661,7 +481,7 @@ server <- function(input, output, session) {
   # Update region choices based on region type
   observe({
     if (input$region_type == "CCAMLR") {
-      choices <- c("Atlantic, Antarctic", "Indian Ocean, Antarctic", "Pacific, Antarctic")
+      choices <- ant_sectors$region_name
     } else if (input$region_type == "CCAMLR_sub") {
       # Use spatially-matched subregions from the data
       choices <- subregion_list
@@ -670,847 +490,846 @@ server <- function(input, output, session) {
       choices <- mpa_list
     } else {
       # Get unique EEZ names (exclude CCAMLR regions)
-      ccamlr_regions <- c("Atlantic, Antarctic", "Indian Ocean, Antarctic", "Pacific, Antarctic")
-      choices <- region_list[!region_list %in% ccamlr_regions]
+      choices <- region_list[!region_list %in% ant_sectors$region_name]
     }
     updateSelectInput(session, "selected_region", choices = choices)
   })
-  
-  # Reactive data for maps
-  map_data <- reactive({
-    req(input$selected_region, input$map_scenario, input$map_decade)
-    
-    # Filter data
-    filtered <- maps_data %>%
-      filter(
-        scenario == input$map_scenario,
-        decade == input$map_decade
-      )
-    
-    # Further filter by region type
-    if (input$region_type == "CCAMLR") {
-      filtered <- filtered %>% filter(region == input$selected_region)
-    } else if (input$region_type == "CCAMLR_sub") {
-      filtered <- filtered %>% filter(subregion == input$selected_region)
-    } else if (input$region_type == "CCAMLR_mpa") {
-      filtered <- filtered %>% filter(mpa == input$selected_region)
-    } else {
-      filtered <- filtered %>% filter(region_name == input$selected_region)
-    }
-    
-    # Convert to spatial format
-    if (nrow(filtered) > 0) {
-      # Create raster template
-      tmplt <- rast(ext(-180, 180, -78, -45), resolution = 1, 
-                   crs = "+init=epsg:4326")
-      
-      # Rasterize mean change
-      proj_rast_mean <- rasterize(
-        filtered[, c("longitude", "latitude")], 
-        tmplt, 
-        values = filtered$mean_change, 
-        fun = mean
-      )
-      
-      # Rasterize SD
-      proj_rast_sd <- rasterize(
-        filtered[, c("longitude", "latitude")], 
-        tmplt, 
-        values = filtered$sd_change, 
-        fun = mean
-      )
-      
-      # Combine into multi-layer raster
-      proj_rast <- c(proj_rast_mean, proj_rast_sd)
-      names(proj_rast) <- c("mean", "sd")
-      
-      # Convert to stars then sf
-      proj_stars <- st_as_stars(proj_rast)
-      proj_sf <- st_as_sf(proj_stars, merge = FALSE)
-      
-      # Cap mean values at 50
-      proj_sf$mean <- ifelse(proj_sf$mean > 50, 50, proj_sf$mean)
-      proj_sf$mean <- ifelse(proj_sf$mean < -50, -50, proj_sf$mean)
-      
-      # Calculate coefficient of variation (high uncertainty indicator)
-      proj_sf$cv <- proj_sf$sd / abs(proj_sf$mean)
-      
-      # Add tooltip with SD and CV info
-      proj_sf$tooltip <- paste0(
-        "Mean change: ", round(proj_sf$mean, 1), "%\n",
-        "SD: ±", round(proj_sf$sd, 1), "%\n",
-        "CV: ", round(proj_sf$cv, 2)
-      )
-      
-      return(proj_sf)
-    }
-    return(NULL)
-  })
-  
-  # Render map
-  output$plot_map <- renderGirafe({
-    req(map_data())
-    
-    # Get high uncertainty cells (CV > 1) for asterisk overlay
-    high_uncertainty_cells <- map_data() %>%
-      filter(!is.na(cv) & cv > 1)
-    
-    p <- ggplot() +
-      geom_sf_interactive(
-        data = map_data(),
-        aes(fill = mean, tooltip = tooltip),
-        color = NA
-      ) +
-      scale_fill_binned(
-        limits = c(-50, 50),
-        n.breaks = 8,
-        type = scale_fill_custom,
-        oob = oob_squish,
-        name = "% change in fish biomass"
-      ) +
-      geom_sf(data = CCAMLR_Areas, fill = NA, colour = "grey60", lwd = 0.8) +
-      geom_sf(data = EEZs, fill = NA, colour = "orange", lwd = 0.6) +
-      geom_sf(data = ANT, fill = "grey99", colour = "grey60") +
-      geom_sf(data = wrld, fill = "grey60", colour = "grey60")
-    
-    # Add stippling for high uncertainty cells if any exist
-    if (nrow(high_uncertainty_cells) > 0) {
-      p <- p + 
-        geom_sf(data = high_uncertainty_cells, 
-                fill = "transparent",
-                color = "grey40",
-                alpha = 0.6,
-                size = 0.3,
-                shape = 20)  # small dots for stippling effect
-    }
-    
-    p <- p +
-      coord_sf(
-        crs = "+proj=ortho +lat_0=-90 +lon_0=0",
-        ylim = c(-4000000, 4000000),
-        xlim = c(-4000000, 4100000)
-      ) +
-      labs(
-        title = paste0(
-          input$selected_region, " - ",
-          ifelse(input$map_scenario == "ssp126", "SSP1-2.6", "SSP5-8.5"), " - ",
-          input$map_decade
-        ),
-        caption = if(nrow(high_uncertainty_cells) > 0) "Stippling indicates high intermodel spread (CV > 1)" else NULL
-      ) +
-      theme_bw() +
-      theme(
-        panel.border = element_rect(colour = NA),
-        plot.title = element_text(hjust = 0.5, size = 14, face = "bold"),
-        plot.caption = element_text(size = 10, hjust = 0.5),
-        legend.position = "bottom",
-        axis.title = element_blank()
-      ) +
-      guides(
-        fill = guide_colorbar(
-          title.position = "top",
-          title.hjust = 0.5,
-          barwidth = 20,
-          barheight = 2
-        )
-      )
-    
-    girafe(code = print(p), width_svg = 8, height_svg = 8) %>%
-      girafe_options(
-        opts_zoom(max = 5),
-        opts_toolbar(hidden = c("zoom_rect")),
-        opts_hover(css = "stroke: gray1; stroke-width: 2px"),
-        opts_tooltip(opacity = 0.8),
-        opts_selection(type = "none", only_shiny = TRUE)
-      )
-  })
-  
-  # Download map data
-  output$download_map <- downloadHandler(
-    filename = function() {
-      region_clean <- gsub("[, ]", "_", input$selected_region)
-      paste0(
-        "fishmip_", region_clean, "_",
-        input$map_scenario, "_",
-        input$map_decade, ".csv"
-      )
-    },
-    content = function(file) {
-      req(input$selected_region, input$map_scenario, input$map_decade)
-      
-      data_to_download <- maps_data %>%
-        filter(
-          scenario == input$map_scenario,
-          decade == input$map_decade
-        )
-      
-      if (input$region_type == "CCAMLR") {
-        data_to_download <- data_to_download %>% 
-          filter(region == input$selected_region)
-      } else {
-        data_to_download <- data_to_download %>% 
-          filter(region_name == input$selected_region)
-      }
-      
-      data_to_download <- data_to_download %>%
-        select(-tooltip, -rowid)
-      
-      write_csv(data_to_download, file)
-    }
-  )
-  
-  # Reactive data for time series
-  ts_plot_data <- reactive({
-    req(input$selected_region)
-    
-    # For CCAMLR regions, use the selected region directly
-    # For other types, try to match with available time series data
-    if (input$region_type == "CCAMLR") {
-      ts_data %>%
-        filter(region == input$selected_region)
-    } else {
-      # For other region types, show time series for the parent CCAMLR region if available
-      # Otherwise return empty data
-      ts_data %>%
-        filter(region == input$selected_region)
-    }
-  })
-  
-  # Render time series plot
-  output$plot_ts <- renderGirafe({
-    req(ts_plot_data())
-    
-    p <- ggplot(
-      ts_plot_data(),
-      aes(x = year, y = mean_change, colour = scenario, group = scenario)
-    ) +
-      geom_point_interactive(
-        aes(tooltip = tooltip),
-        size = 0.1,
-        hover_nearest = TRUE
-      ) +
-      geom_line(linewidth = 0.5) +
-      geom_hline(
-        yintercept = 0,
-        color = "grey80",
-        linewidth = 0.65,
-        linetype = 2
-      ) +
-      geom_vline(
-        xintercept = 2015,
-        color = "grey80",
-        linewidth = 0.65
-      ) +
-      geom_ribbon(
-        aes(
-          ymin = mean_change - sd_change,
-          ymax = mean_change + sd_change,
-          fill = scenario
-        ),
-        alpha = 0.3,
-        color = NA
-      ) +
-      scale_color_manual(
-        values = c("historical" = "black", "ssp126" = "#33bbee", "ssp585" = "#ee3377"),
-        name = "Scenarios",
-        labels = c("Historical", "SSP1-2.6", "SSP5-8.5")
-      ) +
-      scale_fill_manual(
-        values = c("historical" = "black", "ssp126" = "#33bbee", "ssp585" = "#ee3377"),
-        name = "Scenarios",
-        labels = c("Historical", "SSP1-2.6", "SSP5-8.5")
-      ) +
-      scale_x_continuous(breaks = seq(1950, 2100, 10)) +
-      labs(
-        title = paste("Fish biomass change:", input$selected_region),
-        y = "Change in exploitable fish biomass (%)"
-      ) +
-      guides(color = guide_legend(nrow = 1, title.position = "left")) +
-      theme_classic() +
-      theme(
-        legend.position = "top",
-        legend.justification = "center",
-        legend.text = element_text(size = 11),
-        legend.title = element_text(size = 11),
-        plot.title = element_text(hjust = 0.5, size = 13, face = "bold"),
-        axis.title.x = element_blank(),
-        axis.title.y = element_text(size = 11),
-        axis.text.x = element_text(angle = 45, vjust = 0.765, hjust = 0.65, size = 10),
-        axis.text.y = element_text(size = 10)
-      )
-    
-    girafe(ggobj = p, height_svg = 5) %>%
-      girafe_options(
-        opts_selection(type = "none", only_shiny = TRUE)
-      )
-  })
-  
-  # Download time series data
-  output$download_ts <- downloadHandler(
-    filename = function() {
-      region_clean <- gsub("[, ]", "_", input$selected_region)
-      paste0("fishmip_timeseries_", region_clean, "_1950-2100.csv")
-    },
-    content = function(file) {
-      data_to_download <- ts_plot_data() %>%
-        select(-tooltip)
-      write_csv(data_to_download, file)
-    }
-  )
-  
-  # Download summary statistics
-  output$download_summary <- downloadHandler(
-    filename = function() {
-      paste0("fishmip_summary_statistics_", Sys.Date(), ".csv")
-    },
-    content = function(file) {
-      write_csv(summary_stats, file)
-    }
-  )
-  
-  # Render description text for global model
-  output$global_model_description <- renderText({
-    var_label <- ifelse(input$global_model_variable == "Biomass", "biomass", "catches")
-    paste("Mean", var_label, "from DBPM model (1961-2010 time-averaged).")
-  })
-  
-  # Reactive data for global model evaluation maps
-  global_model_data <- reactive({
-    req(input$global_model, input$global_model_region, input$global_model_variable)
-    
-    # DBPM data available for both biomass and catches
-    if (input$global_model == "DBPM") {
-      if (input$global_model_variable == "Biomass" && !is.null(dbpm_biomass_sf)) {
-        # Filter biomass data by selected region
-        filtered <- dbpm_biomass_sf %>%
-          filter(region == input$global_model_region)
-        return(filtered)
-      } else if (input$global_model_variable == "Catches" && !is.null(dbpm_catches_sf)) {
-        # Filter catches data by selected region
-        filtered <- dbpm_catches_sf %>%
-          filter(region == input$global_model_region)
-        return(filtered)
-      }
-    }
-    
-    return(NULL)
-  })
-  
-  # Reactive data for sim vs obs catches time series
-  sim_obs_ts_data <- reactive({
-    req(input$global_model_region, input$obs_source, input$model_config)
-    
-    if (is.null(sim_obs_catches)) return(NULL)
-    
-    # Parse model config (res_run format)
-    config_parts <- strsplit(input$model_config, "_")[[1]]
-    res_val <- config_parts[1]
-    run_val <- config_parts[2]
-    
-    # Filter data
-    filtered <- sim_obs_catches %>%
-      filter(
-        region_display == input$global_model_region,
-        res == res_val,
-        run == run_val,
-        source == input$obs_source
-      )
-    
-    return(filtered)
-  })
-  
-  # Render simulated vs observed catches time series
-  output$plot_sim_obs_ts <- renderGirafe({
-    ts_data <- sim_obs_ts_data()
-    
-    if (is.null(ts_data) || nrow(ts_data) == 0) {
-      return(NULL)
-    }
-    
-    # Prepare data for plotting
-    plot_data <- ts_data %>%
-      select(year, vals, obs, pseudo) %>%
-      pivot_longer(cols = c(vals, obs, pseudo), names_to = "type", values_to = "catch") %>%
-      mutate(
-        type_label = case_when(
-          type == "vals" ~ "Simulated (DBPM)",
-          type == "obs" ~ "Observed",
-          type == "pseudo" ~ "Pseudo-observation"
-        )
-      )
-    
-    # Create plot
-    p <- ggplot(plot_data, aes(x = year, y = catch, color = type_label, group = type_label)) +
-      geom_line(linewidth = 0.8) +
-      geom_point(size = 1.5, alpha = 0.6) +
-      scale_color_manual(
-        values = c(
-          "Simulated (DBPM)" = "#2E86AB",
-          "Observed" = "#A23B72",
-          "Pseudo-observation" = "#F18F01"
-        ),
-        name = "Data type"
-      ) +
-      scale_x_continuous(breaks = seq(1960, 2010, 10)) +
-      labs(
-        title = paste0("DBPM vs Observed Catches - ", input$global_model_region),
-        subtitle = paste0("Model: ", gsub("_", " - ", input$model_config), " | Obs: ", 
-                         gsub("obs_", "", input$obs_source)),
-        x = "Year",
-        y = "Mean catch density (tonnes/km²)"
-      ) +
-      theme_classic() +
-      theme(
-        legend.position = "top",
-        plot.title = element_text(hjust = 0.5, size = 13, face = "bold"),
-        plot.subtitle = element_text(hjust = 0.5, size = 11),
-        axis.title = element_text(size = 11),
-        axis.text = element_text(size = 10),
-        legend.text = element_text(size = 10)
-      )
-    
-    girafe(ggobj = p, height_svg = 5) %>%
-      girafe_options(
-        opts_selection(type = "none", only_shiny = TRUE),
-        opts_tooltip(opacity = 0.8)
-      )
-  })
-  
-  # Reactive data for performance metrics
-  perf_data <- reactive({
-    req(input$global_model_region, input$perf_obs_source, input$perf_model_config)
-    
-    if (is.null(sim_obs_catches)) return(NULL)
-    
-    # Parse model config
-    config_parts <- strsplit(input$perf_model_config, "_")[[1]]
-    res_val <- config_parts[1]
-    run_val <- config_parts[2]
-    
-    # Filter data and remove NAs
-    filtered <- sim_obs_catches %>%
-      filter(
-        region_display == input$global_model_region,
-        res == res_val,
-        run == run_val,
-        source == input$perf_obs_source,
-        !is.na(vals),
-        !is.na(obs)
-      )
-    
-    return(filtered)
-  })
-  
-  # Calculate performance metrics
-  performance_metrics <- reactive({
-    data <- perf_data()
-    
-    if (is.null(data) || nrow(data) == 0) {
-      return(NULL)
-    }
-    
-    # Calculate metrics
-    n <- nrow(data)
-    sim <- data$vals
-    obs <- data$obs
-    
-    # Correlation
-    cor_val <- cor(sim, obs, use = "complete.obs")
-    
-    # R-squared
-    ss_res <- sum((obs - sim)^2)
-    ss_tot <- sum((obs - mean(obs))^2)
-    r_squared <- 1 - (ss_res / ss_tot)
-    
-    # RMSE
-    rmse <- sqrt(mean((sim - obs)^2))
-    
-    # MAE
-    mae <- mean(abs(sim - obs))
-    
-    # Bias
-    bias <- mean(sim - obs)
-    
-    # Normalized RMSE
-    nrmse <- rmse / mean(obs) * 100
-    
-    # Create results dataframe
-    metrics <- data.frame(
-      Metric = c("Number of observations", "Correlation (r)", "R²", 
-                 "RMSE", "MAE", "Bias", "Normalized RMSE (%)"),
-      Value = c(
-        as.character(n),
-        round(cor_val, 3),
-        round(r_squared, 3),
-        round(rmse, 4),
-        round(mae, 4),
-        round(bias, 4),
-        round(nrmse, 2)
-      ),
-      stringsAsFactors = FALSE
-    )
-    
-    return(metrics)
-  })
-  
-  # Render performance table
-  output$performance_table <- renderTable({
-    metrics <- performance_metrics()
-    
-    if (is.null(metrics)) {
-      return(data.frame(Metric = "No data available", Value = ""))
-    }
-    
-    metrics
-  }, striped = TRUE, hover = TRUE, bordered = TRUE)
-  
-  # Render performance scatter plot
-  output$performance_scatter <- renderGirafe({
-    data <- perf_data()
-    
-    if (is.null(data) || nrow(data) == 0) {
-      return(NULL)
-    }
-    
-    # Get metrics for subtitle
-    metrics <- performance_metrics()
-    r2_val <- metrics$Value[metrics$Metric == "R²"]
-    rmse_val <- metrics$Value[metrics$Metric == "RMSE"]
-    
-    # Create scatter plot
-    p <- ggplot(data, aes(x = obs, y = vals)) +
-      geom_point_interactive(aes(tooltip = paste0("Year: ", year, "\nObs: ", round(obs, 3), "\nSim: ", round(vals, 3))),
-                            color = "#2E86AB", size = 2.5, alpha = 0.6) +
-      geom_abline(slope = 1, intercept = 0, linetype = "dashed", color = "grey40", linewidth = 0.8) +
-      geom_smooth(method = "lm", se = TRUE, color = "#A23B72", fill = "#A23B72", alpha = 0.2) +
-      labs(
-        title = "Simulated vs Observed Catches",
-        subtitle = paste0("R² = ", r2_val, ", RMSE = ", rmse_val),
-        x = "Observed catches (tonnes/km²)",
-        y = "Simulated catches (tonnes/km²)"
-      ) +
-      theme_classic() +
-      theme(
-        plot.title = element_text(hjust = 0.5, size = 12, face = "bold"),
-        plot.subtitle = element_text(hjust = 0.5, size = 10),
-        axis.title = element_text(size = 10),
-        axis.text = element_text(size = 9)
-      )
-    
-    girafe(ggobj = p, height_svg = 4) %>%
-      girafe_options(
-        opts_selection(type = "none", only_shiny = TRUE),
-        opts_tooltip(opacity = 0.8)
-      )
-  })
-  
-  # Render residual plot
-  output$residual_plot <- renderGirafe({
-    data <- perf_data()
-    
-    if (is.null(data) || nrow(data) == 0) {
-      return(NULL)
-    }
-    
-    # Calculate residuals
-    plot_data <- data %>%
-      mutate(
-        residual = vals - obs,
-        fitted = vals
-      )
-    
-    p <- ggplot(plot_data, aes(x = fitted, y = residual)) +
-      geom_hline(yintercept = 0, linetype = "dashed", color = "grey40", linewidth = 0.8) +
-      geom_point_interactive(aes(tooltip = paste0("Year: ", year, "\nFitted: ", round(fitted, 3), "\nResidual: ", round(residual, 3))),
-                            color = "#2E86AB", size = 2.5, alpha = 0.6) +
-      geom_smooth(method = "loess", se = TRUE, color = "#A23B72", fill = "#A23B72", alpha = 0.2) +
-      labs(
-        title = "Residual Analysis",
-        subtitle = "Residuals should be randomly distributed around zero",
-        x = "Fitted values (tonnes/km²)",
-        y = "Residuals (tonnes/km²)"
-      ) +
-      theme_classic() +
-      theme(
-        plot.title = element_text(hjust = 0.5, size = 12, face = "bold"),
-        plot.subtitle = element_text(hjust = 0.5, size = 10),
-        axis.title = element_text(size = 10),
-        axis.text = element_text(size = 9)
-      )
-    
-    girafe(ggobj = p, height_svg = 3.5) %>%
-      girafe_options(
-        opts_selection(type = "none", only_shiny = TRUE),
-        opts_tooltip(opacity = 0.8)
-      )
-  })
-  
-  # Update regional species choices based on selected variable
-  observe({
-    if (!is.null(prydz_bay_data) && !is.null(input$regional_variable)) {
-      # Get variable type
-      var_type <- ifelse(input$regional_variable == "Yield (Catches)", "Yield", "Biomass")
-      
-      # Filter species list by variable
-      available_species <- prydz_bay_data %>%
-        filter(variable == var_type) %>%
-        distinct(Species) %>%
-        arrange(Species) %>%
-        pull(Species)
-      
-      # Update species dropdown (limit selection to 5)
-      updateSelectInput(session, "regional_species", 
-                       choices = available_species,
-                       selected = head(available_species, 3))  # Default to first 3
-    }
-  })
-  
-  # Reactive data for regional model time series
-  regional_ts_data <- reactive({
-    req(input$regional_variable, input$regional_species)
-    
-    if (is.null(prydz_bay_data)) return(NULL)
-    
-    # Get variable type
-    var_type <- ifelse(input$regional_variable == "Yield (Catches)", "Yield", "Biomass")
-    
-    # Filter data (only show 1950 onwards)
-    filtered <- prydz_bay_data %>%
-      filter(
-        variable == var_type,
-        Species %in% input$regional_species,
-        Year >= 1950
-      )
-    
-    return(filtered)
-  })
-  
-  # Render regional model time series plot
-  output$plot_regional_ts <- renderGirafe({
-    data <- regional_ts_data()
-    
-    if (is.null(data) || nrow(data) == 0) {
-      return(NULL)
-    }
-    
-    # Limit to 5 species for readability
-    if (length(unique(data$Species)) > 5) {
-      data <- data %>%
-        filter(Species %in% head(unique(data$Species), 5))
-    }
-    
-    # Get variable label
-    var_label <- ifelse(input$regional_variable == "Yield (Catches)", "Yield", "Biomass")
-    
-    # Create faceted plot (one panel per species)
-    p <- ggplot(data, aes(x = Year, y = median_t)) +
-      geom_ribbon(
-        aes(ymin = q25_t, ymax = q75_t),
-        alpha = 0.3,
-        fill = "#2E86AB"
-      ) +
-      geom_line(color = "#2E86AB", linewidth = 0.8) +
-      facet_wrap(~ Species, scales = "free_y", ncol = 2) +
-      scale_x_continuous(breaks = seq(1950, 2010, 10)) +
-      scale_y_continuous(labels = scales::comma) +
-      labs(
-        title = paste0("Prydz Bay mizer - ", var_label, " Time Series (1950-2010)"),
-        subtitle = "Solid line = median, shaded area = 25th-75th percentile",
-        x = "Year",
-        y = paste0(var_label, " (tonnes)")
-      ) +
-      theme_classic() +
-      theme(
-        plot.title = element_text(hjust = 0.5, size = 13, face = "bold"),
-        plot.subtitle = element_text(hjust = 0.5, size = 10),
-        axis.title = element_text(size = 10),
-        axis.text = element_text(size = 8),
-        axis.text.x = element_text(angle = 45, hjust = 1),
-        strip.background = element_rect(fill = "#e8f4f8", color = "grey70"),
-        strip.text = element_text(size = 10, face = "bold")
-      )
-    
-    # If yield/catches, add note about fishing starting ~1930
-    if (var_label == "Yield") {
-      p <- p + geom_vline(xintercept = 1930, linetype = "dashed", 
-                         color = "grey50", alpha = 0.5)
-    }
-    
-    girafe(ggobj = p, height_svg = 6) %>%
-      girafe_options(
-        opts_selection(type = "none", only_shiny = TRUE),
-        opts_tooltip(opacity = 0.8)
-      )
-  })
-  
-  # Render regional summary statistics table
-  output$regional_summary_table <- renderTable({
-    data <- regional_ts_data()
-    
-    if (is.null(data) || nrow(data) == 0) {
-      return(data.frame(Message = "No data available"))
-    }
-    
-    # Calculate summary statistics across all years for each species
-    summary <- data %>%
-      group_by(Species) %>%
-      summarise(
-        `Mean (tonnes)` = round(mean(median_t, na.rm = TRUE), 2),
-        `Median (tonnes)` = round(median(median_t, na.rm = TRUE), 2),
-        `Min (tonnes)` = round(min(min_t, na.rm = TRUE), 2),
-        `Max (tonnes)` = round(max(max_t, na.rm = TRUE), 2),
-        `Q25 (tonnes)` = round(mean(q25_t, na.rm = TRUE), 2),
-        `Q75 (tonnes)` = round(mean(q75_t, na.rm = TRUE), 2),
-        `Years with data` = sum(!is.na(median_t)),
-        .groups = "drop"
-      )
-    
-    return(summary)
-  }, striped = TRUE, hover = TRUE, bordered = TRUE)
-  
-  # Download regional time series data
-  output$download_regional_ts <- downloadHandler(
-    filename = function() {
-      var_label <- ifelse(input$regional_variable == "Yield (Catches)", "yield", "biomass")
-      paste0("prydz_bay_mizer_", var_label, "_", Sys.Date(), ".csv")
-    },
-    content = function(file) {
-      data <- regional_ts_data()
-      
-      if (!is.null(data)) {
-        write_csv(data, file)
-      }
-    }
-  )
-  
-  # Render global model evaluation map
-  output$plot_global_model_map <- renderGirafe({
-    data_sf <- global_model_data()
-    
-    if (is.null(data_sf) || nrow(data_sf) == 0) {
-      return(NULL)
-    }
-    
-    # Determine variable name and column
-    var_name <- input$global_model_variable
-    var_col <- ifelse(var_name == "Biomass", "biomass", "catches")
-    var_label <- ifelse(var_name == "Biomass", "Biomass", "Catches")
-    var_unit <- "tonnes/km²"
-    
-    # Extract data and rasterize
-    plot_data <- data_sf %>%
-      st_drop_geometry() %>%
-      select(lon, lat, all_of(var_col), tooltip)
-    
-    # For catches, set zeros to NA and cap values above 100
-    if (var_name == "Catches") {
-      plot_data[[var_col]] <- ifelse(plot_data[[var_col]] == 0, NA, plot_data[[var_col]])
-      plot_data[[var_col]] <- ifelse(plot_data[[var_col]] > 100, 100, plot_data[[var_col]])
-    }
-    
-    # Create raster template
-    tmplt <- rast(ext(-180, 180, -78, -45), resolution = 1, 
-                 crs = "+init=epsg:4326")
-    
-    # Rasterize the variable
-    data_rast <- rasterize(
-      plot_data[, c("lon", "lat")], 
-      tmplt, 
-      values = plot_data[[var_col]], 
-      fun = mean
-    )
-    
-    # Convert to stars then sf
-    data_stars <- st_as_stars(data_rast)
-    data_rast_sf <- st_as_sf(data_stars, merge = FALSE)
-    
-    # Rename column  to 'value'
-    names(data_rast_sf)[1] <- "value"
-    
-    # Add tooltip
-    data_rast_sf$tooltip <- paste0(
-      var_label, ": ", round(data_rast_sf$value, 2), " ", var_unit
-    )
-    
-    # Create plot with different scales for catches vs biomass
-    if (var_name == "Catches") {
-      # For catches, use log-spaced bins with more detail at lower values
-      # Define breaks on log scale with finer resolution at low end
-      catch_breaks <- c(0.01, 0.05, 0.1, 0.2, 0.5, 1, 2, 5, 10, 20, 50, 100)
-      
-      p <- ggplot() +
-        geom_sf_interactive(
-          data = data_rast_sf,
-          aes(fill = value, tooltip = tooltip),
-          color = NA
-        ) +
-        scale_fill_viridis_b(
-          option = "viridis",
-          name = paste0(var_label, "\n(", var_unit, ")"),
-          na.value = "transparent",
-          breaks = catch_breaks,
-          limits = c(0.01, 100),
-          trans = "log10",
-          oob = scales::squish,
-          labels = scales::comma
-        )
-    } else {
-      # For biomass, use continuous log scale
-      p <- ggplot() +
-        geom_sf_interactive(
-          data = data_rast_sf,
-          aes(fill = value, tooltip = tooltip),
-          color = NA
-        ) +
-        scale_fill_viridis_c(
-          option = "viridis",
-          name = paste0(var_label, "\n(", var_unit, ")"),
-          na.value = "transparent",
-          trans = "log10",
-          limits = c(0.1, 1000),
-          oob = scales::squish,
-          labels = scales::comma
-        )
-    }
-    
-    p <- p +
-      geom_sf(data = CCAMLR_Areas, fill = NA, colour = "grey60", lwd = 0.8) +
-      geom_sf(data = EEZs, fill = NA, colour = "orange", lwd = 0.6) +
-      geom_sf(data = ANT, fill = "grey99", colour = "grey60") +
-      geom_sf(data = wrld, fill = "grey60", colour = "grey60") +
-      coord_sf(
-        crs = "+proj=ortho +lat_0=-90 +lon_0=0",
-        ylim = c(-4000000, 4000000),
-        xlim = c(-4000000, 4100000)
-      ) +
-      labs(
-        title = paste0("DBPM ", var_label, " - ", input$global_model_region, " (1961-2010 mean)")
-      ) +
-      theme_bw() +
-      theme(
-        panel.border = element_rect(colour = NA),
-        plot.title = element_text(hjust = 0.5, size = 14, face = "bold"),
-        legend.position = "bottom",
-        axis.title = element_blank()
-      ) +
-      guides(
-        fill = guide_colorbar(
-          title.position = "top",
-          title.hjust = 0.5,
-          barwidth = 20,
-          barheight = 2
-        )
-      )
-    
-    girafe(code = print(p), width_svg = 8, height_svg = 8) %>%
-      girafe_options(
-        opts_zoom(max = 5),
-        opts_toolbar(hidden = c("zoom_rect")),
-        opts_hover(css = "stroke: gray1; stroke-width: 2px"),
-        opts_tooltip(opacity = 0.8),
-        opts_selection(type = "none", only_shiny = TRUE)
-      )
-  })
+
+  # # Reactive data for maps
+  # map_data <- reactive({
+  #   req(input$selected_region, input$map_scenario, input$map_decade)
+  #   
+  #   # Filter data
+  #   filtered <- maps_data |>
+  #     filter(
+  #       scenario == input$map_scenario,
+  #       decade == input$map_decade
+  #     )
+  #   
+  #   # Further filter by region type
+  #   if (input$region_type == "CCAMLR") {
+  #     filtered <- filtered |> filter(region == input$selected_region)
+  #   } else if (input$region_type == "CCAMLR_sub") {
+  #     filtered <- filtered |> filter(subregion == input$selected_region)
+  #   } else if (input$region_type == "CCAMLR_mpa") {
+  #     filtered <- filtered |> filter(mpa == input$selected_region)
+  #   } else {
+  #     filtered <- filtered |> filter(region_name == input$selected_region)
+  #   }
+  #   
+  #   # Convert to spatial format
+  #   if (nrow(filtered) > 0) {
+  #     # Create raster template
+  #     tmplt <- rast(ext(-180, 180, -78, -45), resolution = 1, 
+  #                  crs = "+init=epsg:4326")
+  #     
+  #     # Rasterize mean change
+  #     proj_rast_mean <- rasterize(
+  #       filtered[, c("longitude", "latitude")], 
+  #       tmplt, 
+  #       values = filtered$mean_change, 
+  #       fun = mean
+  #     )
+  #     
+  #     # Rasterize SD
+  #     proj_rast_sd <- rasterize(
+  #       filtered[, c("longitude", "latitude")], 
+  #       tmplt, 
+  #       values = filtered$sd_change, 
+  #       fun = mean
+  #     )
+  #     
+  #     # Combine into multi-layer raster
+  #     proj_rast <- c(proj_rast_mean, proj_rast_sd)
+  #     names(proj_rast) <- c("mean", "sd")
+  #     
+  #     # Convert to stars then sf
+  #     proj_stars <- st_as_stars(proj_rast)
+  #     proj_sf <- st_as_sf(proj_stars, merge = FALSE)
+  #     
+  #     # Cap mean values at 50
+  #     proj_sf$mean <- ifelse(proj_sf$mean > 50, 50, proj_sf$mean)
+  #     proj_sf$mean <- ifelse(proj_sf$mean < -50, -50, proj_sf$mean)
+  #     
+  #     # Calculate coefficient of variation (high uncertainty indicator)
+  #     proj_sf$cv <- proj_sf$sd / abs(proj_sf$mean)
+  #     
+  #     # Add tooltip with SD and CV info
+  #     proj_sf$tooltip <- paste0(
+  #       "Mean change: ", round(proj_sf$mean, 1), "%\n",
+  #       "SD: ±", round(proj_sf$sd, 1), "%\n",
+  #       "CV: ", round(proj_sf$cv, 2)
+  #     )
+  #     
+  #     return(proj_sf)
+  #   }
+  #   return(NULL)
+  # })
+  # 
+  # # Render map
+  # output$plot_map <- renderGirafe({
+  #   req(map_data())
+  #   
+  #   # Get high uncertainty cells (CV > 1) for asterisk overlay
+  #   high_uncertainty_cells <- map_data() |>
+  #     filter(!is.na(cv) & cv > 1)
+  #   
+  #   p <- ggplot() +
+  #     geom_sf_interactive(
+  #       data = map_data(),
+  #       aes(fill = mean, tooltip = tooltip),
+  #       color = NA
+  #     ) +
+  #     scale_fill_binned(
+  #       limits = c(-50, 50),
+  #       n.breaks = 8,
+  #       type = scale_fill_custom,
+  #       oob = oob_squish,
+  #       name = "% change in fish biomass"
+  #     ) +
+  #     geom_sf(data = CCAMLR_Areas, fill = NA, colour = "grey60", lwd = 0.8) +
+  #     geom_sf(data = EEZs, fill = NA, colour = "orange", lwd = 0.6) +
+  #     geom_sf(data = ANT, fill = "grey99", colour = "grey60") +
+  #     geom_sf(data = countries50, fill = "grey60", colour = "grey60")
+  #   
+  #   # Add stippling for high uncertainty cells if any exist
+  #   if (nrow(high_uncertainty_cells) > 0) {
+  #     p <- p + 
+  #       geom_sf(data = high_uncertainty_cells, 
+  #               fill = "transparent",
+  #               color = "grey40",
+  #               alpha = 0.6,
+  #               size = 0.3,
+  #               shape = 20)  # small dots for stippling effect
+  #   }
+  #   
+  #   p <- p +
+  #     coord_sf(
+  #       crs = "+proj=ortho +lat_0=-90 +lon_0=0",
+  #       ylim = c(-4000000, 4000000),
+  #       xlim = c(-4000000, 4100000)
+  #     ) +
+  #     labs(
+  #       title = paste0(
+  #         input$selected_region, " - ",
+  #         ifelse(input$map_scenario == "ssp126", "SSP1-2.6", "SSP5-8.5"), " - ",
+  #         input$map_decade
+  #       ),
+  #       caption = if(nrow(high_uncertainty_cells) > 0) "Stippling indicates high intermodel spread (CV > 1)" else NULL
+  #     ) +
+  #     theme_bw() +
+  #     theme(
+  #       panel.border = element_rect(colour = NA),
+  #       plot.title = element_text(hjust = 0.5, size = 14, face = "bold"),
+  #       plot.caption = element_text(size = 10, hjust = 0.5),
+  #       legend.position = "bottom",
+  #       axis.title = element_blank()
+  #     ) +
+  #     guides(
+  #       fill = guide_colorbar(
+  #         title.position = "top",
+  #         title.hjust = 0.5,
+  #         barwidth = 20,
+  #         barheight = 2
+  #       )
+  #     )
+  #   
+  #   girafe(code = print(p), width_svg = 8, height_svg = 8) |>
+  #     girafe_options(
+  #       opts_zoom(max = 5),
+  #       opts_toolbar(hidden = c("zoom_rect")),
+  #       opts_hover(css = "stroke: gray1; stroke-width: 2px"),
+  #       opts_tooltip(opacity = 0.8),
+  #       opts_selection(type = "none", only_shiny = TRUE)
+  #     )
+  # })
+  # 
+  # # Download map data
+  # output$download_map <- downloadHandler(
+  #   filename = function() {
+  #     region_clean <- gsub("[, ]", "_", input$selected_region)
+  #     paste0(
+  #       "fishmip_", region_clean, "_",
+  #       input$map_scenario, "_",
+  #       input$map_decade, ".csv"
+  #     )
+  #   },
+  #   content = function(file) {
+  #     req(input$selected_region, input$map_scenario, input$map_decade)
+  #     
+  #     data_to_download <- maps_data |>
+  #       filter(
+  #         scenario == input$map_scenario,
+  #         decade == input$map_decade
+  #       )
+  #     
+  #     if (input$region_type == "CCAMLR") {
+  #       data_to_download <- data_to_download |> 
+  #         filter(region == input$selected_region)
+  #     } else {
+  #       data_to_download <- data_to_download |> 
+  #         filter(region_name == input$selected_region)
+  #     }
+  #     
+  #     data_to_download <- data_to_download |>
+  #       select(-tooltip, -rowid)
+  #     
+  #     write_csv(data_to_download, file)
+  #   }
+  # )
+  # 
+  # # Reactive data for time series
+  # ts_plot_data <- reactive({
+  #   req(input$selected_region)
+  #   
+  #   # For CCAMLR regions, use the selected region directly
+  #   # For other types, try to match with available time series data
+  #   if (input$region_type == "CCAMLR") {
+  #     ts_data |>
+  #       filter(region == input$selected_region)
+  #   } else {
+  #     # For other region types, show time series for the parent CCAMLR region if available
+  #     # Otherwise return empty data
+  #     ts_data |>
+  #       filter(region == input$selected_region)
+  #   }
+  # })
+  # 
+  # # Render time series plot
+  # output$plot_ts <- renderGirafe({
+  #   req(ts_plot_data())
+  #   
+  #   p <- ggplot(
+  #     ts_plot_data(),
+  #     aes(x = year, y = mean_change, colour = scenario, group = scenario)
+  #   ) +
+  #     geom_point_interactive(
+  #       aes(tooltip = tooltip),
+  #       size = 0.1,
+  #       hover_nearest = TRUE
+  #     ) +
+  #     geom_line(linewidth = 0.5) +
+  #     geom_hline(
+  #       yintercept = 0,
+  #       color = "grey80",
+  #       linewidth = 0.65,
+  #       linetype = 2
+  #     ) +
+  #     geom_vline(
+  #       xintercept = 2015,
+  #       color = "grey80",
+  #       linewidth = 0.65
+  #     ) +
+  #     geom_ribbon(
+  #       aes(
+  #         ymin = mean_change - sd_change,
+  #         ymax = mean_change + sd_change,
+  #         fill = scenario
+  #       ),
+  #       alpha = 0.3,
+  #       color = NA
+  #     ) +
+  #     scale_color_manual(
+  #       values = c("historical" = "black", "ssp126" = "#33bbee", "ssp585" = "#ee3377"),
+  #       name = "Scenarios",
+  #       labels = c("Historical", "SSP1-2.6", "SSP5-8.5")
+  #     ) +
+  #     scale_fill_manual(
+  #       values = c("historical" = "black", "ssp126" = "#33bbee", "ssp585" = "#ee3377"),
+  #       name = "Scenarios",
+  #       labels = c("Historical", "SSP1-2.6", "SSP5-8.5")
+  #     ) +
+  #     scale_x_continuous(breaks = seq(1950, 2100, 10)) +
+  #     labs(
+  #       title = paste("Fish biomass change:", input$selected_region),
+  #       y = "Change in exploitable fish biomass (%)"
+  #     ) +
+  #     guides(color = guide_legend(nrow = 1, title.position = "left")) +
+  #     theme_classic() +
+  #     theme(
+  #       legend.position = "top",
+  #       legend.justification = "center",
+  #       legend.text = element_text(size = 11),
+  #       legend.title = element_text(size = 11),
+  #       plot.title = element_text(hjust = 0.5, size = 13, face = "bold"),
+  #       axis.title.x = element_blank(),
+  #       axis.title.y = element_text(size = 11),
+  #       axis.text.x = element_text(angle = 45, vjust = 0.765, hjust = 0.65, size = 10),
+  #       axis.text.y = element_text(size = 10)
+  #     )
+  #   
+  #   girafe(ggobj = p, height_svg = 5) |>
+  #     girafe_options(
+  #       opts_selection(type = "none", only_shiny = TRUE)
+  #     )
+  # })
+  # 
+  # # Download time series data
+  # output$download_ts <- downloadHandler(
+  #   filename = function() {
+  #     region_clean <- gsub("[, ]", "_", input$selected_region)
+  #     paste0("fishmip_timeseries_", region_clean, "_1950-2100.csv")
+  #   },
+  #   content = function(file) {
+  #     data_to_download <- ts_plot_data() |>
+  #       select(-tooltip)
+  #     write_csv(data_to_download, file)
+  #   }
+  # )
+  # 
+  # # Download summary statistics
+  # output$download_summary <- downloadHandler(
+  #   filename = function() {
+  #     paste0("fishmip_summary_statistics_", Sys.Date(), ".csv")
+  #   },
+  #   content = function(file) {
+  #     write_csv(summary_stats, file)
+  #   }
+  # )
+  # 
+  # # Render description text for global model
+  # output$global_model_description <- renderText({
+  #   var_label <- ifelse(input$global_model_variable == "Biomass", "biomass", "catches")
+  #   paste("Mean", var_label, "from DBPM model (1961-2010 time-averaged).")
+  # })
+  # 
+  # # Reactive data for global model evaluation maps
+  # global_model_data <- reactive({
+  #   req(input$global_model, input$global_model_region, input$global_model_variable)
+  #   
+  #   # DBPM data available for both biomass and catches
+  #   if (input$global_model == "DBPM") {
+  #     if (input$global_model_variable == "Biomass" && !is.null(dbpm_biomass_sf)) {
+  #       # Filter biomass data by selected region
+  #       filtered <- dbpm_biomass_sf |>
+  #         filter(region == input$global_model_region)
+  #       return(filtered)
+  #     } else if (input$global_model_variable == "Catches" && !is.null(dbpm_catches_sf)) {
+  #       # Filter catches data by selected region
+  #       filtered <- dbpm_catches_sf |>
+  #         filter(region == input$global_model_region)
+  #       return(filtered)
+  #     }
+  #   }
+  #   
+  #   return(NULL)
+  # })
+  # 
+  # # Reactive data for sim vs obs catches time series
+  # sim_obs_ts_data <- reactive({
+  #   req(input$global_model_region, input$obs_source, input$model_config)
+  #   
+  #   if (is.null(sim_obs_catches)) return(NULL)
+  #   
+  #   # Parse model config (res_run format)
+  #   config_parts <- strsplit(input$model_config, "_")[[1]]
+  #   res_val <- config_parts[1]
+  #   run_val <- config_parts[2]
+  #   
+  #   # Filter data
+  #   filtered <- sim_obs_catches |>
+  #     filter(
+  #       region_display == input$global_model_region,
+  #       res == res_val,
+  #       run == run_val,
+  #       source == input$obs_source
+  #     )
+  #   
+  #   return(filtered)
+  # })
+  # 
+  # # Render simulated vs observed catches time series
+  # output$plot_sim_obs_ts <- renderGirafe({
+  #   ts_data <- sim_obs_ts_data()
+  #   
+  #   if (is.null(ts_data) || nrow(ts_data) == 0) {
+  #     return(NULL)
+  #   }
+  #   
+  #   # Prepare data for plotting
+  #   plot_data <- ts_data |>
+  #     select(year, vals, obs, pseudo) |>
+  #     pivot_longer(cols = c(vals, obs, pseudo), names_to = "type", values_to = "catch") |>
+  #     mutate(
+  #       type_label = case_when(
+  #         type == "vals" ~ "Simulated (DBPM)",
+  #         type == "obs" ~ "Observed",
+  #         type == "pseudo" ~ "Pseudo-observation"
+  #       )
+  #     )
+  #   
+  #   # Create plot
+  #   p <- ggplot(plot_data, aes(x = year, y = catch, color = type_label, group = type_label)) +
+  #     geom_line(linewidth = 0.8) +
+  #     geom_point(size = 1.5, alpha = 0.6) +
+  #     scale_color_manual(
+  #       values = c(
+  #         "Simulated (DBPM)" = "#2E86AB",
+  #         "Observed" = "#A23B72",
+  #         "Pseudo-observation" = "#F18F01"
+  #       ),
+  #       name = "Data type"
+  #     ) +
+  #     scale_x_continuous(breaks = seq(1960, 2010, 10)) +
+  #     labs(
+  #       title = paste0("DBPM vs Observed Catches - ", input$global_model_region),
+  #       subtitle = paste0("Model: ", gsub("_", " - ", input$model_config), " | Obs: ", 
+  #                        gsub("obs_", "", input$obs_source)),
+  #       x = "Year",
+  #       y = "Mean catch density (tonnes/km²)"
+  #     ) +
+  #     theme_classic() +
+  #     theme(
+  #       legend.position = "top",
+  #       plot.title = element_text(hjust = 0.5, size = 13, face = "bold"),
+  #       plot.subtitle = element_text(hjust = 0.5, size = 11),
+  #       axis.title = element_text(size = 11),
+  #       axis.text = element_text(size = 10),
+  #       legend.text = element_text(size = 10)
+  #     )
+  #   
+  #   girafe(ggobj = p, height_svg = 5) |>
+  #     girafe_options(
+  #       opts_selection(type = "none", only_shiny = TRUE),
+  #       opts_tooltip(opacity = 0.8)
+  #     )
+  # })
+  # 
+  # # Reactive data for performance metrics
+  # perf_data <- reactive({
+  #   req(input$global_model_region, input$perf_obs_source, input$perf_model_config)
+  #   
+  #   if (is.null(sim_obs_catches)) return(NULL)
+  #   
+  #   # Parse model config
+  #   config_parts <- strsplit(input$perf_model_config, "_")[[1]]
+  #   res_val <- config_parts[1]
+  #   run_val <- config_parts[2]
+  #   
+  #   # Filter data and remove NAs
+  #   filtered <- sim_obs_catches |>
+  #     filter(
+  #       region_display == input$global_model_region,
+  #       res == res_val,
+  #       run == run_val,
+  #       source == input$perf_obs_source,
+  #       !is.na(vals),
+  #       !is.na(obs)
+  #     )
+  #   
+  #   return(filtered)
+  # })
+  # 
+  # # Calculate performance metrics
+  # performance_metrics <- reactive({
+  #   data <- perf_data()
+  #   
+  #   if (is.null(data) || nrow(data) == 0) {
+  #     return(NULL)
+  #   }
+  #   
+  #   # Calculate metrics
+  #   n <- nrow(data)
+  #   sim <- data$vals
+  #   obs <- data$obs
+  #   
+  #   # Correlation
+  #   cor_val <- cor(sim, obs, use = "complete.obs")
+  #   
+  #   # R-squared
+  #   ss_res <- sum((obs - sim)^2)
+  #   ss_tot <- sum((obs - mean(obs))^2)
+  #   r_squared <- 1 - (ss_res / ss_tot)
+  #   
+  #   # RMSE
+  #   rmse <- sqrt(mean((sim - obs)^2))
+  #   
+  #   # MAE
+  #   mae <- mean(abs(sim - obs))
+  #   
+  #   # Bias
+  #   bias <- mean(sim - obs)
+  #   
+  #   # Normalized RMSE
+  #   nrmse <- rmse / mean(obs) * 100
+  #   
+  #   # Create results dataframe
+  #   metrics <- data.frame(
+  #     Metric = c("Number of observations", "Correlation (r)", "R²", 
+  #                "RMSE", "MAE", "Bias", "Normalized RMSE (%)"),
+  #     Value = c(
+  #       as.character(n),
+  #       round(cor_val, 3),
+  #       round(r_squared, 3),
+  #       round(rmse, 4),
+  #       round(mae, 4),
+  #       round(bias, 4),
+  #       round(nrmse, 2)
+  #     ),
+  #     stringsAsFactors = FALSE
+  #   )
+  #   
+  #   return(metrics)
+  # })
+  # 
+  # # Render performance table
+  # output$performance_table <- renderTable({
+  #   metrics <- performance_metrics()
+  #   
+  #   if (is.null(metrics)) {
+  #     return(data.frame(Metric = "No data available", Value = ""))
+  #   }
+  #   
+  #   metrics
+  # }, striped = TRUE, hover = TRUE, bordered = TRUE)
+  # 
+  # # Render performance scatter plot
+  # output$performance_scatter <- renderGirafe({
+  #   data <- perf_data()
+  #   
+  #   if (is.null(data) || nrow(data) == 0) {
+  #     return(NULL)
+  #   }
+  #   
+  #   # Get metrics for subtitle
+  #   metrics <- performance_metrics()
+  #   r2_val <- metrics$Value[metrics$Metric == "R²"]
+  #   rmse_val <- metrics$Value[metrics$Metric == "RMSE"]
+  #   
+  #   # Create scatter plot
+  #   p <- ggplot(data, aes(x = obs, y = vals)) +
+  #     geom_point_interactive(aes(tooltip = paste0("Year: ", year, "\nObs: ", round(obs, 3), "\nSim: ", round(vals, 3))),
+  #                           color = "#2E86AB", size = 2.5, alpha = 0.6) +
+  #     geom_abline(slope = 1, intercept = 0, linetype = "dashed", color = "grey40", linewidth = 0.8) +
+  #     geom_smooth(method = "lm", se = TRUE, color = "#A23B72", fill = "#A23B72", alpha = 0.2) +
+  #     labs(
+  #       title = "Simulated vs Observed Catches",
+  #       subtitle = paste0("R² = ", r2_val, ", RMSE = ", rmse_val),
+  #       x = "Observed catches (tonnes/km²)",
+  #       y = "Simulated catches (tonnes/km²)"
+  #     ) +
+  #     theme_classic() +
+  #     theme(
+  #       plot.title = element_text(hjust = 0.5, size = 12, face = "bold"),
+  #       plot.subtitle = element_text(hjust = 0.5, size = 10),
+  #       axis.title = element_text(size = 10),
+  #       axis.text = element_text(size = 9)
+  #     )
+  #   
+  #   girafe(ggobj = p, height_svg = 4) |>
+  #     girafe_options(
+  #       opts_selection(type = "none", only_shiny = TRUE),
+  #       opts_tooltip(opacity = 0.8)
+  #     )
+  # })
+  # 
+  # # Render residual plot
+  # output$residual_plot <- renderGirafe({
+  #   data <- perf_data()
+  #   
+  #   if (is.null(data) || nrow(data) == 0) {
+  #     return(NULL)
+  #   }
+  #   
+  #   # Calculate residuals
+  #   plot_data <- data |>
+  #     mutate(
+  #       residual = vals - obs,
+  #       fitted = vals
+  #     )
+  #   
+  #   p <- ggplot(plot_data, aes(x = fitted, y = residual)) +
+  #     geom_hline(yintercept = 0, linetype = "dashed", color = "grey40", linewidth = 0.8) +
+  #     geom_point_interactive(aes(tooltip = paste0("Year: ", year, "\nFitted: ", round(fitted, 3), "\nResidual: ", round(residual, 3))),
+  #                           color = "#2E86AB", size = 2.5, alpha = 0.6) +
+  #     geom_smooth(method = "loess", se = TRUE, color = "#A23B72", fill = "#A23B72", alpha = 0.2) +
+  #     labs(
+  #       title = "Residual Analysis",
+  #       subtitle = "Residuals should be randomly distributed around zero",
+  #       x = "Fitted values (tonnes/km²)",
+  #       y = "Residuals (tonnes/km²)"
+  #     ) +
+  #     theme_classic() +
+  #     theme(
+  #       plot.title = element_text(hjust = 0.5, size = 12, face = "bold"),
+  #       plot.subtitle = element_text(hjust = 0.5, size = 10),
+  #       axis.title = element_text(size = 10),
+  #       axis.text = element_text(size = 9)
+  #     )
+  #   
+  #   girafe(ggobj = p, height_svg = 3.5) |>
+  #     girafe_options(
+  #       opts_selection(type = "none", only_shiny = TRUE),
+  #       opts_tooltip(opacity = 0.8)
+  #     )
+  # })
+  # 
+  # # Update regional species choices based on selected variable
+  # observe({
+  #   if (!is.null(prydz_bay_data) && !is.null(input$regional_variable)) {
+  #     # Get variable type
+  #     var_type <- ifelse(input$regional_variable == "Yield (Catches)", "Yield", "Biomass")
+  #     
+  #     # Filter species list by variable
+  #     available_species <- prydz_bay_data |>
+  #       filter(variable == var_type) |>
+  #       distinct(Species) |>
+  #       arrange(Species) |>
+  #       pull(Species)
+  #     
+  #     # Update species dropdown (limit selection to 5)
+  #     updateSelectInput(session, "regional_species", 
+  #                      choices = available_species,
+  #                      selected = head(available_species, 3))  # Default to first 3
+  #   }
+  # })
+  # 
+  # # Reactive data for regional model time series
+  # regional_ts_data <- reactive({
+  #   req(input$regional_variable, input$regional_species)
+  #   
+  #   if (is.null(prydz_bay_data)) return(NULL)
+  #   
+  #   # Get variable type
+  #   var_type <- ifelse(input$regional_variable == "Yield (Catches)", "Yield", "Biomass")
+  #   
+  #   # Filter data (only show 1950 onwards)
+  #   filtered <- prydz_bay_data |>
+  #     filter(
+  #       variable == var_type,
+  #       Species %in% input$regional_species,
+  #       Year >= 1950
+  #     )
+  #   
+  #   return(filtered)
+  # })
+  # 
+  # # Render regional model time series plot
+  # output$plot_regional_ts <- renderGirafe({
+  #   data <- regional_ts_data()
+  #   
+  #   if (is.null(data) || nrow(data) == 0) {
+  #     return(NULL)
+  #   }
+  #   
+  #   # Limit to 5 species for readability
+  #   if (length(unique(data$Species)) > 5) {
+  #     data <- data |>
+  #       filter(Species %in% head(unique(data$Species), 5))
+  #   }
+  #   
+  #   # Get variable label
+  #   var_label <- ifelse(input$regional_variable == "Yield (Catches)", "Yield", "Biomass")
+  #   
+  #   # Create faceted plot (one panel per species)
+  #   p <- ggplot(data, aes(x = Year, y = median_t)) +
+  #     geom_ribbon(
+  #       aes(ymin = q25_t, ymax = q75_t),
+  #       alpha = 0.3,
+  #       fill = "#2E86AB"
+  #     ) +
+  #     geom_line(color = "#2E86AB", linewidth = 0.8) +
+  #     facet_wrap(~ Species, scales = "free_y", ncol = 2) +
+  #     scale_x_continuous(breaks = seq(1950, 2010, 10)) +
+  #     scale_y_continuous(labels = scales::comma) +
+  #     labs(
+  #       title = paste0("Prydz Bay mizer - ", var_label, " Time Series (1950-2010)"),
+  #       subtitle = "Solid line = median, shaded area = 25th-75th percentile",
+  #       x = "Year",
+  #       y = paste0(var_label, " (tonnes)")
+  #     ) +
+  #     theme_classic() +
+  #     theme(
+  #       plot.title = element_text(hjust = 0.5, size = 13, face = "bold"),
+  #       plot.subtitle = element_text(hjust = 0.5, size = 10),
+  #       axis.title = element_text(size = 10),
+  #       axis.text = element_text(size = 8),
+  #       axis.text.x = element_text(angle = 45, hjust = 1),
+  #       strip.background = element_rect(fill = "#e8f4f8", color = "grey70"),
+  #       strip.text = element_text(size = 10, face = "bold")
+  #     )
+  #   
+  #   # If yield/catches, add note about fishing starting ~1930
+  #   if (var_label == "Yield") {
+  #     p <- p + geom_vline(xintercept = 1930, linetype = "dashed", 
+  #                        color = "grey50", alpha = 0.5)
+  #   }
+  #   
+  #   girafe(ggobj = p, height_svg = 6) |>
+  #     girafe_options(
+  #       opts_selection(type = "none", only_shiny = TRUE),
+  #       opts_tooltip(opacity = 0.8)
+  #     )
+  # })
+  # 
+  # # Render regional summary statistics table
+  # output$regional_summary_table <- renderTable({
+  #   data <- regional_ts_data()
+  #   
+  #   if (is.null(data) || nrow(data) == 0) {
+  #     return(data.frame(Message = "No data available"))
+  #   }
+  #   
+  #   # Calculate summary statistics across all years for each species
+  #   summary <- data |>
+  #     group_by(Species) |>
+  #     summarise(
+  #       `Mean (tonnes)` = round(mean(median_t, na.rm = TRUE), 2),
+  #       `Median (tonnes)` = round(median(median_t, na.rm = TRUE), 2),
+  #       `Min (tonnes)` = round(min(min_t, na.rm = TRUE), 2),
+  #       `Max (tonnes)` = round(max(max_t, na.rm = TRUE), 2),
+  #       `Q25 (tonnes)` = round(mean(q25_t, na.rm = TRUE), 2),
+  #       `Q75 (tonnes)` = round(mean(q75_t, na.rm = TRUE), 2),
+  #       `Years with data` = sum(!is.na(median_t)),
+  #       .groups = "drop"
+  #     )
+  #   
+  #   return(summary)
+  # }, striped = TRUE, hover = TRUE, bordered = TRUE)
+  # 
+  # # Download regional time series data
+  # output$download_regional_ts <- downloadHandler(
+  #   filename = function() {
+  #     var_label <- ifelse(input$regional_variable == "Yield (Catches)", "yield", "biomass")
+  #     paste0("prydz_bay_mizer_", var_label, "_", Sys.Date(), ".csv")
+  #   },
+  #   content = function(file) {
+  #     data <- regional_ts_data()
+  #     
+  #     if (!is.null(data)) {
+  #       write_csv(data, file)
+  #     }
+  #   }
+  # )
+  # 
+  # # Render global model evaluation map
+  # output$plot_global_model_map <- renderGirafe({
+  #   data_sf <- global_model_data()
+  #   
+  #   if (is.null(data_sf) || nrow(data_sf) == 0) {
+  #     return(NULL)
+  #   }
+  #   
+  #   # Determine variable name and column
+  #   var_name <- input$global_model_variable
+  #   var_col <- ifelse(var_name == "Biomass", "biomass", "catches")
+  #   var_label <- ifelse(var_name == "Biomass", "Biomass", "Catches")
+  #   var_unit <- "tonnes/km²"
+  #   
+  #   # Extract data and rasterize
+  #   plot_data <- data_sf |>
+  #     st_drop_geometry() |>
+  #     select(lon, lat, all_of(var_col), tooltip)
+  #   
+  #   # For catches, set zeros to NA and cap values above 100
+  #   if (var_name == "Catches") {
+  #     plot_data[[var_col]] <- ifelse(plot_data[[var_col]] == 0, NA, plot_data[[var_col]])
+  #     plot_data[[var_col]] <- ifelse(plot_data[[var_col]] > 100, 100, plot_data[[var_col]])
+  #   }
+  #   
+  #   # Create raster template
+  #   tmplt <- rast(ext(-180, 180, -78, -45), resolution = 1, 
+  #                crs = "+init=epsg:4326")
+  #   
+  #   # Rasterize the variable
+  #   data_rast <- rasterize(
+  #     plot_data[, c("lon", "lat")], 
+  #     tmplt, 
+  #     values = plot_data[[var_col]], 
+  #     fun = mean
+  #   )
+  #   
+  #   # Convert to stars then sf
+  #   data_stars <- st_as_stars(data_rast)
+  #   data_rast_sf <- st_as_sf(data_stars, merge = FALSE)
+  #   
+  #   # Rename column  to 'value'
+  #   names(data_rast_sf)[1] <- "value"
+  #   
+  #   # Add tooltip
+  #   data_rast_sf$tooltip <- paste0(
+  #     var_label, ": ", round(data_rast_sf$value, 2), " ", var_unit
+  #   )
+  #   
+  #   # Create plot with different scales for catches vs biomass
+  #   if (var_name == "Catches") {
+  #     # For catches, use log-spaced bins with more detail at lower values
+  #     # Define breaks on log scale with finer resolution at low end
+  #     catch_breaks <- c(0.01, 0.05, 0.1, 0.2, 0.5, 1, 2, 5, 10, 20, 50, 100)
+  #     
+  #     p <- ggplot() +
+  #       geom_sf_interactive(
+  #         data = data_rast_sf,
+  #         aes(fill = value, tooltip = tooltip),
+  #         color = NA
+  #       ) +
+  #       scale_fill_viridis_b(
+  #         option = "viridis",
+  #         name = paste0(var_label, "\n(", var_unit, ")"),
+  #         na.value = "transparent",
+  #         breaks = catch_breaks,
+  #         limits = c(0.01, 100),
+  #         trans = "log10",
+  #         oob = scales::squish,
+  #         labels = scales::comma
+  #       )
+  #   } else {
+  #     # For biomass, use continuous log scale
+  #     p <- ggplot() +
+  #       geom_sf_interactive(
+  #         data = data_rast_sf,
+  #         aes(fill = value, tooltip = tooltip),
+  #         color = NA
+  #       ) +
+  #       scale_fill_viridis_c(
+  #         option = "viridis",
+  #         name = paste0(var_label, "\n(", var_unit, ")"),
+  #         na.value = "transparent",
+  #         trans = "log10",
+  #         limits = c(0.1, 1000),
+  #         oob = scales::squish,
+  #         labels = scales::comma
+  #       )
+  #   }
+  #   
+  #   p <- p +
+  #     geom_sf(data = CCAMLR_Areas, fill = NA, colour = "grey60", lwd = 0.8) +
+  #     geom_sf(data = EEZs, fill = NA, colour = "orange", lwd = 0.6) +
+  #     geom_sf(data = ANT, fill = "grey99", colour = "grey60") +
+  #     geom_sf(data = countries50, fill = "grey60", colour = "grey60") +
+  #     coord_sf(
+  #       crs = "+proj=ortho +lat_0=-90 +lon_0=0",
+  #       ylim = c(-4000000, 4000000),
+  #       xlim = c(-4000000, 4100000)
+  #     ) +
+  #     labs(
+  #       title = paste0("DBPM ", var_label, " - ", input$global_model_region, " (1961-2010 mean)")
+  #     ) +
+  #     theme_bw() +
+  #     theme(
+  #       panel.border = element_rect(colour = NA),
+  #       plot.title = element_text(hjust = 0.5, size = 14, face = "bold"),
+  #       legend.position = "bottom",
+  #       axis.title = element_blank()
+  #     ) +
+  #     guides(
+  #       fill = guide_colorbar(
+  #         title.position = "top",
+  #         title.hjust = 0.5,
+  #         barwidth = 20,
+  #         barheight = 2
+  #       )
+  #     )
+  #   
+  #   girafe(code = print(p), width_svg = 8, height_svg = 8) |>
+  #     girafe_options(
+  #       opts_zoom(max = 5),
+  #       opts_toolbar(hidden = c("zoom_rect")),
+  #       opts_hover(css = "stroke: gray1; stroke-width: 2px"),
+  #       opts_tooltip(opacity = 0.8),
+  #       opts_selection(type = "none", only_shiny = TRUE)
+  #     )
+  # })
 }
 
 # Run the application --------------------------------------------------------
