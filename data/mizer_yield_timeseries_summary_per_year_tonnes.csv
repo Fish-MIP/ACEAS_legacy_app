@@ -1,0 +1,3231 @@
+Year,Species,n,min_t,q05_t,q25_t,median_t,q75_t,q95_t,max_t,ObsYield_t,variable
+1841,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1841,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1841,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1841,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1841,salps,2111,0,0,0,0,0,0,0,NA,yield
+1841,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1841,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1841,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1841,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1841,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1841,squids,2111,0,0,0,0,0,0,0,NA,yield
+1841,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1841,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1841,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1841,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1841,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1841,orca,2111,0,0,0,0,0,0,0,NA,yield
+1841,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1841,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1842,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1842,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1842,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1842,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1842,salps,2111,0,0,0,0,0,0,0,NA,yield
+1842,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1842,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1842,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1842,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1842,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1842,squids,2111,0,0,0,0,0,0,0,NA,yield
+1842,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1842,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1842,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1842,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1842,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1842,orca,2111,0,0,0,0,0,0,0,NA,yield
+1842,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1842,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1843,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1843,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1843,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1843,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1843,salps,2111,0,0,0,0,0,0,0,NA,yield
+1843,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1843,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1843,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1843,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1843,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1843,squids,2111,0,0,0,0,0,0,0,NA,yield
+1843,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1843,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1843,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1843,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1843,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1843,orca,2111,0,0,0,0,0,0,0,NA,yield
+1843,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1843,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1844,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1844,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1844,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1844,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1844,salps,2111,0,0,0,0,0,0,0,NA,yield
+1844,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1844,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1844,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1844,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1844,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1844,squids,2111,0,0,0,0,0,0,0,NA,yield
+1844,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1844,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1844,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1844,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1844,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1844,orca,2111,0,0,0,0,0,0,0,NA,yield
+1844,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1844,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1845,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1845,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1845,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1845,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1845,salps,2111,0,0,0,0,0,0,0,NA,yield
+1845,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1845,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1845,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1845,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1845,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1845,squids,2111,0,0,0,0,0,0,0,NA,yield
+1845,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1845,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1845,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1845,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1845,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1845,orca,2111,0,0,0,0,0,0,0,NA,yield
+1845,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1845,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1846,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1846,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1846,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1846,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1846,salps,2111,0,0,0,0,0,0,0,NA,yield
+1846,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1846,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1846,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1846,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1846,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1846,squids,2111,0,0,0,0,0,0,0,NA,yield
+1846,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1846,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1846,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1846,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1846,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1846,orca,2111,0,0,0,0,0,0,0,NA,yield
+1846,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1846,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1847,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1847,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1847,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1847,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1847,salps,2111,0,0,0,0,0,0,0,NA,yield
+1847,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1847,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1847,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1847,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1847,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1847,squids,2111,0,0,0,0,0,0,0,NA,yield
+1847,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1847,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1847,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1847,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1847,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1847,orca,2111,0,0,0,0,0,0,0,NA,yield
+1847,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1847,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1848,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1848,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1848,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1848,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1848,salps,2111,0,0,0,0,0,0,0,NA,yield
+1848,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1848,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1848,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1848,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1848,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1848,squids,2111,0,0,0,0,0,0,0,NA,yield
+1848,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1848,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1848,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1848,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1848,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1848,orca,2111,0,0,0,0,0,0,0,NA,yield
+1848,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1848,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1849,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1849,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1849,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1849,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1849,salps,2111,0,0,0,0,0,0,0,NA,yield
+1849,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1849,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1849,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1849,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1849,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1849,squids,2111,0,0,0,0,0,0,0,NA,yield
+1849,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1849,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1849,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1849,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1849,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1849,orca,2111,0,0,0,0,0,0,0,NA,yield
+1849,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1849,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1850,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1850,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1850,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1850,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1850,salps,2111,0,0,0,0,0,0,0,NA,yield
+1850,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1850,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1850,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1850,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1850,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1850,squids,2111,0,0,0,0,0,0,0,NA,yield
+1850,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1850,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1850,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1850,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1850,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1850,orca,2111,0,0,0,0,0,0,0,NA,yield
+1850,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1850,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1851,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1851,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1851,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1851,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1851,salps,2111,0,0,0,0,0,0,0,NA,yield
+1851,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1851,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1851,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1851,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1851,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1851,squids,2111,0,0,0,0,0,0,0,NA,yield
+1851,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1851,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1851,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1851,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1851,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1851,orca,2111,0,0,0,0,0,0,0,NA,yield
+1851,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1851,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1852,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1852,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1852,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1852,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1852,salps,2111,0,0,0,0,0,0,0,NA,yield
+1852,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1852,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1852,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1852,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1852,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1852,squids,2111,0,0,0,0,0,0,0,NA,yield
+1852,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1852,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1852,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1852,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1852,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1852,orca,2111,0,0,0,0,0,0,0,NA,yield
+1852,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1852,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1853,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1853,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1853,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1853,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1853,salps,2111,0,0,0,0,0,0,0,NA,yield
+1853,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1853,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1853,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1853,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1853,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1853,squids,2111,0,0,0,0,0,0,0,NA,yield
+1853,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1853,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1853,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1853,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1853,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1853,orca,2111,0,0,0,0,0,0,0,NA,yield
+1853,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1853,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1854,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1854,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1854,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1854,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1854,salps,2111,0,0,0,0,0,0,0,NA,yield
+1854,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1854,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1854,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1854,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1854,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1854,squids,2111,0,0,0,0,0,0,0,NA,yield
+1854,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1854,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1854,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1854,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1854,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1854,orca,2111,0,0,0,0,0,0,0,NA,yield
+1854,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1854,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1855,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1855,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1855,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1855,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1855,salps,2111,0,0,0,0,0,0,0,NA,yield
+1855,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1855,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1855,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1855,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1855,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1855,squids,2111,0,0,0,0,0,0,0,NA,yield
+1855,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1855,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1855,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1855,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1855,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1855,orca,2111,0,0,0,0,0,0,0,NA,yield
+1855,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1855,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1856,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1856,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1856,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1856,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1856,salps,2111,0,0,0,0,0,0,0,NA,yield
+1856,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1856,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1856,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1856,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1856,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1856,squids,2111,0,0,0,0,0,0,0,NA,yield
+1856,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1856,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1856,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1856,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1856,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1856,orca,2111,0,0,0,0,0,0,0,NA,yield
+1856,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1856,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1857,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1857,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1857,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1857,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1857,salps,2111,0,0,0,0,0,0,0,NA,yield
+1857,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1857,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1857,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1857,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1857,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1857,squids,2111,0,0,0,0,0,0,0,NA,yield
+1857,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1857,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1857,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1857,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1857,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1857,orca,2111,0,0,0,0,0,0,0,NA,yield
+1857,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1857,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1858,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1858,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1858,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1858,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1858,salps,2111,0,0,0,0,0,0,0,NA,yield
+1858,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1858,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1858,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1858,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1858,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1858,squids,2111,0,0,0,0,0,0,0,NA,yield
+1858,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1858,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1858,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1858,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1858,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1858,orca,2111,0,0,0,0,0,0,0,NA,yield
+1858,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1858,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1859,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1859,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1859,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1859,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1859,salps,2111,0,0,0,0,0,0,0,NA,yield
+1859,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1859,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1859,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1859,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1859,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1859,squids,2111,0,0,0,0,0,0,0,NA,yield
+1859,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1859,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1859,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1859,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1859,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1859,orca,2111,0,0,0,0,0,0,0,NA,yield
+1859,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1859,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1860,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1860,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1860,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1860,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1860,salps,2111,0,0,0,0,0,0,0,NA,yield
+1860,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1860,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1860,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1860,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1860,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1860,squids,2111,0,0,0,0,0,0,0,NA,yield
+1860,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1860,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1860,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1860,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1860,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1860,orca,2111,0,0,0,0,0,0,0,NA,yield
+1860,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1860,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1861,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1861,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1861,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1861,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1861,salps,2111,0,0,0,0,0,0,0,NA,yield
+1861,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1861,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1861,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1861,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1861,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1861,squids,2111,0,0,0,0,0,0,0,NA,yield
+1861,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1861,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1861,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1861,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1861,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1861,orca,2111,0,0,0,0,0,0,0,NA,yield
+1861,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1861,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1862,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1862,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1862,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1862,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1862,salps,2111,0,0,0,0,0,0,0,NA,yield
+1862,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1862,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1862,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1862,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1862,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1862,squids,2111,0,0,0,0,0,0,0,NA,yield
+1862,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1862,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1862,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1862,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1862,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1862,orca,2111,0,0,0,0,0,0,0,NA,yield
+1862,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1862,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1863,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1863,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1863,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1863,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1863,salps,2111,0,0,0,0,0,0,0,NA,yield
+1863,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1863,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1863,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1863,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1863,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1863,squids,2111,0,0,0,0,0,0,0,NA,yield
+1863,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1863,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1863,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1863,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1863,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1863,orca,2111,0,0,0,0,0,0,0,NA,yield
+1863,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1863,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1864,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1864,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1864,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1864,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1864,salps,2111,0,0,0,0,0,0,0,NA,yield
+1864,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1864,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1864,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1864,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1864,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1864,squids,2111,0,0,0,0,0,0,0,NA,yield
+1864,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1864,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1864,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1864,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1864,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1864,orca,2111,0,0,0,0,0,0,0,NA,yield
+1864,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1864,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1865,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1865,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1865,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1865,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1865,salps,2111,0,0,0,0,0,0,0,NA,yield
+1865,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1865,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1865,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1865,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1865,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1865,squids,2111,0,0,0,0,0,0,0,NA,yield
+1865,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1865,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1865,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1865,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1865,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1865,orca,2111,0,0,0,0,0,0,0,NA,yield
+1865,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1865,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1866,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1866,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1866,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1866,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1866,salps,2111,0,0,0,0,0,0,0,NA,yield
+1866,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1866,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1866,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1866,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1866,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1866,squids,2111,0,0,0,0,0,0,0,NA,yield
+1866,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1866,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1866,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1866,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1866,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1866,orca,2111,0,0,0,0,0,0,0,NA,yield
+1866,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1866,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1867,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1867,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1867,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1867,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1867,salps,2111,0,0,0,0,0,0,0,NA,yield
+1867,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1867,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1867,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1867,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1867,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1867,squids,2111,0,0,0,0,0,0,0,NA,yield
+1867,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1867,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1867,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1867,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1867,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1867,orca,2111,0,0,0,0,0,0,0,NA,yield
+1867,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1867,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1868,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1868,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1868,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1868,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1868,salps,2111,0,0,0,0,0,0,0,NA,yield
+1868,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1868,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1868,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1868,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1868,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1868,squids,2111,0,0,0,0,0,0,0,NA,yield
+1868,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1868,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1868,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1868,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1868,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1868,orca,2111,0,0,0,0,0,0,0,NA,yield
+1868,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1868,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1869,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1869,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1869,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1869,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1869,salps,2111,0,0,0,0,0,0,0,NA,yield
+1869,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1869,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1869,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1869,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1869,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1869,squids,2111,0,0,0,0,0,0,0,NA,yield
+1869,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1869,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1869,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1869,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1869,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1869,orca,2111,0,0,0,0,0,0,0,NA,yield
+1869,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1869,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1870,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1870,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1870,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1870,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1870,salps,2111,0,0,0,0,0,0,0,NA,yield
+1870,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1870,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1870,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1870,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1870,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1870,squids,2111,0,0,0,0,0,0,0,NA,yield
+1870,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1870,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1870,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1870,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1870,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1870,orca,2111,0,0,0,0,0,0,0,NA,yield
+1870,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1870,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1871,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1871,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1871,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1871,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1871,salps,2111,0,0,0,0,0,0,0,NA,yield
+1871,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1871,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1871,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1871,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1871,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1871,squids,2111,0,0,0,0,0,0,0,NA,yield
+1871,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1871,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1871,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1871,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1871,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1871,orca,2111,0,0,0,0,0,0,0,NA,yield
+1871,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1871,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1872,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1872,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1872,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1872,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1872,salps,2111,0,0,0,0,0,0,0,NA,yield
+1872,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1872,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1872,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1872,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1872,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1872,squids,2111,0,0,0,0,0,0,0,NA,yield
+1872,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1872,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1872,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1872,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1872,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1872,orca,2111,0,0,0,0,0,0,0,NA,yield
+1872,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1872,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1873,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1873,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1873,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1873,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1873,salps,2111,0,0,0,0,0,0,0,NA,yield
+1873,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1873,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1873,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1873,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1873,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1873,squids,2111,0,0,0,0,0,0,0,NA,yield
+1873,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1873,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1873,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1873,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1873,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1873,orca,2111,0,0,0,0,0,0,0,NA,yield
+1873,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1873,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1874,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1874,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1874,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1874,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1874,salps,2111,0,0,0,0,0,0,0,NA,yield
+1874,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1874,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1874,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1874,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1874,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1874,squids,2111,0,0,0,0,0,0,0,NA,yield
+1874,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1874,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1874,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1874,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1874,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1874,orca,2111,0,0,0,0,0,0,0,NA,yield
+1874,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1874,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1875,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1875,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1875,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1875,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1875,salps,2111,0,0,0,0,0,0,0,NA,yield
+1875,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1875,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1875,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1875,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1875,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1875,squids,2111,0,0,0,0,0,0,0,NA,yield
+1875,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1875,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1875,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1875,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1875,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1875,orca,2111,0,0,0,0,0,0,0,NA,yield
+1875,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1875,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1876,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1876,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1876,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1876,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1876,salps,2111,0,0,0,0,0,0,0,NA,yield
+1876,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1876,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1876,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1876,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1876,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1876,squids,2111,0,0,0,0,0,0,0,NA,yield
+1876,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1876,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1876,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1876,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1876,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1876,orca,2111,0,0,0,0,0,0,0,NA,yield
+1876,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1876,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1877,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1877,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1877,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1877,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1877,salps,2111,0,0,0,0,0,0,0,NA,yield
+1877,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1877,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1877,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1877,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1877,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1877,squids,2111,0,0,0,0,0,0,0,NA,yield
+1877,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1877,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1877,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1877,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1877,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1877,orca,2111,0,0,0,0,0,0,0,NA,yield
+1877,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1877,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1878,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1878,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1878,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1878,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1878,salps,2111,0,0,0,0,0,0,0,NA,yield
+1878,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1878,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1878,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1878,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1878,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1878,squids,2111,0,0,0,0,0,0,0,NA,yield
+1878,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1878,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1878,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1878,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1878,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1878,orca,2111,0,0,0,0,0,0,0,NA,yield
+1878,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1878,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1879,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1879,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1879,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1879,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1879,salps,2111,0,0,0,0,0,0,0,NA,yield
+1879,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1879,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1879,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1879,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1879,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1879,squids,2111,0,0,0,0,0,0,0,NA,yield
+1879,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1879,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1879,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1879,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1879,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1879,orca,2111,0,0,0,0,0,0,0,NA,yield
+1879,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1879,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1880,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1880,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1880,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1880,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1880,salps,2111,0,0,0,0,0,0,0,NA,yield
+1880,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1880,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1880,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1880,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1880,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1880,squids,2111,0,0,0,0,0,0,0,NA,yield
+1880,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1880,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1880,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1880,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1880,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1880,orca,2111,0,0,0,0,0,0,0,NA,yield
+1880,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1880,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1881,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1881,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1881,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1881,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1881,salps,2111,0,0,0,0,0,0,0,NA,yield
+1881,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1881,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1881,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1881,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1881,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1881,squids,2111,0,0,0,0,0,0,0,NA,yield
+1881,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1881,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1881,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1881,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1881,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1881,orca,2111,0,0,0,0,0,0,0,NA,yield
+1881,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1881,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1882,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1882,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1882,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1882,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1882,salps,2111,0,0,0,0,0,0,0,NA,yield
+1882,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1882,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1882,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1882,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1882,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1882,squids,2111,0,0,0,0,0,0,0,NA,yield
+1882,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1882,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1882,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1882,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1882,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1882,orca,2111,0,0,0,0,0,0,0,NA,yield
+1882,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1882,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1883,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1883,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1883,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1883,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1883,salps,2111,0,0,0,0,0,0,0,NA,yield
+1883,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1883,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1883,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1883,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1883,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1883,squids,2111,0,0,0,0,0,0,0,NA,yield
+1883,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1883,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1883,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1883,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1883,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1883,orca,2111,0,0,0,0,0,0,0,NA,yield
+1883,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1883,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1884,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1884,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1884,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1884,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1884,salps,2111,0,0,0,0,0,0,0,NA,yield
+1884,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1884,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1884,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1884,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1884,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1884,squids,2111,0,0,0,0,0,0,0,NA,yield
+1884,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1884,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1884,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1884,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1884,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1884,orca,2111,0,0,0,0,0,0,0,NA,yield
+1884,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1884,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1885,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1885,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1885,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1885,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1885,salps,2111,0,0,0,0,0,0,0,NA,yield
+1885,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1885,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1885,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1885,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1885,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1885,squids,2111,0,0,0,0,0,0,0,NA,yield
+1885,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1885,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1885,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1885,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1885,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1885,orca,2111,0,0,0,0,0,0,0,NA,yield
+1885,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1885,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1886,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1886,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1886,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1886,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1886,salps,2111,0,0,0,0,0,0,0,NA,yield
+1886,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1886,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1886,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1886,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1886,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1886,squids,2111,0,0,0,0,0,0,0,NA,yield
+1886,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1886,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1886,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1886,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1886,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1886,orca,2111,0,0,0,0,0,0,0,NA,yield
+1886,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1886,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1887,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1887,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1887,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1887,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1887,salps,2111,0,0,0,0,0,0,0,NA,yield
+1887,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1887,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1887,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1887,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1887,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1887,squids,2111,0,0,0,0,0,0,0,NA,yield
+1887,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1887,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1887,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1887,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1887,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1887,orca,2111,0,0,0,0,0,0,0,NA,yield
+1887,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1887,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1888,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1888,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1888,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1888,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1888,salps,2111,0,0,0,0,0,0,0,NA,yield
+1888,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1888,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1888,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1888,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1888,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1888,squids,2111,0,0,0,0,0,0,0,NA,yield
+1888,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1888,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1888,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1888,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1888,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1888,orca,2111,0,0,0,0,0,0,0,NA,yield
+1888,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1888,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1889,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1889,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1889,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1889,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1889,salps,2111,0,0,0,0,0,0,0,NA,yield
+1889,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1889,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1889,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1889,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1889,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1889,squids,2111,0,0,0,0,0,0,0,NA,yield
+1889,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1889,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1889,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1889,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1889,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1889,orca,2111,0,0,0,0,0,0,0,NA,yield
+1889,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1889,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1890,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1890,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1890,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1890,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1890,salps,2111,0,0,0,0,0,0,0,NA,yield
+1890,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1890,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1890,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1890,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1890,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1890,squids,2111,0,0,0,0,0,0,0,NA,yield
+1890,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1890,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1890,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1890,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1890,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1890,orca,2111,0,0,0,0,0,0,0,NA,yield
+1890,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1890,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1891,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1891,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1891,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1891,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1891,salps,2111,0,0,0,0,0,0,0,NA,yield
+1891,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1891,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1891,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1891,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1891,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1891,squids,2111,0,0,0,0,0,0,0,NA,yield
+1891,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1891,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1891,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1891,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1891,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1891,orca,2111,0,0,0,0,0,0,0,NA,yield
+1891,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1891,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1892,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1892,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1892,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1892,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1892,salps,2111,0,0,0,0,0,0,0,NA,yield
+1892,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1892,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1892,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1892,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1892,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1892,squids,2111,0,0,0,0,0,0,0,NA,yield
+1892,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1892,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1892,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1892,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1892,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1892,orca,2111,0,0,0,0,0,0,0,NA,yield
+1892,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1892,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1893,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1893,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1893,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1893,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1893,salps,2111,0,0,0,0,0,0,0,NA,yield
+1893,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1893,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1893,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1893,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1893,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1893,squids,2111,0,0,0,0,0,0,0,NA,yield
+1893,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1893,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1893,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1893,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1893,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1893,orca,2111,0,0,0,0,0,0,0,NA,yield
+1893,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1893,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1894,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1894,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1894,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1894,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1894,salps,2111,0,0,0,0,0,0,0,NA,yield
+1894,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1894,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1894,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1894,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1894,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1894,squids,2111,0,0,0,0,0,0,0,NA,yield
+1894,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1894,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1894,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1894,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1894,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1894,orca,2111,0,0,0,0,0,0,0,NA,yield
+1894,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1894,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1895,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1895,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1895,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1895,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1895,salps,2111,0,0,0,0,0,0,0,NA,yield
+1895,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1895,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1895,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1895,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1895,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1895,squids,2111,0,0,0,0,0,0,0,NA,yield
+1895,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1895,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1895,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1895,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1895,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1895,orca,2111,0,0,0,0,0,0,0,NA,yield
+1895,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1895,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1896,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1896,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1896,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1896,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1896,salps,2111,0,0,0,0,0,0,0,NA,yield
+1896,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1896,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1896,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1896,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1896,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1896,squids,2111,0,0,0,0,0,0,0,NA,yield
+1896,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1896,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1896,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1896,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1896,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1896,orca,2111,0,0,0,0,0,0,0,NA,yield
+1896,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1896,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1897,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1897,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1897,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1897,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1897,salps,2111,0,0,0,0,0,0,0,NA,yield
+1897,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1897,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1897,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1897,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1897,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1897,squids,2111,0,0,0,0,0,0,0,NA,yield
+1897,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1897,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1897,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1897,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1897,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1897,orca,2111,0,0,0,0,0,0,0,NA,yield
+1897,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1897,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1898,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1898,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1898,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1898,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1898,salps,2111,0,0,0,0,0,0,0,NA,yield
+1898,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1898,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1898,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1898,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1898,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1898,squids,2111,0,0,0,0,0,0,0,NA,yield
+1898,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1898,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1898,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1898,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1898,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1898,orca,2111,0,0,0,0,0,0,0,NA,yield
+1898,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1898,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1899,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1899,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1899,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1899,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1899,salps,2111,0,0,0,0,0,0,0,NA,yield
+1899,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1899,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1899,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1899,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1899,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1899,squids,2111,0,0,0,0,0,0,0,NA,yield
+1899,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1899,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1899,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1899,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1899,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1899,orca,2111,0,0,0,0,0,0,0,NA,yield
+1899,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1899,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1900,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1900,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1900,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1900,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1900,salps,2111,0,0,0,0,0,0,0,NA,yield
+1900,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1900,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1900,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1900,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1900,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1900,squids,2111,0,0,0,0,0,0,0,NA,yield
+1900,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1900,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1900,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1900,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1900,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1900,orca,2111,0,0,0,0,0,0,0,NA,yield
+1900,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1900,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1901,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1901,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1901,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1901,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1901,salps,2111,0,0,0,0,0,0,0,NA,yield
+1901,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1901,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1901,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1901,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1901,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1901,squids,2111,0,0,0,0,0,0,0,NA,yield
+1901,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1901,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1901,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1901,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1901,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1901,orca,2111,0,0,0,0,0,0,0,NA,yield
+1901,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1901,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1902,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1902,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1902,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1902,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1902,salps,2111,0,0,0,0,0,0,0,NA,yield
+1902,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1902,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1902,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1902,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1902,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1902,squids,2111,0,0,0,0,0,0,0,NA,yield
+1902,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1902,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1902,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1902,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1902,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1902,orca,2111,0,0,0,0,0,0,0,NA,yield
+1902,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1902,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1903,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1903,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1903,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1903,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1903,salps,2111,0,0,0,0,0,0,0,NA,yield
+1903,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1903,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1903,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1903,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1903,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1903,squids,2111,0,0,0,0,0,0,0,NA,yield
+1903,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1903,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1903,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1903,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1903,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1903,orca,2111,0,0,0,0,0,0,0,NA,yield
+1903,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1903,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1904,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1904,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1904,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1904,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1904,salps,2111,0,0,0,0,0,0,0,NA,yield
+1904,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1904,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1904,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1904,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1904,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1904,squids,2111,0,0,0,0,0,0,0,NA,yield
+1904,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1904,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1904,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1904,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1904,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1904,orca,2111,0,0,0,0,0,0,0,NA,yield
+1904,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1904,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1905,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1905,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1905,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1905,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1905,salps,2111,0,0,0,0,0,0,0,NA,yield
+1905,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1905,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1905,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1905,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1905,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1905,squids,2111,0,0,0,0,0,0,0,NA,yield
+1905,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1905,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1905,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1905,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1905,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1905,orca,2111,0,0,0,0,0,0,0,NA,yield
+1905,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1905,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1906,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1906,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1906,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1906,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1906,salps,2111,0,0,0,0,0,0,0,NA,yield
+1906,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1906,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1906,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1906,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1906,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1906,squids,2111,0,0,0,0,0,0,0,NA,yield
+1906,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1906,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1906,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1906,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1906,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1906,orca,2111,0,0,0,0,0,0,0,NA,yield
+1906,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1906,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1907,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1907,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1907,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1907,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1907,salps,2111,0,0,0,0,0,0,0,NA,yield
+1907,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1907,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1907,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1907,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1907,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1907,squids,2111,0,0,0,0,0,0,0,NA,yield
+1907,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1907,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1907,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1907,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1907,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1907,orca,2111,0,0,0,0,0,0,0,NA,yield
+1907,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1907,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1908,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1908,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1908,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1908,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1908,salps,2111,0,0,0,0,0,0,0,NA,yield
+1908,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1908,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1908,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1908,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1908,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1908,squids,2111,0,0,0,0,0,0,0,NA,yield
+1908,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1908,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1908,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1908,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1908,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1908,orca,2111,0,0,0,0,0,0,0,NA,yield
+1908,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1908,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1909,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1909,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1909,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1909,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1909,salps,2111,0,0,0,0,0,0,0,NA,yield
+1909,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1909,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1909,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1909,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1909,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1909,squids,2111,0,0,0,0,0,0,0,NA,yield
+1909,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1909,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1909,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1909,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1909,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1909,orca,2111,0,0,0,0,0,0,0,NA,yield
+1909,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1909,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1910,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1910,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1910,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1910,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1910,salps,2111,0,0,0,0,0,0,0,NA,yield
+1910,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1910,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1910,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1910,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1910,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1910,squids,2111,0,0,0,0,0,0,0,NA,yield
+1910,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1910,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1910,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1910,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1910,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1910,orca,2111,0,0,0,0,0,0,0,NA,yield
+1910,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1910,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1911,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1911,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1911,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1911,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1911,salps,2111,0,0,0,0,0,0,0,NA,yield
+1911,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1911,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1911,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1911,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1911,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1911,squids,2111,0,0,0,0,0,0,0,NA,yield
+1911,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1911,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1911,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1911,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1911,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1911,orca,2111,0,0,0,0,0,0,0,NA,yield
+1911,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1911,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1912,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1912,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1912,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1912,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1912,salps,2111,0,0,0,0,0,0,0,NA,yield
+1912,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1912,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1912,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1912,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1912,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1912,squids,2111,0,0,0,0,0,0,0,NA,yield
+1912,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1912,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1912,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1912,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1912,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1912,orca,2111,0,0,0,0,0,0,0,NA,yield
+1912,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1912,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1913,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1913,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1913,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1913,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1913,salps,2111,0,0,0,0,0,0,0,NA,yield
+1913,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1913,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1913,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1913,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1913,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1913,squids,2111,0,0,0,0,0,0,0,NA,yield
+1913,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1913,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1913,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1913,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1913,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1913,orca,2111,0,0,0,0,0,0,0,NA,yield
+1913,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1913,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1914,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1914,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1914,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1914,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1914,salps,2111,0,0,0,0,0,0,0,NA,yield
+1914,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1914,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1914,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1914,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1914,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1914,squids,2111,0,0,0,0,0,0,0,NA,yield
+1914,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1914,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1914,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1914,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1914,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1914,orca,2111,0,0,0,0,0,0,0,NA,yield
+1914,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1914,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1915,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1915,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1915,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1915,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1915,salps,2111,0,0,0,0,0,0,0,NA,yield
+1915,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1915,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1915,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1915,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1915,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1915,squids,2111,0,0,0,0,0,0,0,NA,yield
+1915,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1915,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1915,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1915,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1915,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1915,orca,2111,0,0,0,0,0,0,0,NA,yield
+1915,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1915,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1916,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1916,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1916,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1916,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1916,salps,2111,0,0,0,0,0,0,0,NA,yield
+1916,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1916,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1916,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1916,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1916,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1916,squids,2111,0,0,0,0,0,0,0,NA,yield
+1916,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1916,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1916,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1916,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1916,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1916,orca,2111,0,0,0,0,0,0,0,NA,yield
+1916,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1916,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1917,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1917,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1917,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1917,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1917,salps,2111,0,0,0,0,0,0,0,NA,yield
+1917,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1917,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1917,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1917,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1917,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1917,squids,2111,0,0,0,0,0,0,0,NA,yield
+1917,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1917,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1917,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1917,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1917,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1917,orca,2111,0,0,0,0,0,0,0,NA,yield
+1917,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1917,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1918,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1918,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1918,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1918,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1918,salps,2111,0,0,0,0,0,0,0,NA,yield
+1918,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1918,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1918,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1918,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1918,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1918,squids,2111,0,0,0,0,0,0,0,NA,yield
+1918,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1918,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1918,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1918,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1918,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1918,orca,2111,0,0,0,0,0,0,0,NA,yield
+1918,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1918,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1919,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1919,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1919,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1919,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1919,salps,2111,0,0,0,0,0,0,0,NA,yield
+1919,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1919,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1919,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1919,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1919,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1919,squids,2111,0,0,0,0,0,0,0,NA,yield
+1919,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1919,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1919,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1919,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1919,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1919,orca,2111,0,0,0,0,0,0,0,NA,yield
+1919,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1919,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1920,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1920,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1920,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1920,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1920,salps,2111,0,0,0,0,0,0,0,NA,yield
+1920,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1920,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1920,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1920,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1920,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1920,squids,2111,0,0,0,0,0,0,0,NA,yield
+1920,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1920,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1920,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1920,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1920,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1920,orca,2111,0,0,0,0,0,0,0,NA,yield
+1920,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1920,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1921,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1921,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1921,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1921,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1921,salps,2111,0,0,0,0,0,0,0,NA,yield
+1921,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1921,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1921,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1921,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1921,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1921,squids,2111,0,0,0,0,0,0,0,NA,yield
+1921,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1921,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1921,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1921,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1921,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1921,orca,2111,0,0,0,0,0,0,0,NA,yield
+1921,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1921,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1922,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1922,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1922,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1922,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1922,salps,2111,0,0,0,0,0,0,0,NA,yield
+1922,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1922,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1922,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1922,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1922,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1922,squids,2111,0,0,0,0,0,0,0,NA,yield
+1922,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1922,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1922,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1922,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1922,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1922,orca,2111,0,0,0,0,0,0,0,NA,yield
+1922,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1922,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1923,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1923,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1923,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1923,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1923,salps,2111,0,0,0,0,0,0,0,NA,yield
+1923,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1923,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1923,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1923,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1923,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1923,squids,2111,0,0,0,0,0,0,0,NA,yield
+1923,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1923,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1923,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1923,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1923,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1923,orca,2111,0,0,0,0,0,0,0,NA,yield
+1923,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1923,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1924,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1924,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1924,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1924,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1924,salps,2111,0,0,0,0,0,0,0,NA,yield
+1924,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1924,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1924,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1924,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1924,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1924,squids,2111,0,0,0,0,0,0,0,NA,yield
+1924,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1924,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1924,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1924,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1924,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1924,orca,2111,0,0,0,0,0,0,0,NA,yield
+1924,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1924,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1925,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1925,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1925,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1925,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1925,salps,2111,0,0,0,0,0,0,0,NA,yield
+1925,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1925,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1925,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1925,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1925,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1925,squids,2111,0,0,0,0,0,0,0,NA,yield
+1925,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1925,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1925,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1925,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1925,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1925,orca,2111,0,0,0,0,0,0,0,NA,yield
+1925,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1925,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1926,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1926,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1926,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1926,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1926,salps,2111,0,0,0,0,0,0,0,NA,yield
+1926,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1926,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1926,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1926,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1926,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1926,squids,2111,0,0,0,0,0,0,0,NA,yield
+1926,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1926,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1926,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1926,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1926,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1926,orca,2111,0,0,0,0,0,0,0,NA,yield
+1926,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1926,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1927,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1927,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1927,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1927,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1927,salps,2111,0,0,0,0,0,0,0,NA,yield
+1927,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1927,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1927,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1927,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1927,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1927,squids,2111,0,0,0,0,0,0,0,NA,yield
+1927,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1927,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1927,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1927,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1927,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1927,orca,2111,0,0,0,0,0,0,0,NA,yield
+1927,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1927,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1928,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1928,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1928,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1928,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1928,salps,2111,0,0,0,0,0,0,0,NA,yield
+1928,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1928,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1928,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1928,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1928,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1928,squids,2111,0,0,0,0,0,0,0,NA,yield
+1928,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1928,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1928,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1928,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1928,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1928,orca,2111,0,0,0,0,0,0,0,NA,yield
+1928,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1928,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1929,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1929,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1929,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1929,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1929,salps,2111,0,0,0,0,0,0,0,NA,yield
+1929,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1929,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1929,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1929,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1929,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1929,squids,2111,0,0,0,0,0,0,0,NA,yield
+1929,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1929,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1929,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1929,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1929,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1929,orca,2111,0,0,0,0,0,0,0,NA,yield
+1929,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1929,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1930,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1930,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1930,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1930,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1930,salps,2111,0,0,0,0,0,0,0,NA,yield
+1930,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1930,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1930,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1930,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1930,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1930,squids,2111,0,0,0,0,0,0,0,NA,yield
+1930,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1930,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1930,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1930,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1930,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1930,orca,2111,0,0,0,0,0,0,0,NA,yield
+1930,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1930,baleen whales,2111,0.0142704667390844,177.924223472293,3288.88691154394,14136.0605291253,60133.917475313,405207.720645283,7864779.43805821,50155.68813,yield
+1931,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1931,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1931,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1931,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1931,salps,2111,0,0,0,0,0,0,0,NA,yield
+1931,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1931,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1931,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1931,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1931,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1931,squids,2111,0,0,0,0,0,0,0,NA,yield
+1931,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1931,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1931,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1931,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1931,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1931,orca,2111,0,0,0,0,0,0,0,NA,yield
+1931,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1931,baleen whales,2111,0.0670326283638166,834.869652412119,15367.904658199,65268.3725090171,266818.584306653,1774878.64871573,31218599.4172191,335374,yield
+1932,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1932,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1932,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1932,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1932,salps,2111,0,0,0,0,0,0,0,NA,yield
+1932,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1932,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1932,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1932,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1932,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1932,squids,2111,0,0,0,0,0,0,0,NA,yield
+1932,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1932,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1932,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1932,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1932,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1932,orca,2111,0,0,0,0,0,0,0,NA,yield
+1932,sperm whales,2111,0.0210127768186219,5.846127572281,53.8343007704571,141.253115361553,363.503355515864,7830.21765816744,88384.138020178,142.0751168,yield
+1932,baleen whales,2111,0.0468372642277452,580.492659325019,10445.7115188727,41603.0448856343,149694.29721928,891493.305736802,10182670.2686182,306612,yield
+1933,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1933,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1933,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1933,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1933,salps,2111,0,0,0,0,0,0,0,NA,yield
+1933,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1933,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1933,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1933,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1933,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1933,squids,2111,0,0,0,0,0,0,0,NA,yield
+1933,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1933,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1933,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1933,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1933,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1933,orca,2111,0,0,0,0,0,0,0,NA,yield
+1933,sperm whales,2111,0.435076212339808,120.970148953672,1112.15438255385,2904.6973050780002,7484.24658286056,160974.806826984,1814584.72375211,3108.915827,yield
+1933,baleen whales,2111,0.0847428415315073,1046.70259033859,18472.9186882947,71140.6576885074,200938.528693005,1362053.23585868,11759516.5672369,496515,yield
+1934,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1934,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1934,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1934,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1934,salps,2111,0,0,0,0,0,0,0,NA,yield
+1934,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1934,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1934,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1934,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1934,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1934,squids,2111,0,0,0,0,0,0,0,NA,yield
+1934,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1934,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1934,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1934,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1934,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1934,orca,2111,0,0,0,0,0,0,0,NA,yield
+1934,sperm whales,2111,0.711042218377673,196.864245632961,1743.75138717875,4119.20106617296,10761.4575324552,235533.461233111,2561345.88333007,5993.267003,yield
+1934,baleen whales,2111,0.0556773542550998,683.450343667083,11519.2831759946,42120.9949054687,93248.462036794,675575.978056121,6109268.68652708,279493,yield
+1935,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1935,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1935,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1935,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1935,salps,2111,0,0,0,0,0,0,0,NA,yield
+1935,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1935,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1935,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1935,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1935,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1935,squids,2111,0,0,0,0,0,0,0,NA,yield
+1935,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1935,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1935,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1935,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1935,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1935,orca,2111,0,0,0,0,0,0,0,NA,yield
+1935,sperm whales,2111,0.488715028225639,134.414264128953,1089.61212005894,2247.53012225292,5928.70047271836,141343.400793391,1388142.11105878,3701.390973,yield
+1935,baleen whales,2111,0.0434663571300672,531.374882654228,8553.46767758435,27693.9134778792,59161.7478887642,450893.623162347,4083065.71910094,220991,yield
+1936,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1936,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1936,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1936,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1936,salps,2111,0,0,0,0,0,0,0,NA,yield
+1936,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1936,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1936,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1936,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1936,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1936,squids,2111,0,0,0,0,0,0,0,NA,yield
+1936,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1936,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1936,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1936,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1936,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1936,orca,2111,0,0,0,0,0,0,0,NA,yield
+1936,sperm whales,2111,0.484263391196276,132.565172158138,1019.18824691178,1899.56790450654,5106.46200040484,127507.953139965,1166892.03083569,4019.223651,yield
+1936,baleen whales,2111,0.0380922792318802,464.20555304409,7090.86280634164,22415.6803981686,45039.3591575634,358584.840751849,3167896.52922047,184531,yield
+1937,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1937,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1937,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1937,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1937,salps,2111,0,0,0,0,0,0,0,NA,yield
+1937,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1937,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1937,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1937,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1937,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1937,squids,2111,0,0,0,0,0,0,0,NA,yield
+1937,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1937,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1937,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1937,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1937,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1937,orca,2111,0,0,0,0,0,0,0,NA,yield
+1937,sperm whales,2111,0.47177821756438,128.489270364323,924.640007782675,1579.28534463261,4299.51285617391,114639.397096615,965822.640346334,3685.440062,yield
+1937,baleen whales,2111,0.039264683297119,477.1373909933,6982.22192496239,21397.1434687144,42177.8014924333,338795.512298227,2934090.86110206,198882,yield
+1938,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1938,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1938,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1938,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1938,salps,2111,0,0,0,0,0,0,0,NA,yield
+1938,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1938,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1938,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1938,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1938,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1938,squids,2111,0,0,0,0,0,0,0,NA,yield
+1938,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1938,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1938,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1938,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1938,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1938,orca,2111,0,0,0,0,0,0,0,NA,yield
+1938,sperm whales,2111,0.281543969929783,76.0809204738224,516.765662189691,810.84251573493,2303.06859998662,61794.6238847798,491657.815099826,1668.498793,yield
+1938,baleen whales,2111,0.0188908985564918,228.891157224445,2748.78652615725,9437.5163479247,18758.7800375943,151427.024545148,1264368.47772806,100816,yield
+1939,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1939,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1939,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1939,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1939,salps,2111,0,0,0,0,0,0,0,NA,yield
+1939,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1939,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1939,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1939,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1939,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1939,squids,2111,0,0,0,0,0,0,0,NA,yield
+1939,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1939,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1939,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1939,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1939,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1939,orca,2111,0,0,0,0,0,0,0,NA,yield
+1939,sperm whales,2111,1.70501627281546,458.696297913939,2991.58306465243,4483.30764879966,13212.7396680754,348966.888268434,2705605.48089786,12378.212374,yield
+1939,baleen whales,2111,0.0377714037411994,456.995897504512,5290.18893708587,18151.9537073782,35725.1485107415,293749.435165622,2395281.40433088,175933,yield
+1940,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1940,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1940,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1940,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1940,salps,2111,0,0,0,0,0,0,0,NA,yield
+1940,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1940,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1940,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1940,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1940,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1940,squids,2111,0,0,0,0,0,0,0,NA,yield
+1940,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1940,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1940,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1940,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1940,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1940,orca,2111,0,0,0,0,0,0,0,NA,yield
+1940,sperm whales,2111,1.26214600725991,329.629787397152,1636.22782855416,2084.54714595,6393.1411264554,190022.932486465,1143931.43859937,10394.602302,yield
+1940,baleen whales,2111,0.0189952624298198,229.188396723461,2436.03474188314,8487.37650031258,16443.2084823063,138563.063132168,1083424.49649501,91089.607711,yield
+1941,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1941,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1941,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1941,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1941,salps,2111,0,0,0,0,0,0,0,NA,yield
+1941,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1941,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1941,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1941,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1941,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1941,squids,2111,0,0,0,0,0,0,0,NA,yield
+1941,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1941,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1941,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1941,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1941,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1941,orca,2111,0,0,0,0,0,0,0,NA,yield
+1941,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1941,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1942,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1942,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1942,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1942,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1942,salps,2111,0,0,0,0,0,0,0,NA,yield
+1942,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1942,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1942,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1942,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1942,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1942,squids,2111,0,0,0,0,0,0,0,NA,yield
+1942,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1942,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1942,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1942,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1942,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1942,orca,2111,0,0,0,0,0,0,0,NA,yield
+1942,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1942,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1943,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1943,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1943,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1943,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1943,salps,2111,0,0,0,0,0,0,0,NA,yield
+1943,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1943,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1943,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1943,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1943,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1943,squids,2111,0,0,0,0,0,0,0,NA,yield
+1943,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1943,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1943,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1943,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1943,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1943,orca,2111,0,0,0,0,0,0,0,NA,yield
+1943,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1943,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1944,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1944,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1944,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1944,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1944,salps,2111,0,0,0,0,0,0,0,NA,yield
+1944,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1944,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1944,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1944,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1944,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1944,squids,2111,0,0,0,0,0,0,0,NA,yield
+1944,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1944,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1944,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1944,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1944,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1944,orca,2111,0,0,0,0,0,0,0,NA,yield
+1944,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1944,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1945,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1945,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1945,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1945,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1945,salps,2111,0,0,0,0,0,0,0,NA,yield
+1945,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1945,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1945,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1945,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1945,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1945,squids,2111,0,0,0,0,0,0,0,NA,yield
+1945,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1945,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1945,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1945,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1945,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1945,orca,2111,0,0,0,0,0,0,0,NA,yield
+1945,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1945,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1946,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1946,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1946,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1946,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1946,salps,2111,0,0,0,0,0,0,0,NA,yield
+1946,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1946,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1946,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1946,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1946,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1946,squids,2111,0,0,0,0,0,0,0,NA,yield
+1946,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1946,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1946,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1946,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1946,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1946,orca,2111,0,0,0,0,0,0,0,NA,yield
+1946,sperm whales,2111,0.0436178706645595,11.1819034021366,43.5550195970146,56.3290331363998,172.743683171252,4697.15722731951,26671.5859106288,482.1626474,yield
+1946,baleen whales,2111,0.00207334370392318,24.9798405184898,261.277878865642,896.882198044232,1721.95484399137,14520.3176944098,111156.558414233,15053.021635,yield
+1947,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1947,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1947,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1947,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1947,salps,2111,0,0,0,0,0,0,0,NA,yield
+1947,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1947,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1947,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1947,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1947,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1947,squids,2111,0,0,0,0,0,0,0,NA,yield
+1947,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1947,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1947,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1947,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1947,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1947,orca,2111,0,0,0,0,0,0,0,NA,yield
+1947,sperm whales,2111,1.66495735265057,426.776618542655,1650.56677528967,2135.9039291685,6559.58095847537,176461.183556141,1011004.38240228,16878.522088,yield
+1947,baleen whales,2111,0.0290271948823867,349.654170530351,3651.82944995634,12478.5611720291,23976.8080740599,202362.134342844,1544904.38998231,206013,yield
+1948,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1948,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1948,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1948,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1948,salps,2111,0,0,0,0,0,0,0,NA,yield
+1948,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1948,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1948,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1948,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1948,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1948,squids,2111,0,0,0,0,0,0,0,NA,yield
+1948,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1948,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1948,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1948,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1948,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1948,orca,2111,0,0,0,0,0,0,0,NA,yield
+1948,sperm whales,2111,2.95292994046886,735.336356423368,1783.88977184576,2851.96492189418,8260.71644301968,227220.324336945,1446136.89254371,25569.17179,yield
+1948,baleen whales,2111,0.0491254771568617,590.52248662802,5815.618553235,19430.5317301629,39001.8960475108,326870.393758028,2409368.84813815,318264,yield
+1949,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1949,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1949,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1949,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1949,salps,2111,0,0,0,0,0,0,0,NA,yield
+1949,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1949,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1949,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1949,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1949,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1949,squids,2111,0,0,0,0,0,0,0,NA,yield
+1949,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1949,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1949,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1949,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1949,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1949,orca,2111,0,0,0,0,0,0,0,NA,yield
+1949,sperm whales,2111,0.719606571091672,123.733894407485,201.788674223429,413.699252013093,1229.02990459596,29831.2130498268,253142.907399237,8682.212655,yield
+1949,baleen whales,2111,0.00268406295211048,32.1511110853247,286.705767298864,965.949663655726,1992.14771017914,16349.0276358543,114802.575484477,17742.070725,yield
+1950,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1950,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1950,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1950,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1950,salps,2111,0,0,0,0,0,0,0,NA,yield
+1950,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1950,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1950,shelf and coastal fishes,2111,6.27059057470952e-5,0.0826305326558137,1.19847423369915,3.60816777522723,9.96722308998691,91.8872588608401,13808.6356697125,4.036099966,yield
+1950,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1950,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1950,squids,2111,0,0,0,0,0,0,0,NA,yield
+1950,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1950,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1950,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1950,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1950,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1950,orca,2111,0,0,0,0,0,0,0,NA,yield
+1950,sperm whales,2111,0.898202916581383,133.791060661595,211.608433490837,455.091625815267,1327.90614788973,33102.1829834973,294615.151689826,7771.174865,yield
+1950,baleen whales,2111,0.0154573766339702,185.127629445635,1648.53581986202,5523.94663783022,11442.5023274772,93509.8060580819,655234.665880287,87701.53158,yield
+1951,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1951,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1951,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1951,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1951,salps,2111,0,0,0,0,0,0,0,NA,yield
+1951,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1951,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1951,shelf and coastal fishes,2111,9.37243445356654e-5,0.12407309324932,1.80178246782576,5.40127356791052,14.9926537974407,137.804888755152,20675.4207247064,4.305559992,yield
+1951,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1951,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1951,squids,2111,0,0,0,0,0,0,0,NA,yield
+1951,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1951,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1951,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1951,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1951,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1951,orca,2111,0,0,0,0,0,0,0,NA,yield
+1951,sperm whales,2111,2.30904882813171,273.540253422118,437.861291539777,1011.10755217602,2958.08124844494,75434.821860266107,694462.963132314,28387.881599,yield
+1951,baleen whales,2111,0.0186831563607178,223.517613345761,1955.53457412631,6498.74283860688,13557.1757740512,109759.525274167,757664.262127563,128915,yield
+1952,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1952,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1952,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1952,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1952,salps,2111,0,0,0,0,0,0,0,NA,yield
+1952,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1952,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1952,shelf and coastal fishes,2111,7.4267769715173e-4,0.988158206895194,14.3787854546389,43.059663902705,119.296049596094,1095.82213262313,163973.876704469,1028.560304,yield
+1952,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1952,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1952,squids,2111,0,0,0,0,0,0,0,NA,yield
+1952,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1952,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1952,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1952,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1952,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1952,orca,2111,0,0,0,0,0,0,0,NA,yield
+1952,sperm whales,2111,0.636201828440993,43.8100172961976,67.0739910315414,198.077406489996,581.388396621647,14864.9443202132,153652.044305567,6699.980412,yield
+1952,baleen whales,2111,0.0329287600202733,393.427275687149,3283.20219758953,11216.81722353,23355.8703391015,188925.403138492,1266220.17658599,198748,yield
+1953,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1953,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1953,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1953,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1953,salps,2111,0,0,0,0,0,0,0,NA,yield
+1953,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1953,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1953,shelf and coastal fishes,2111,1.06153049887299e-4,0.141937567432882,2.0612560384522,6.17763024378938,17.1135029822871,157.164460322123,22927.8205099368,17.06770019,yield
+1953,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1953,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1953,squids,2111,0,0,0,0,0,0,0,NA,yield
+1953,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1953,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1953,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1953,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1953,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1953,orca,2111,0,0,0,0,0,0,0,NA,yield
+1953,sperm whales,2111,0.546128994788648,34.1214249483822,50.5340202209881,157.931880196895,463.127472148676,11343.8408868058,123970.817138075,5013.270129,yield
+1953,baleen whales,2111,0.0280791906023181,334.701295253016,2638.2214230204,8976.19877485604,19054.8542307263,157046.750118939,984498.158983569,156104,yield
+1954,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1954,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1954,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1954,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1954,salps,2111,0,0,0,0,0,0,0,NA,yield
+1954,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1954,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1954,shelf and coastal fishes,2111,7.92134177752631e-5,0.106379088589621,1.53653579928277,4.63766780750576,12.8043764741683,119.026682021177,17125.3659290452,13.50466005,yield
+1954,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1954,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1954,squids,2111,0,0,0,0,0,0,0,NA,yield
+1954,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1954,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1954,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1954,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1954,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1954,orca,2111,0,0,0,0,0,0,0,NA,yield
+1954,sperm whales,2111,1.30839055261726,76.4136758859677,111.264215896413,348.521078333395,1010.64450322722,25641.185959026,281557.267387517,20808.238347,yield
+1954,baleen whales,2111,0.0218458132998043,242.27560378928,1938.72609828423,6843.64366480659,14458.6744599666,118149.989429,707767.15234298,144307,yield
+1955,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1955,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1955,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1955,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1955,salps,2111,0,0,0,0,0,0,0,NA,yield
+1955,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1955,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1955,shelf and coastal fishes,2111,2.84193787564784e-4,0.382629227518178,5.50497607818006,16.8079176264432,46.0554172478189,437.153317961944,61537.8912923124,16.55664005,yield
+1955,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1955,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1955,squids,2111,0,0,0,0,0,0,0,NA,yield
+1955,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1955,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1955,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1955,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1955,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1955,orca,2111,0,0,0,0,0,0,0,NA,yield
+1955,sperm whales,2111,0.921721878002813,40.7959238971821,60.2679460716349,205.722843973154,583.19448333184,13024.939846085,174935.714534127,13679.438042,yield
+1955,baleen whales,2111,0.0143817649866786,152.636417245866,1227.81521814366,4362.47676990791,9327.04398018717,75685.8149263904,438005.920323255,97295.574128,yield
+1956,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1956,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1956,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1956,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1956,salps,2111,0,0,0,0,0,0,0,NA,yield
+1956,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1956,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1956,shelf and coastal fishes,2111,4.07024238774787e-4,0.54906573522734,7.87232790107764,24.1945199003896,66.1536897504617,627.525863515678,87639.8689752778,179.1310525,yield
+1956,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1956,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1956,squids,2111,0,0,0,0,0,0,0,NA,yield
+1956,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1956,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1956,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1956,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1956,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1956,orca,2111,0,0,0,0,0,0,0,NA,yield
+1956,sperm whales,2111,1.27134807575202,49.1444872056065,70.5656773457727,251.102384576456,744.051726672098,15633.5914250196,220712.563315773,20109.307023,yield
+1956,baleen whales,2111,0.0249053521278712,268.132090181379,2033.81861155781,7362.39579952539,15685.5342832744,127098.175498891,727850.561343129,166682,yield
+1957,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1957,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1957,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1957,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1957,salps,2111,0,0,0,0,0,0,0,NA,yield
+1957,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1957,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1957,shelf and coastal fishes,2111,2.40581302968122e-4,0.324837466537235,4.65250539617073,14.3394297163152,39.1759627217516,371.335780271041,51267.3096125158,55.2719095,yield
+1957,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1957,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1957,squids,2111,0,0,0,0,0,0,0,NA,yield
+1957,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1957,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1957,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1957,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1957,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1957,orca,2111,0,0,0,0,0,0,0,NA,yield
+1957,sperm whales,2111,0.811714330155535,25.2637554095638,34.9550721988175,135.253487675051,379.748047810996,8888.55066528941,124707.194950548,12429.81494,yield
+1957,baleen whales,2111,0.00385025438601649,38.7803405045762,304.921767396231,1104.79682788362,2301.93845972687,19026.1337466174,104893.004069814,26705.144668,yield
+1958,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1958,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1958,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1958,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1958,salps,2111,0,0,0,0,0,0,0,NA,yield
+1958,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1958,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1958,shelf and coastal fishes,2111,1.38011453147496e-4,0.186326582681898,2.6651018535181,8.22628358278677,22.5660215277892,212.899714685544,29288.7290655932,22.6134497,yield
+1958,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1958,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1958,squids,2111,0,0,0,0,0,0,0,NA,yield
+1958,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1958,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1958,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1958,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1958,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1958,orca,2111,0,0,0,0,0,0,0,NA,yield
+1958,sperm whales,2111,1.40546148516709,41.0191878599318,54.9566755880447,211.465696702547,584.817651879349,13297.1224529507,199574.15921449,18632.872271,yield
+1958,baleen whales,2111,0.019211272346334,209.337997458507,1519.01972709792,5498.81283007699,11445.7491714086,94343.3238545263,517043.854400387,122735,yield
+1959,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1959,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1959,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1959,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1959,salps,2111,0,0,0,0,0,0,0,NA,yield
+1959,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1959,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1959,shelf and coastal fishes,2111,0.00141456818976737,1.90791813598171,27.2435552808591,84.1576222010827,231.127829672417,2178.00015244776,300186.414813506,290.1297697,yield
+1959,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1959,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1959,squids,2111,0,0,0,0,0,0,0,NA,yield
+1959,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1959,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1959,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1959,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1959,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1959,orca,2111,0,0,0,0,0,0,0,NA,yield
+1959,sperm whales,2111,0.927996922503766,21.9896173093309,28.3990532350489,117.792149770271,339.173975455841,7502.06296645826,115132.344768178,12506.243442,yield
+1959,baleen whales,2111,0.0255506548977381,267.372340882123,1930.15125854828,7128.79229644083,14986.0365148234,120618.811895447,651172.655014862,160885,yield
+1960,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1960,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1960,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1960,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1960,salps,2111,0,0,0,0,0,0,0,NA,yield
+1960,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1960,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1960,shelf and coastal fishes,2111,5.45375693026329e-4,0.733819133723733,10.4924167372083,32.3870571691895,89.0052305383556,837.671672717143,110657.711661074,97.99004698,yield
+1960,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1960,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1960,squids,2111,0,0,0,0,0,0,0,NA,yield
+1960,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1960,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1960,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1960,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1960,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1960,orca,2111,0,0,0,0,0,0,0,NA,yield
+1960,sperm whales,2111,0.325902455811364,7.31834928626786,9.16318741798032,36.3802712864178,111.428324394271,2408.15297287648,36957.8355165034,4321.950203,yield
+1960,baleen whales,2111,0.0175646563479886,174.372911575895,1258.65357103557,4703.62284215611,10101.8979976709,81598.378999324,416579.185380413,109491,yield
+1961,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1961,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1961,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1961,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1961,salps,2111,0,0,0,0,0,0,0,NA,yield
+1961,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1961,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1961,shelf and coastal fishes,2111,8.50412401818544e-5,0.114111240539384,1.63453136715686,5.04563078569857,13.8502114543011,130.326684575431,17061.1254348816,8.979049869,yield
+1961,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1961,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1961,squids,2111,0,0,0,0,0,0,0,NA,yield
+1961,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1961,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1961,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1961,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1961,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1961,orca,2111,0,0,0,0,0,0,0,NA,yield
+1961,sperm whales,2111,0.132336102900718,3.27760310418045,4.03835834453764,14.5381290432904,44.5412656996265,934.373636632365,14526.6619206649,1744.977606,yield
+1961,baleen whales,2111,0.00252236755385888,25.0046162958707,177.039592890348,654.900353242918,1419.07076732,11618.3667641709,56907.5263625254,11301.651637,yield
+1962,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1962,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1962,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1962,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1962,salps,2111,0,0,0,0,0,0,0,NA,yield
+1962,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1962,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1962,shelf and coastal fishes,2111,1.90464633117973e-4,0.255392107524767,3.66055477303492,11.2961534560653,30.9837482985578,291.54851607065,38508.4991962439,179.5776608,yield
+1962,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1962,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1962,squids,2111,0,0,0,0,0,0,0,NA,yield
+1962,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1962,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1962,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1962,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1962,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1962,orca,2111,0,0,0,0,0,0,0,NA,yield
+1962,sperm whales,2111,0.306624242344447,8.65036572316723,10.4983315806218,34.0937180408992,102.424349457071,2127.05251132529,33187.3603001544,6934.246047,yield
+1962,baleen whales,2111,0.0057235170092021,61.2000189932581,401.161331404732,1482.71699679429,3205.51310187514,26298.1575787329,128037.874230665,23373.902453,yield
+1963,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1963,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1963,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1963,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1963,salps,2111,0,0,0,0,0,0,0,NA,yield
+1963,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1963,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1963,shelf and coastal fishes,2111,4.86991520239516e-4,0.653777896325767,9.36808892781125,28.9651984131936,79.2126873129044,745.452716096853,99058.3564998103,109.2777581,yield
+1963,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1963,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1963,squids,2111,0,0,0,0,0,0,0,NA,yield
+1963,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1963,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1963,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1963,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1963,minke whales,2111,5.1126046508474e-4,0.314026691253041,2.34001137339804,6.57965965535931,18.1911390954772,4091.23642979988,98251.1065063069,15.5908375,yield
+1963,orca,2111,0,0,0,0,0,0,0,NA,yield
+1963,sperm whales,2111,0.411825698966323,12.3422986266509,14.891807561018,44.9919384071955,135.891617208422,2757.71344278812,43223.4386340667,8364.836976,yield
+1963,baleen whales,2111,0.00434755533705887,48.7668782890766,304.164635222288,1122.11051912088,2410.56469636076,19902.6983994098,95587.082537335,7063.996749,yield
+1964,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1964,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1964,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1964,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1964,salps,2111,0,0,0,0,0,0,0,NA,yield
+1964,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1964,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1964,shelf and coastal fishes,2111,9.23369753566759e-5,0.124337682941514,1.77960886020519,5.52551494182494,15.0472350168353,141.530644237838,18717.9819698305,7.007080064,yield
+1964,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1964,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1964,squids,2111,0,0,0,0,0,0,0,NA,yield
+1964,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1964,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1964,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1964,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1964,minke whales,2111,0.0169306317962824,10.4228705819684,77.3822755376928,217.766034962256,601.274259366934,134910.071780635,3240496.28031556,19.3487845,yield
+1964,orca,2111,0,0,0,0,0,0,0,NA,yield
+1964,sperm whales,2111,0.561142098712397,16.9936655429985,20.5074726939322,59.3112836470143,181.270221114774,3646.51598434767,56540.6796074775,10862.857479,yield
+1964,baleen whales,2111,0.00376290269882157,43.4216729466952,262.829726541278,967.106551851672,2063.16347607126,17171.9258701978,81621.7594846174,4256.375955,yield
+1965,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1965,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1965,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1965,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1965,salps,2111,0,0,0,0,0,0,0,NA,yield
+1965,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1965,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1965,shelf and coastal fishes,2111,1.96835621317229e-4,0.265415863903308,3.79911705864315,11.8505366964816,32.141482849872,302.103954804252,40353.717028964,5.90212001,yield
+1965,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1965,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1965,squids,2111,0,0,0,0,0,0,0,NA,yield
+1965,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1965,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1965,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1965,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1965,minke whales,2111,0.012595939828543,7.76365459576474,57.067377483006,160.677934085987,438.112734516271,98551.8045501082,2353779.09522703,14.393814,yield
+1965,orca,2111,0,0,0,0,0,0,0,NA,yield
+1965,sperm whales,2111,0.077802168042847,2.25489291220731,2.73007473915299,7.82023316436927,24.2296619141558,467.932679812751,7419.30831859348,2004.639852,yield
+1965,baleen whales,2111,6.37131248251331e-4,7.35034314696947,44.4327091072741,163.227194464213,346.288744623199,2899.01298637313,13656.612716246,787.6691429,yield
+1966,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1966,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1966,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1966,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1966,salps,2111,0,0,0,0,0,0,0,NA,yield
+1966,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1966,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1966,shelf and coastal fishes,2111,4.23856167848389e-4,0.572887585033605,8.19077466653265,25.6093273339503,69.2923651452445,651.49814359382,87549.9618344931,24.23924051,yield
+1966,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1966,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1966,squids,2111,0,0,0,0,0,0,0,NA,yield
+1966,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1966,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1966,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1966,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1966,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1966,orca,2111,0,0,0,0,0,0,0,NA,yield
+1966,sperm whales,2111,0.166134443415315,5.26477193742194,6.37327581613282,17.0244210051157,51.6969304472112,989.143717342426,15703.0242800764,1829.87468,yield
+1966,baleen whales,2111,0.00120259735639905,13.8735500478646,83.7722596719885,307.670013881916,652.445895727761,5462.29847605975,25692.8702655442,1159.9493,yield
+1967,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1967,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1967,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1967,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1967,salps,2111,0,0,0,0,0,0,0,NA,yield
+1967,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1967,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1967,shelf and coastal fishes,2111,5.13539382857353e-5,0.0694411744648953,0.992955294089537,3.10508909093484,8.3997204440212,79.0065946055702,10592.568960745,211.0274416,yield
+1967,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1967,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1967,squids,2111,0,0,0,0,0,0,0,NA,yield
+1967,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1967,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1967,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1967,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1967,minke whales,2111,0.0139181299515154,8.61285278735345,62.9611053915051,176.696036686164,476.647898354908,106877.108951976,2543817.60886206,185.632928,yield
+1967,orca,2111,0,0,0,0,0,0,0,NA,yield
+1967,sperm whales,2111,0.416994652148775,13.8838428936016,16.8464268611424,43.1193527812141,129.269588477235,2448.62594609849,38739.1411087769,10753.348097,yield
+1967,baleen whales,2111,0.0116606200367124,134.511727107614,811.286029097178,2978.34081895386,6309.68002345714,52859.029486729,247921.788778776,29542.100256,yield
+1968,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1968,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1968,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1968,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1968,salps,2111,0,0,0,0,0,0,0,NA,yield
+1968,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1968,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1968,shelf and coastal fishes,2111,1.38986507892345e-4,0.187963216446087,2.68748455703472,8.40099164654554,22.7431414890216,213.959773608272,29009.4735376088,93.44936009,yield
+1968,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1968,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1968,squids,2111,0,0,0,0,0,0,0,NA,yield
+1968,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1968,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1968,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1968,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1968,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1968,orca,2111,0,0,0,0,0,0,0,NA,yield
+1968,sperm whales,2111,0.381795164508141,12.2721331655366,15.0385767773387,38.2282839501839,116.123148745295,2198.52706427776,34030.1924711962,8579.760851,yield
+1968,baleen whales,2111,0.00157058994121423,18.1035823465076,108.988236011356,395.294250183061,839.469646774163,7008.62301011653,32288.55025335,2698.18751,yield
+1969,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1969,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1969,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1969,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1969,salps,2111,0,0,0,0,0,0,0,NA,yield
+1969,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1969,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1969,shelf and coastal fishes,2111,5.0959914298136e-5,0.0689279894479362,0.985520280275491,3.08347989056645,8.34231805225007,78.5007204341542,10727.4642897281,19.17019947,yield
+1969,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1969,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1969,squids,2111,0,0,0,0,0,0,0,NA,yield
+1969,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1969,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1969,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1969,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1969,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1969,orca,2111,0,0,0,0,0,0,0,NA,yield
+1969,sperm whales,2111,0.185294513782442,5.7894872418809,7.11497937434972,18.0265535956412,55.4068810949672,1042.32006633033,15898.7626739698,4781.9172,yield
+1969,baleen whales,2111,8.93661826787476e-4,10.2999945685627,61.936089928748,224.35081624285,476.652083533533,3975.1374829203,18265.0839831323,1429.331992,yield
+1970,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1970,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1970,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1970,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1970,salps,2111,0,0,0,0,0,0,0,NA,yield
+1970,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1970,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1970,shelf and coastal fishes,2111,5.85591089340877e-5,0.0792271150888404,1.13249810859923,3.54535054234823,9.59106054643332,90.2486829068831,12465.8693893778,1.517550003,yield
+1970,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1970,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1970,squids,2111,0,0,0,0,0,0,0,NA,yield
+1970,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1970,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1970,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1970,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1970,minke whales,2111,0.0119667789363805,7.42393113345806,54.3288526283601,151.319303847003,403.14201559871,89392.0172197113,2131159.93309534,13.684356,yield
+1970,orca,2111,0,0,0,0,0,0,0,NA,yield
+1970,sperm whales,2111,0.421245784769116,13.5449239979021,16.6348400722523,41.3188512456836,125.18634403606,2299.94162473212,35455.2948323987,10874.967878,yield
+1970,baleen whales,2111,7.39312805117133e-4,8.52067689699763,51.179091220657,185.330855336125,393.635487120488,3280.49606877011,15050.5002846755,912.786554,yield
+1971,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1971,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1971,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1971,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1971,salps,2111,0,0,0,0,0,0,0,NA,yield
+1971,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1971,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1971,shelf and coastal fishes,2111,3.00759338764693e-4,0.407086582826005,5.81941614985252,18.2246586705951,49.2785342305558,463.732716165444,64677.8641644697,49.50315993,yield
+1971,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1971,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1971,squids,2111,0,0,0,0,0,0,0,NA,yield
+1971,toothfishes,2111,0.00134627965785686,1.3984837885582,20.2139128771916,62.4039033475599,150.641657372588,1095.23468554582,209378.733080044,11.25989999,yield
+1971,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1971,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1971,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1971,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1971,orca,2111,0,0,0,0,0,0,0,NA,yield
+1971,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1971,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1972,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1972,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1972,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1972,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1972,salps,2111,0,0,0,0,0,0,0,NA,yield
+1972,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1972,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1972,shelf and coastal fishes,2111,0.00126462586659295,1.71274786967912,24.517559574424,76.8100497789985,207.350617977692,1951.29181845786,272136.580249777,363.0021847,yield
+1972,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1972,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1972,squids,2111,0,0,0,0,0,0,0,NA,yield
+1972,toothfishes,2111,5.55884138274878e-4,0.570302074078836,8.25620388372552,25.4583758562704,61.4267370495481,449.247979009981,78783.6758291106,9.733960078,yield
+1972,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1972,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1972,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1972,minke whales,2111,0.431792509117176,268.420043386049,1954.14007088742,5411.47355733233,14367.3240283281,3155783.80373893,75320362.5429053,19356.62752,yield
+1972,orca,2111,8.70798148385121e-6,0.257249304200066,2.56214950502036,7.03151622479955,18.7186184386747,42.6099573145819,1132.8314792531,7.41048671,yield
+1972,sperm whales,2111,0.205253282360491,6.8137671211173,8.37060616413892,20.0852655205046,59.9305815198232,1063.67531755953,16544.1879444971,5494.689847,yield
+1972,baleen whales,2111,8.41521841533008e-5,0.989938498093107,5.84722222809929,21.0688507646716,44.6725810093437,371.998426348421,1704.48185085686,43.1751168,yield
+1973,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1973,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1973,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1973,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1973,salps,2111,0,0,0,0,0,0,0,NA,yield
+1973,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1973,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1973,shelf and coastal fishes,2111,1.13444180638631e-4,0.153778265979119,2.20478134731185,6.90318923024972,18.6196655189557,175.210612915864,23586.9934962644,10.85778995,yield
+1973,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1973,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1973,squids,2111,0,0,0,0,0,0,0,NA,yield
+1973,toothfishes,2111,2.02319303940504e-4,0.204840871205036,2.96935435629465,9.15918628212372,22.0982511275507,162.927225938088,27401.0101558448,2.806100007,yield
+1973,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1973,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1973,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1973,minke whales,2111,0.680164010765118,411.977906394828,2485.00165989136,6001.76306659977,14573.5443141992,3693166.44506845,70902487.1692919,23036.145053,yield
+1973,orca,2111,2.0795399167823e-4,6.14126564614376,61.1483327942222,167.759276212685,445.985601361955,1012.60980095026,26850.7519749008,21.21769168,yield
+1973,sperm whales,2111,0.368083698012459,12.3152623607866,15.12885209312,35.95230398027,106.668219548256,1862.33174408574,29047.618390407,6628.966716,yield
+1973,baleen whales,2111,4.54172345313137e-4,5.34306884619104,31.7103352315882,113.689883046699,240.777302875281,2004.54102502446,9183.16395637863,491.2573146,yield
+1974,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1974,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1974,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1974,antarctic krill,2111,0.0128414257399148,20.1530623551822,473.833873288581,1595.52341806757,5147.09081254765,35240.6147201792,1019324.12786245,190.4045609,yield
+1974,salps,2111,0,0,0,0,0,0,0,NA,yield
+1974,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1974,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1974,shelf and coastal fishes,2111,3.83561970376475e-4,0.52044033305223,7.47991238280992,23.3857734381985,63.0580514820572,593.450254551811,80350.1624337263,378.6250077,yield
+1974,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1974,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1974,squids,2111,0,0,0,0,0,0,0,NA,yield
+1974,toothfishes,2111,0.00101153890549429,1.01090781383823,14.6879741517922,45.1843268851852,109.138899176193,809.143500517562,133918.001960515,2.300480022,yield
+1974,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1974,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1974,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1974,minke whales,2111,0.323421785777303,227.732393766355,976.03317493743,2148.47424672968,4748.21728148073,1163921.62298185,18407830.8232038,13471.457125,yield
+1974,orca,2111,0,0,0,0,0,0,0,NA,yield
+1974,sperm whales,2111,0.0903328344842638,2.89770243296858,3.55366512122685,8.5702175639687,25.6030464638431,446.801124726717,6871.34543246804,2492.237977,yield
+1974,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1975,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1975,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1975,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1975,antarctic krill,2111,0.201813621899474,330.848377797054,7847.84722128451,26345.527700293,85893.082415958,582825.039584487,16866208.4700457,3074.573266,yield
+1975,salps,2111,0,0,0,0,0,0,0,NA,yield
+1975,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1975,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1975,shelf and coastal fishes,2111,1.40904619872299e-4,0.191313400042795,2.75694011160738,8.60764592038847,23.2069910341502,218.360558734449,29435.1416449031,19.47029973,yield
+1975,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1975,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1975,squids,2111,0,0,0,0,0,0,0,NA,yield
+1975,toothfishes,2111,0.00147863168895477,1.45825938935036,21.3547542503649,65.4838606029334,157.771506106913,1173.09833210855,183026.342221052,0.8189600008,yield
+1975,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1975,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1975,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1975,minke whales,2111,0.126106269423739,136.012185664923,510.39555233795,1056.60936853346,2273.84254127718,550123.738050438,7352416.2498985,12291.900241,yield
+1975,orca,2111,0,0,0,0,0,0,0,NA,yield
+1975,sperm whales,2111,0.114333397672182,3.83300616359589,4.6850931062244,11.0872032985956,32.391925417005,564.114126808654,8610.00984631046,3155.740794,yield
+1975,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1976,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1976,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1976,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1976,antarctic krill,2111,0.377128682958372,646.850260850351,15347.171148651,51482.7842780448,168325.500979122,1076532.49779118,31520855.4001223,6242.022427,yield
+1976,salps,2111,0,0,0,0,0,0,0,NA,yield
+1976,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1976,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1976,shelf and coastal fishes,2111,1.6678761687633e-4,0.226553232864224,3.27186466107629,10.1982393352527,27.6232081003136,258.927665761886,35052.3695068951,32.23384029,yield
+1976,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1976,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1976,squids,2111,0,0,0,0,0,0,0,NA,yield
+1976,toothfishes,2111,1.66817788699332e-4,0.161972038114283,2.3869838295524,7.2678985520056,17.5298475902998,131.533883759891,18800.6522604498,2.043819986,yield
+1976,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1976,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1976,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1976,minke whales,2111,0.0683129855816894,111.019760725798,391.164270020864,761.510854775254,1617.11190255746,352075.223627618,4926897.63469463,10889.887165,yield
+1976,orca,2111,4.88125178840496e-5,1.43939296546254,14.2451086806072,38.6905120285624,99.4484194241756,214.001070671308,5619.79579751025,4.975610155,yield
+1976,sperm whales,2111,0.108612313582092,3.73637506449373,4.57821597191507,10.6748613391414,30.6839178174254,534.366409085747,8078.19819304225,2752.834938,yield
+1976,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1977,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1977,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1977,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1977,antarctic krill,2111,0.681639067962472,1201.59047701017,29753.7157221613,98658.8903586254,322290.285130894,2010775.8048157,54685988.9873909,11754.143945,yield
+1977,salps,2111,0,0,0,0,0,0,0,NA,yield
+1977,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1977,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1977,shelf and coastal fishes,2111,4.42989457872585e-4,0.601640010004604,8.69331812547144,27.1000429282541,73.3959826300684,688.306457742971,93489.8096062911,111.0914871,yield
+1977,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1977,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1977,squids,2111,0,0,0,0,0,0,0,NA,yield
+1977,toothfishes,2111,7.78389253736199e-4,0.744767043901303,10.9968063696737,33.4323445019084,80.9691673927388,608.513448649532,86343.9643077818,2.290699999,yield
+1977,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1977,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1977,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1977,minke whales,2111,0.0766545628863883,197.332743313254,669.028056758902,1233.50639873607,2572.1860065421,528218.872165679,8055064.07666095,15253.019515,yield
+1977,orca,2111,8.52764228295588e-5,2.51379548603703,24.8428459665892,67.3577012795321,171.804935140313,364.623388118696,9549.06023656055,72.4542794,yield
+1977,sperm whales,2111,0.32926158183942,11.6241365382669,14.263023714903,32.5864995014201,92.853803075174,1609.98313666985,24201.8551790977,8531.623148,yield
+1977,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1978,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1978,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1978,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1978,antarctic krill,2111,1.23672597712193,2278.02772603367,56441.3302535732,188340.394971265,611297.597999596,3513644.80918623,88902961.160263,22682.889698,yield
+1978,salps,2111,0,0,0,0,0,0,0,NA,yield
+1978,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1978,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1978,shelf and coastal fishes,2111,0.00178576038950469,2.4230990343419,34.9746785807733,109.101880469967,295.563108278966,2772.19278005341,374392.970706563,98.35187018,yield
+1978,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1978,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1978,squids,2111,0,0,0,0,0,0,0,NA,yield
+1978,toothfishes,2111,3.24567958917371e-4,0.305663863938647,4.52123260033097,13.7568816852003,33.261485144505,250.768792843635,34291.5430804469,4.099960026,yield
+1978,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1978,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1978,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1978,minke whales,2111,0.0593850237838594,292.106346084524,912.873895817585,1580.53463745877,3286.86545272861,695737.270078919,10926745.6007723,20159.034618,yield
+1978,orca,2111,6.06697573019738e-6,0.178746114961737,1.76209923168712,4.76602807081276,11.9883994342392,24.8347770069276,648.556668236424,5.153158216,yield
+1978,sperm whales,2111,0.569659384619899,19.2547146379766,23.6509262156622,55.3073763876221,158.11371820579,2684.03745921264,40508.942850174,15540.076339,yield
+1978,baleen whales,2111,1.81779590849737e-4,2.13817124796536,13.2465196968454,45.3795024243492,95.7252396885795,796.011262483897,3643.34747341776,21.4220288,yield
+1979,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1979,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1979,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1979,antarctic krill,2111,1.91624264627357,3628.46618409277,90303.515754133,301913.153475803,949857.841980362,4546462.79071672,107310222.77521,35205.874337,yield
+1979,salps,2111,0,0,0,0,0,0,0,NA,yield
+1979,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1979,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1979,shelf and coastal fishes,2111,1.21977448775245e-4,0.165274870286387,2.37912994379843,7.41967626527329,20.1293366401157,188.863405017217,24196.3920210293,6.678670056,yield
+1979,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1979,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1979,squids,2111,3.89970468470513e-5,0.0425499206127067,0.629058296983859,2.13902345318953,5.11267627748789,53.4554177005533,7208.42549325184,0.5304599938,yield
+1979,toothfishes,2111,1.77477290739791e-5,0.016452922042675,0.243854276121508,0.740928074236709,1.79288212410818,13.5631345663749,1836.0647904714,0.0607299994,yield
+1979,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1979,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1979,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1979,minke whales,2111,0.0155315128064456,164.659399676418,438.582148893521,702.896993530757,1494.16074689306,282483.069778527,5478944.92027787,12171.111837,yield
+1979,orca,2111,0,0,0,0,0,0,0,NA,yield
+1979,sperm whales,2111,0.113658464947444,3.42167503829047,4.19388728845881,10.2686582837184,30.7218169541471,499.184665224033,7725.44936167275,3142.329586,yield
+1979,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1980,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1980,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1980,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1980,antarctic krill,2111,0.0363945114190337,69.9242965723485,1687.12983239614,5683.76889828607,16921.9548711192,69104.0663780621,1824460.91975934,1156.892186,yield
+1980,salps,2111,0,0,0,0,0,0,0,NA,yield
+1980,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1980,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1980,shelf and coastal fishes,2111,1.45720154613742e-4,0.197160724680215,2.82757582299041,8.81758320363037,23.9737750113047,225.172982106345,29071.9857258361,109.4125181,yield
+1980,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1980,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1980,squids,2111,0,0,0,0,0,0,0,NA,yield
+1980,toothfishes,2111,4.57888169292181e-4,0.417173531418338,6.19207149174073,18.8082259950297,45.7528669623197,345.495704171845,47141.5193868596,3.726210007,yield
+1980,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1980,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1980,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1980,minke whales,2111,0.0132547785695704,273.173432850964,689.811932060746,1047.46328660659,2162.30880410975,379723.581823164,7983847.22335687,20473.311172,yield
+1980,orca,2111,0.00195778973113287,57.6532735917645,568.302868146688,1532.57278786711,3862.65041294426,7989.27554226562,207439.617647671,1662.000686,yield
+1980,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1980,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1981,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1981,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1981,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1981,antarctic krill,2111,0.0402366589640512,79.8838742825606,1955.85946592437,6597.02993931401,20124.2025262972,89535.0458387671,2199945.51137003,1487.227576,yield
+1981,salps,2111,0,0,0,0,0,0,0,NA,yield
+1981,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1981,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1981,shelf and coastal fishes,2111,1.84171472603787e-4,0.248855578472129,3.55229770646856,11.1169653623466,30.2535446541744,284.035812850209,36940.7926727849,15.39609003,yield
+1981,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1981,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1981,squids,2111,3.03060767160609e-6,0.00331468807631919,0.0491588378233744,0.166708318483638,0.398770804729302,4.14402055012459,558.09168544922,0.03310000049,yield
+1981,toothfishes,2111,5.5907530007868e-4,0.500596169910163,7.43261508944438,22.7280137851759,55.3086452487546,416.416337710442,56097.9368583157,2.131250004,yield
+1981,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1981,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1981,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1981,minke whales,2111,0.00356910075198507,166.858704410476,374.449818674181,544.817505407699,1156.06442346659,182556.826518568,4703918.93696565,12543.83246,yield
+1981,orca,2111,0,0,0,0,0,0,0,NA,yield
+1981,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1981,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1982,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1982,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1982,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1982,antarctic krill,2111,0.153376545587506,316.136934106955,7786.66147960798,26452.1300651217,81889.0755204729,404808.264663854,9316705.69474446,2974.835736,yield
+1982,salps,2111,0,0,0,0,0,0,0,NA,yield
+1982,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1982,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1982,shelf and coastal fishes,2111,4.39673032196199e-4,0.592928494950287,8.46113684601433,26.5020416835794,71.9351638471415,677.004412604417,88598.6360730994,485.0080704,yield
+1982,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1982,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1982,squids,2111,1.05730984956577e-4,0.115918806896095,1.72117905295958,5.85718552069049,13.9613486935839,144.571169979208,19622.4847181262,1.04436999,yield
+1982,toothfishes,2111,3.35274964626693e-4,0.294978972479464,4.38338260832087,13.4822000736504,32.652280909347,246.30765746186,32674.8666233782,1.386470006,yield
+1982,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1982,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1982,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1982,minke whales,2111,4.27633731449426e-4,40.3782828772503,88.2172215618587,122.136413462213,250.172630244192,34382.9628135381,1052914.43142125,2928.160142,yield
+1982,orca,2111,0,0,0,0,0,0,0,NA,yield
+1982,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1982,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1983,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1983,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1983,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1983,antarctic krill,2111,0.117487775248083,249.934026482252,6144.28357321221,21113.2900077384,66062.1726059305,339573.641518271,7645175.05478695,2044.500027,yield
+1983,salps,2111,0,0,0,0,0,0,0,NA,yield
+1983,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1983,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1983,shelf and coastal fishes,2111,3.00055426674123e-4,0.404426514382864,5.76955977308321,18.0676088939572,48.9504519669612,461.515393212661,60227.9116188621,89.96643833,yield
+1983,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1983,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1983,squids,2111,1.66363595467795e-5,0.0182702320890437,0.271619777108739,0.924719701500243,2.20417770444246,22.7281482323638,2946.15655785977,0.1866500038,yield
+1983,toothfishes,2111,8.15522143578934e-5,0.070501213393749,1.05047148535753,3.23495205891956,7.8205120132109,59.0522113807096,7819.81654837209,1.366409988,yield
+1983,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1983,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1983,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1983,minke whales,2111,2.94590123391796e-4,53.3800774685634,126.286377327126,171.788101132348,304.309113123551,36341.262287164,1214811.31263612,3446.25529,yield
+1983,orca,2111,0,0,0,0,0,0,0,NA,yield
+1983,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1983,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1984,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1984,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1984,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1984,antarctic krill,2111,0.190251872183089,416.181949092064,10277.3899968759,35351.254610242,110964.901942555,582944.592097148,14448592.8908063,2709.84866,yield
+1984,salps,2111,0,0,0,0,0,0,0,NA,yield
+1984,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1984,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1984,shelf and coastal fishes,2111,3.86581036645797e-4,0.521435414409521,7.43303541546929,23.2505029359546,63.0292076804244,594.757926082975,77780.4454916434,106.6215284,yield
+1984,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1984,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1984,squids,2111,5.44676607201875e-7,5.95075812752826e-4,0.00885366510560368,0.0301547667646296,0.071949725200679,0.740088264397289,95.963276467112,0.004459999989,yield
+1984,toothfishes,2111,2.56212301007622e-4,0.217277749527129,3.24283222551317,9.98780870782777,24.2099764477467,182.316976979773,24439.335644258,0.8970200067,yield
+1984,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1984,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1984,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1984,minke whales,2111,1.47855242199945e-4,58.7000889392952,149.925940026425,206.66046462667,328.793972829937,35008.386740928,1262917.92630747,3665.390159,yield
+1984,orca,2111,0,0,0,0,0,0,0,NA,yield
+1984,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1984,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1985,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1985,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1985,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1985,antarctic krill,2111,0.0064929866128895,16.941467671935,416.812944367272,1442.46572810617,4515.34672818287,24202.5360013057,649683.960465745,519.1204781,yield
+1985,salps,2111,0,0,0,0,0,0,0,NA,yield
+1985,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1985,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1985,shelf and coastal fishes,2111,5.4019841919073e-4,0.728118436504392,10.3873041215609,32.5113422294424,88.0458880436969,831.373910786766,108660.240062467,593.029211,yield
+1985,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1985,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1985,squids,2111,3.05436094915518e-5,0.0334055766152259,0.497581397449289,1.69534853806627,4.03874226809457,41.5689128733917,5427.67734411341,0.2605699965,yield
+1985,toothfishes,2111,8.3606311589117e-6,0.00696507646034313,0.104194220611066,0.320623976971712,0.77957114092888,5.84801072698982,788.638515129336,0.4367699997,yield
+1985,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1985,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1985,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1985,minke whales,2111,5.26120305700487e-5,48.247597800076,129.012451429572,179.603401691054,262.494854845022,25883.8784112128,981798.577725823,2918.84628,yield
+1985,orca,2111,0,0,0,0,0,0,0,NA,yield
+1985,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1985,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1986,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1986,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1986,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1986,antarctic krill,2111,0.00591308936619066,18.4218780980281,454.209855525643,1569.70770829647,4968.13702099779,27392.0209826147,810054.248542358,612.8385115,yield
+1986,salps,2111,0,0,0,0,0,0,0,NA,yield
+1986,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1986,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1986,shelf and coastal fishes,2111,2.3560757303113e-4,0.31706349825037,4.52855595822176,14.1789136667705,38.3898520834734,362.591953715169,47134.6479392859,879.5133491,yield
+1986,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1986,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1986,squids,2111,3.67672074662905e-5,0.0401981170831243,0.599568516260346,2.04368924341604,4.86706776876052,50.0642379929497,6481.92391404642,0.3249499991,yield
+1986,toothfishes,2111,4.03189271698463e-6,0.00330019794585993,0.0495131983589871,0.152547520008656,0.370623381595984,2.76425683380846,380.693517810555,0.2850599979,yield
+1986,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1986,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1986,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1986,minke whales,2111,1.42137253797262e-5,31.726677959259,87.4376578087526,121.11632714374,168.997431498222,15366.9638985132,603706.249810575,1830.754771,yield
+1986,orca,2111,0,0,0,0,0,0,0,NA,yield
+1986,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1986,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1987,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1987,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1987,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1987,antarctic krill,2111,0.0224147960020515,84.1086434435763,2055.61574157314,7192.52350955842,22978.1814904517,132976.631278776,4095545.32709911,3478.806415,yield
+1987,salps,2111,0,0,0,0,0,0,0,NA,yield
+1987,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1987,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1987,shelf and coastal fishes,2111,1.34952657810586e-4,0.181146351855993,2.58983841706223,8.11272537449236,21.9645961513641,207.592152453479,27161.359591538,300.1093111,yield
+1987,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1987,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1987,squids,2111,0,0,0,0,0,0,0,NA,yield
+1987,toothfishes,2111,1.15755716603565e-5,0.00932818298553618,0.14107045337218,0.432243518171051,1.04997829790263,7.77739609770068,1095.68052281299,0.02718999982,yield
+1987,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1987,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1987,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1987,minke whales,2111,1.1764671320925e-5,61.1986612782746,178.382165683482,251.985825029417,333.239330463488,28258.6739749076,1129955.22907567,3473.88366,yield
+1987,orca,2111,0,0,0,0,0,0,0,NA,yield
+1987,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1987,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1988,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1988,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1988,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1988,antarctic krill,2111,0.00133525468900368,5.99281532815086,146.039370485391,512.721563490597,1653.20613636074,10223.8457824173,315681.048254874,291.8726803,yield
+1988,salps,2111,0,0,0,0,0,0,0,NA,yield
+1988,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1988,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1988,shelf and coastal fishes,2111,2.89381379999273e-4,0.386734609901179,5.54044077017694,17.3625072722318,47.0025859505414,444.607490737075,58835.3212184565,843.5801861,yield
+1988,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1988,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1988,squids,2111,0,0,0,0,0,0,0,NA,yield
+1988,toothfishes,2111,7.92255970254466e-8,6.27538020568737e-5,9.55009312612948e-4,0.00290787052324625,0.0070632788970517,0.0520199178174188,7.48735703731791,0.01544999983,yield
+1988,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1988,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1988,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1988,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1988,orca,2111,0,0,0,0,0,0,0,NA,yield
+1988,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1988,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1989,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1989,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1989,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1989,antarctic krill,2111,0.00212713643028534,11.4098964983429,279.654738903171,978.348749766704,3167.65342077497,20035.2447763472,635436.989504676,357.907489,yield
+1989,salps,2111,0,0,0,0,0,0,0,NA,yield
+1989,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1989,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1989,shelf and coastal fishes,2111,0.00111948430587139,1.49249383347316,21.3741112936818,66.9239006889131,181.464784025944,1717.36722738572,228764.71167134,105.377348,yield
+1989,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1989,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1989,squids,2111,0,0,0,0,0,0,0,NA,yield
+1989,toothfishes,2111,8.23963730358299e-8,6.4152419277572e-5,9.79114193848726e-4,0.00297244869471143,0.007229165478094,0.0529089032790169,7.77313317324758,0.00563999985,yield
+1989,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1989,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1989,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1989,minke whales,2111,1.63026712105321e-7,6.32334717083765,20.3714552991775,29.5047113345099,38.3293186003461,2697.33673622911,111352.869673374,381.9965695,yield
+1989,orca,2111,0,0,0,0,0,0,0,NA,yield
+1989,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1989,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1990,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1990,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1990,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1990,antarctic krill,2111,0.00248050284498795,15.3451184754231,384.61230498038,1342.82208229658,4355.89608652713,28065.8100039964,904933.886845863,312.9948106,yield
+1990,salps,2111,0,0,0,0,0,0,0,NA,yield
+1990,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1990,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1990,shelf and coastal fishes,2111,2.67963680651732e-4,0.357384917669994,5.10611601247942,16.0225328074298,43.4342583045439,410.869847229205,53449.6788051277,2374.424925,yield
+1990,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1990,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1990,squids,2111,2.06547899725178e-6,0.00224196329623953,0.0337241351444043,0.114324374959929,0.271397644769068,2.83575357327212,370.098595238698,0.00638999997,yield
+1990,toothfishes,2111,3.36239578470071e-7,2.57349034310236e-4,0.00393989047029013,0.0119523067657075,0.0290309804536021,0.21137777494196,31.6385204603441,0.02411999987,yield
+1990,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1990,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1990,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1990,minke whales,2111,7.63630060351809e-8,8.06038367270967,27.1199555058496,40.2388781479677,52.2053480539019,3332.06652860292,138554.466366176,477.860466,yield
+1990,orca,2111,0,0,0,0,0,0,0,NA,yield
+1990,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1990,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1991,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1991,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1991,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1991,antarctic krill,2111,0.00134553655510634,9.70945127288721,245.111897304354,848.982382891944,2804.98879854905,18166.3040766827,591244.17509255,129.4829007,yield
+1991,salps,2111,0,0,0,0,0,0,0,NA,yield
+1991,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1991,bathypelagic fishes,2111,0.00377567129990561,19.5894955842716,603.749956311599,2441.44206075221,6849.87676979981,52048.1553801803,4423888.28413048,6.900000262e-4,yield
+1991,shelf and coastal fishes,2111,1.21043341547846e-6,0.00161550480055974,0.0230587851488263,0.0724912166470181,0.196454959691906,1.85710945835437,243.303587604665,0.0766799977,yield
+1991,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1991,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1991,squids,2111,0,0,0,0,0,0,0,NA,yield
+1991,toothfishes,2111,8.33915936508082e-7,6.27804855326637e-4,0.00961338270922846,0.0291658171822492,0.0708769212307375,0.514823821356212,78.2375212738,3.90000012e-4,yield
+1991,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1991,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1991,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1991,minke whales,2111,6.5780936941707e-8,18.8921890826512,66.8029947484548,99.589827790676,130.448291355821,7557.54587671227,318552.93035582,218.872255,yield
+1991,orca,2111,0,0,0,0,0,0,0,NA,yield
+1991,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1991,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1992,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1992,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1992,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1992,antarctic krill,2111,0.00176572658381744,14.6096133284509,382.132905342686,1311.47288743137,4353.45089366183,29189.2944503651,922059.593274181,197.4575535,yield
+1992,salps,2111,0,0,0,0,0,0,0,NA,yield
+1992,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1992,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1992,shelf and coastal fishes,2111,2.49554677398627e-7,3.3337846207184e-4,0.00475688886691021,0.0149810956833541,0.0405799419086541,0.383216318401521,51.0454805514271,0.1292200051,yield
+1992,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1992,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1992,squids,2111,0,0,0,0,0,0,0,NA,yield
+1992,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1992,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1992,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1992,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1992,minke whales,2111,9.21096373863984e-8,76.2844357707108,277.05646951104,417.038736156457,549.224095948554,29714.5948540136,1261189.90315001,874.4692575,yield
+1992,orca,2111,0,0,0,0,0,0,0,NA,yield
+1992,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1992,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1993,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1993,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1993,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1993,antarctic krill,2111,3.14651694367664e-4,3.02065741751467,80.4267409846471,272.152209092309,899.243715581518,6225.68144916262,190624.156699171,39.91374024,yield
+1993,salps,2111,0,0,0,0,0,0,0,NA,yield
+1993,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1993,bathypelagic fishes,2111,3.3716353842598e-7,0.0017718760062393,0.0549107780093714,0.222231871956151,0.626578175378163,4.92260962168682,193.278033030659,NA,yield
+1993,shelf and coastal fishes,2111,9.52483616464584e-8,1.27484756176537e-4,0.00181859570007788,0.00573356069365815,0.0155305502975164,0.146482471214545,19.8298473631537,0.05741999857,yield
+1993,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1993,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1993,squids,2111,3.42806615853342e-5,0.0369986185607674,0.549761530156016,1.88122492854433,4.44560226570304,47.8896606743368,6180.62136353494,0.01541000019,yield
+1993,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1993,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1993,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1993,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1993,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+1993,orca,2111,0,0,0,0,0,0,0,NA,yield
+1993,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1993,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1994,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1994,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1994,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1994,antarctic krill,2111,0.00117171152043121,12.8628946619796,345.46825603925,1159.15586960712,3798.71096003395,26794.9144261546,811667.787943236,170.7674989,yield
+1994,salps,2111,0,0,0,0,0,0,0,NA,yield
+1994,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1994,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1994,shelf and coastal fishes,2111,6.07729602205312e-8,8.16961059935137e-5,0.00116424180084396,0.00367087647286555,0.00995046226426261,0.0937363014596523,12.8726946841351,0.03061999939,yield
+1994,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1994,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1994,squids,2111,0,0,0,0,0,0,0,NA,yield
+1994,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1994,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1994,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1994,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1994,minke whales,2111,7.58615837868932e-9,60.6972409927744,225.644146255603,341.728886979993,448.810303820081,22376.0356973462,964502.866274797,688.886386,yield
+1994,orca,2111,0,0,0,0,0,0,0,NA,yield
+1994,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1994,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1995,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1995,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1995,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1995,antarctic krill,2111,2.46755878658798e-5,0.311286032169859,8.35516886455608,27.9628149935274,91.813025755882,656.730276497649,19561.6335244012,142.1750183,yield
+1995,salps,2111,0,0,0,0,0,0,0,NA,yield
+1995,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1995,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1995,shelf and coastal fishes,2111,1.15069858219505e-6,0.0015556272002469,0.0221239206886484,0.0698360828023001,0.189181293831784,1.78205646868724,247.608823194875,0.9738699796,yield
+1995,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1995,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1995,squids,2111,0,0,0,0,0,0,0,NA,yield
+1995,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1995,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1995,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1995,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1995,minke whales,2111,1.85931168469476e-9,41.7663327780159,154.4043517026,230.671676077931,300.951132993598,14622.4270142024,648047.119384502,472.888556,yield
+1995,orca,2111,0,0,0,0,0,0,0,NA,yield
+1995,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1995,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1996,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1996,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1996,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1996,antarctic krill,2111,9.14337644179817e-7,0.0132659116632541,0.358958061837167,1.19722739385307,3.92455973097292,28.3303138208581,832.816775334757,0.086430000840000007,yield
+1996,salps,2111,0,0,0,0,0,0,0,NA,yield
+1996,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1996,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1996,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1996,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1996,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1996,squids,2111,0,0,0,0,0,0,0,NA,yield
+1996,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1996,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1996,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1996,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1996,minke whales,2111,1.65070639019819e-9,110.419134487132,410.080554567661,615.577646417296,803.130071293749,36520.9654054761,1679655.84066171,1245.152311,yield
+1996,orca,2111,0,0,0,0,0,0,0,NA,yield
+1996,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1996,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1997,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1997,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1997,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1997,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1997,salps,2111,0,0,0,0,0,0,0,NA,yield
+1997,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1997,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1997,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1997,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1997,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1997,squids,2111,0,0,0,0,0,0,0,NA,yield
+1997,toothfishes,2111,2.47101734518217e-4,0.164529954206077,2.57173398392325,7.6576048753766,18.6160326062284,136.766274786413,21726.4787390583,0.7753400006,yield
+1997,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1997,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1997,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1997,minke whales,2111,6.06442696473824e-11,12.9033488994347,45.8156744493286,66.3617587811297,84.732790800705,3566.70132667328,189882.617519263,145.9225225,yield
+1997,orca,2111,0,0,0,0,0,0,0,NA,yield
+1997,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1997,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1998,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1998,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1998,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1998,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1998,salps,2111,0,0,0,0,0,0,0,NA,yield
+1998,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1998,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1998,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+1998,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1998,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1998,squids,2111,0,0,0,0,0,0,0,NA,yield
+1998,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+1998,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1998,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1998,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1998,minke whales,2111,1.31660125982576e-10,79.3972562908002,293.906058523773,431.745978746838,556.4746330247,21515.2604409561,1157791.93345649,896.178509,yield
+1998,orca,2111,0,0,0,0,0,0,0,NA,yield
+1998,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1998,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+1999,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1999,other krill,2111,0,0,0,0,0,0,0,NA,yield
+1999,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+1999,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+1999,salps,2111,0,0,0,0,0,0,0,NA,yield
+1999,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1999,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+1999,shelf and coastal fishes,2111,2.2263260979033e-6,0.00303757488672605,0.0434924469434629,0.137474074196718,0.370886059527084,3.50711755831302,500.734629076428,0.04433000042,yield
+1999,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+1999,small divers,2111,0,0,0,0,0,0,0,NA,yield
+1999,squids,2111,0,0,0,0,0,0,0,NA,yield
+1999,toothfishes,2111,2.52887336314561e-5,0.0159947184294944,0.251187919367637,0.747736784848026,1.81330156490599,13.4434812599121,2119.16048869191,0.0276800006,yield
+1999,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+1999,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+1999,large divers,2111,0,0,0,0,0,0,0,NA,yield
+1999,minke whales,2111,4.96343973798813e-12,9.05714404012775,32.9826121488585,47.7467108511862,60.4482575434275,2324.8105319354,128787.832580107,102.4018305,yield
+1999,orca,2111,0,0,0,0,0,0,0,NA,yield
+1999,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+1999,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+2000,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+2000,other krill,2111,0,0,0,0,0,0,0,NA,yield
+2000,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+2000,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+2000,salps,2111,0,0,0,0,0,0,0,NA,yield
+2000,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+2000,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+2000,shelf and coastal fishes,2111,3.30068888469868e-7,4.5018383900553e-4,0.00646993270533446,0.0203764017704839,0.0550827207483588,0.521381066879099,74.6728191962457,0.003080000053,yield
+2000,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+2000,small divers,2111,0,0,0,0,0,0,0,NA,yield
+2000,squids,2111,0,0,0,0,0,0,0,NA,yield
+2000,toothfishes,2111,4.21278473671129e-4,0.260388742938124,4.09578122277674,12.1944507854249,29.5600008222673,219.866965236493,34681.130090214,0.1998500044,yield
+2000,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+2000,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+2000,large divers,2111,0,0,0,0,0,0,0,NA,yield
+2000,minke whales,2111,6.09368811288625e-12,27.6596555788407,104.351123878357,154.426722397078,197.979701868125,6940.46655441653,389735.820606505,311.770658,yield
+2000,orca,2111,0,0,0,0,0,0,0,NA,yield
+2000,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+2000,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+2001,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+2001,other krill,2111,0,0,0,0,0,0,0,NA,yield
+2001,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+2001,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+2001,salps,2111,0,0,0,0,0,0,0,NA,yield
+2001,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+2001,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+2001,shelf and coastal fishes,2111,9.98726525077803e-5,0.136065228443599,1.96408202327354,6.16301501926841,16.6803917582104,158.71252044987,22674.2973175985,3.300429834,yield
+2001,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+2001,small divers,2111,0,0,0,0,0,0,0,NA,yield
+2001,squids,2111,0,0,0,0,0,0,0,NA,yield
+2001,toothfishes,2111,2.95283890207693e-5,0.0178742338559323,0.281464957689514,0.838160820062843,2.03204323210163,15.1668304478907,2360.14288428027,1.440319999,yield
+2001,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+2001,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+2001,large divers,2111,0,0,0,0,0,0,0,NA,yield
+2001,minke whales,2111,3.42278676124464e-12,38.3554077118719,147.369551369483,221.106293898533,285.055889383169,9274.84449260948,533318.854205295,431.588399,yield
+2001,orca,2111,0,0,0,0,0,0,0,NA,yield
+2001,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+2001,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+2002,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+2002,other krill,2111,0,0,0,0,0,0,0,NA,yield
+2002,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+2002,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+2002,salps,2111,0,0,0,0,0,0,0,NA,yield
+2002,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+2002,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+2002,shelf and coastal fishes,2111,0,0,0,0,0,0,0,NA,yield
+2002,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+2002,small divers,2111,0,0,0,0,0,0,0,NA,yield
+2002,squids,2111,0,0,0,0,0,0,0,NA,yield
+2002,toothfishes,2111,0,0,0,0,0,0,0,NA,yield
+2002,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+2002,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+2002,large divers,2111,0,0,0,0,0,0,0,NA,yield
+2002,minke whales,2111,1.66814665145943e-12,50.7559008256223,197.437466823615,295.981220315067,383.279188107723,11599.9885548679,694876.229352942,570.6544375,yield
+2002,orca,2111,0,0,0,0,0,0,0,NA,yield
+2002,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+2002,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+2003,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+2003,other krill,2111,0,0,0,0,0,0,0,NA,yield
+2003,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+2003,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+2003,salps,2111,0,0,0,0,0,0,0,NA,yield
+2003,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+2003,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+2003,shelf and coastal fishes,2111,6.21621252648046e-5,0.0843132044081637,1.22325463366037,3.81506436826304,10.335261546593,101.872016151106,14091.794583186,9.149509811,yield
+2003,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+2003,small divers,2111,0,0,0,0,0,0,0,NA,yield
+2003,squids,2111,0,0,0,0,0,0,0,NA,yield
+2003,toothfishes,2111,0.0110368092947273,6.41652680095398,101.177295012569,301.708553731345,731.23223366841,5467.99334556456,856593.754419603,2.935880085,yield
+2003,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+2003,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+2003,large divers,2111,0,0,0,0,0,0,0,NA,yield
+2003,minke whales,2111,4.1703273510403e-13,32.9044466053168,127.935584547065,191.987677490764,246.418091720606,7159.09044956529,442095.396206777,369.784363,yield
+2003,orca,2111,0,0,0,0,0,0,0,NA,yield
+2003,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+2003,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+2004,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+2004,other krill,2111,0,0,0,0,0,0,0,NA,yield
+2004,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+2004,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+2004,salps,2111,0,0,0,0,0,0,0,NA,yield
+2004,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+2004,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+2004,shelf and coastal fishes,2111,1.02171054520145e-4,0.13824185976616,2.00272390179519,6.26513202102645,16.938302112206,166.784471578913,23109.8445357253,47.79790881,yield
+2004,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+2004,small divers,2111,0,0,0,0,0,0,0,NA,yield
+2004,squids,2111,0,0,0,0,0,0,0,NA,yield
+2004,toothfishes,2111,0.00624898552044975,3.54697313124164,55.9588071985026,166.952758645053,404.156161178239,3019.1247497982,332919.219891128,39.74411849,yield
+2004,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+2004,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+2004,large divers,2111,0,0,0,0,0,0,0,NA,yield
+2004,minke whales,2111,2.01899101369528e-13,52.2224789209674,205.148994725873,309.346632045523,398.123007761162,11132.6219548936,687756.32943342,582.8371235,yield
+2004,orca,2111,0,0,0,0,0,0,0,NA,yield
+2004,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+2004,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+2005,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+2005,other krill,2111,0,0,0,0,0,0,0,NA,yield
+2005,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+2005,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+2005,salps,2111,0,0,0,0,0,0,0,NA,yield
+2005,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+2005,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+2005,shelf and coastal fishes,2111,4.65184107933635e-5,0.0628331204777365,0.908611629855812,2.84740976595602,7.69427143622982,75.6604875380844,10488.1126796106,NA,yield
+2005,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+2005,small divers,2111,0,0,0,0,0,0,0,NA,yield
+2005,squids,2111,0,0,0,0,0,0,0,NA,yield
+2005,toothfishes,2111,0.0104079785157791,5.78332376204224,91.2711524405012,272.235137363797,659.004628624845,4921.92140233003,450474.651750415,NA,yield
+2005,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+2005,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+2005,large divers,2111,0,0,0,0,0,0,0,NA,yield
+2005,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+2005,orca,2111,0,0,0,0,0,0,0,NA,yield
+2005,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+2005,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+2006,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+2006,other krill,2111,0,0,0,0,0,0,0,NA,yield
+2006,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+2006,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+2006,salps,2111,0,0,0,0,0,0,0,NA,yield
+2006,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+2006,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+2006,shelf and coastal fishes,2111,2.64322624214446e-5,0.0356691184106812,0.514871046911797,1.61523819400859,4.36107110836155,42.8442151984895,5953.31431410705,NA,yield
+2006,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+2006,small divers,2111,0,0,0,0,0,0,0,NA,yield
+2006,squids,2111,1.97907208085583e-7,2.16592010222604e-4,0.00321738551793741,0.0108421943736494,0.0259238819420742,0.279816161466714,36.7746447614935,NA,yield
+2006,toothfishes,2111,0.0244302697916353,13.3317649954616,210.423371956168,627.720652452443,1518.62449803912,11335.8896599862,767088.637110741,NA,yield
+2006,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+2006,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+2006,large divers,2111,0,0,0,0,0,0,0,NA,yield
+2006,minke whales,2111,1.48237141770166e-13,326.451791187699,1306.10432874136,1993.61755103378,2597.75517751028,66373.2394217841,4093845.59527827,3546.646587,yield
+2006,orca,2111,0,0,0,0,0,0,0,NA,yield
+2006,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+2006,baleen whales,2111,0.00113801134980937,12.9354502878471,130.252405640916,283.157835265942,583.746120502294,4781.3579713309,21858.5333391175,263.5097886,yield
+2007,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+2007,other krill,2111,0,0,0,0,0,0,0,NA,yield
+2007,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+2007,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+2007,salps,2111,0,0,0,0,0,0,0,NA,yield
+2007,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+2007,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+2007,shelf and coastal fishes,2111,4.50651620172917e-5,0.0607740010018034,0.875682340041257,2.75014906893303,7.42080257979677,72.8194255326712,10146.2865713748,NA,yield
+2007,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+2007,small divers,2111,0,0,0,0,0,0,0,NA,yield
+2007,squids,2111,1.80753460576903e-7,1.98156888612738e-4,0.00296925091271563,0.0100256716797321,0.0238023344235679,0.256513839706002,33.9250235830681,NA,yield
+2007,toothfishes,2111,0.0142193288117935,7.62475216905664,120.324994229495,358.916947119483,867.285607706233,6459.32516039266,219207.752209475,NA,yield
+2007,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+2007,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+2007,large divers,2111,0,0,0,0,0,0,0,NA,yield
+2007,minke whales,2111,1.13782012400912e-15,10.2639897373188,31.925408870225,44.199947129867,56.0074606131324,1746.31192787945,120124.461512908,114.5599065,yield
+2007,orca,2111,0,0,0,0,0,0,0,NA,yield
+2007,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+2007,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+2008,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+2008,other krill,2111,0,0,0,0,0,0,0,NA,yield
+2008,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+2008,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+2008,salps,2111,0,0,0,0,0,0,0,NA,yield
+2008,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+2008,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+2008,shelf and coastal fishes,2111,1.15546359555668e-5,0.015546010665514,0.22395382039402,0.703170421404617,1.89868367086397,18.6049263163267,2597.82504432861,NA,yield
+2008,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+2008,small divers,2111,0,0,0,0,0,0,0,NA,yield
+2008,squids,2111,1.34861316985547e-7,1.49041315729268e-4,0.00223530872978514,0.00755560094258683,0.0179809994369207,0.192673961268629,25.669302700008,NA,yield
+2008,toothfishes,2111,0.0330998329667743,17.50915097825,276.247992073673,825.23363944008,1991.33433296763,14798.4058660626,355414.057318872,NA,yield
+2008,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+2008,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+2008,large divers,2111,0,0,0,0,0,0,0,NA,yield
+2008,minke whales,2111,5.05440266339184e-15,96.9419006152974,326.958415941085,456.760775997449,572.382238531899,16342.8727257781,1123304.91725359,1078.141376,yield
+2008,orca,2111,0,0,0,0,0,0,0,NA,yield
+2008,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+2008,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+2009,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+2009,other krill,2111,0,0,0,0,0,0,0,NA,yield
+2009,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+2009,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+2009,salps,2111,0,0,0,0,0,0,0,NA,yield
+2009,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+2009,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+2009,shelf and coastal fishes,2111,2.95485959449989e-5,0.039690454957679,0.571216406643802,1.79422088055071,4.84546743580844,47.4146277313087,6641.2747188084,NA,yield
+2009,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+2009,small divers,2111,0,0,0,0,0,0,0,NA,yield
+2009,squids,2111,1.56886075329272e-7,1.73239601046809e-4,0.00260093903371106,0.00880748965951763,0.0209599258978803,0.223698359864654,30.0339703169351,NA,yield
+2009,toothfishes,2111,0.0193991468896316,10.1157325886473,159.449220944963,477.156827113668,1147.13115511726,8339.41562843853,154554.087434984,NA,yield
+2009,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+2009,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+2009,large divers,2111,0,0,0,0,0,0,0,NA,yield
+2009,minke whales,2111,0,0,0,0,0,0,0,NA,yield
+2009,orca,2111,0,0,0,0,0,0,0,NA,yield
+2009,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+2009,baleen whales,2111,0,0,0,0,0,0,0,NA,yield
+2010,mesozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+2010,other krill,2111,0,0,0,0,0,0,0,NA,yield
+2010,other macrozooplankton,2111,0,0,0,0,0,0,0,NA,yield
+2010,antarctic krill,2111,0,0,0,0,0,0,0,NA,yield
+2010,salps,2111,0,0,0,0,0,0,0,NA,yield
+2010,mesopelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+2010,bathypelagic fishes,2111,0,0,0,0,0,0,0,NA,yield
+2010,shelf and coastal fishes,2111,4.93841587148827e-6,0.00663182759480999,0.0954195435260451,0.2994987057935,0.808816024073199,7.90558828530873,1109.52424385214,NA,yield
+2010,flying birds,2111,0,0,0,0,0,0,0,NA,yield
+2010,small divers,2111,0,0,0,0,0,0,0,NA,yield
+2010,squids,2111,0,0,0,0,0,0,0,NA,yield
+2010,toothfishes,2111,0.025051533347408,12.861582806238,202.60087236533,605.497817646758,1462.94441724326,10544.6260147332,170428.465791121,NA,yield
+2010,leopard seals,2111,0,0,0,0,0,0,0,NA,yield
+2010,medium divers,2111,0,0,0,0,0,0,0,NA,yield
+2010,large divers,2111,0,0,0,0,0,0,0,NA,yield
+2010,minke whales,2111,7.37998171976769e-16,108.000524488608,376.473237675941,539.029589725768,665.690602755412,17424.3353664118,1197168.72865079,1190.011479,yield
+2010,orca,2111,0,0,0,0,0,0,0,NA,yield
+2010,sperm whales,2111,0,0,0,0,0,0,0,NA,yield
+2010,baleen whales,2111,1.43765533100397e-4,1.62853239424423,17.312337741274,35.6773662950177,73.4639376828043,599.762215848345,2736.39981808824,33.2558336,yield

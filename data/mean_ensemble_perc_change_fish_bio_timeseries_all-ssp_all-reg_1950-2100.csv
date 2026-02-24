@@ -1,0 +1,4267 @@
+year,scenario,min_change,mean_change,median_change,max_change,sd_change,region_name,tooltip
+1950,historical,-14.37,-6.15,-7.3,4.57,6.63,Atlantic,"Year: 1950
+Mean change: -6.2%
+SD: ±6.6%"
+1951,historical,-14.1,-6.68,-8.81,0.81,5.3,Atlantic,"Year: 1951
+Mean change: -6.7%
+SD: ±5.3%"
+1952,historical,-12.14,-3.43,-3.11,0.49,3.78,Atlantic,"Year: 1952
+Mean change: -3.4%
+SD: ±3.8%"
+1953,historical,-15.68,-6.12,-4.83,2.6,6.57,Atlantic,"Year: 1953
+Mean change: -6.1%
+SD: ±6.6%"
+1954,historical,-12.78,-2.75,-3.18,7.25,5.14,Atlantic,"Year: 1954
+Mean change: -2.8%
+SD: ±5.1%"
+1955,historical,-15.2,-3.94,-2.19,4.06,6.17,Atlantic,"Year: 1955
+Mean change: -3.9%
+SD: ±6.2%"
+1956,historical,-12.82,-3.46,-1.95,1.99,4.28,Atlantic,"Year: 1956
+Mean change: -3.5%
+SD: ±4.3%"
+1957,historical,-14.93,-4.46,-2.88,0.34,5.27,Atlantic,"Year: 1957
+Mean change: -4.5%
+SD: ±5.3%"
+1958,historical,-13.02,-2.77,-2.33,2.77,4.76,Atlantic,"Year: 1958
+Mean change: -2.8%
+SD: ±4.8%"
+1959,historical,-12.58,-4.18,-3.56,4.02,4.63,Atlantic,"Year: 1959
+Mean change: -4.2%
+SD: ±4.6%"
+1960,historical,-12.02,-2.63,-2.27,4.35,4.6,Atlantic,"Year: 1960
+Mean change: -2.6%
+SD: ±4.6%"
+1961,historical,-11.96,-5.33,-5.04,5.31,5.35,Atlantic,"Year: 1961
+Mean change: -5.3%
+SD: ±5.3%"
+1962,historical,-12.19,-4.49,-4.85,5.03,4.42,Atlantic,"Year: 1962
+Mean change: -4.5%
+SD: ±4.4%"
+1963,historical,-11.91,-0.62,-1.15,6.81,5.31,Atlantic,"Year: 1963
+Mean change: -0.6%
+SD: ±5.3%"
+1964,historical,-11.57,-4.83,-4.47,2.74,4.16,Atlantic,"Year: 1964
+Mean change: -4.8%
+SD: ±4.2%"
+1965,historical,-11.22,-1.33,-0.99,2.61,3.91,Atlantic,"Year: 1965
+Mean change: -1.3%
+SD: ±3.9%"
+1966,historical,-10.68,-5.01,-4.95,3.94,4.64,Atlantic,"Year: 1966
+Mean change: -5%
+SD: ±4.6%"
+1967,historical,-12.27,-3.66,-3.92,7.26,6.12,Atlantic,"Year: 1967
+Mean change: -3.7%
+SD: ±6.1%"
+1968,historical,-10.97,-2.54,-0.41,6.12,5.27,Atlantic,"Year: 1968
+Mean change: -2.5%
+SD: ±5.3%"
+1969,historical,-11.52,-3.82,-3.69,4.5,5.16,Atlantic,"Year: 1969
+Mean change: -3.8%
+SD: ±5.2%"
+1970,historical,-11.09,-2.67,-2.15,2.95,4.5,Atlantic,"Year: 1970
+Mean change: -2.7%
+SD: ±4.5%"
+1971,historical,-12.58,-3.25,-1.27,2.01,5.53,Atlantic,"Year: 1971
+Mean change: -3.2%
+SD: ±5.5%"
+1972,historical,-12.03,-1.74,-0.28,2.57,4.35,Atlantic,"Year: 1972
+Mean change: -1.7%
+SD: ±4.3%"
+1973,historical,-16.89,-4.96,-2.96,0.91,5.6,Atlantic,"Year: 1973
+Mean change: -5%
+SD: ±5.6%"
+1974,historical,-11.66,-5.47,-3.92,0.03,4.37,Atlantic,"Year: 1974
+Mean change: -5.5%
+SD: ±4.4%"
+1975,historical,-13.9,-5.21,-4.06,-0.34,4.42,Atlantic,"Year: 1975
+Mean change: -5.2%
+SD: ±4.4%"
+1976,historical,-12.31,-3.26,-2.63,3.05,4.38,Atlantic,"Year: 1976
+Mean change: -3.3%
+SD: ±4.4%"
+1977,historical,-14.02,-4.5,-3,2.11,5.15,Atlantic,"Year: 1977
+Mean change: -4.5%
+SD: ±5.2%"
+1978,historical,-12.3,-5.17,-5.38,4.78,5.21,Atlantic,"Year: 1978
+Mean change: -5.2%
+SD: ±5.2%"
+1979,historical,-12.31,-3.19,-2.89,2.94,3.91,Atlantic,"Year: 1979
+Mean change: -3.2%
+SD: ±3.9%"
+1980,historical,-12.1,-1.89,-1.16,2.72,3.93,Atlantic,"Year: 1980
+Mean change: -1.9%
+SD: ±3.9%"
+1981,historical,-11.3,-1.96,-2.25,7.08,5.26,Atlantic,"Year: 1981
+Mean change: -2%
+SD: ±5.3%"
+1982,historical,-11.92,-6.21,-7,2.02,4.47,Atlantic,"Year: 1982
+Mean change: -6.2%
+SD: ±4.5%"
+1983,historical,-11.82,-5.89,-4.54,1.15,4.59,Atlantic,"Year: 1983
+Mean change: -5.9%
+SD: ±4.6%"
+1984,historical,-9.78,-3.1,-2.78,6.5,4.57,Atlantic,"Year: 1984
+Mean change: -3.1%
+SD: ±4.6%"
+1985,historical,-9.47,-3.49,-3.41,2.57,3.7,Atlantic,"Year: 1985
+Mean change: -3.5%
+SD: ±3.7%"
+1986,historical,-10.53,-3.74,-3.77,1.66,3.99,Atlantic,"Year: 1986
+Mean change: -3.7%
+SD: ±4%"
+1987,historical,-7.08,-3.37,-3.34,1.59,2.81,Atlantic,"Year: 1987
+Mean change: -3.4%
+SD: ±2.8%"
+1988,historical,-8.05,-2.54,-1.92,3.04,3.79,Atlantic,"Year: 1988
+Mean change: -2.5%
+SD: ±3.8%"
+1989,historical,-8.95,-0.92,-0.49,5.96,4.41,Atlantic,"Year: 1989
+Mean change: -0.9%
+SD: ±4.4%"
+1990,historical,-12.85,-0.33,1.56,6.37,5.57,Atlantic,"Year: 1990
+Mean change: -0.3%
+SD: ±5.6%"
+1991,historical,-9.83,-1.94,-2.49,4.29,4,Atlantic,"Year: 1991
+Mean change: -1.9%
+SD: ±4%"
+1992,historical,-5.26,-0.42,-0.54,5,3.09,Atlantic,"Year: 1992
+Mean change: -0.4%
+SD: ±3.1%"
+1993,historical,-5.08,0.25,-0.06,4.65,3.19,Atlantic,"Year: 1993
+Mean change: 0.2%
+SD: ±3.2%"
+1994,historical,-7.67,-0.45,0.99,4.9,4.73,Atlantic,"Year: 1994
+Mean change: -0.4%
+SD: ±4.7%"
+1995,historical,-2.18,0.17,-0.41,4.16,2.12,Atlantic,"Year: 1995
+Mean change: 0.2%
+SD: ±2.1%"
+1996,historical,-7.17,-2.23,-2.7,2.03,3.39,Atlantic,"Year: 1996
+Mean change: -2.2%
+SD: ±3.4%"
+1997,historical,-4.84,0.8,0.84,8.45,3.46,Atlantic,"Year: 1997
+Mean change: 0.8%
+SD: ±3.5%"
+1998,historical,-1.82,0.22,0.27,2.21,1.45,Atlantic,"Year: 1998
+Mean change: 0.2%
+SD: ±1.4%"
+1999,historical,-4.65,-0.28,0.32,2.17,1.98,Atlantic,"Year: 1999
+Mean change: -0.3%
+SD: ±2%"
+2000,historical,-5.63,-0.92,-0.18,1.83,2.68,Atlantic,"Year: 2000
+Mean change: -0.9%
+SD: ±2.7%"
+2001,historical,-8.06,-0.68,-0.18,2.4,3.16,Atlantic,"Year: 2001
+Mean change: -0.7%
+SD: ±3.2%"
+2002,historical,-1.29,1.08,1.33,2.78,1.51,Atlantic,"Year: 2002
+Mean change: 1.1%
+SD: ±1.5%"
+2003,historical,-10.25,-2.21,-1.68,1.12,3.33,Atlantic,"Year: 2003
+Mean change: -2.2%
+SD: ±3.3%"
+2004,historical,-9.04,-1.78,-0.28,0.98,3.03,Atlantic,"Year: 2004
+Mean change: -1.8%
+SD: ±3%"
+2005,historical,-10.71,-1.62,-0.47,2.45,3.78,Atlantic,"Year: 2005
+Mean change: -1.6%
+SD: ±3.8%"
+2006,historical,-7.62,-2.47,-1.73,0.63,2.99,Atlantic,"Year: 2006
+Mean change: -2.5%
+SD: ±3%"
+2007,historical,-2.78,0.71,0.27,4.86,2.32,Atlantic,"Year: 2007
+Mean change: 0.7%
+SD: ±2.3%"
+2008,historical,-2.08,0.4,-0,3.3,1.57,Atlantic,"Year: 2008
+Mean change: 0.4%
+SD: ±1.6%"
+2009,historical,0.12,2.16,1.24,6.19,2.23,Atlantic,"Year: 2009
+Mean change: 2.2%
+SD: ±2.2%"
+2010,historical,-0.53,1.87,1.07,5.86,2.03,Atlantic,"Year: 2010
+Mean change: 1.9%
+SD: ±2%"
+2011,historical,-6.29,-0.6,-0.05,4.81,2.97,Atlantic,"Year: 2011
+Mean change: -0.6%
+SD: ±3%"
+2012,historical,-3.82,-0.24,-0.13,3.03,1.8,Atlantic,"Year: 2012
+Mean change: -0.2%
+SD: ±1.8%"
+2013,historical,-6.33,-0.05,-0.32,6.55,4.32,Atlantic,"Year: 2013
+Mean change: 0%
+SD: ±4.3%"
+2014,historical,-3.77,-0.16,-0.32,2.81,1.71,Atlantic,"Year: 2014
+Mean change: -0.2%
+SD: ±1.7%"
+2015,ssp126,-3.84,-0.85,-0.65,3.36,2.01,Atlantic,"Year: 2015
+Mean change: -0.8%
+SD: ±2%"
+2015,ssp585,-4.83,-0.56,-0.42,5.41,3.24,Atlantic,"Year: 2015
+Mean change: -0.6%
+SD: ±3.2%"
+2016,ssp126,-0.87,0.45,-0.1,2.98,1.34,Atlantic,"Year: 2016
+Mean change: 0.4%
+SD: ±1.3%"
+2016,ssp585,-8.45,-2.26,-1.27,3.64,3.36,Atlantic,"Year: 2016
+Mean change: -2.3%
+SD: ±3.4%"
+2017,ssp126,-12.88,-2.7,-1.17,1.31,4.06,Atlantic,"Year: 2017
+Mean change: -2.7%
+SD: ±4.1%"
+2017,ssp585,-4.56,0.07,0.34,4.18,2.6,Atlantic,"Year: 2017
+Mean change: 0.1%
+SD: ±2.6%"
+2018,ssp126,-8.83,-3.09,-2.27,2.69,3.53,Atlantic,"Year: 2018
+Mean change: -3.1%
+SD: ±3.5%"
+2018,ssp585,-3.03,-0.36,-0.52,2.73,2.01,Atlantic,"Year: 2018
+Mean change: -0.4%
+SD: ±2%"
+2019,ssp126,-7.12,-1.32,-1.22,4.15,3.53,Atlantic,"Year: 2019
+Mean change: -1.3%
+SD: ±3.5%"
+2019,ssp585,-4.98,-1.51,-1.78,3.36,2.83,Atlantic,"Year: 2019
+Mean change: -1.5%
+SD: ±2.8%"
+2020,ssp126,-4.7,-0.76,-1.57,2.97,2.37,Atlantic,"Year: 2020
+Mean change: -0.8%
+SD: ±2.4%"
+2020,ssp585,-8.13,-2.87,-2.33,3.3,3.53,Atlantic,"Year: 2020
+Mean change: -2.9%
+SD: ±3.5%"
+2021,ssp126,-9.25,-1.38,-1,3.31,3.52,Atlantic,"Year: 2021
+Mean change: -1.4%
+SD: ±3.5%"
+2021,ssp585,-8.05,-0.82,-1.87,6.9,5.07,Atlantic,"Year: 2021
+Mean change: -0.8%
+SD: ±5.1%"
+2022,ssp126,-10.23,-1.98,-1.13,0.93,3.3,Atlantic,"Year: 2022
+Mean change: -2%
+SD: ±3.3%"
+2022,ssp585,-4.23,0.68,0.71,7.08,3.01,Atlantic,"Year: 2022
+Mean change: 0.7%
+SD: ±3%"
+2023,ssp126,-4.3,-0.7,-0.87,5.04,2.83,Atlantic,"Year: 2023
+Mean change: -0.7%
+SD: ±2.8%"
+2023,ssp585,-8.68,-2.62,-1.56,2.58,3.2,Atlantic,"Year: 2023
+Mean change: -2.6%
+SD: ±3.2%"
+2024,ssp126,-7.62,-1.49,-2.18,6.45,3.96,Atlantic,"Year: 2024
+Mean change: -1.5%
+SD: ±4%"
+2024,ssp585,-3.35,-0.5,-0.91,3.33,1.95,Atlantic,"Year: 2024
+Mean change: -0.5%
+SD: ±2%"
+2025,ssp126,-12.68,-2.89,-3.29,4.99,5.32,Atlantic,"Year: 2025
+Mean change: -2.9%
+SD: ±5.3%"
+2025,ssp585,-2.86,1.41,-0.02,8.47,3.78,Atlantic,"Year: 2025
+Mean change: 1.4%
+SD: ±3.8%"
+2026,ssp126,-5.05,-1.78,-2.31,1.36,2.18,Atlantic,"Year: 2026
+Mean change: -1.8%
+SD: ±2.2%"
+2026,ssp585,-6.47,-2.23,-1.62,0.54,2.02,Atlantic,"Year: 2026
+Mean change: -2.2%
+SD: ±2%"
+2027,ssp126,-2.59,-0.55,-0.86,3.72,1.88,Atlantic,"Year: 2027
+Mean change: -0.6%
+SD: ±1.9%"
+2027,ssp585,-5.86,-2.38,-2.17,1.53,2.25,Atlantic,"Year: 2027
+Mean change: -2.4%
+SD: ±2.2%"
+2028,ssp126,-4.98,-0.19,-0.69,8.19,4.13,Atlantic,"Year: 2028
+Mean change: -0.2%
+SD: ±4.1%"
+2028,ssp585,-1.63,0.39,-0.59,5.97,2.42,Atlantic,"Year: 2028
+Mean change: 0.4%
+SD: ±2.4%"
+2029,ssp126,-3.51,-0.31,-0.41,2.96,1.97,Atlantic,"Year: 2029
+Mean change: -0.3%
+SD: ±2%"
+2029,ssp585,-4.24,-0.77,-1.18,2.01,1.81,Atlantic,"Year: 2029
+Mean change: -0.8%
+SD: ±1.8%"
+2030,ssp126,-7,-2.09,-2.35,3.74,2.98,Atlantic,"Year: 2030
+Mean change: -2.1%
+SD: ±3%"
+2030,ssp585,-6.3,-1.03,-0.45,0.96,2.07,Atlantic,"Year: 2030
+Mean change: -1%
+SD: ±2.1%"
+2031,ssp126,-8.78,-0.13,0.26,9.02,5.16,Atlantic,"Year: 2031
+Mean change: -0.1%
+SD: ±5.2%"
+2031,ssp585,-7.04,-1.7,-1.49,2.79,2.93,Atlantic,"Year: 2031
+Mean change: -1.7%
+SD: ±2.9%"
+2032,ssp126,-4.11,-0.48,-0.69,3.2,2.22,Atlantic,"Year: 2032
+Mean change: -0.5%
+SD: ±2.2%"
+2032,ssp585,-8.57,-3.56,-3.97,0.76,2.96,Atlantic,"Year: 2032
+Mean change: -3.6%
+SD: ±3%"
+2033,ssp126,-6.25,-2.11,-1.99,2.62,2.9,Atlantic,"Year: 2033
+Mean change: -2.1%
+SD: ±2.9%"
+2033,ssp585,-9.57,-2.35,-2.09,6.25,4.08,Atlantic,"Year: 2033
+Mean change: -2.4%
+SD: ±4.1%"
+2034,ssp126,-6.23,-1.38,-1.34,2.24,2.24,Atlantic,"Year: 2034
+Mean change: -1.4%
+SD: ±2.2%"
+2034,ssp585,-5.48,-1.41,-1.8,3.12,2.59,Atlantic,"Year: 2034
+Mean change: -1.4%
+SD: ±2.6%"
+2035,ssp126,-8.41,-2.45,-2.43,1.74,2.9,Atlantic,"Year: 2035
+Mean change: -2.5%
+SD: ±2.9%"
+2035,ssp585,-2.57,-0.44,-1.29,5.66,2.45,Atlantic,"Year: 2035
+Mean change: -0.4%
+SD: ±2.5%"
+2036,ssp126,-2.79,1.15,-0.33,10.98,5.25,Atlantic,"Year: 2036
+Mean change: 1.1%
+SD: ±5.2%"
+2036,ssp585,-2.37,-0.21,-0.94,3.55,1.92,Atlantic,"Year: 2036
+Mean change: -0.2%
+SD: ±1.9%"
+2037,ssp126,-2.67,-0.73,-1.39,5.38,2.29,Atlantic,"Year: 2037
+Mean change: -0.7%
+SD: ±2.3%"
+2037,ssp585,-3.12,-0.34,-1.38,6.16,2.76,Atlantic,"Year: 2037
+Mean change: -0.3%
+SD: ±2.8%"
+2038,ssp126,-5.89,-0.45,-0.83,3.84,3.14,Atlantic,"Year: 2038
+Mean change: -0.4%
+SD: ±3.1%"
+2038,ssp585,-2.93,0.14,-0.91,6.75,2.87,Atlantic,"Year: 2038
+Mean change: 0.1%
+SD: ±2.9%"
+2039,ssp126,-2.57,1.83,0.57,8.32,3.93,Atlantic,"Year: 2039
+Mean change: 1.8%
+SD: ±3.9%"
+2039,ssp585,-3.73,-0.12,-0.45,4.58,2.76,Atlantic,"Year: 2039
+Mean change: -0.1%
+SD: ±2.8%"
+2040,ssp126,-6.67,0.42,-1.42,10.09,5.77,Atlantic,"Year: 2040
+Mean change: 0.4%
+SD: ±5.8%"
+2040,ssp585,-5.1,-1.11,-1.17,4.62,3.29,Atlantic,"Year: 2040
+Mean change: -1.1%
+SD: ±3.3%"
+2041,ssp126,-4.95,1.11,-0.31,10.5,5.59,Atlantic,"Year: 2041
+Mean change: 1.1%
+SD: ±5.6%"
+2041,ssp585,-4.91,-1.93,-2.61,3.08,2.76,Atlantic,"Year: 2041
+Mean change: -1.9%
+SD: ±2.8%"
+2042,ssp126,-4.83,-1.32,-1.53,6.05,3.2,Atlantic,"Year: 2042
+Mean change: -1.3%
+SD: ±3.2%"
+2042,ssp585,-4.6,0.3,0.34,5.17,2.98,Atlantic,"Year: 2042
+Mean change: 0.3%
+SD: ±3%"
+2043,ssp126,-6.71,-1.75,-1.95,6.76,4.1,Atlantic,"Year: 2043
+Mean change: -1.8%
+SD: ±4.1%"
+2043,ssp585,-4.7,-1.68,-2.23,3.77,2.51,Atlantic,"Year: 2043
+Mean change: -1.7%
+SD: ±2.5%"
+2044,ssp126,-5.02,-0.26,-0.1,5.88,3.09,Atlantic,"Year: 2044
+Mean change: -0.3%
+SD: ±3.1%"
+2044,ssp585,-4.66,0.78,1.19,5.57,3.21,Atlantic,"Year: 2044
+Mean change: 0.8%
+SD: ±3.2%"
+2045,ssp126,-4.92,-0.84,-0.85,4.06,3.32,Atlantic,"Year: 2045
+Mean change: -0.8%
+SD: ±3.3%"
+2045,ssp585,-5.76,-1.03,-1.26,7.38,3.78,Atlantic,"Year: 2045
+Mean change: -1%
+SD: ±3.8%"
+2046,ssp126,-8.1,-0.51,-0.77,5.58,4.28,Atlantic,"Year: 2046
+Mean change: -0.5%
+SD: ±4.3%"
+2046,ssp585,-4.3,1.69,-0.63,9.49,4.89,Atlantic,"Year: 2046
+Mean change: 1.7%
+SD: ±4.9%"
+2047,ssp126,-6.35,-2.1,-2.3,5.83,3.68,Atlantic,"Year: 2047
+Mean change: -2.1%
+SD: ±3.7%"
+2047,ssp585,-4.27,2.3,2.36,9.66,4.36,Atlantic,"Year: 2047
+Mean change: 2.3%
+SD: ±4.4%"
+2048,ssp126,-5.7,1.05,0.1,7.4,4.23,Atlantic,"Year: 2048
+Mean change: 1%
+SD: ±4.2%"
+2048,ssp585,-4.34,0.53,-0.25,6.43,3.25,Atlantic,"Year: 2048
+Mean change: 0.5%
+SD: ±3.2%"
+2049,ssp126,-5.92,-0.54,-0.98,8.74,4.06,Atlantic,"Year: 2049
+Mean change: -0.5%
+SD: ±4.1%"
+2049,ssp585,-6.53,-2.27,-2.28,5.46,3.41,Atlantic,"Year: 2049
+Mean change: -2.3%
+SD: ±3.4%"
+2050,ssp126,-6.66,-0.81,-0.88,6.29,4.17,Atlantic,"Year: 2050
+Mean change: -0.8%
+SD: ±4.2%"
+2050,ssp585,-4.92,-0.27,-0.93,4.84,2.85,Atlantic,"Year: 2050
+Mean change: -0.3%
+SD: ±2.9%"
+2051,ssp126,-7.69,-0.41,0.16,7.72,3.97,Atlantic,"Year: 2051
+Mean change: -0.4%
+SD: ±4%"
+2051,ssp585,-5.65,1.52,0.22,12.13,5.3,Atlantic,"Year: 2051
+Mean change: 1.5%
+SD: ±5.3%"
+2052,ssp126,-8.72,0.23,-1.32,9.79,6.23,Atlantic,"Year: 2052
+Mean change: 0.2%
+SD: ±6.2%"
+2052,ssp585,-6.11,0.96,-0.44,6.91,4.19,Atlantic,"Year: 2052
+Mean change: 1%
+SD: ±4.2%"
+2053,ssp126,-9.67,-0.64,-0.71,7.1,5.27,Atlantic,"Year: 2053
+Mean change: -0.6%
+SD: ±5.3%"
+2053,ssp585,-6.45,-0.15,-0.63,7.29,3.61,Atlantic,"Year: 2053
+Mean change: -0.1%
+SD: ±3.6%"
+2054,ssp126,-10.44,-0.5,-1.28,5.46,4.82,Atlantic,"Year: 2054
+Mean change: -0.5%
+SD: ±4.8%"
+2054,ssp585,-7.09,-0.35,-0.75,9.34,4.53,Atlantic,"Year: 2054
+Mean change: -0.3%
+SD: ±4.5%"
+2055,ssp126,-11.15,-1.89,-1.45,6.12,5.65,Atlantic,"Year: 2055
+Mean change: -1.9%
+SD: ±5.7%"
+2055,ssp585,-7.84,0.03,-1.72,9.47,5.62,Atlantic,"Year: 2055
+Mean change: 0%
+SD: ±5.6%"
+2056,ssp126,-12.07,-1.42,-0.16,3.84,5.02,Atlantic,"Year: 2056
+Mean change: -1.4%
+SD: ±5%"
+2056,ssp585,-8.33,1.71,1.26,9.11,5.34,Atlantic,"Year: 2056
+Mean change: 1.7%
+SD: ±5.3%"
+2057,ssp126,-12.94,-1.68,-1.7,5.35,4.7,Atlantic,"Year: 2057
+Mean change: -1.7%
+SD: ±4.7%"
+2057,ssp585,-8.52,0.26,-0.33,7.82,4.67,Atlantic,"Year: 2057
+Mean change: 0.3%
+SD: ±4.7%"
+2058,ssp126,-13.37,-1.64,-1.7,7.14,5.62,Atlantic,"Year: 2058
+Mean change: -1.6%
+SD: ±5.6%"
+2058,ssp585,-8.21,0.69,0.47,7.15,4.45,Atlantic,"Year: 2058
+Mean change: 0.7%
+SD: ±4.4%"
+2059,ssp126,-13.52,-1.27,-1.58,7.22,6.35,Atlantic,"Year: 2059
+Mean change: -1.3%
+SD: ±6.3%"
+2059,ssp585,-7.8,-0.02,-0.92,10.43,5.09,Atlantic,"Year: 2059
+Mean change: 0%
+SD: ±5.1%"
+2060,ssp126,-13.46,-1.2,-0.87,4.86,4.88,Atlantic,"Year: 2060
+Mean change: -1.2%
+SD: ±4.9%"
+2060,ssp585,-7.69,1,0.02,12.28,5.44,Atlantic,"Year: 2060
+Mean change: 1%
+SD: ±5.4%"
+2061,ssp126,-13.41,-1.63,-1.86,4.01,4.75,Atlantic,"Year: 2061
+Mean change: -1.6%
+SD: ±4.8%"
+2061,ssp585,-7.78,-0.39,-1.36,10.7,5.01,Atlantic,"Year: 2061
+Mean change: -0.4%
+SD: ±5%"
+2062,ssp126,-13.48,1.26,1.85,11.41,6.65,Atlantic,"Year: 2062
+Mean change: 1.3%
+SD: ±6.7%"
+2062,ssp585,-7.97,-0.43,-1.65,9.64,5.21,Atlantic,"Year: 2062
+Mean change: -0.4%
+SD: ±5.2%"
+2063,ssp126,-13.39,-2.74,-1.64,5.65,4.85,Atlantic,"Year: 2063
+Mean change: -2.7%
+SD: ±4.8%"
+2063,ssp585,-8.42,-0.43,-0.25,10.87,5.22,Atlantic,"Year: 2063
+Mean change: -0.4%
+SD: ±5.2%"
+2064,ssp126,-13.2,-2.03,-1.5,7.85,5.32,Atlantic,"Year: 2064
+Mean change: -2%
+SD: ±5.3%"
+2064,ssp585,-9.2,-1.68,-2.78,11.97,5.81,Atlantic,"Year: 2064
+Mean change: -1.7%
+SD: ±5.8%"
+2065,ssp126,-12.89,-0.67,-1.08,5.73,5.26,Atlantic,"Year: 2065
+Mean change: -0.7%
+SD: ±5.3%"
+2065,ssp585,-10.09,-0.29,-0.47,8.8,5.83,Atlantic,"Year: 2065
+Mean change: -0.3%
+SD: ±5.8%"
+2066,ssp126,-12.22,-1.44,-1.15,4.38,4.53,Atlantic,"Year: 2066
+Mean change: -1.4%
+SD: ±4.5%"
+2066,ssp585,-10.63,2.48,4.27,11.41,6.81,Atlantic,"Year: 2066
+Mean change: 2.5%
+SD: ±6.8%"
+2067,ssp126,-11.85,-3.23,-3.35,4.73,4.73,Atlantic,"Year: 2067
+Mean change: -3.2%
+SD: ±4.7%"
+2067,ssp585,-10.43,-0.04,0.15,8.09,5.36,Atlantic,"Year: 2067
+Mean change: 0%
+SD: ±5.4%"
+2068,ssp126,-12.06,-1.81,-1.87,4.98,4.4,Atlantic,"Year: 2068
+Mean change: -1.8%
+SD: ±4.4%"
+2068,ssp585,-10.22,-1.16,-1.33,10.4,6.71,Atlantic,"Year: 2068
+Mean change: -1.2%
+SD: ±6.7%"
+2069,ssp126,-11.96,-1.63,-2.16,4.45,4.66,Atlantic,"Year: 2069
+Mean change: -1.6%
+SD: ±4.7%"
+2069,ssp585,-10.38,0.75,0.17,10.7,6.4,Atlantic,"Year: 2069
+Mean change: 0.8%
+SD: ±6.4%"
+2070,ssp126,-11.63,-1.15,-1.68,7.05,6.18,Atlantic,"Year: 2070
+Mean change: -1.1%
+SD: ±6.2%"
+2070,ssp585,-10.56,-1.06,-1.18,10.87,5.5,Atlantic,"Year: 2070
+Mean change: -1.1%
+SD: ±5.5%"
+2071,ssp126,-11.3,0.14,-0.08,6.23,5.13,Atlantic,"Year: 2071
+Mean change: 0.1%
+SD: ±5.1%"
+2071,ssp585,-10.62,-0.14,-0.47,12.7,6.13,Atlantic,"Year: 2071
+Mean change: -0.1%
+SD: ±6.1%"
+2072,ssp126,-10.79,-1.64,-1.52,2.89,3.75,Atlantic,"Year: 2072
+Mean change: -1.6%
+SD: ±3.8%"
+2072,ssp585,-10.25,0.58,0.46,12.44,6.17,Atlantic,"Year: 2072
+Mean change: 0.6%
+SD: ±6.2%"
+2073,ssp126,-10.41,-2.73,-2.42,3.45,3.44,Atlantic,"Year: 2073
+Mean change: -2.7%
+SD: ±3.4%"
+2073,ssp585,-9.95,1.16,0.3,12.94,6.5,Atlantic,"Year: 2073
+Mean change: 1.2%
+SD: ±6.5%"
+2074,ssp126,-10.09,0.81,1.13,9.84,5.35,Atlantic,"Year: 2074
+Mean change: 0.8%
+SD: ±5.3%"
+2074,ssp585,-10.01,2.15,1.71,13.53,7.2,Atlantic,"Year: 2074
+Mean change: 2.1%
+SD: ±7.2%"
+2075,ssp126,-9.81,-2.15,-1.71,3.04,3.31,Atlantic,"Year: 2075
+Mean change: -2.1%
+SD: ±3.3%"
+2075,ssp585,-10.57,-0.83,-0.79,13.16,6.05,Atlantic,"Year: 2075
+Mean change: -0.8%
+SD: ±6%"
+2076,ssp126,-9.42,-1.41,-1.16,2.64,3.42,Atlantic,"Year: 2076
+Mean change: -1.4%
+SD: ±3.4%"
+2076,ssp585,-11.37,-0.03,-0.93,12.27,7.76,Atlantic,"Year: 2076
+Mean change: 0%
+SD: ±7.8%"
+2077,ssp126,-9.3,-2.12,-2.57,3.12,3.57,Atlantic,"Year: 2077
+Mean change: -2.1%
+SD: ±3.6%"
+2077,ssp585,-12.33,-1.37,-1.71,12.47,7.63,Atlantic,"Year: 2077
+Mean change: -1.4%
+SD: ±7.6%"
+2078,ssp126,-9.6,-3.93,-3.42,2.76,4.17,Atlantic,"Year: 2078
+Mean change: -3.9%
+SD: ±4.2%"
+2078,ssp585,-13.22,-0.96,-0.98,12.79,6.87,Atlantic,"Year: 2078
+Mean change: -1%
+SD: ±6.9%"
+2079,ssp126,-9.63,-3.08,-2.75,1.36,3.02,Atlantic,"Year: 2079
+Mean change: -3.1%
+SD: ±3%"
+2079,ssp585,-13.91,-0.65,0.02,13.18,6.99,Atlantic,"Year: 2079
+Mean change: -0.7%
+SD: ±7%"
+2080,ssp126,-9.63,-1.96,-2.37,5.23,4.05,Atlantic,"Year: 2080
+Mean change: -2%
+SD: ±4%"
+2080,ssp585,-14.36,-1.57,-2.07,13.08,7.58,Atlantic,"Year: 2080
+Mean change: -1.6%
+SD: ±7.6%"
+2081,ssp126,-10.41,-2.47,-2.81,5.91,4.8,Atlantic,"Year: 2081
+Mean change: -2.5%
+SD: ±4.8%"
+2081,ssp585,-14.44,0.27,0.15,12.71,7.96,Atlantic,"Year: 2081
+Mean change: 0.3%
+SD: ±8%"
+2082,ssp126,-12.24,-3.71,-2.96,7.76,6.44,Atlantic,"Year: 2082
+Mean change: -3.7%
+SD: ±6.4%"
+2082,ssp585,-14.51,-1.17,-1.21,10.19,7.48,Atlantic,"Year: 2082
+Mean change: -1.2%
+SD: ±7.5%"
+2083,ssp126,-13.3,-2.41,-2.56,8.55,5.66,Atlantic,"Year: 2083
+Mean change: -2.4%
+SD: ±5.7%"
+2083,ssp585,-14.87,-2.66,-1.9,8.07,6.67,Atlantic,"Year: 2083
+Mean change: -2.7%
+SD: ±6.7%"
+2084,ssp126,-14.6,0.17,-2.23,11.79,7.66,Atlantic,"Year: 2084
+Mean change: 0.2%
+SD: ±7.7%"
+2084,ssp585,-15.73,-1.49,-0.14,8.33,8.13,Atlantic,"Year: 2084
+Mean change: -1.5%
+SD: ±8.1%"
+2085,ssp126,-15.41,-2.24,-1.69,8.56,5.93,Atlantic,"Year: 2085
+Mean change: -2.2%
+SD: ±5.9%"
+2085,ssp585,-17.05,-2.41,-1.9,8.71,7.3,Atlantic,"Year: 2085
+Mean change: -2.4%
+SD: ±7.3%"
+2086,ssp126,-15.91,-2.96,-2.2,6.42,5.65,Atlantic,"Year: 2086
+Mean change: -3%
+SD: ±5.7%"
+2086,ssp585,-18.2,-2.02,-1.56,9.86,7.41,Atlantic,"Year: 2086
+Mean change: -2%
+SD: ±7.4%"
+2087,ssp126,-16.32,-1.9,-1.7,5.38,5.91,Atlantic,"Year: 2087
+Mean change: -1.9%
+SD: ±5.9%"
+2087,ssp585,-18.73,-1.86,-2.37,10.94,8.01,Atlantic,"Year: 2087
+Mean change: -1.9%
+SD: ±8%"
+2088,ssp126,-16.93,-3.8,-2.56,5.63,5.88,Atlantic,"Year: 2088
+Mean change: -3.8%
+SD: ±5.9%"
+2088,ssp585,-18.85,-1.8,-1.31,12.23,9,Atlantic,"Year: 2088
+Mean change: -1.8%
+SD: ±9%"
+2089,ssp126,-17.73,-4.58,-3.14,5.06,6.06,Atlantic,"Year: 2089
+Mean change: -4.6%
+SD: ±6.1%"
+2089,ssp585,-18.79,-3.18,-2.66,13.56,8.32,Atlantic,"Year: 2089
+Mean change: -3.2%
+SD: ±8.3%"
+2090,ssp126,-18.41,-5.02,-4.33,2.55,5.96,Atlantic,"Year: 2090
+Mean change: -5%
+SD: ±6%"
+2090,ssp585,-18.67,-2.25,-2.75,14.18,8.78,Atlantic,"Year: 2090
+Mean change: -2.2%
+SD: ±8.8%"
+2091,ssp126,-19.12,-3.05,-1.88,5.42,6.82,Atlantic,"Year: 2091
+Mean change: -3%
+SD: ±6.8%"
+2091,ssp585,-18.77,-2.61,-2.78,15.73,9.67,Atlantic,"Year: 2091
+Mean change: -2.6%
+SD: ±9.7%"
+2092,ssp126,-19.62,-3.45,-2.13,1.58,6.09,Atlantic,"Year: 2092
+Mean change: -3.5%
+SD: ±6.1%"
+2092,ssp585,-19.21,-2.17,-2.12,16.36,9.73,Atlantic,"Year: 2092
+Mean change: -2.2%
+SD: ±9.7%"
+2093,ssp126,-19.52,-1.21,-0.66,7.44,7.32,Atlantic,"Year: 2093
+Mean change: -1.2%
+SD: ±7.3%"
+2093,ssp585,-19.7,-1.6,-1.23,15.83,9.46,Atlantic,"Year: 2093
+Mean change: -1.6%
+SD: ±9.5%"
+2094,ssp126,-19.1,-3.28,-2.85,2.92,6.8,Atlantic,"Year: 2094
+Mean change: -3.3%
+SD: ±6.8%"
+2094,ssp585,-20.04,-1.56,-0.65,13.98,9.17,Atlantic,"Year: 2094
+Mean change: -1.6%
+SD: ±9.2%"
+2095,ssp126,-18.88,-1.48,-2.41,7.7,7.7,Atlantic,"Year: 2095
+Mean change: -1.5%
+SD: ±7.7%"
+2095,ssp585,-20.33,-3.11,-2.94,12.59,9.09,Atlantic,"Year: 2095
+Mean change: -3.1%
+SD: ±9.1%"
+2096,ssp126,-18.78,-3.43,-2.61,6.09,6.78,Atlantic,"Year: 2096
+Mean change: -3.4%
+SD: ±6.8%"
+2096,ssp585,-20.82,-3.94,-3,12.71,9.04,Atlantic,"Year: 2096
+Mean change: -3.9%
+SD: ±9%"
+2097,ssp126,-18.69,-5.39,-5.02,6.45,6.18,Atlantic,"Year: 2097
+Mean change: -5.4%
+SD: ±6.2%"
+2097,ssp585,-21.33,-1.3,-1.27,12.64,11,Atlantic,"Year: 2097
+Mean change: -1.3%
+SD: ±11%"
+2098,ssp126,-18.81,-5.06,-3.84,5.34,6.04,Atlantic,"Year: 2098
+Mean change: -5.1%
+SD: ±6%"
+2098,ssp585,-21.77,-2.52,-2.82,13.34,10.71,Atlantic,"Year: 2098
+Mean change: -2.5%
+SD: ±10.7%"
+2099,ssp126,-18.97,-1.57,-2.18,9.28,7.5,Atlantic,"Year: 2099
+Mean change: -1.6%
+SD: ±7.5%"
+2099,ssp585,-22.09,-3.82,-2.79,15.8,10.04,Atlantic,"Year: 2099
+Mean change: -3.8%
+SD: ±10%"
+2100,ssp126,-18.98,-4.05,-4.25,8.29,7.33,Atlantic,"Year: 2100
+Mean change: -4%
+SD: ±7.3%"
+2100,ssp585,-22.29,-3.09,-3.26,18.39,10.32,Atlantic,"Year: 2100
+Mean change: -3.1%
+SD: ±10.3%"
+1950,historical,-19.13,-4.78,-1.71,4.51,7.72,Heard Island and McDonald Islands,"Year: 1950
+Mean change: -4.8%
+SD: ±7.7%"
+1951,historical,-20.52,-4.32,-2.59,5.43,8.11,Heard Island and McDonald Islands,"Year: 1951
+Mean change: -4.3%
+SD: ±8.1%"
+1952,historical,-23.27,-4.33,-0.33,4.76,8.89,Heard Island and McDonald Islands,"Year: 1952
+Mean change: -4.3%
+SD: ±8.9%"
+1953,historical,-21.71,-3.12,1.3,6.43,8.78,Heard Island and McDonald Islands,"Year: 1953
+Mean change: -3.1%
+SD: ±8.8%"
+1954,historical,-18.3,-2.75,-0.57,6.24,7.6,Heard Island and McDonald Islands,"Year: 1954
+Mean change: -2.8%
+SD: ±7.6%"
+1955,historical,-16.33,-2.32,0.62,5.78,7.74,Heard Island and McDonald Islands,"Year: 1955
+Mean change: -2.3%
+SD: ±7.7%"
+1956,historical,-17.9,-2.06,0.57,6.8,7.88,Heard Island and McDonald Islands,"Year: 1956
+Mean change: -2.1%
+SD: ±7.9%"
+1957,historical,-17.85,-3.16,-0.82,4.25,6.9,Heard Island and McDonald Islands,"Year: 1957
+Mean change: -3.2%
+SD: ±6.9%"
+1958,historical,-13.86,-2.01,2.35,4.51,7.23,Heard Island and McDonald Islands,"Year: 1958
+Mean change: -2%
+SD: ±7.2%"
+1959,historical,-15.32,-3.27,-1.09,4.39,6.91,Heard Island and McDonald Islands,"Year: 1959
+Mean change: -3.3%
+SD: ±6.9%"
+1960,historical,-15.92,-2.6,0.42,7.4,7.76,Heard Island and McDonald Islands,"Year: 1960
+Mean change: -2.6%
+SD: ±7.8%"
+1961,historical,-12.45,-2.1,0.9,3.84,5.99,Heard Island and McDonald Islands,"Year: 1961
+Mean change: -2.1%
+SD: ±6%"
+1962,historical,-9.75,-1.61,0.78,5.59,6.03,Heard Island and McDonald Islands,"Year: 1962
+Mean change: -1.6%
+SD: ±6%"
+1963,historical,-10.57,-1.82,-0.77,4,4.59,Heard Island and McDonald Islands,"Year: 1963
+Mean change: -1.8%
+SD: ±4.6%"
+1964,historical,-8.91,-3.35,-2.64,3.39,4.19,Heard Island and McDonald Islands,"Year: 1964
+Mean change: -3.4%
+SD: ±4.2%"
+1965,historical,-12.12,-2.09,-1.03,3.96,4.88,Heard Island and McDonald Islands,"Year: 1965
+Mean change: -2.1%
+SD: ±4.9%"
+1966,historical,-10.98,-1.96,-1.68,8,5.75,Heard Island and McDonald Islands,"Year: 1966
+Mean change: -2%
+SD: ±5.8%"
+1967,historical,-11.72,-4.11,-4.08,2.72,5.17,Heard Island and McDonald Islands,"Year: 1967
+Mean change: -4.1%
+SD: ±5.2%"
+1968,historical,-9.37,-2.69,-2.56,3.59,4.23,Heard Island and McDonald Islands,"Year: 1968
+Mean change: -2.7%
+SD: ±4.2%"
+1969,historical,-9,-3.19,-3.65,2.84,4.29,Heard Island and McDonald Islands,"Year: 1969
+Mean change: -3.2%
+SD: ±4.3%"
+1970,historical,-9.45,-3.21,-3.09,2.58,3.28,Heard Island and McDonald Islands,"Year: 1970
+Mean change: -3.2%
+SD: ±3.3%"
+1971,historical,-9.46,-1.7,-1,3.42,4.21,Heard Island and McDonald Islands,"Year: 1971
+Mean change: -1.7%
+SD: ±4.2%"
+1972,historical,-9.07,-1.14,-2.12,6.71,5.12,Heard Island and McDonald Islands,"Year: 1972
+Mean change: -1.1%
+SD: ±5.1%"
+1973,historical,-12.26,-1.95,-0.91,6.13,6.02,Heard Island and McDonald Islands,"Year: 1973
+Mean change: -2%
+SD: ±6%"
+1974,historical,-11.6,-3.01,-1.02,1.77,5,Heard Island and McDonald Islands,"Year: 1974
+Mean change: -3%
+SD: ±5%"
+1975,historical,-8.84,-1.77,-0.23,3.58,4.36,Heard Island and McDonald Islands,"Year: 1975
+Mean change: -1.8%
+SD: ±4.4%"
+1976,historical,-11.57,-2.48,-2.38,3.98,5.11,Heard Island and McDonald Islands,"Year: 1976
+Mean change: -2.5%
+SD: ±5.1%"
+1977,historical,-8.83,-1,1.44,3.91,4.77,Heard Island and McDonald Islands,"Year: 1977
+Mean change: -1%
+SD: ±4.8%"
+1978,historical,-11.05,-1.83,-1.24,5.84,5.57,Heard Island and McDonald Islands,"Year: 1978
+Mean change: -1.8%
+SD: ±5.6%"
+1979,historical,-12.46,-0.7,0.24,7.1,5.85,Heard Island and McDonald Islands,"Year: 1979
+Mean change: -0.7%
+SD: ±5.8%"
+1980,historical,-5.99,-1.07,-0.12,2.19,2.89,Heard Island and McDonald Islands,"Year: 1980
+Mean change: -1.1%
+SD: ±2.9%"
+1981,historical,-8.01,-2.41,-2.68,1.78,3.36,Heard Island and McDonald Islands,"Year: 1981
+Mean change: -2.4%
+SD: ±3.4%"
+1982,historical,-7.33,-3.48,-5.2,3.37,3.67,Heard Island and McDonald Islands,"Year: 1982
+Mean change: -3.5%
+SD: ±3.7%"
+1983,historical,-13.12,-1.36,-0.17,3.11,4.62,Heard Island and McDonald Islands,"Year: 1983
+Mean change: -1.4%
+SD: ±4.6%"
+1984,historical,-10.57,-0.87,0.21,4.6,4.95,Heard Island and McDonald Islands,"Year: 1984
+Mean change: -0.9%
+SD: ±5%"
+1985,historical,-7.38,-1.56,-1.29,3.01,3.54,Heard Island and McDonald Islands,"Year: 1985
+Mean change: -1.6%
+SD: ±3.5%"
+1986,historical,-6.1,-1.08,-1.89,4.18,3.52,Heard Island and McDonald Islands,"Year: 1986
+Mean change: -1.1%
+SD: ±3.5%"
+1987,historical,-6.63,-0.49,-0.57,5.33,4.64,Heard Island and McDonald Islands,"Year: 1987
+Mean change: -0.5%
+SD: ±4.6%"
+1988,historical,-7.08,-0.58,-0.2,5.93,4.65,Heard Island and McDonald Islands,"Year: 1988
+Mean change: -0.6%
+SD: ±4.7%"
+1989,historical,-7.75,-1.22,-2.15,5.2,4.75,Heard Island and McDonald Islands,"Year: 1989
+Mean change: -1.2%
+SD: ±4.8%"
+1990,historical,-4.08,-0.9,-2.47,5.48,3.68,Heard Island and McDonald Islands,"Year: 1990
+Mean change: -0.9%
+SD: ±3.7%"
+1991,historical,-7.92,-0.51,-0.76,5.91,3.99,Heard Island and McDonald Islands,"Year: 1991
+Mean change: -0.5%
+SD: ±4%"
+1992,historical,-7.14,-1.61,-2.89,5.85,5.12,Heard Island and McDonald Islands,"Year: 1992
+Mean change: -1.6%
+SD: ±5.1%"
+1993,historical,-6.98,0.06,-0.3,6.2,4.03,Heard Island and McDonald Islands,"Year: 1993
+Mean change: 0.1%
+SD: ±4%"
+1994,historical,-7.23,-0.41,0.17,3.59,3.24,Heard Island and McDonald Islands,"Year: 1994
+Mean change: -0.4%
+SD: ±3.2%"
+1995,historical,-7.94,-0.28,0.39,3.5,3.74,Heard Island and McDonald Islands,"Year: 1995
+Mean change: -0.3%
+SD: ±3.7%"
+1996,historical,-8.26,-2.62,-2.98,2.66,3.64,Heard Island and McDonald Islands,"Year: 1996
+Mean change: -2.6%
+SD: ±3.6%"
+1997,historical,-2.92,2.3,1.41,11.26,4.09,Heard Island and McDonald Islands,"Year: 1997
+Mean change: 2.3%
+SD: ±4.1%"
+1998,historical,-4.48,0.01,-0.3,4.38,3.07,Heard Island and McDonald Islands,"Year: 1998
+Mean change: 0%
+SD: ±3.1%"
+1999,historical,-2.61,1.06,0.93,5.23,2.15,Heard Island and McDonald Islands,"Year: 1999
+Mean change: 1.1%
+SD: ±2.1%"
+2000,historical,-4.91,1.43,1.58,5.01,2.73,Heard Island and McDonald Islands,"Year: 2000
+Mean change: 1.4%
+SD: ±2.7%"
+2001,historical,-3.51,1.99,1.71,8.02,3.2,Heard Island and McDonald Islands,"Year: 2001
+Mean change: 2%
+SD: ±3.2%"
+2002,historical,-1.88,1.41,1.89,4.02,1.81,Heard Island and McDonald Islands,"Year: 2002
+Mean change: 1.4%
+SD: ±1.8%"
+2003,historical,-9.06,-0.84,0.3,3.86,4.27,Heard Island and McDonald Islands,"Year: 2003
+Mean change: -0.8%
+SD: ±4.3%"
+2004,historical,-7.98,-2.81,-2.93,3.39,4.37,Heard Island and McDonald Islands,"Year: 2004
+Mean change: -2.8%
+SD: ±4.4%"
+2005,historical,-5.98,-1.61,-1.15,1.16,2.16,Heard Island and McDonald Islands,"Year: 2005
+Mean change: -1.6%
+SD: ±2.2%"
+2006,historical,-5.59,-0.62,-0.58,4.37,2.9,Heard Island and McDonald Islands,"Year: 2006
+Mean change: -0.6%
+SD: ±2.9%"
+2007,historical,-3.02,-0.83,-0.73,1.45,1.85,Heard Island and McDonald Islands,"Year: 2007
+Mean change: -0.8%
+SD: ±1.9%"
+2008,historical,-2.99,-0.87,-0.51,0.66,1.34,Heard Island and McDonald Islands,"Year: 2008
+Mean change: -0.9%
+SD: ±1.3%"
+2009,historical,-5.77,1.48,0.61,8.48,4.47,Heard Island and McDonald Islands,"Year: 2009
+Mean change: 1.5%
+SD: ±4.5%"
+2010,historical,-6.2,0.22,0.81,4.26,3.64,Heard Island and McDonald Islands,"Year: 2010
+Mean change: 0.2%
+SD: ±3.6%"
+2011,historical,-3.05,1.2,0.94,6.6,2.54,Heard Island and McDonald Islands,"Year: 2011
+Mean change: 1.2%
+SD: ±2.5%"
+2012,historical,-4.52,0.53,0.27,5.58,2.55,Heard Island and McDonald Islands,"Year: 2012
+Mean change: 0.5%
+SD: ±2.5%"
+2013,historical,-5.21,0.94,1.2,5.63,3.16,Heard Island and McDonald Islands,"Year: 2013
+Mean change: 0.9%
+SD: ±3.2%"
+2014,historical,-5.17,-0.44,-0.17,2.14,2.37,Heard Island and McDonald Islands,"Year: 2014
+Mean change: -0.4%
+SD: ±2.4%"
+2015,ssp126,-1.1,1.06,0.43,6.86,2.27,Heard Island and McDonald Islands,"Year: 2015
+Mean change: 1.1%
+SD: ±2.3%"
+2015,ssp585,-4,-0.18,-0.28,2.5,2,Heard Island and McDonald Islands,"Year: 2015
+Mean change: -0.2%
+SD: ±2%"
+2016,ssp126,-8.24,-1.6,-0.86,2.65,3.16,Heard Island and McDonald Islands,"Year: 2016
+Mean change: -1.6%
+SD: ±3.2%"
+2016,ssp585,-6.02,-1.43,-1.1,3.92,3.01,Heard Island and McDonald Islands,"Year: 2016
+Mean change: -1.4%
+SD: ±3%"
+2017,ssp126,-7.42,-4.03,-4.76,0.21,2.9,Heard Island and McDonald Islands,"Year: 2017
+Mean change: -4%
+SD: ±2.9%"
+2017,ssp585,-8.23,-1.61,-1.35,6.24,4.19,Heard Island and McDonald Islands,"Year: 2017
+Mean change: -1.6%
+SD: ±4.2%"
+2018,ssp126,-13.59,-5.47,-4.63,0.86,4.85,Heard Island and McDonald Islands,"Year: 2018
+Mean change: -5.5%
+SD: ±4.8%"
+2018,ssp585,-14.96,0.3,0.75,10.28,6.57,Heard Island and McDonald Islands,"Year: 2018
+Mean change: 0.3%
+SD: ±6.6%"
+2019,ssp126,-20.05,-5.16,-4.75,5.21,7.53,Heard Island and McDonald Islands,"Year: 2019
+Mean change: -5.2%
+SD: ±7.5%"
+2019,ssp585,-17.54,-0.78,0.71,5.11,6.29,Heard Island and McDonald Islands,"Year: 2019
+Mean change: -0.8%
+SD: ±6.3%"
+2020,ssp126,-14.57,-3.9,-2.7,0.99,4.65,Heard Island and McDonald Islands,"Year: 2020
+Mean change: -3.9%
+SD: ±4.7%"
+2020,ssp585,-15.06,-2.12,-0.86,4.48,5.62,Heard Island and McDonald Islands,"Year: 2020
+Mean change: -2.1%
+SD: ±5.6%"
+2021,ssp126,-14.34,-4.46,-3.32,4.1,6.09,Heard Island and McDonald Islands,"Year: 2021
+Mean change: -4.5%
+SD: ±6.1%"
+2021,ssp585,-12.03,-2.14,-1.85,2.75,4.2,Heard Island and McDonald Islands,"Year: 2021
+Mean change: -2.1%
+SD: ±4.2%"
+2022,ssp126,-9.55,-4.73,-5,1.13,3.84,Heard Island and McDonald Islands,"Year: 2022
+Mean change: -4.7%
+SD: ±3.8%"
+2022,ssp585,-17.32,-2.14,-0.69,5.83,6.13,Heard Island and McDonald Islands,"Year: 2022
+Mean change: -2.1%
+SD: ±6.1%"
+2023,ssp126,-11.22,-5.31,-6.89,4.94,5.18,Heard Island and McDonald Islands,"Year: 2023
+Mean change: -5.3%
+SD: ±5.2%"
+2023,ssp585,-11.11,-2.89,-2.04,2.32,3.85,Heard Island and McDonald Islands,"Year: 2023
+Mean change: -2.9%
+SD: ±3.9%"
+2024,ssp126,-15.76,-3.5,-2.79,4.78,5.65,Heard Island and McDonald Islands,"Year: 2024
+Mean change: -3.5%
+SD: ±5.7%"
+2024,ssp585,-7.69,-0.41,0.83,5.7,4.14,Heard Island and McDonald Islands,"Year: 2024
+Mean change: -0.4%
+SD: ±4.1%"
+2025,ssp126,-12.7,-3.18,-2.65,7.87,6.07,Heard Island and McDonald Islands,"Year: 2025
+Mean change: -3.2%
+SD: ±6.1%"
+2025,ssp585,-10.3,-1.58,-0.84,5.42,5.27,Heard Island and McDonald Islands,"Year: 2025
+Mean change: -1.6%
+SD: ±5.3%"
+2026,ssp126,-9.6,-0.99,0.61,2.65,4.06,Heard Island and McDonald Islands,"Year: 2026
+Mean change: -1%
+SD: ±4.1%"
+2026,ssp585,-9.86,-4.91,-4.92,3.19,3.97,Heard Island and McDonald Islands,"Year: 2026
+Mean change: -4.9%
+SD: ±4%"
+2027,ssp126,-9.71,-3.98,-4.13,0.72,3.24,Heard Island and McDonald Islands,"Year: 2027
+Mean change: -4%
+SD: ±3.2%"
+2027,ssp585,-10.23,-4.35,-4.01,1.78,4.09,Heard Island and McDonald Islands,"Year: 2027
+Mean change: -4.3%
+SD: ±4.1%"
+2028,ssp126,-12.65,-4.77,-3.93,2.22,4.76,Heard Island and McDonald Islands,"Year: 2028
+Mean change: -4.8%
+SD: ±4.8%"
+2028,ssp585,-12.6,-1.63,-1.5,7.84,6.33,Heard Island and McDonald Islands,"Year: 2028
+Mean change: -1.6%
+SD: ±6.3%"
+2029,ssp126,-9.98,-4.34,-4.14,0.8,3.62,Heard Island and McDonald Islands,"Year: 2029
+Mean change: -4.3%
+SD: ±3.6%"
+2029,ssp585,-11.17,-3.03,-3,2.58,3.84,Heard Island and McDonald Islands,"Year: 2029
+Mean change: -3%
+SD: ±3.8%"
+2030,ssp126,-10.46,-4.38,-3.66,0.11,3.36,Heard Island and McDonald Islands,"Year: 2030
+Mean change: -4.4%
+SD: ±3.4%"
+2030,ssp585,-10.15,-2.6,-1.59,2.34,3.56,Heard Island and McDonald Islands,"Year: 2030
+Mean change: -2.6%
+SD: ±3.6%"
+2031,ssp126,-10.58,-4.17,-4.77,0.88,3.2,Heard Island and McDonald Islands,"Year: 2031
+Mean change: -4.2%
+SD: ±3.2%"
+2031,ssp585,-13.67,-4.44,-4.36,5.61,5.8,Heard Island and McDonald Islands,"Year: 2031
+Mean change: -4.4%
+SD: ±5.8%"
+2032,ssp126,-10.71,-4.11,-4.16,4.31,4.42,Heard Island and McDonald Islands,"Year: 2032
+Mean change: -4.1%
+SD: ±4.4%"
+2032,ssp585,-14.77,-3.82,-3.85,6.46,5.95,Heard Island and McDonald Islands,"Year: 2032
+Mean change: -3.8%
+SD: ±6%"
+2033,ssp126,-15.21,-4.74,-3.52,3.92,5.19,Heard Island and McDonald Islands,"Year: 2033
+Mean change: -4.7%
+SD: ±5.2%"
+2033,ssp585,-11.51,-4.56,-4.16,2.36,3.91,Heard Island and McDonald Islands,"Year: 2033
+Mean change: -4.6%
+SD: ±3.9%"
+2034,ssp126,-9.3,-4.78,-4.23,-1.53,2.76,Heard Island and McDonald Islands,"Year: 2034
+Mean change: -4.8%
+SD: ±2.8%"
+2034,ssp585,-9.64,-3.84,-3.25,1.24,3.71,Heard Island and McDonald Islands,"Year: 2034
+Mean change: -3.8%
+SD: ±3.7%"
+2035,ssp126,-8.65,-3.85,-4.16,6.68,4.6,Heard Island and McDonald Islands,"Year: 2035
+Mean change: -3.9%
+SD: ±4.6%"
+2035,ssp585,-12.32,-2.95,-2.71,3.82,5.2,Heard Island and McDonald Islands,"Year: 2035
+Mean change: -3%
+SD: ±5.2%"
+2036,ssp126,-7.82,-3.67,-4.26,2.22,3.29,Heard Island and McDonald Islands,"Year: 2036
+Mean change: -3.7%
+SD: ±3.3%"
+2036,ssp585,-10.36,-3.62,-3.1,1.35,4.12,Heard Island and McDonald Islands,"Year: 2036
+Mean change: -3.6%
+SD: ±4.1%"
+2037,ssp126,-8.7,-4.17,-4.12,0.12,2.95,Heard Island and McDonald Islands,"Year: 2037
+Mean change: -4.2%
+SD: ±3%"
+2037,ssp585,-10,-2.35,-2.76,3.78,4.26,Heard Island and McDonald Islands,"Year: 2037
+Mean change: -2.4%
+SD: ±4.3%"
+2038,ssp126,-8.02,-2.73,-1.98,1.23,3.12,Heard Island and McDonald Islands,"Year: 2038
+Mean change: -2.7%
+SD: ±3.1%"
+2038,ssp585,-9.5,-3.35,-3.9,3.27,3.58,Heard Island and McDonald Islands,"Year: 2038
+Mean change: -3.4%
+SD: ±3.6%"
+2039,ssp126,-7.07,-4.2,-4.38,0.24,2.29,Heard Island and McDonald Islands,"Year: 2039
+Mean change: -4.2%
+SD: ±2.3%"
+2039,ssp585,-10.89,-4,-2.62,1.03,4.35,Heard Island and McDonald Islands,"Year: 2039
+Mean change: -4%
+SD: ±4.3%"
+2040,ssp126,-8.26,-3.11,-3.08,4.75,3.71,Heard Island and McDonald Islands,"Year: 2040
+Mean change: -3.1%
+SD: ±3.7%"
+2040,ssp585,-16.17,-4.85,-3.29,6.4,6.93,Heard Island and McDonald Islands,"Year: 2040
+Mean change: -4.8%
+SD: ±6.9%"
+2041,ssp126,-10.82,-5.18,-6.28,3.84,4.67,Heard Island and McDonald Islands,"Year: 2041
+Mean change: -5.2%
+SD: ±4.7%"
+2041,ssp585,-19.08,-4.31,-4.29,7.48,7.56,Heard Island and McDonald Islands,"Year: 2041
+Mean change: -4.3%
+SD: ±7.6%"
+2042,ssp126,-9.5,-4.38,-5.88,8.8,5.06,Heard Island and McDonald Islands,"Year: 2042
+Mean change: -4.4%
+SD: ±5.1%"
+2042,ssp585,-10.89,-3.43,-3.03,8.54,5.51,Heard Island and McDonald Islands,"Year: 2042
+Mean change: -3.4%
+SD: ±5.5%"
+2043,ssp126,-9.07,-2.92,-2.04,1.47,3.41,Heard Island and McDonald Islands,"Year: 2043
+Mean change: -2.9%
+SD: ±3.4%"
+2043,ssp585,-10.65,-4.48,-4.19,2.79,4.34,Heard Island and McDonald Islands,"Year: 2043
+Mean change: -4.5%
+SD: ±4.3%"
+2044,ssp126,-8.94,-3.44,-3.3,3.6,4.26,Heard Island and McDonald Islands,"Year: 2044
+Mean change: -3.4%
+SD: ±4.3%"
+2044,ssp585,-10.17,-3.52,-2.97,1.23,3.45,Heard Island and McDonald Islands,"Year: 2044
+Mean change: -3.5%
+SD: ±3.5%"
+2045,ssp126,-12.8,-5.64,-5.52,1.22,4.82,Heard Island and McDonald Islands,"Year: 2045
+Mean change: -5.6%
+SD: ±4.8%"
+2045,ssp585,-7.23,-4.42,-5.16,2.05,2.81,Heard Island and McDonald Islands,"Year: 2045
+Mean change: -4.4%
+SD: ±2.8%"
+2046,ssp126,-10.58,-3.77,-4,6.8,5.21,Heard Island and McDonald Islands,"Year: 2046
+Mean change: -3.8%
+SD: ±5.2%"
+2046,ssp585,-7.49,-4.07,-4.14,0.23,2.44,Heard Island and McDonald Islands,"Year: 2046
+Mean change: -4.1%
+SD: ±2.4%"
+2047,ssp126,-10.24,-3.09,-2.95,1.75,3.79,Heard Island and McDonald Islands,"Year: 2047
+Mean change: -3.1%
+SD: ±3.8%"
+2047,ssp585,-9.51,-2.83,-5.04,9.34,5.73,Heard Island and McDonald Islands,"Year: 2047
+Mean change: -2.8%
+SD: ±5.7%"
+2048,ssp126,-9.19,-2.5,-2.25,3.58,4.1,Heard Island and McDonald Islands,"Year: 2048
+Mean change: -2.5%
+SD: ±4.1%"
+2048,ssp585,-9.82,-3.56,-2.8,0.39,3.51,Heard Island and McDonald Islands,"Year: 2048
+Mean change: -3.6%
+SD: ±3.5%"
+2049,ssp126,-9.57,-3.26,-3.7,4.79,4.17,Heard Island and McDonald Islands,"Year: 2049
+Mean change: -3.3%
+SD: ±4.2%"
+2049,ssp585,-13.65,-4.51,-4.38,2.45,4.68,Heard Island and McDonald Islands,"Year: 2049
+Mean change: -4.5%
+SD: ±4.7%"
+2050,ssp126,-8.76,-2.86,-2.8,2.33,2.91,Heard Island and McDonald Islands,"Year: 2050
+Mean change: -2.9%
+SD: ±2.9%"
+2050,ssp585,-16.93,-4.57,-4.31,6.07,6.5,Heard Island and McDonald Islands,"Year: 2050
+Mean change: -4.6%
+SD: ±6.5%"
+2051,ssp126,-9.52,-5.7,-5.97,-2,2.49,Heard Island and McDonald Islands,"Year: 2051
+Mean change: -5.7%
+SD: ±2.5%"
+2051,ssp585,-8.36,-3.37,-3.76,2.67,3.5,Heard Island and McDonald Islands,"Year: 2051
+Mean change: -3.4%
+SD: ±3.5%"
+2052,ssp126,-10.6,-4.53,-4.41,5.74,4.29,Heard Island and McDonald Islands,"Year: 2052
+Mean change: -4.5%
+SD: ±4.3%"
+2052,ssp585,-8.74,-3.95,-5.62,3.92,4.54,Heard Island and McDonald Islands,"Year: 2052
+Mean change: -4%
+SD: ±4.5%"
+2053,ssp126,-11.44,-3.86,-3.1,3.11,4.04,Heard Island and McDonald Islands,"Year: 2053
+Mean change: -3.9%
+SD: ±4%"
+2053,ssp585,-11.92,-4.86,-3.87,-1.43,3.17,Heard Island and McDonald Islands,"Year: 2053
+Mean change: -4.9%
+SD: ±3.2%"
+2054,ssp126,-12.07,-4.11,-4.34,4.39,4.74,Heard Island and McDonald Islands,"Year: 2054
+Mean change: -4.1%
+SD: ±4.7%"
+2054,ssp585,-10.92,-3.35,-2.39,3.38,4.43,Heard Island and McDonald Islands,"Year: 2054
+Mean change: -3.4%
+SD: ±4.4%"
+2055,ssp126,-12.69,-3.16,-3.42,3.38,5.28,Heard Island and McDonald Islands,"Year: 2055
+Mean change: -3.2%
+SD: ±5.3%"
+2055,ssp585,-11.2,-6.04,-7.17,1.29,3.31,Heard Island and McDonald Islands,"Year: 2055
+Mean change: -6%
+SD: ±3.3%"
+2056,ssp126,-13.29,-4.65,-4.62,1.23,4.19,Heard Island and McDonald Islands,"Year: 2056
+Mean change: -4.7%
+SD: ±4.2%"
+2056,ssp585,-11.79,-5.05,-5.54,5.71,4.7,Heard Island and McDonald Islands,"Year: 2056
+Mean change: -5%
+SD: ±4.7%"
+2057,ssp126,-13.66,-6.06,-5.22,-0.23,3.64,Heard Island and McDonald Islands,"Year: 2057
+Mean change: -6.1%
+SD: ±3.6%"
+2057,ssp585,-11.15,-6.03,-6.76,2.78,3.61,Heard Island and McDonald Islands,"Year: 2057
+Mean change: -6%
+SD: ±3.6%"
+2058,ssp126,-14.16,-5,-5,1.23,4.02,Heard Island and McDonald Islands,"Year: 2058
+Mean change: -5%
+SD: ±4%"
+2058,ssp585,-9.31,-5.48,-5.96,4.29,3.82,Heard Island and McDonald Islands,"Year: 2058
+Mean change: -5.5%
+SD: ±3.8%"
+2059,ssp126,-14.6,-4.29,-3.74,2.12,5.05,Heard Island and McDonald Islands,"Year: 2059
+Mean change: -4.3%
+SD: ±5%"
+2059,ssp585,-8.63,-5.27,-6.69,2.62,3.68,Heard Island and McDonald Islands,"Year: 2059
+Mean change: -5.3%
+SD: ±3.7%"
+2060,ssp126,-14.6,-3.96,-2.68,4.06,5.04,Heard Island and McDonald Islands,"Year: 2060
+Mean change: -4%
+SD: ±5%"
+2060,ssp585,-8.98,-4.4,-5.15,2.65,3.6,Heard Island and McDonald Islands,"Year: 2060
+Mean change: -4.4%
+SD: ±3.6%"
+2061,ssp126,-13.69,-3.92,-1.68,0.98,4.61,Heard Island and McDonald Islands,"Year: 2061
+Mean change: -3.9%
+SD: ±4.6%"
+2061,ssp585,-15.02,-6.89,-7.68,0.45,4.43,Heard Island and McDonald Islands,"Year: 2061
+Mean change: -6.9%
+SD: ±4.4%"
+2062,ssp126,-12.02,-3.18,-5.71,9.62,6.76,Heard Island and McDonald Islands,"Year: 2062
+Mean change: -3.2%
+SD: ±6.8%"
+2062,ssp585,-15.53,-7.1,-8.45,-0.15,4.65,Heard Island and McDonald Islands,"Year: 2062
+Mean change: -7.1%
+SD: ±4.7%"
+2063,ssp126,-14.75,-6.61,-5.77,1.16,4.45,Heard Island and McDonald Islands,"Year: 2063
+Mean change: -6.6%
+SD: ±4.4%"
+2063,ssp585,-15.53,-6.53,-6.85,4.23,5.31,Heard Island and McDonald Islands,"Year: 2063
+Mean change: -6.5%
+SD: ±5.3%"
+2064,ssp126,-11.3,-5.68,-5.58,0.48,3.66,Heard Island and McDonald Islands,"Year: 2064
+Mean change: -5.7%
+SD: ±3.7%"
+2064,ssp585,-18.45,-8.21,-8.33,-0.07,5.33,Heard Island and McDonald Islands,"Year: 2064
+Mean change: -8.2%
+SD: ±5.3%"
+2065,ssp126,-10.35,-4.17,-4.56,2.83,3.44,Heard Island and McDonald Islands,"Year: 2065
+Mean change: -4.2%
+SD: ±3.4%"
+2065,ssp585,-18.9,-7.39,-8.54,4.75,7.23,Heard Island and McDonald Islands,"Year: 2065
+Mean change: -7.4%
+SD: ±7.2%"
+2066,ssp126,-9.14,-2.02,-1.93,4.61,4.17,Heard Island and McDonald Islands,"Year: 2066
+Mean change: -2%
+SD: ±4.2%"
+2066,ssp585,-22.38,-7.97,-7.78,4.3,7.5,Heard Island and McDonald Islands,"Year: 2066
+Mean change: -8%
+SD: ±7.5%"
+2067,ssp126,-9.07,-3.44,-2.96,2.87,3.91,Heard Island and McDonald Islands,"Year: 2067
+Mean change: -3.4%
+SD: ±3.9%"
+2067,ssp585,-17.15,-8.65,-8.89,0.46,5.51,Heard Island and McDonald Islands,"Year: 2067
+Mean change: -8.7%
+SD: ±5.5%"
+2068,ssp126,-10.17,-6.39,-6.02,-4.15,2.09,Heard Island and McDonald Islands,"Year: 2068
+Mean change: -6.4%
+SD: ±2.1%"
+2068,ssp585,-17.76,-8.74,-9.65,0.47,5.7,Heard Island and McDonald Islands,"Year: 2068
+Mean change: -8.7%
+SD: ±5.7%"
+2069,ssp126,-9.65,-5.39,-5.48,-0.62,2.75,Heard Island and McDonald Islands,"Year: 2069
+Mean change: -5.4%
+SD: ±2.8%"
+2069,ssp585,-18.43,-8.72,-9.87,4,6.07,Heard Island and McDonald Islands,"Year: 2069
+Mean change: -8.7%
+SD: ±6.1%"
+2070,ssp126,-9.32,-4.36,-3.6,-1.56,2.49,Heard Island and McDonald Islands,"Year: 2070
+Mean change: -4.4%
+SD: ±2.5%"
+2070,ssp585,-18.79,-9.92,-11.28,0.91,6.09,Heard Island and McDonald Islands,"Year: 2070
+Mean change: -9.9%
+SD: ±6.1%"
+2071,ssp126,-9.1,-2.59,-2.02,3.53,3.91,Heard Island and McDonald Islands,"Year: 2071
+Mean change: -2.6%
+SD: ±3.9%"
+2071,ssp585,-18.79,-11.2,-11.73,-1.34,6,Heard Island and McDonald Islands,"Year: 2071
+Mean change: -11.2%
+SD: ±6%"
+2072,ssp126,-8.7,-3.86,-4.47,2.27,3.58,Heard Island and McDonald Islands,"Year: 2072
+Mean change: -3.9%
+SD: ±3.6%"
+2072,ssp585,-18.69,-10.21,-11.18,-1.75,6,Heard Island and McDonald Islands,"Year: 2072
+Mean change: -10.2%
+SD: ±6%"
+2073,ssp126,-8.67,-4.29,-4.89,1.54,3.19,Heard Island and McDonald Islands,"Year: 2073
+Mean change: -4.3%
+SD: ±3.2%"
+2073,ssp585,-18.04,-8.82,-9.34,3.07,7.02,Heard Island and McDonald Islands,"Year: 2073
+Mean change: -8.8%
+SD: ±7%"
+2074,ssp126,-10.25,-4.63,-5.04,-0.64,3.1,Heard Island and McDonald Islands,"Year: 2074
+Mean change: -4.6%
+SD: ±3.1%"
+2074,ssp585,-19.35,-9.94,-11.07,2.05,6.69,Heard Island and McDonald Islands,"Year: 2074
+Mean change: -9.9%
+SD: ±6.7%"
+2075,ssp126,-8.15,-3.87,-3.71,0.58,3.34,Heard Island and McDonald Islands,"Year: 2075
+Mean change: -3.9%
+SD: ±3.3%"
+2075,ssp585,-17.71,-10.09,-11,2.55,6.06,Heard Island and McDonald Islands,"Year: 2075
+Mean change: -10.1%
+SD: ±6.1%"
+2076,ssp126,-12.15,-2.14,-2.83,8.84,5.95,Heard Island and McDonald Islands,"Year: 2076
+Mean change: -2.1%
+SD: ±6%"
+2076,ssp585,-21.01,-9.75,-10.71,9.7,8.58,Heard Island and McDonald Islands,"Year: 2076
+Mean change: -9.8%
+SD: ±8.6%"
+2077,ssp126,-11.12,-4.48,-4.36,3.11,4.56,Heard Island and McDonald Islands,"Year: 2077
+Mean change: -4.5%
+SD: ±4.6%"
+2077,ssp585,-19.7,-10.41,-11.34,1.14,6.71,Heard Island and McDonald Islands,"Year: 2077
+Mean change: -10.4%
+SD: ±6.7%"
+2078,ssp126,-9.8,-5.83,-6.53,1.6,3.38,Heard Island and McDonald Islands,"Year: 2078
+Mean change: -5.8%
+SD: ±3.4%"
+2078,ssp585,-21.54,-11.63,-12.05,1.45,6.74,Heard Island and McDonald Islands,"Year: 2078
+Mean change: -11.6%
+SD: ±6.7%"
+2079,ssp126,-14.42,-3.91,-3.75,5.25,5.9,Heard Island and McDonald Islands,"Year: 2079
+Mean change: -3.9%
+SD: ±5.9%"
+2079,ssp585,-21.19,-12.09,-13.48,0.27,6.72,Heard Island and McDonald Islands,"Year: 2079
+Mean change: -12.1%
+SD: ±6.7%"
+2080,ssp126,-9.93,-4.61,-4.98,0.67,4.21,Heard Island and McDonald Islands,"Year: 2080
+Mean change: -4.6%
+SD: ±4.2%"
+2080,ssp585,-20.44,-10.53,-10.53,1.87,6.91,Heard Island and McDonald Islands,"Year: 2080
+Mean change: -10.5%
+SD: ±6.9%"
+2081,ssp126,-8.93,-4.26,-5.12,0.97,3.18,Heard Island and McDonald Islands,"Year: 2081
+Mean change: -4.3%
+SD: ±3.2%"
+2081,ssp585,-18.73,-9.06,-9.66,2.76,6.81,Heard Island and McDonald Islands,"Year: 2081
+Mean change: -9.1%
+SD: ±6.8%"
+2082,ssp126,-13.68,-5.9,-6.33,3.73,4.91,Heard Island and McDonald Islands,"Year: 2082
+Mean change: -5.9%
+SD: ±4.9%"
+2082,ssp585,-23.35,-10.37,-11.82,4.96,8.37,Heard Island and McDonald Islands,"Year: 2082
+Mean change: -10.4%
+SD: ±8.4%"
+2083,ssp126,-14.72,-7.28,-7.98,1.95,4.78,Heard Island and McDonald Islands,"Year: 2083
+Mean change: -7.3%
+SD: ±4.8%"
+2083,ssp585,-22.76,-11.91,-13.91,2.07,7.39,Heard Island and McDonald Islands,"Year: 2083
+Mean change: -11.9%
+SD: ±7.4%"
+2084,ssp126,-17.03,-7.16,-7.83,2.91,5.9,Heard Island and McDonald Islands,"Year: 2084
+Mean change: -7.2%
+SD: ±5.9%"
+2084,ssp585,-23.55,-10.65,-12.94,5.33,8.77,Heard Island and McDonald Islands,"Year: 2084
+Mean change: -10.7%
+SD: ±8.8%"
+2085,ssp126,-13.84,-6.61,-7.72,-0.88,4.07,Heard Island and McDonald Islands,"Year: 2085
+Mean change: -6.6%
+SD: ±4.1%"
+2085,ssp585,-26.86,-12.25,-13.34,0.63,7.7,Heard Island and McDonald Islands,"Year: 2085
+Mean change: -12.2%
+SD: ±7.7%"
+2086,ssp126,-14.74,-5.6,-5.36,1.33,4.4,Heard Island and McDonald Islands,"Year: 2086
+Mean change: -5.6%
+SD: ±4.4%"
+2086,ssp585,-25.94,-13.79,-14.58,1.83,7.23,Heard Island and McDonald Islands,"Year: 2086
+Mean change: -13.8%
+SD: ±7.2%"
+2087,ssp126,-14.91,-5.25,-5.44,4.16,5.19,Heard Island and McDonald Islands,"Year: 2087
+Mean change: -5.2%
+SD: ±5.2%"
+2087,ssp585,-26.16,-14.34,-14.67,-0.95,6.99,Heard Island and McDonald Islands,"Year: 2087
+Mean change: -14.3%
+SD: ±7%"
+2088,ssp126,-14.24,-6.56,-7.62,-0.83,4.02,Heard Island and McDonald Islands,"Year: 2088
+Mean change: -6.6%
+SD: ±4%"
+2088,ssp585,-29.39,-14.04,-14.46,3.81,8.98,Heard Island and McDonald Islands,"Year: 2088
+Mean change: -14%
+SD: ±9%"
+2089,ssp126,-13.13,-6.13,-6.2,1.7,4.08,Heard Island and McDonald Islands,"Year: 2089
+Mean change: -6.1%
+SD: ±4.1%"
+2089,ssp585,-31.68,-15.39,-17.74,-0.81,9.2,Heard Island and McDonald Islands,"Year: 2089
+Mean change: -15.4%
+SD: ±9.2%"
+2090,ssp126,-12.41,-6.64,-6.66,-1.16,3.47,Heard Island and McDonald Islands,"Year: 2090
+Mean change: -6.6%
+SD: ±3.5%"
+2090,ssp585,-34.37,-15.81,-17.76,0.53,10.19,Heard Island and McDonald Islands,"Year: 2090
+Mean change: -15.8%
+SD: ±10.2%"
+2091,ssp126,-13.13,-5.96,-7.6,3.17,5.5,Heard Island and McDonald Islands,"Year: 2091
+Mean change: -6%
+SD: ±5.5%"
+2091,ssp585,-30.98,-15.13,-16.43,0.8,9.67,Heard Island and McDonald Islands,"Year: 2091
+Mean change: -15.1%
+SD: ±9.7%"
+2092,ssp126,-12.56,-5.89,-6.54,3.35,4.5,Heard Island and McDonald Islands,"Year: 2092
+Mean change: -5.9%
+SD: ±4.5%"
+2092,ssp585,-31.53,-15.17,-16.97,4.55,10.48,Heard Island and McDonald Islands,"Year: 2092
+Mean change: -15.2%
+SD: ±10.5%"
+2093,ssp126,-12.35,-6.4,-6.86,-1.15,3.21,Heard Island and McDonald Islands,"Year: 2093
+Mean change: -6.4%
+SD: ±3.2%"
+2093,ssp585,-26.26,-13.14,-12.27,6.91,9.98,Heard Island and McDonald Islands,"Year: 2093
+Mean change: -13.1%
+SD: ±10%"
+2094,ssp126,-14.46,-7.83,-8.74,-1.61,4.29,Heard Island and McDonald Islands,"Year: 2094
+Mean change: -7.8%
+SD: ±4.3%"
+2094,ssp585,-32.73,-13.72,-15.4,7.07,11.96,Heard Island and McDonald Islands,"Year: 2094
+Mean change: -13.7%
+SD: ±12%"
+2095,ssp126,-12.37,-4.6,-5.45,3.28,5.4,Heard Island and McDonald Islands,"Year: 2095
+Mean change: -4.6%
+SD: ±5.4%"
+2095,ssp585,-27.72,-13.89,-14.22,0.91,10,Heard Island and McDonald Islands,"Year: 2095
+Mean change: -13.9%
+SD: ±10%"
+2096,ssp126,-15.08,-5.78,-5.94,2.95,6.02,Heard Island and McDonald Islands,"Year: 2096
+Mean change: -5.8%
+SD: ±6%"
+2096,ssp585,-34.14,-14.93,-16.64,3.17,11.39,Heard Island and McDonald Islands,"Year: 2096
+Mean change: -14.9%
+SD: ±11.4%"
+2097,ssp126,-14.99,-8.6,-8.52,-4.11,3.18,Heard Island and McDonald Islands,"Year: 2097
+Mean change: -8.6%
+SD: ±3.2%"
+2097,ssp585,-32.02,-14.9,-16.83,6.1,11.02,Heard Island and McDonald Islands,"Year: 2097
+Mean change: -14.9%
+SD: ±11%"
+2098,ssp126,-16.25,-9.12,-9.84,1.72,4.79,Heard Island and McDonald Islands,"Year: 2098
+Mean change: -9.1%
+SD: ±4.8%"
+2098,ssp585,-39.78,-16.35,-18.01,8.67,13.39,Heard Island and McDonald Islands,"Year: 2098
+Mean change: -16.4%
+SD: ±13.4%"
+2099,ssp126,-15.89,-7.4,-8.81,5.61,5.81,Heard Island and McDonald Islands,"Year: 2099
+Mean change: -7.4%
+SD: ±5.8%"
+2099,ssp585,-34.17,-16.27,-17.73,5.1,11.76,Heard Island and McDonald Islands,"Year: 2099
+Mean change: -16.3%
+SD: ±11.8%"
+2100,ssp126,-14.12,-6.79,-6.13,1.62,4.68,Heard Island and McDonald Islands,"Year: 2100
+Mean change: -6.8%
+SD: ±4.7%"
+2100,ssp585,-32.09,-17.01,-19.41,2.43,10.97,Heard Island and McDonald Islands,"Year: 2100
+Mean change: -17%
+SD: ±11%"
+1950,historical,-9.13,-4.92,-5.97,1.44,3.43,Indian,"Year: 1950
+Mean change: -4.9%
+SD: ±3.4%"
+1951,historical,-11.65,-6.8,-7.63,0.7,4.01,Indian,"Year: 1951
+Mean change: -6.8%
+SD: ±4%"
+1952,historical,-9.57,-4.32,-4.97,0.68,3.09,Indian,"Year: 1952
+Mean change: -4.3%
+SD: ±3.1%"
+1953,historical,-9.21,-4.2,-4.52,0.4,3.03,Indian,"Year: 1953
+Mean change: -4.2%
+SD: ±3%"
+1954,historical,-8.84,-3.25,-2.45,0.77,2.88,Indian,"Year: 1954
+Mean change: -3.2%
+SD: ±2.9%"
+1955,historical,-6.83,-3.85,-3.65,0.38,2.49,Indian,"Year: 1955
+Mean change: -3.9%
+SD: ±2.5%"
+1956,historical,-6.21,-2.99,-2.84,0.11,2.14,Indian,"Year: 1956
+Mean change: -3%
+SD: ±2.1%"
+1957,historical,-6.57,-3.28,-3.04,0.3,2.38,Indian,"Year: 1957
+Mean change: -3.3%
+SD: ±2.4%"
+1958,historical,-9.4,-4.26,-3.96,-0.06,3.02,Indian,"Year: 1958
+Mean change: -4.3%
+SD: ±3%"
+1959,historical,-7.92,-5.01,-5.42,-0.4,2.68,Indian,"Year: 1959
+Mean change: -5%
+SD: ±2.7%"
+1960,historical,-7.77,-2.67,-1.56,-0.52,2.35,Indian,"Year: 1960
+Mean change: -2.7%
+SD: ±2.4%"
+1961,historical,-8.45,-3.26,-3.01,-0.18,2.64,Indian,"Year: 1961
+Mean change: -3.3%
+SD: ±2.6%"
+1962,historical,-8.91,-4.06,-4.32,-0.49,3.08,Indian,"Year: 1962
+Mean change: -4.1%
+SD: ±3.1%"
+1963,historical,-9.27,-3.9,-3.38,-0.6,2.62,Indian,"Year: 1963
+Mean change: -3.9%
+SD: ±2.6%"
+1964,historical,-9.67,-5.52,-5.86,-1.21,2.76,Indian,"Year: 1964
+Mean change: -5.5%
+SD: ±2.8%"
+1965,historical,-10.21,-2.95,-2.44,1.12,3.13,Indian,"Year: 1965
+Mean change: -3%
+SD: ±3.1%"
+1966,historical,-10.64,-4.25,-4.78,0.96,3.86,Indian,"Year: 1966
+Mean change: -4.2%
+SD: ±3.9%"
+1967,historical,-10.85,-3.79,-3.12,0.46,3.59,Indian,"Year: 1967
+Mean change: -3.8%
+SD: ±3.6%"
+1968,historical,-10.85,-3.87,-3.24,0.66,3.59,Indian,"Year: 1968
+Mean change: -3.9%
+SD: ±3.6%"
+1969,historical,-10.64,-2.7,-1.56,1.77,3.86,Indian,"Year: 1969
+Mean change: -2.7%
+SD: ±3.9%"
+1970,historical,-10.36,-3.86,-3.99,1.13,3.38,Indian,"Year: 1970
+Mean change: -3.9%
+SD: ±3.4%"
+1971,historical,-10.04,-2.39,-1.79,1.83,4.19,Indian,"Year: 1971
+Mean change: -2.4%
+SD: ±4.2%"
+1972,historical,-9.8,-2.47,-0.75,3.01,4.25,Indian,"Year: 1972
+Mean change: -2.5%
+SD: ±4.2%"
+1973,historical,-9.51,-3.6,-3.53,0.3,3.1,Indian,"Year: 1973
+Mean change: -3.6%
+SD: ±3.1%"
+1974,historical,-9.09,-4.72,-4.21,0.01,3.38,Indian,"Year: 1974
+Mean change: -4.7%
+SD: ±3.4%"
+1975,historical,-8.19,-4,-3.43,-0.34,2.96,Indian,"Year: 1975
+Mean change: -4%
+SD: ±3%"
+1976,historical,-7.34,-3.76,-4.22,-0.58,2.44,Indian,"Year: 1976
+Mean change: -3.8%
+SD: ±2.4%"
+1977,historical,-6.61,-3.26,-4.16,0.58,2.31,Indian,"Year: 1977
+Mean change: -3.3%
+SD: ±2.3%"
+1978,historical,-7.78,-2.45,-3.01,5.25,3.56,Indian,"Year: 1978
+Mean change: -2.5%
+SD: ±3.6%"
+1979,historical,-6.52,-2.08,-1.67,1.37,2.61,Indian,"Year: 1979
+Mean change: -2.1%
+SD: ±2.6%"
+1980,historical,-5.44,-2.6,-3.55,2.4,2.48,Indian,"Year: 1980
+Mean change: -2.6%
+SD: ±2.5%"
+1981,historical,-6.16,-3.02,-3.49,0.26,2.16,Indian,"Year: 1981
+Mean change: -3%
+SD: ±2.2%"
+1982,historical,-6.69,-3.25,-3.97,2.31,2.84,Indian,"Year: 1982
+Mean change: -3.2%
+SD: ±2.8%"
+1983,historical,-6.42,-1.59,-1.66,3.09,2.79,Indian,"Year: 1983
+Mean change: -1.6%
+SD: ±2.8%"
+1984,historical,-8.29,-1.56,-1.78,5.36,3.84,Indian,"Year: 1984
+Mean change: -1.6%
+SD: ±3.8%"
+1985,historical,-9.09,-2.51,-3.27,2.95,3.73,Indian,"Year: 1985
+Mean change: -2.5%
+SD: ±3.7%"
+1986,historical,-7.86,-1.55,-1.41,3.12,3.9,Indian,"Year: 1986
+Mean change: -1.6%
+SD: ±3.9%"
+1987,historical,-6.3,-1.63,-1.61,2.93,2.96,Indian,"Year: 1987
+Mean change: -1.6%
+SD: ±3%"
+1988,historical,-5.19,-0.69,-1.29,4.37,3.59,Indian,"Year: 1988
+Mean change: -0.7%
+SD: ±3.6%"
+1989,historical,-5.07,-0.89,-0.98,4.33,3.54,Indian,"Year: 1989
+Mean change: -0.9%
+SD: ±3.5%"
+1990,historical,-8.19,-1.06,-1.74,5.38,4.44,Indian,"Year: 1990
+Mean change: -1.1%
+SD: ±4.4%"
+1991,historical,-4.56,0.81,0.07,6.14,3.57,Indian,"Year: 1991
+Mean change: 0.8%
+SD: ±3.6%"
+1992,historical,-6.59,-1.62,-3.52,5.94,5.19,Indian,"Year: 1992
+Mean change: -1.6%
+SD: ±5.2%"
+1993,historical,-6.16,-0.29,0.97,4.95,3.88,Indian,"Year: 1993
+Mean change: -0.3%
+SD: ±3.9%"
+1994,historical,-3.54,-0.54,-1.36,3.91,2.65,Indian,"Year: 1994
+Mean change: -0.5%
+SD: ±2.6%"
+1995,historical,-4.72,0.12,1.25,4.16,3.44,Indian,"Year: 1995
+Mean change: 0.1%
+SD: ±3.4%"
+1996,historical,-5.69,-2.03,-3.39,2.87,3.02,Indian,"Year: 1996
+Mean change: -2%
+SD: ±3%"
+1997,historical,-6.83,-0.68,0.68,2.71,3.39,Indian,"Year: 1997
+Mean change: -0.7%
+SD: ±3.4%"
+1998,historical,-4.32,-0.22,0.96,2.52,2.72,Indian,"Year: 1998
+Mean change: -0.2%
+SD: ±2.7%"
+1999,historical,-4.46,-0.24,0.37,2.56,2.3,Indian,"Year: 1999
+Mean change: -0.2%
+SD: ±2.3%"
+2000,historical,-4.86,-1.61,-1.4,1.62,2.36,Indian,"Year: 2000
+Mean change: -1.6%
+SD: ±2.4%"
+2001,historical,-4.72,0.58,0.77,5.16,2.96,Indian,"Year: 2001
+Mean change: 0.6%
+SD: ±3%"
+2002,historical,-4.52,0.42,1.1,2.84,1.98,Indian,"Year: 2002
+Mean change: 0.4%
+SD: ±2%"
+2003,historical,-7.89,-2.83,-4.07,3.94,3.96,Indian,"Year: 2003
+Mean change: -2.8%
+SD: ±4%"
+2004,historical,-7.33,-2.93,-3.46,1.78,2.96,Indian,"Year: 2004
+Mean change: -2.9%
+SD: ±3%"
+2005,historical,-4.02,-2.13,-2.69,0.37,1.61,Indian,"Year: 2005
+Mean change: -2.1%
+SD: ±1.6%"
+2006,historical,-6.4,-1.62,-0.89,0.53,2.15,Indian,"Year: 2006
+Mean change: -1.6%
+SD: ±2.1%"
+2007,historical,-2.78,2.11,1.67,9.33,3.67,Indian,"Year: 2007
+Mean change: 2.1%
+SD: ±3.7%"
+2008,historical,-1.29,1.18,1.12,3.62,1.65,Indian,"Year: 2008
+Mean change: 1.2%
+SD: ±1.6%"
+2009,historical,-2.71,0.87,0.76,3.31,1.86,Indian,"Year: 2009
+Mean change: 0.9%
+SD: ±1.9%"
+2010,historical,-7.23,-0.2,1.09,3.99,4,Indian,"Year: 2010
+Mean change: -0.2%
+SD: ±4%"
+2011,historical,-4.01,-0.12,0.06,2.6,2.09,Indian,"Year: 2011
+Mean change: -0.1%
+SD: ±2.1%"
+2012,historical,-2.9,0.32,0.08,2.56,1.69,Indian,"Year: 2012
+Mean change: 0.3%
+SD: ±1.7%"
+2013,historical,-3.77,-0.18,-0.03,2.37,1.85,Indian,"Year: 2013
+Mean change: -0.2%
+SD: ±1.9%"
+2014,historical,-2.38,-0.21,-0.32,2.39,1.47,Indian,"Year: 2014
+Mean change: -0.2%
+SD: ±1.5%"
+2015,ssp126,-2.08,-0.51,-0.5,2.3,1.15,Indian,"Year: 2015
+Mean change: -0.5%
+SD: ±1.1%"
+2015,ssp585,-3.19,-0.82,-0.84,2.28,1.47,Indian,"Year: 2015
+Mean change: -0.8%
+SD: ±1.5%"
+2016,ssp126,-5.03,-1.21,-0.85,1.99,1.95,Indian,"Year: 2016
+Mean change: -1.2%
+SD: ±2%"
+2016,ssp585,-8.78,-3.12,-3.43,2.3,3.05,Indian,"Year: 2016
+Mean change: -3.1%
+SD: ±3%"
+2017,ssp126,-10.83,-4.58,-4.85,1.26,3.84,Indian,"Year: 2017
+Mean change: -4.6%
+SD: ±3.8%"
+2017,ssp585,-4.9,-1.78,-1.68,2.47,2.12,Indian,"Year: 2017
+Mean change: -1.8%
+SD: ±2.1%"
+2018,ssp126,-8.8,-4.45,-4.66,0.3,2.8,Indian,"Year: 2018
+Mean change: -4.4%
+SD: ±2.8%"
+2018,ssp585,-6.82,-0.98,-0.81,3.02,3.03,Indian,"Year: 2018
+Mean change: -1%
+SD: ±3%"
+2019,ssp126,-5.75,-3.73,-4.03,-0.9,1.64,Indian,"Year: 2019
+Mean change: -3.7%
+SD: ±1.6%"
+2019,ssp585,-6.16,-0.02,0.46,4.09,3.03,Indian,"Year: 2019
+Mean change: 0%
+SD: ±3%"
+2020,ssp126,-6.63,-2.72,-2.18,0.16,1.87,Indian,"Year: 2020
+Mean change: -2.7%
+SD: ±1.9%"
+2020,ssp585,-7.4,-3.22,-3.16,2.11,2.72,Indian,"Year: 2020
+Mean change: -3.2%
+SD: ±2.7%"
+2021,ssp126,-7.5,-2.52,-2.27,1.17,2.4,Indian,"Year: 2021
+Mean change: -2.5%
+SD: ±2.4%"
+2021,ssp585,-5.74,-1.19,-1.17,3.76,3.2,Indian,"Year: 2021
+Mean change: -1.2%
+SD: ±3.2%"
+2022,ssp126,-6.42,-3.49,-3.5,-1.05,1.83,Indian,"Year: 2022
+Mean change: -3.5%
+SD: ±1.8%"
+2022,ssp585,-2.17,-0.89,-1.33,1.42,1.24,Indian,"Year: 2022
+Mean change: -0.9%
+SD: ±1.2%"
+2023,ssp126,-10.13,-4.48,-3.88,-1.09,3.08,Indian,"Year: 2023
+Mean change: -4.5%
+SD: ±3.1%"
+2023,ssp585,-3.25,-0.19,-0.69,3.79,2.13,Indian,"Year: 2023
+Mean change: -0.2%
+SD: ±2.1%"
+2024,ssp126,-5.8,-2.79,-2.52,1.26,2.15,Indian,"Year: 2024
+Mean change: -2.8%
+SD: ±2.1%"
+2024,ssp585,-1.09,0.18,-0.37,2.99,1.34,Indian,"Year: 2024
+Mean change: 0.2%
+SD: ±1.3%"
+2025,ssp126,-5.4,-2.83,-2.65,1.16,2,Indian,"Year: 2025
+Mean change: -2.8%
+SD: ±2%"
+2025,ssp585,-1.58,0.37,0.33,2.1,1.37,Indian,"Year: 2025
+Mean change: 0.4%
+SD: ±1.4%"
+2026,ssp126,-5.74,-1.96,-2.13,2.84,2.54,Indian,"Year: 2026
+Mean change: -2%
+SD: ±2.5%"
+2026,ssp585,-6.67,-2.06,-1.52,2.11,2.61,Indian,"Year: 2026
+Mean change: -2.1%
+SD: ±2.6%"
+2027,ssp126,-6.08,-2.57,-2.31,1.29,2.54,Indian,"Year: 2027
+Mean change: -2.6%
+SD: ±2.5%"
+2027,ssp585,-4.72,-1.7,-1.98,1.58,1.9,Indian,"Year: 2027
+Mean change: -1.7%
+SD: ±1.9%"
+2028,ssp126,-6.02,-1.65,-2.03,2.43,2.77,Indian,"Year: 2028
+Mean change: -1.6%
+SD: ±2.8%"
+2028,ssp585,-1.37,0.4,0.07,3.37,1.5,Indian,"Year: 2028
+Mean change: 0.4%
+SD: ±1.5%"
+2029,ssp126,-5.23,-1.87,-2,0.6,2.21,Indian,"Year: 2029
+Mean change: -1.9%
+SD: ±2.2%"
+2029,ssp585,-3.83,-1.4,-1.78,3.12,2.04,Indian,"Year: 2029
+Mean change: -1.4%
+SD: ±2%"
+2030,ssp126,-8.38,-3.15,-3.56,3.94,3.02,Indian,"Year: 2030
+Mean change: -3.1%
+SD: ±3%"
+2030,ssp585,-6.72,-2.05,-1.4,2.35,2.49,Indian,"Year: 2030
+Mean change: -2%
+SD: ±2.5%"
+2031,ssp126,-7.85,-3.02,-3.1,5.51,3.52,Indian,"Year: 2031
+Mean change: -3%
+SD: ±3.5%"
+2031,ssp585,-7.1,-2.4,-1.85,0.58,2.61,Indian,"Year: 2031
+Mean change: -2.4%
+SD: ±2.6%"
+2032,ssp126,-5.75,-1.63,-2.59,3.06,2.89,Indian,"Year: 2032
+Mean change: -1.6%
+SD: ±2.9%"
+2032,ssp585,-6.42,-3.24,-2.64,-1.73,1.75,Indian,"Year: 2032
+Mean change: -3.2%
+SD: ±1.8%"
+2033,ssp126,-4.69,-2.5,-2.68,2.42,1.96,Indian,"Year: 2033
+Mean change: -2.5%
+SD: ±2%"
+2033,ssp585,-5.27,-2.67,-2.6,-0.04,1.48,Indian,"Year: 2033
+Mean change: -2.7%
+SD: ±1.5%"
+2034,ssp126,-3.17,-1.16,-1.59,5.81,2.6,Indian,"Year: 2034
+Mean change: -1.2%
+SD: ±2.6%"
+2034,ssp585,-5.66,-2.01,-2.19,1.52,2.02,Indian,"Year: 2034
+Mean change: -2%
+SD: ±2%"
+2035,ssp126,-5.44,-2.1,-2.85,6.73,3.39,Indian,"Year: 2035
+Mean change: -2.1%
+SD: ±3.4%"
+2035,ssp585,-3.82,-1.45,-1.68,1.36,1.57,Indian,"Year: 2035
+Mean change: -1.4%
+SD: ±1.6%"
+2036,ssp126,-4.56,-1.57,-2.7,3.05,2.37,Indian,"Year: 2036
+Mean change: -1.6%
+SD: ±2.4%"
+2036,ssp585,-4.2,-0.72,-1.14,2.53,2.12,Indian,"Year: 2036
+Mean change: -0.7%
+SD: ±2.1%"
+2037,ssp126,-3.47,-1.17,-1.84,2.57,2.05,Indian,"Year: 2037
+Mean change: -1.2%
+SD: ±2%"
+2037,ssp585,-4.5,-0.67,-1.62,3.19,2.39,Indian,"Year: 2037
+Mean change: -0.7%
+SD: ±2.4%"
+2038,ssp126,-6.03,-1.4,-1.12,3.71,2.64,Indian,"Year: 2038
+Mean change: -1.4%
+SD: ±2.6%"
+2038,ssp585,-5.22,-1.91,-2.17,2.7,2.71,Indian,"Year: 2038
+Mean change: -1.9%
+SD: ±2.7%"
+2039,ssp126,-7.33,-2.03,-2.16,4.63,3.32,Indian,"Year: 2039
+Mean change: -2%
+SD: ±3.3%"
+2039,ssp585,-10.29,-2.72,-2.22,2.29,3.92,Indian,"Year: 2039
+Mean change: -2.7%
+SD: ±3.9%"
+2040,ssp126,-6,-0.79,-1.08,4.37,3.7,Indian,"Year: 2040
+Mean change: -0.8%
+SD: ±3.7%"
+2040,ssp585,-8.98,-3.05,-2.51,1.99,3.63,Indian,"Year: 2040
+Mean change: -3%
+SD: ±3.6%"
+2041,ssp126,-5.15,-1.83,-2.81,4.34,2.85,Indian,"Year: 2041
+Mean change: -1.8%
+SD: ±2.9%"
+2041,ssp585,-7.91,-2.58,-2.49,1.12,3.08,Indian,"Year: 2041
+Mean change: -2.6%
+SD: ±3.1%"
+2042,ssp126,-5.26,-2.71,-3.63,4.95,3.09,Indian,"Year: 2042
+Mean change: -2.7%
+SD: ±3.1%"
+2042,ssp585,-8.06,-2.16,-2.56,3.45,3.29,Indian,"Year: 2042
+Mean change: -2.2%
+SD: ±3.3%"
+2043,ssp126,-5.34,-1.74,-2.83,5.62,3.21,Indian,"Year: 2043
+Mean change: -1.7%
+SD: ±3.2%"
+2043,ssp585,-7.9,-3.56,-4.6,2.96,3.13,Indian,"Year: 2043
+Mean change: -3.6%
+SD: ±3.1%"
+2044,ssp126,-7.78,-1.94,-3.03,7.12,4.53,Indian,"Year: 2044
+Mean change: -1.9%
+SD: ±4.5%"
+2044,ssp585,-7.86,-2.76,-3.35,4.87,3.49,Indian,"Year: 2044
+Mean change: -2.8%
+SD: ±3.5%"
+2045,ssp126,-8.68,-3.46,-3.68,6.51,4.19,Indian,"Year: 2045
+Mean change: -3.5%
+SD: ±4.2%"
+2045,ssp585,-7.99,-3.69,-4.21,4.34,3.35,Indian,"Year: 2045
+Mean change: -3.7%
+SD: ±3.4%"
+2046,ssp126,-9.04,-3.06,-3.32,4.25,3.9,Indian,"Year: 2046
+Mean change: -3.1%
+SD: ±3.9%"
+2046,ssp585,-8.35,-2.43,-3.35,6.75,4.78,Indian,"Year: 2046
+Mean change: -2.4%
+SD: ±4.8%"
+2047,ssp126,-7.55,-2.35,-3.2,4.19,3.91,Indian,"Year: 2047
+Mean change: -2.4%
+SD: ±3.9%"
+2047,ssp585,-8.93,-1.11,-2.92,10.84,6.52,Indian,"Year: 2047
+Mean change: -1.1%
+SD: ±6.5%"
+2048,ssp126,-6.93,-1.35,-2.23,5.59,3.66,Indian,"Year: 2048
+Mean change: -1.4%
+SD: ±3.7%"
+2048,ssp585,-9.26,-2.48,-2.69,3.98,4.25,Indian,"Year: 2048
+Mean change: -2.5%
+SD: ±4.2%"
+2049,ssp126,-7.76,-2.87,-3.72,5.88,4.17,Indian,"Year: 2049
+Mean change: -2.9%
+SD: ±4.2%"
+2049,ssp585,-9.03,-3.17,-3.61,6.17,4.55,Indian,"Year: 2049
+Mean change: -3.2%
+SD: ±4.6%"
+2050,ssp126,-9.21,-2.55,-3.48,5.57,5.05,Indian,"Year: 2050
+Mean change: -2.5%
+SD: ±5%"
+2050,ssp585,-10.04,-3.5,-3.89,6.94,4.99,Indian,"Year: 2050
+Mean change: -3.5%
+SD: ±5%"
+2051,ssp126,-8.71,-3.81,-3.97,3.42,4.14,Indian,"Year: 2051
+Mean change: -3.8%
+SD: ±4.1%"
+2051,ssp585,-10.19,-2.73,-3.81,6.07,5.64,Indian,"Year: 2051
+Mean change: -2.7%
+SD: ±5.6%"
+2052,ssp126,-8.96,-1.73,-1.61,4.62,4.2,Indian,"Year: 2052
+Mean change: -1.7%
+SD: ±4.2%"
+2052,ssp585,-8.29,-3.9,-4.81,5.75,4.66,Indian,"Year: 2052
+Mean change: -3.9%
+SD: ±4.7%"
+2053,ssp126,-9,-1.16,-0.68,3.32,3.47,Indian,"Year: 2053
+Mean change: -1.2%
+SD: ±3.5%"
+2053,ssp585,-8.59,-3.25,-4.45,5.56,4.41,Indian,"Year: 2053
+Mean change: -3.2%
+SD: ±4.4%"
+2054,ssp126,-8.76,-2.97,-3.95,7.29,4.84,Indian,"Year: 2054
+Mean change: -3%
+SD: ±4.8%"
+2054,ssp585,-8.6,-3.08,-4.58,5.13,4.13,Indian,"Year: 2054
+Mean change: -3.1%
+SD: ±4.1%"
+2055,ssp126,-8.07,-0.77,-1.35,7.44,4.77,Indian,"Year: 2055
+Mean change: -0.8%
+SD: ±4.8%"
+2055,ssp585,-8.57,-4.37,-5.14,4.92,4.07,Indian,"Year: 2055
+Mean change: -4.4%
+SD: ±4.1%"
+2056,ssp126,-7.93,-1.9,-3.36,4.49,4.33,Indian,"Year: 2056
+Mean change: -1.9%
+SD: ±4.3%"
+2056,ssp585,-8.53,-2.75,-4.18,7.56,5.4,Indian,"Year: 2056
+Mean change: -2.8%
+SD: ±5.4%"
+2057,ssp126,-9.59,-3.99,-3.84,3.07,3.85,Indian,"Year: 2057
+Mean change: -4%
+SD: ±3.9%"
+2057,ssp585,-8.36,-3.25,-4.62,3.97,3.92,Indian,"Year: 2057
+Mean change: -3.2%
+SD: ±3.9%"
+2058,ssp126,-9.35,-2.64,-3.38,3.53,3.98,Indian,"Year: 2058
+Mean change: -2.6%
+SD: ±4%"
+2058,ssp585,-8.06,-2.28,-3.68,6.23,5.02,Indian,"Year: 2058
+Mean change: -2.3%
+SD: ±5%"
+2059,ssp126,-9.98,-1.09,-1.64,6.55,4.81,Indian,"Year: 2059
+Mean change: -1.1%
+SD: ±4.8%"
+2059,ssp585,-7.89,-2.82,-3.78,6.79,4.71,Indian,"Year: 2059
+Mean change: -2.8%
+SD: ±4.7%"
+2060,ssp126,-10.08,-2.87,-2.49,4,4.47,Indian,"Year: 2060
+Mean change: -2.9%
+SD: ±4.5%"
+2060,ssp585,-8.05,-2.55,-3.66,6.85,5.22,Indian,"Year: 2060
+Mean change: -2.5%
+SD: ±5.2%"
+2061,ssp126,-9.81,-3.54,-2.9,2.54,4.11,Indian,"Year: 2061
+Mean change: -3.5%
+SD: ±4.1%"
+2061,ssp585,-7.41,-3.09,-4.46,6.98,4.44,Indian,"Year: 2061
+Mean change: -3.1%
+SD: ±4.4%"
+2062,ssp126,-9.36,-1.3,-2.69,9.83,5.86,Indian,"Year: 2062
+Mean change: -1.3%
+SD: ±5.9%"
+2062,ssp585,-7.72,-3.1,-4.96,6.47,4.99,Indian,"Year: 2062
+Mean change: -3.1%
+SD: ±5%"
+2063,ssp126,-9.25,-3.83,-3.71,2.28,3.81,Indian,"Year: 2063
+Mean change: -3.8%
+SD: ±3.8%"
+2063,ssp585,-7.87,-3.08,-5.03,6.84,4.7,Indian,"Year: 2063
+Mean change: -3.1%
+SD: ±4.7%"
+2064,ssp126,-9.54,-2.64,-2.24,4.72,4.52,Indian,"Year: 2064
+Mean change: -2.6%
+SD: ±4.5%"
+2064,ssp585,-9.15,-4.09,-5.09,5.8,4.33,Indian,"Year: 2064
+Mean change: -4.1%
+SD: ±4.3%"
+2065,ssp126,-9.8,-2.31,-2,5.39,3.92,Indian,"Year: 2065
+Mean change: -2.3%
+SD: ±3.9%"
+2065,ssp585,-13.39,-3.91,-4.91,7.08,6.28,Indian,"Year: 2065
+Mean change: -3.9%
+SD: ±6.3%"
+2066,ssp126,-9.69,-2.19,-3.47,6.09,4.79,Indian,"Year: 2066
+Mean change: -2.2%
+SD: ±4.8%"
+2066,ssp585,-12.58,-3.23,-4.05,8.51,6.95,Indian,"Year: 2066
+Mean change: -3.2%
+SD: ±7%"
+2067,ssp126,-10.22,-3.63,-3.67,5.83,5.34,Indian,"Year: 2067
+Mean change: -3.6%
+SD: ±5.3%"
+2067,ssp585,-11.88,-4.4,-5.05,5.79,5.72,Indian,"Year: 2067
+Mean change: -4.4%
+SD: ±5.7%"
+2068,ssp126,-9.83,-4.04,-3.46,3.01,3.61,Indian,"Year: 2068
+Mean change: -4%
+SD: ±3.6%"
+2068,ssp585,-11.22,-3.62,-4.25,6.68,5.85,Indian,"Year: 2068
+Mean change: -3.6%
+SD: ±5.8%"
+2069,ssp126,-9.21,-3.42,-3.71,1.72,3.37,Indian,"Year: 2069
+Mean change: -3.4%
+SD: ±3.4%"
+2069,ssp585,-10.47,-3.51,-5.11,5.22,5.58,Indian,"Year: 2069
+Mean change: -3.5%
+SD: ±5.6%"
+2070,ssp126,-7.85,-2.25,-3.34,3.08,3.42,Indian,"Year: 2070
+Mean change: -2.2%
+SD: ±3.4%"
+2070,ssp585,-10.61,-4.31,-5.92,5.22,5.15,Indian,"Year: 2070
+Mean change: -4.3%
+SD: ±5.2%"
+2071,ssp126,-6.52,-1.4,-2.88,6.95,4.55,Indian,"Year: 2071
+Mean change: -1.4%
+SD: ±4.6%"
+2071,ssp585,-10.45,-4.69,-6.57,5.96,5.05,Indian,"Year: 2071
+Mean change: -4.7%
+SD: ±5%"
+2072,ssp126,-7.12,-2.87,-4.15,6.66,4,Indian,"Year: 2072
+Mean change: -2.9%
+SD: ±4%"
+2072,ssp585,-10.1,-3.82,-6.33,9.22,5.97,Indian,"Year: 2072
+Mean change: -3.8%
+SD: ±6%"
+2073,ssp126,-7.95,-2.81,-4.33,7.19,4.44,Indian,"Year: 2073
+Mean change: -2.8%
+SD: ±4.4%"
+2073,ssp585,-9.72,-2.96,-5.42,8.7,6.48,Indian,"Year: 2073
+Mean change: -3%
+SD: ±6.5%"
+2074,ssp126,-7.69,-2.14,-3.82,7.2,4.47,Indian,"Year: 2074
+Mean change: -2.1%
+SD: ±4.5%"
+2074,ssp585,-9.44,-2.97,-4.93,7.9,6.08,Indian,"Year: 2074
+Mean change: -3%
+SD: ±6.1%"
+2075,ssp126,-5.3,-2.38,-3.94,7.7,3.95,Indian,"Year: 2075
+Mean change: -2.4%
+SD: ±4%"
+2075,ssp585,-11.05,-4.5,-6.44,7.25,6.24,Indian,"Year: 2075
+Mean change: -4.5%
+SD: ±6.2%"
+2076,ssp126,-5.4,-1.75,-3.58,7.93,3.97,Indian,"Year: 2076
+Mean change: -1.8%
+SD: ±4%"
+2076,ssp585,-13.49,-3.72,-4.84,10.16,7.2,Indian,"Year: 2076
+Mean change: -3.7%
+SD: ±7.2%"
+2077,ssp126,-8.24,-3.65,-4.6,8.18,4.48,Indian,"Year: 2077
+Mean change: -3.6%
+SD: ±4.5%"
+2077,ssp585,-10.99,-3.7,-5.34,7.07,5.85,Indian,"Year: 2077
+Mean change: -3.7%
+SD: ±5.8%"
+2078,ssp126,-6.31,-3.15,-4.26,7.84,4.11,Indian,"Year: 2078
+Mean change: -3.1%
+SD: ±4.1%"
+2078,ssp585,-12.52,-5.1,-6.4,4.83,5.59,Indian,"Year: 2078
+Mean change: -5.1%
+SD: ±5.6%"
+2079,ssp126,-8.36,-3.34,-4.02,7.35,4.25,Indian,"Year: 2079
+Mean change: -3.3%
+SD: ±4.2%"
+2079,ssp585,-10.98,-4.91,-6.57,4.31,5.68,Indian,"Year: 2079
+Mean change: -4.9%
+SD: ±5.7%"
+2080,ssp126,-6.56,-2.5,-2.56,4.96,3.06,Indian,"Year: 2080
+Mean change: -2.5%
+SD: ±3.1%"
+2080,ssp585,-11.39,-4.39,-6.96,7.24,6.16,Indian,"Year: 2080
+Mean change: -4.4%
+SD: ±6.2%"
+2081,ssp126,-8.64,-3.53,-4.14,4.21,3.81,Indian,"Year: 2081
+Mean change: -3.5%
+SD: ±3.8%"
+2081,ssp585,-11.63,-3.65,-5.88,10.41,6.87,Indian,"Year: 2081
+Mean change: -3.6%
+SD: ±6.9%"
+2082,ssp126,-12.92,-5.23,-4.55,5.22,5.15,Indian,"Year: 2082
+Mean change: -5.2%
+SD: ±5.2%"
+2082,ssp585,-11.62,-4.19,-7.26,9.54,7.08,Indian,"Year: 2082
+Mean change: -4.2%
+SD: ±7.1%"
+2083,ssp126,-13.61,-6.5,-5.9,1.86,4.73,Indian,"Year: 2083
+Mean change: -6.5%
+SD: ±4.7%"
+2083,ssp585,-11.01,-4.06,-6.33,6.98,6.27,Indian,"Year: 2083
+Mean change: -4.1%
+SD: ±6.3%"
+2084,ssp126,-11.21,-4.23,-4.59,3.11,4.26,Indian,"Year: 2084
+Mean change: -4.2%
+SD: ±4.3%"
+2084,ssp585,-13.54,-5.04,-7.49,6.68,6.82,Indian,"Year: 2084
+Mean change: -5%
+SD: ±6.8%"
+2085,ssp126,-9.34,-2.6,-2.05,2.63,3.68,Indian,"Year: 2085
+Mean change: -2.6%
+SD: ±3.7%"
+2085,ssp585,-17.39,-6.23,-7.47,5.48,7.09,Indian,"Year: 2085
+Mean change: -6.2%
+SD: ±7.1%"
+2086,ssp126,-10.15,-3.94,-4.62,4.93,3.94,Indian,"Year: 2086
+Mean change: -3.9%
+SD: ±3.9%"
+2086,ssp585,-13.27,-5.9,-8.57,6.85,6.8,Indian,"Year: 2086
+Mean change: -5.9%
+SD: ±6.8%"
+2087,ssp126,-10.45,-3.43,-3.68,5.12,4.21,Indian,"Year: 2087
+Mean change: -3.4%
+SD: ±4.2%"
+2087,ssp585,-13.62,-6.23,-7.47,5.84,6.09,Indian,"Year: 2087
+Mean change: -6.2%
+SD: ±6.1%"
+2088,ssp126,-10.43,-3.68,-4.45,4.58,4.15,Indian,"Year: 2088
+Mean change: -3.7%
+SD: ±4.2%"
+2088,ssp585,-16.69,-7.27,-8.52,5.03,6.75,Indian,"Year: 2088
+Mean change: -7.3%
+SD: ±6.8%"
+2089,ssp126,-10.4,-4.38,-4.34,4.09,3.84,Indian,"Year: 2089
+Mean change: -4.4%
+SD: ±3.8%"
+2089,ssp585,-16.98,-8.07,-9.41,5.34,6.85,Indian,"Year: 2089
+Mean change: -8.1%
+SD: ±6.8%"
+2090,ssp126,-10.55,-3.86,-4.19,5.15,3.85,Indian,"Year: 2090
+Mean change: -3.9%
+SD: ±3.9%"
+2090,ssp585,-16.32,-7.05,-8.46,4.82,7.31,Indian,"Year: 2090
+Mean change: -7%
+SD: ±7.3%"
+2091,ssp126,-10.66,-3.09,-3.3,5.88,4.95,Indian,"Year: 2091
+Mean change: -3.1%
+SD: ±5%"
+2091,ssp585,-16.76,-7.05,-8.31,5.87,7.63,Indian,"Year: 2091
+Mean change: -7%
+SD: ±7.6%"
+2092,ssp126,-10.76,-4.31,-4.08,3.73,3.89,Indian,"Year: 2092
+Mean change: -4.3%
+SD: ±3.9%"
+2092,ssp585,-17.95,-7.61,-9.11,5.86,7.92,Indian,"Year: 2092
+Mean change: -7.6%
+SD: ±7.9%"
+2093,ssp126,-10.85,-3.43,-3.04,2.68,3.45,Indian,"Year: 2093
+Mean change: -3.4%
+SD: ±3.5%"
+2093,ssp585,-15.85,-6.3,-8.46,9.33,8.54,Indian,"Year: 2093
+Mean change: -6.3%
+SD: ±8.5%"
+2094,ssp126,-10.82,-4.46,-4.56,2.9,3.97,Indian,"Year: 2094
+Mean change: -4.5%
+SD: ±4%"
+2094,ssp585,-18.09,-6.69,-7.72,10.02,9.3,Indian,"Year: 2094
+Mean change: -6.7%
+SD: ±9.3%"
+2095,ssp126,-10.83,-3.32,-3.11,1.69,4.05,Indian,"Year: 2095
+Mean change: -3.3%
+SD: ±4%"
+2095,ssp585,-16.71,-7.17,-9.54,7.04,8.18,Indian,"Year: 2095
+Mean change: -7.2%
+SD: ±8.2%"
+2096,ssp126,-12.47,-5.03,-4.34,2.64,5.3,Indian,"Year: 2096
+Mean change: -5%
+SD: ±5.3%"
+2096,ssp585,-19.63,-8.15,-9.61,8.42,8.86,Indian,"Year: 2096
+Mean change: -8.2%
+SD: ±8.9%"
+2097,ssp126,-13.21,-6.75,-5.98,1.88,4.34,Indian,"Year: 2097
+Mean change: -6.8%
+SD: ±4.3%"
+2097,ssp585,-19.92,-8.04,-8.24,9.91,9.19,Indian,"Year: 2097
+Mean change: -8%
+SD: ±9.2%"
+2098,ssp126,-13.07,-6.4,-5.86,2.98,4.96,Indian,"Year: 2098
+Mean change: -6.4%
+SD: ±5%"
+2098,ssp585,-22.12,-8.59,-9.01,11.01,9.74,Indian,"Year: 2098
+Mean change: -8.6%
+SD: ±9.7%"
+2099,ssp126,-11.71,-5.52,-4.94,0.58,3.78,Indian,"Year: 2099
+Mean change: -5.5%
+SD: ±3.8%"
+2099,ssp585,-22.88,-9.93,-10.05,6.08,8.76,Indian,"Year: 2099
+Mean change: -9.9%
+SD: ±8.8%"
+2100,ssp126,-11.54,-5.49,-5.07,-0.04,3.07,Indian,"Year: 2100
+Mean change: -5.5%
+SD: ±3.1%"
+2100,ssp585,-19.19,-9.51,-12.96,8.12,9.24,Indian,"Year: 2100
+Mean change: -9.5%
+SD: ±9.2%"
+1950,historical,-9.51,-2.99,-2.86,1.71,3.9,Kerguelen Islands,"Year: 1950
+Mean change: -3%
+SD: ±3.9%"
+1951,historical,-10.19,-3.8,-4.41,3.94,4.56,Kerguelen Islands,"Year: 1951
+Mean change: -3.8%
+SD: ±4.6%"
+1952,historical,-10.67,-2.68,-1.36,2.71,4.95,Kerguelen Islands,"Year: 1952
+Mean change: -2.7%
+SD: ±5%"
+1953,historical,-10.13,-2.71,-3.19,4.59,4.33,Kerguelen Islands,"Year: 1953
+Mean change: -2.7%
+SD: ±4.3%"
+1954,historical,-10.87,-0.75,0.04,7.67,6.25,Kerguelen Islands,"Year: 1954
+Mean change: -0.8%
+SD: ±6.2%"
+1955,historical,-9.04,-2.66,-3.04,3.4,4.24,Kerguelen Islands,"Year: 1955
+Mean change: -2.7%
+SD: ±4.2%"
+1956,historical,-9.77,-1.81,-1.06,4.46,4.6,Kerguelen Islands,"Year: 1956
+Mean change: -1.8%
+SD: ±4.6%"
+1957,historical,-8.51,-1.57,-0.44,6.43,4.74,Kerguelen Islands,"Year: 1957
+Mean change: -1.6%
+SD: ±4.7%"
+1958,historical,-7.85,-1.31,-1.5,5.64,3.79,Kerguelen Islands,"Year: 1958
+Mean change: -1.3%
+SD: ±3.8%"
+1959,historical,-8.21,-3.18,-3.28,1.05,3.43,Kerguelen Islands,"Year: 1959
+Mean change: -3.2%
+SD: ±3.4%"
+1960,historical,-9.22,-3.07,-1.99,2.22,4.36,Kerguelen Islands,"Year: 1960
+Mean change: -3.1%
+SD: ±4.4%"
+1961,historical,-10.25,-1.94,-1.63,1.78,3.49,Kerguelen Islands,"Year: 1961
+Mean change: -1.9%
+SD: ±3.5%"
+1962,historical,-9.82,-2.25,-1.56,1.18,3.17,Kerguelen Islands,"Year: 1962
+Mean change: -2.2%
+SD: ±3.2%"
+1963,historical,-8.67,-0.85,-0.06,6.77,4.72,Kerguelen Islands,"Year: 1963
+Mean change: -0.8%
+SD: ±4.7%"
+1964,historical,-8.51,-4.13,-4.85,0.76,3.99,Kerguelen Islands,"Year: 1964
+Mean change: -4.1%
+SD: ±4%"
+1965,historical,-9.09,-2.49,-1.8,4.53,4.22,Kerguelen Islands,"Year: 1965
+Mean change: -2.5%
+SD: ±4.2%"
+1966,historical,-8.38,-1.05,0.09,8.7,5.31,Kerguelen Islands,"Year: 1966
+Mean change: -1%
+SD: ±5.3%"
+1967,historical,-7.19,-1.05,-0.68,7.01,4.74,Kerguelen Islands,"Year: 1967
+Mean change: -1%
+SD: ±4.7%"
+1968,historical,-6.08,-0.51,0.31,3.33,3.2,Kerguelen Islands,"Year: 1968
+Mean change: -0.5%
+SD: ±3.2%"
+1969,historical,-6.32,0.37,1.08,4.09,3.3,Kerguelen Islands,"Year: 1969
+Mean change: 0.4%
+SD: ±3.3%"
+1970,historical,-6.74,-1.6,-1.46,3.06,2.84,Kerguelen Islands,"Year: 1970
+Mean change: -1.6%
+SD: ±2.8%"
+1971,historical,-6.21,0.08,1.28,6.18,4.42,Kerguelen Islands,"Year: 1971
+Mean change: 0.1%
+SD: ±4.4%"
+1972,historical,-5.78,-0.13,-0.03,2.72,2.47,Kerguelen Islands,"Year: 1972
+Mean change: -0.1%
+SD: ±2.5%"
+1973,historical,-7.36,-1.18,-0.98,7.35,4.35,Kerguelen Islands,"Year: 1973
+Mean change: -1.2%
+SD: ±4.3%"
+1974,historical,-8.44,-1.62,-1.91,8.44,4.74,Kerguelen Islands,"Year: 1974
+Mean change: -1.6%
+SD: ±4.7%"
+1975,historical,-5.83,-1,-1.12,4.12,3.51,Kerguelen Islands,"Year: 1975
+Mean change: -1%
+SD: ±3.5%"
+1976,historical,-6.87,-2.61,-2.78,1.39,3.11,Kerguelen Islands,"Year: 1976
+Mean change: -2.6%
+SD: ±3.1%"
+1977,historical,-10.05,-1.18,-0.55,9.14,5.2,Kerguelen Islands,"Year: 1977
+Mean change: -1.2%
+SD: ±5.2%"
+1978,historical,-10.03,-0.64,-0.05,12.46,6.1,Kerguelen Islands,"Year: 1978
+Mean change: -0.6%
+SD: ±6.1%"
+1979,historical,-4.27,0.43,-0.86,13.78,5.74,Kerguelen Islands,"Year: 1979
+Mean change: 0.4%
+SD: ±5.7%"
+1980,historical,-3.91,-1.12,-1.36,2.39,1.96,Kerguelen Islands,"Year: 1980
+Mean change: -1.1%
+SD: ±2%"
+1981,historical,-10.41,-0.95,0.02,5.71,4.18,Kerguelen Islands,"Year: 1981
+Mean change: -0.9%
+SD: ±4.2%"
+1982,historical,-9.25,-2.78,-1.57,0.18,3.2,Kerguelen Islands,"Year: 1982
+Mean change: -2.8%
+SD: ±3.2%"
+1983,historical,-3.76,-0.01,-0.09,5.29,2.79,Kerguelen Islands,"Year: 1983
+Mean change: 0%
+SD: ±2.8%"
+1984,historical,-8.49,-0.77,-0.86,4.07,4.01,Kerguelen Islands,"Year: 1984
+Mean change: -0.8%
+SD: ±4%"
+1985,historical,-5.69,-1.31,-2.06,2.99,2.96,Kerguelen Islands,"Year: 1985
+Mean change: -1.3%
+SD: ±3%"
+1986,historical,-5.4,-0.65,-0.81,3.53,3.26,Kerguelen Islands,"Year: 1986
+Mean change: -0.7%
+SD: ±3.3%"
+1987,historical,-4.95,-0.31,0.17,3.97,3.16,Kerguelen Islands,"Year: 1987
+Mean change: -0.3%
+SD: ±3.2%"
+1988,historical,-9.12,1.39,2.4,7.96,5.21,Kerguelen Islands,"Year: 1988
+Mean change: 1.4%
+SD: ±5.2%"
+1989,historical,-5.52,-0.76,-1.36,5.79,4.02,Kerguelen Islands,"Year: 1989
+Mean change: -0.8%
+SD: ±4%"
+1990,historical,-6.14,-1.29,-2.84,6.02,4.15,Kerguelen Islands,"Year: 1990
+Mean change: -1.3%
+SD: ±4.2%"
+1991,historical,-5.48,0.58,0.24,6.04,3.55,Kerguelen Islands,"Year: 1991
+Mean change: 0.6%
+SD: ±3.5%"
+1992,historical,-10.57,-1.77,-2.47,5.74,5.71,Kerguelen Islands,"Year: 1992
+Mean change: -1.8%
+SD: ±5.7%"
+1993,historical,-5.54,-0.06,-0.24,3.94,3.1,Kerguelen Islands,"Year: 1993
+Mean change: -0.1%
+SD: ±3.1%"
+1994,historical,-2.07,0.71,-0.53,5.75,2.73,Kerguelen Islands,"Year: 1994
+Mean change: 0.7%
+SD: ±2.7%"
+1995,historical,-6.69,0.63,1.26,4.54,3.27,Kerguelen Islands,"Year: 1995
+Mean change: 0.6%
+SD: ±3.3%"
+1996,historical,-9.19,-3.53,-3.35,1.75,4.03,Kerguelen Islands,"Year: 1996
+Mean change: -3.5%
+SD: ±4%"
+1997,historical,-7.72,0.63,1.23,13.37,5.93,Kerguelen Islands,"Year: 1997
+Mean change: 0.6%
+SD: ±5.9%"
+1998,historical,-5.44,-0.8,-0.31,2.79,2.41,Kerguelen Islands,"Year: 1998
+Mean change: -0.8%
+SD: ±2.4%"
+1999,historical,-2.9,-0.9,-1.04,1.44,1.48,Kerguelen Islands,"Year: 1999
+Mean change: -0.9%
+SD: ±1.5%"
+2000,historical,-6.95,-0.07,-0.04,7.45,3.67,Kerguelen Islands,"Year: 2000
+Mean change: -0.1%
+SD: ±3.7%"
+2001,historical,-4.95,-0.28,-0.18,1.51,1.88,Kerguelen Islands,"Year: 2001
+Mean change: -0.3%
+SD: ±1.9%"
+2002,historical,-8.7,-0.68,0.24,2.22,3.26,Kerguelen Islands,"Year: 2002
+Mean change: -0.7%
+SD: ±3.3%"
+2003,historical,-4.91,-1.38,-0.99,3.49,2.49,Kerguelen Islands,"Year: 2003
+Mean change: -1.4%
+SD: ±2.5%"
+2004,historical,-7.16,-1.44,-0.65,5.89,3.5,Kerguelen Islands,"Year: 2004
+Mean change: -1.4%
+SD: ±3.5%"
+2005,historical,-4.23,-1.27,-1.24,1.73,2.04,Kerguelen Islands,"Year: 2005
+Mean change: -1.3%
+SD: ±2%"
+2006,historical,-5.64,-0.48,-0.36,6.38,3.41,Kerguelen Islands,"Year: 2006
+Mean change: -0.5%
+SD: ±3.4%"
+2007,historical,-1.66,0.22,0.19,3.18,1.53,Kerguelen Islands,"Year: 2007
+Mean change: 0.2%
+SD: ±1.5%"
+2008,historical,-2.29,-0,-0.05,2.14,1.23,Kerguelen Islands,"Year: 2008
+Mean change: 0%
+SD: ±1.2%"
+2009,historical,-8.86,0.86,1.16,5.87,4.17,Kerguelen Islands,"Year: 2009
+Mean change: 0.9%
+SD: ±4.2%"
+2010,historical,-4.39,0.11,0.58,3.37,2.41,Kerguelen Islands,"Year: 2010
+Mean change: 0.1%
+SD: ±2.4%"
+2011,historical,-3.32,2.27,0.85,11.47,4.18,Kerguelen Islands,"Year: 2011
+Mean change: 2.3%
+SD: ±4.2%"
+2012,historical,-2.04,0.4,0.54,3.7,1.77,Kerguelen Islands,"Year: 2012
+Mean change: 0.4%
+SD: ±1.8%"
+2013,historical,-7.93,-0.99,-0.27,2.29,2.84,Kerguelen Islands,"Year: 2013
+Mean change: -1%
+SD: ±2.8%"
+2014,historical,-4.42,-1.11,-0.64,1.24,1.95,Kerguelen Islands,"Year: 2014
+Mean change: -1.1%
+SD: ±2%"
+2015,ssp126,-2.41,0.43,-0.21,6.7,2.58,Kerguelen Islands,"Year: 2015
+Mean change: 0.4%
+SD: ±2.6%"
+2015,ssp585,-5.42,-0.14,0.36,5.1,2.75,Kerguelen Islands,"Year: 2015
+Mean change: -0.1%
+SD: ±2.8%"
+2016,ssp126,-15.72,-2.3,-1.21,5.71,5.71,Kerguelen Islands,"Year: 2016
+Mean change: -2.3%
+SD: ±5.7%"
+2016,ssp585,-6.44,-2.34,-1.94,0.62,2.5,Kerguelen Islands,"Year: 2016
+Mean change: -2.3%
+SD: ±2.5%"
+2017,ssp126,-9.85,-3.1,-1.97,1.5,3.73,Kerguelen Islands,"Year: 2017
+Mean change: -3.1%
+SD: ±3.7%"
+2017,ssp585,-5.49,-2.53,-1.94,-0.47,1.73,Kerguelen Islands,"Year: 2017
+Mean change: -2.5%
+SD: ±1.7%"
+2018,ssp126,-10.33,-5.67,-6.33,0.41,3.4,Kerguelen Islands,"Year: 2018
+Mean change: -5.7%
+SD: ±3.4%"
+2018,ssp585,-11.14,-1.52,-0.61,3.33,4.1,Kerguelen Islands,"Year: 2018
+Mean change: -1.5%
+SD: ±4.1%"
+2019,ssp126,-14.03,-4.28,-3.94,0.46,4.26,Kerguelen Islands,"Year: 2019
+Mean change: -4.3%
+SD: ±4.3%"
+2019,ssp585,-9.34,-3.11,-3.03,2.6,3.41,Kerguelen Islands,"Year: 2019
+Mean change: -3.1%
+SD: ±3.4%"
+2020,ssp126,-10.11,-5.16,-5,0.3,3.23,Kerguelen Islands,"Year: 2020
+Mean change: -5.2%
+SD: ±3.2%"
+2020,ssp585,-8.93,-3.59,-2.58,-0.17,3.22,Kerguelen Islands,"Year: 2020
+Mean change: -3.6%
+SD: ±3.2%"
+2021,ssp126,-9.07,-4.14,-3.92,0.6,3.06,Kerguelen Islands,"Year: 2021
+Mean change: -4.1%
+SD: ±3.1%"
+2021,ssp585,-6.68,-2.74,-2.33,2.11,2.74,Kerguelen Islands,"Year: 2021
+Mean change: -2.7%
+SD: ±2.7%"
+2022,ssp126,-10.44,-4.68,-4.6,0.04,3.39,Kerguelen Islands,"Year: 2022
+Mean change: -4.7%
+SD: ±3.4%"
+2022,ssp585,-7.07,-2.63,-2.47,1.55,2.69,Kerguelen Islands,"Year: 2022
+Mean change: -2.6%
+SD: ±2.7%"
+2023,ssp126,-10.06,-4.3,-3.6,1.57,3.66,Kerguelen Islands,"Year: 2023
+Mean change: -4.3%
+SD: ±3.7%"
+2023,ssp585,-7.62,-1.73,-1.45,2.05,3.01,Kerguelen Islands,"Year: 2023
+Mean change: -1.7%
+SD: ±3%"
+2024,ssp126,-10.53,-2.52,-0.83,0.38,3.93,Kerguelen Islands,"Year: 2024
+Mean change: -2.5%
+SD: ±3.9%"
+2024,ssp585,-7.38,-0.17,0.34,3.07,3.01,Kerguelen Islands,"Year: 2024
+Mean change: -0.2%
+SD: ±3%"
+2025,ssp126,-9.37,-4.19,-3.61,0.63,3.49,Kerguelen Islands,"Year: 2025
+Mean change: -4.2%
+SD: ±3.5%"
+2025,ssp585,-8.46,-2.77,-1.79,0.48,2.87,Kerguelen Islands,"Year: 2025
+Mean change: -2.8%
+SD: ±2.9%"
+2026,ssp126,-10.23,-3.34,-2.75,0.5,3.4,Kerguelen Islands,"Year: 2026
+Mean change: -3.3%
+SD: ±3.4%"
+2026,ssp585,-13.22,-4.34,-3.78,0.89,3.79,Kerguelen Islands,"Year: 2026
+Mean change: -4.3%
+SD: ±3.8%"
+2027,ssp126,-10.48,-3.8,-2.85,1.14,3.63,Kerguelen Islands,"Year: 2027
+Mean change: -3.8%
+SD: ±3.6%"
+2027,ssp585,-13.16,-4.55,-3.31,-0.26,4.33,Kerguelen Islands,"Year: 2027
+Mean change: -4.6%
+SD: ±4.3%"
+2028,ssp126,-9.58,-4.31,-3.59,0.23,3.09,Kerguelen Islands,"Year: 2028
+Mean change: -4.3%
+SD: ±3.1%"
+2028,ssp585,-8.12,-1.03,-0.28,6.4,4.43,Kerguelen Islands,"Year: 2028
+Mean change: -1%
+SD: ±4.4%"
+2029,ssp126,-15.41,-5.84,-5.03,-1.22,4.45,Kerguelen Islands,"Year: 2029
+Mean change: -5.8%
+SD: ±4.4%"
+2029,ssp585,-7.75,-1.43,-1.79,2.97,3.18,Kerguelen Islands,"Year: 2029
+Mean change: -1.4%
+SD: ±3.2%"
+2030,ssp126,-11.07,-3.97,-3.28,1.21,3.96,Kerguelen Islands,"Year: 2030
+Mean change: -4%
+SD: ±4%"
+2030,ssp585,-6.22,-1.88,-1.56,2.75,3.33,Kerguelen Islands,"Year: 2030
+Mean change: -1.9%
+SD: ±3.3%"
+2031,ssp126,-12.7,-4.32,-2.4,0.33,4.46,Kerguelen Islands,"Year: 2031
+Mean change: -4.3%
+SD: ±4.5%"
+2031,ssp585,-7.87,-3.9,-4.09,1,3.29,Kerguelen Islands,"Year: 2031
+Mean change: -3.9%
+SD: ±3.3%"
+2032,ssp126,-10.68,-4.34,-4.69,2.78,4.18,Kerguelen Islands,"Year: 2032
+Mean change: -4.3%
+SD: ±4.2%"
+2032,ssp585,-7.95,-4.55,-5.56,0.04,2.98,Kerguelen Islands,"Year: 2032
+Mean change: -4.6%
+SD: ±3%"
+2033,ssp126,-10.52,-5.36,-5.59,-1.22,3.23,Kerguelen Islands,"Year: 2033
+Mean change: -5.4%
+SD: ±3.2%"
+2033,ssp585,-7.24,-4.47,-4.62,0.54,2.61,Kerguelen Islands,"Year: 2033
+Mean change: -4.5%
+SD: ±2.6%"
+2034,ssp126,-10.15,-3.73,-3.41,0.94,3.64,Kerguelen Islands,"Year: 2034
+Mean change: -3.7%
+SD: ±3.6%"
+2034,ssp585,-7.76,-2.64,-3.02,4.63,3.7,Kerguelen Islands,"Year: 2034
+Mean change: -2.6%
+SD: ±3.7%"
+2035,ssp126,-8.68,-3.13,-3.17,2.51,3.74,Kerguelen Islands,"Year: 2035
+Mean change: -3.1%
+SD: ±3.7%"
+2035,ssp585,-9.87,-3.06,-1.67,1.79,4.19,Kerguelen Islands,"Year: 2035
+Mean change: -3.1%
+SD: ±4.2%"
+2036,ssp126,-7.65,-4.05,-4.2,-1.48,2.31,Kerguelen Islands,"Year: 2036
+Mean change: -4%
+SD: ±2.3%"
+2036,ssp585,-14.92,-4.57,-4.64,3.44,4.82,Kerguelen Islands,"Year: 2036
+Mean change: -4.6%
+SD: ±4.8%"
+2037,ssp126,-7.26,-4.37,-5.36,-0.91,2.41,Kerguelen Islands,"Year: 2037
+Mean change: -4.4%
+SD: ±2.4%"
+2037,ssp585,-8.57,-3.32,-3.37,4.04,3.67,Kerguelen Islands,"Year: 2037
+Mean change: -3.3%
+SD: ±3.7%"
+2038,ssp126,-17.58,-4.77,-3.78,3.6,5.74,Kerguelen Islands,"Year: 2038
+Mean change: -4.8%
+SD: ±5.7%"
+2038,ssp585,-10.91,-4.82,-5.15,-0.67,3.41,Kerguelen Islands,"Year: 2038
+Mean change: -4.8%
+SD: ±3.4%"
+2039,ssp126,-15.22,-6.18,-6.03,-0.05,4.64,Kerguelen Islands,"Year: 2039
+Mean change: -6.2%
+SD: ±4.6%"
+2039,ssp585,-13.96,-5.2,-5.59,2.33,4.65,Kerguelen Islands,"Year: 2039
+Mean change: -5.2%
+SD: ±4.7%"
+2040,ssp126,-16.29,-4.81,-3.89,3.99,5.13,Kerguelen Islands,"Year: 2040
+Mean change: -4.8%
+SD: ±5.1%"
+2040,ssp585,-10.86,-5.22,-6.13,2.21,4.6,Kerguelen Islands,"Year: 2040
+Mean change: -5.2%
+SD: ±4.6%"
+2041,ssp126,-17.17,-6.25,-5.42,5.13,6.41,Kerguelen Islands,"Year: 2041
+Mean change: -6.2%
+SD: ±6.4%"
+2041,ssp585,-11.66,-4.8,-5.01,0.39,3.68,Kerguelen Islands,"Year: 2041
+Mean change: -4.8%
+SD: ±3.7%"
+2042,ssp126,-16.48,-5.37,-6.26,2.88,5.6,Kerguelen Islands,"Year: 2042
+Mean change: -5.4%
+SD: ±5.6%"
+2042,ssp585,-18.15,-5.44,-4.83,2.56,6.16,Kerguelen Islands,"Year: 2042
+Mean change: -5.4%
+SD: ±6.2%"
+2043,ssp126,-9.42,-4.33,-3.39,1.71,3.76,Kerguelen Islands,"Year: 2043
+Mean change: -4.3%
+SD: ±3.8%"
+2043,ssp585,-14.26,-5.61,-5.04,0.97,4.67,Kerguelen Islands,"Year: 2043
+Mean change: -5.6%
+SD: ±4.7%"
+2044,ssp126,-10.55,-3.06,-2.75,3.96,4.76,Kerguelen Islands,"Year: 2044
+Mean change: -3.1%
+SD: ±4.8%"
+2044,ssp585,-18.46,-6.37,-6.03,0.43,5.32,Kerguelen Islands,"Year: 2044
+Mean change: -6.4%
+SD: ±5.3%"
+2045,ssp126,-16.45,-5.03,-3.9,0.87,4.93,Kerguelen Islands,"Year: 2045
+Mean change: -5%
+SD: ±4.9%"
+2045,ssp585,-16.77,-6.53,-6.56,0.76,5.18,Kerguelen Islands,"Year: 2045
+Mean change: -6.5%
+SD: ±5.2%"
+2046,ssp126,-12.6,-4.98,-6.64,4.35,5.38,Kerguelen Islands,"Year: 2046
+Mean change: -5%
+SD: ±5.4%"
+2046,ssp585,-16.4,-5.8,-5.59,5.88,6.1,Kerguelen Islands,"Year: 2046
+Mean change: -5.8%
+SD: ±6.1%"
+2047,ssp126,-8.91,-3.31,-3.31,4.14,4.38,Kerguelen Islands,"Year: 2047
+Mean change: -3.3%
+SD: ±4.4%"
+2047,ssp585,-22.03,-5.18,-5.85,6.55,8.38,Kerguelen Islands,"Year: 2047
+Mean change: -5.2%
+SD: ±8.4%"
+2048,ssp126,-14.48,-4.56,-4.15,2.53,5.26,Kerguelen Islands,"Year: 2048
+Mean change: -4.6%
+SD: ±5.3%"
+2048,ssp585,-21.41,-6.28,-6.73,3.4,7.41,Kerguelen Islands,"Year: 2048
+Mean change: -6.3%
+SD: ±7.4%"
+2049,ssp126,-15.79,-4.9,-4.57,4.5,6.01,Kerguelen Islands,"Year: 2049
+Mean change: -4.9%
+SD: ±6%"
+2049,ssp585,-20.4,-6.59,-6.42,1.84,6.76,Kerguelen Islands,"Year: 2049
+Mean change: -6.6%
+SD: ±6.8%"
+2050,ssp126,-13.28,-4.62,-4.08,4.55,5.18,Kerguelen Islands,"Year: 2050
+Mean change: -4.6%
+SD: ±5.2%"
+2050,ssp585,-26.19,-7.22,-7.15,5.27,8.7,Kerguelen Islands,"Year: 2050
+Mean change: -7.2%
+SD: ±8.7%"
+2051,ssp126,-14.45,-5.52,-4.5,0.26,4.93,Kerguelen Islands,"Year: 2051
+Mean change: -5.5%
+SD: ±4.9%"
+2051,ssp585,-22.15,-6.75,-6.38,6.11,8.71,Kerguelen Islands,"Year: 2051
+Mean change: -6.8%
+SD: ±8.7%"
+2052,ssp126,-13.16,-4.95,-4.6,3.92,4.9,Kerguelen Islands,"Year: 2052
+Mean change: -5%
+SD: ±4.9%"
+2052,ssp585,-24.17,-8,-7.24,2.05,7.64,Kerguelen Islands,"Year: 2052
+Mean change: -8%
+SD: ±7.6%"
+2053,ssp126,-12.47,-3.88,-2.99,3.76,5.8,Kerguelen Islands,"Year: 2053
+Mean change: -3.9%
+SD: ±5.8%"
+2053,ssp585,-22.65,-8.01,-8.41,0.39,6.49,Kerguelen Islands,"Year: 2053
+Mean change: -8%
+SD: ±6.5%"
+2054,ssp126,-16.62,-4.67,-3.77,4.59,6.2,Kerguelen Islands,"Year: 2054
+Mean change: -4.7%
+SD: ±6.2%"
+2054,ssp585,-19.84,-6.69,-6.23,4.57,7.93,Kerguelen Islands,"Year: 2054
+Mean change: -6.7%
+SD: ±7.9%"
+2055,ssp126,-17.39,-4.88,-5.79,4.71,6.45,Kerguelen Islands,"Year: 2055
+Mean change: -4.9%
+SD: ±6.4%"
+2055,ssp585,-23.53,-8.69,-8.26,1.57,8.4,Kerguelen Islands,"Year: 2055
+Mean change: -8.7%
+SD: ±8.4%"
+2056,ssp126,-12.06,-4.7,-5.53,3.53,4.52,Kerguelen Islands,"Year: 2056
+Mean change: -4.7%
+SD: ±4.5%"
+2056,ssp585,-15.69,-5.65,-7.36,7.77,7.19,Kerguelen Islands,"Year: 2056
+Mean change: -5.7%
+SD: ±7.2%"
+2057,ssp126,-17.26,-5.63,-5.04,-0.04,4.91,Kerguelen Islands,"Year: 2057
+Mean change: -5.6%
+SD: ±4.9%"
+2057,ssp585,-20.29,-7.67,-7.36,1.23,6.18,Kerguelen Islands,"Year: 2057
+Mean change: -7.7%
+SD: ±6.2%"
+2058,ssp126,-12.79,-5.95,-6.52,3.83,5.22,Kerguelen Islands,"Year: 2058
+Mean change: -6%
+SD: ±5.2%"
+2058,ssp585,-16.28,-6.47,-5.12,3.5,5.89,Kerguelen Islands,"Year: 2058
+Mean change: -6.5%
+SD: ±5.9%"
+2059,ssp126,-15.76,-5.35,-5.68,3.19,5.49,Kerguelen Islands,"Year: 2059
+Mean change: -5.3%
+SD: ±5.5%"
+2059,ssp585,-16.57,-6.8,-6.95,2.36,6.07,Kerguelen Islands,"Year: 2059
+Mean change: -6.8%
+SD: ±6.1%"
+2060,ssp126,-20.04,-5.99,-6.77,7.09,7.69,Kerguelen Islands,"Year: 2060
+Mean change: -6%
+SD: ±7.7%"
+2060,ssp585,-16.9,-6.31,-4.83,5.15,6.63,Kerguelen Islands,"Year: 2060
+Mean change: -6.3%
+SD: ±6.6%"
+2061,ssp126,-13.48,-4.42,-4.85,6.83,5.94,Kerguelen Islands,"Year: 2061
+Mean change: -4.4%
+SD: ±5.9%"
+2061,ssp585,-26.2,-8.85,-8.35,-0.05,7.82,Kerguelen Islands,"Year: 2061
+Mean change: -8.8%
+SD: ±7.8%"
+2062,ssp126,-9.31,-4.31,-6.92,4.55,4.97,Kerguelen Islands,"Year: 2062
+Mean change: -4.3%
+SD: ±5%"
+2062,ssp585,-26.11,-8.72,-8.24,7.75,9.09,Kerguelen Islands,"Year: 2062
+Mean change: -8.7%
+SD: ±9.1%"
+2063,ssp126,-11.38,-5.34,-5.96,2.25,4.18,Kerguelen Islands,"Year: 2063
+Mean change: -5.3%
+SD: ±4.2%"
+2063,ssp585,-23.5,-8.72,-8.97,3.34,8.94,Kerguelen Islands,"Year: 2063
+Mean change: -8.7%
+SD: ±8.9%"
+2064,ssp126,-9.49,-4.9,-6.27,1.42,3.53,Kerguelen Islands,"Year: 2064
+Mean change: -4.9%
+SD: ±3.5%"
+2064,ssp585,-26.91,-10.48,-10.01,1.28,8.36,Kerguelen Islands,"Year: 2064
+Mean change: -10.5%
+SD: ±8.4%"
+2065,ssp126,-12.36,-5.37,-5.73,-0.16,3.75,Kerguelen Islands,"Year: 2065
+Mean change: -5.4%
+SD: ±3.8%"
+2065,ssp585,-25.41,-9.1,-9.59,4.24,8.9,Kerguelen Islands,"Year: 2065
+Mean change: -9.1%
+SD: ±8.9%"
+2066,ssp126,-8.92,-3.94,-4.57,3.57,3.85,Kerguelen Islands,"Year: 2066
+Mean change: -3.9%
+SD: ±3.9%"
+2066,ssp585,-33.23,-9.96,-11.35,4.84,10.75,Kerguelen Islands,"Year: 2066
+Mean change: -10%
+SD: ±10.8%"
+2067,ssp126,-20.42,-7.37,-6.68,2.65,6.6,Kerguelen Islands,"Year: 2067
+Mean change: -7.4%
+SD: ±6.6%"
+2067,ssp585,-18.7,-8.43,-8.68,3.44,7.15,Kerguelen Islands,"Year: 2067
+Mean change: -8.4%
+SD: ±7.2%"
+2068,ssp126,-16.7,-7.75,-7.68,-0.11,5.58,Kerguelen Islands,"Year: 2068
+Mean change: -7.8%
+SD: ±5.6%"
+2068,ssp585,-23.43,-10.02,-9.88,4.27,8.39,Kerguelen Islands,"Year: 2068
+Mean change: -10%
+SD: ±8.4%"
+2069,ssp126,-15.26,-6.48,-7.01,0.33,4.89,Kerguelen Islands,"Year: 2069
+Mean change: -6.5%
+SD: ±4.9%"
+2069,ssp585,-28.04,-12.33,-11.8,0.78,9.39,Kerguelen Islands,"Year: 2069
+Mean change: -12.3%
+SD: ±9.4%"
+2070,ssp126,-11.2,-4.44,-4.22,1.47,3.85,Kerguelen Islands,"Year: 2070
+Mean change: -4.4%
+SD: ±3.9%"
+2070,ssp585,-25.32,-11.25,-11.25,3.59,9.42,Kerguelen Islands,"Year: 2070
+Mean change: -11.2%
+SD: ±9.4%"
+2071,ssp126,-8.97,-3.82,-3.83,2.07,3.39,Kerguelen Islands,"Year: 2071
+Mean change: -3.8%
+SD: ±3.4%"
+2071,ssp585,-29.5,-12.4,-11.97,1.55,9.84,Kerguelen Islands,"Year: 2071
+Mean change: -12.4%
+SD: ±9.8%"
+2072,ssp126,-9,-4.06,-4.26,3.92,4.24,Kerguelen Islands,"Year: 2072
+Mean change: -4.1%
+SD: ±4.2%"
+2072,ssp585,-28.86,-12.34,-12.11,0.08,9.95,Kerguelen Islands,"Year: 2072
+Mean change: -12.3%
+SD: ±9.9%"
+2073,ssp126,-13.07,-6.82,-5.97,-0.94,4.43,Kerguelen Islands,"Year: 2073
+Mean change: -6.8%
+SD: ±4.4%"
+2073,ssp585,-28.93,-10.88,-10.76,4.32,10.62,Kerguelen Islands,"Year: 2073
+Mean change: -10.9%
+SD: ±10.6%"
+2074,ssp126,-25.43,-6.32,-4.35,3.63,7.96,Kerguelen Islands,"Year: 2074
+Mean change: -6.3%
+SD: ±8%"
+2074,ssp585,-32.64,-12.72,-12.32,5.56,11.73,Kerguelen Islands,"Year: 2074
+Mean change: -12.7%
+SD: ±11.7%"
+2075,ssp126,-16.56,-5.02,-4.09,4.04,5.53,Kerguelen Islands,"Year: 2075
+Mean change: -5%
+SD: ±5.5%"
+2075,ssp585,-30.66,-12.66,-12.66,4.95,10.63,Kerguelen Islands,"Year: 2075
+Mean change: -12.7%
+SD: ±10.6%"
+2076,ssp126,-17.53,-4.62,-4.04,3.97,6.25,Kerguelen Islands,"Year: 2076
+Mean change: -4.6%
+SD: ±6.2%"
+2076,ssp585,-25.62,-9.87,-11.29,9.94,10.56,Kerguelen Islands,"Year: 2076
+Mean change: -9.9%
+SD: ±10.6%"
+2077,ssp126,-16.48,-6.21,-5.42,-0.15,5.74,Kerguelen Islands,"Year: 2077
+Mean change: -6.2%
+SD: ±5.7%"
+2077,ssp585,-25.92,-11.17,-10.86,3.69,9.91,Kerguelen Islands,"Year: 2077
+Mean change: -11.2%
+SD: ±9.9%"
+2078,ssp126,-14.89,-5.8,-5.67,2.34,5.14,Kerguelen Islands,"Year: 2078
+Mean change: -5.8%
+SD: ±5.1%"
+2078,ssp585,-34.98,-14.32,-13.39,3.06,11.5,Kerguelen Islands,"Year: 2078
+Mean change: -14.3%
+SD: ±11.5%"
+2079,ssp126,-13.53,-4.43,-3.47,3.17,5.99,Kerguelen Islands,"Year: 2079
+Mean change: -4.4%
+SD: ±6%"
+2079,ssp585,-26.4,-12.73,-13.18,-0.19,8.77,Kerguelen Islands,"Year: 2079
+Mean change: -12.7%
+SD: ±8.8%"
+2080,ssp126,-12.36,-4.56,-4.2,0.39,4.04,Kerguelen Islands,"Year: 2080
+Mean change: -4.6%
+SD: ±4%"
+2080,ssp585,-27.93,-12.5,-13.08,3.33,10.13,Kerguelen Islands,"Year: 2080
+Mean change: -12.5%
+SD: ±10.1%"
+2081,ssp126,-14.48,-5.72,-4.91,1.27,4.82,Kerguelen Islands,"Year: 2081
+Mean change: -5.7%
+SD: ±4.8%"
+2081,ssp585,-27.01,-10.87,-10.78,6.06,11.14,Kerguelen Islands,"Year: 2081
+Mean change: -10.9%
+SD: ±11.1%"
+2082,ssp126,-20.5,-7.35,-6.64,1.88,6.35,Kerguelen Islands,"Year: 2082
+Mean change: -7.3%
+SD: ±6.3%"
+2082,ssp585,-33.99,-13.12,-13.18,3.78,12,Kerguelen Islands,"Year: 2082
+Mean change: -13.1%
+SD: ±12%"
+2083,ssp126,-15.08,-8.25,-8.17,-1.02,4.65,Kerguelen Islands,"Year: 2083
+Mean change: -8.2%
+SD: ±4.7%"
+2083,ssp585,-31.76,-12.61,-13.57,5.41,11.52,Kerguelen Islands,"Year: 2083
+Mean change: -12.6%
+SD: ±11.5%"
+2084,ssp126,-12.57,-6.47,-7.36,2.48,4.52,Kerguelen Islands,"Year: 2084
+Mean change: -6.5%
+SD: ±4.5%"
+2084,ssp585,-30.42,-13.31,-13.72,4.11,11.13,Kerguelen Islands,"Year: 2084
+Mean change: -13.3%
+SD: ±11.1%"
+2085,ssp126,-17.63,-6.43,-6.53,-0.03,5.34,Kerguelen Islands,"Year: 2085
+Mean change: -6.4%
+SD: ±5.3%"
+2085,ssp585,-40.03,-14.93,-14.71,4.2,12.32,Kerguelen Islands,"Year: 2085
+Mean change: -14.9%
+SD: ±12.3%"
+2086,ssp126,-16.33,-6.7,-7.29,3.73,6.39,Kerguelen Islands,"Year: 2086
+Mean change: -6.7%
+SD: ±6.4%"
+2086,ssp585,-42.34,-16.96,-16.33,3.83,13.07,Kerguelen Islands,"Year: 2086
+Mean change: -17%
+SD: ±13.1%"
+2087,ssp126,-10.19,-4.41,-5.06,2.95,4.81,Kerguelen Islands,"Year: 2087
+Mean change: -4.4%
+SD: ±4.8%"
+2087,ssp585,-35.25,-16.64,-16.63,4.53,11.37,Kerguelen Islands,"Year: 2087
+Mean change: -16.6%
+SD: ±11.4%"
+2088,ssp126,-16.72,-6.51,-6.76,0.48,5.02,Kerguelen Islands,"Year: 2088
+Mean change: -6.5%
+SD: ±5%"
+2088,ssp585,-35.48,-16.03,-15.65,4.3,11.51,Kerguelen Islands,"Year: 2088
+Mean change: -16%
+SD: ±11.5%"
+2089,ssp126,-12.21,-6.25,-6.25,-0.58,3.69,Kerguelen Islands,"Year: 2089
+Mean change: -6.2%
+SD: ±3.7%"
+2089,ssp585,-40.1,-16.62,-17.36,1.7,13.44,Kerguelen Islands,"Year: 2089
+Mean change: -16.6%
+SD: ±13.4%"
+2090,ssp126,-14.24,-5.49,-5.72,-0.46,4.63,Kerguelen Islands,"Year: 2090
+Mean change: -5.5%
+SD: ±4.6%"
+2090,ssp585,-41.23,-15.77,-16.41,3.98,13.73,Kerguelen Islands,"Year: 2090
+Mean change: -15.8%
+SD: ±13.7%"
+2091,ssp126,-17.08,-5.55,-5.65,5.18,6.62,Kerguelen Islands,"Year: 2091
+Mean change: -5.6%
+SD: ±6.6%"
+2091,ssp585,-36.51,-16.39,-16.86,-0.99,12.03,Kerguelen Islands,"Year: 2091
+Mean change: -16.4%
+SD: ±12%"
+2092,ssp126,-17.55,-8.12,-8.11,-0.08,5.89,Kerguelen Islands,"Year: 2092
+Mean change: -8.1%
+SD: ±5.9%"
+2092,ssp585,-39.79,-17.21,-17.64,2.4,13.56,Kerguelen Islands,"Year: 2092
+Mean change: -17.2%
+SD: ±13.6%"
+2093,ssp126,-15.84,-6.92,-7.16,-0.29,4.84,Kerguelen Islands,"Year: 2093
+Mean change: -6.9%
+SD: ±4.8%"
+2093,ssp585,-36.54,-15.21,-15.99,5.06,12.52,Kerguelen Islands,"Year: 2093
+Mean change: -15.2%
+SD: ±12.5%"
+2094,ssp126,-20.89,-7.22,-6.58,4.17,7.28,Kerguelen Islands,"Year: 2094
+Mean change: -7.2%
+SD: ±7.3%"
+2094,ssp585,-44.87,-16.25,-18.19,6.3,15.71,Kerguelen Islands,"Year: 2094
+Mean change: -16.2%
+SD: ±15.7%"
+2095,ssp126,-12.47,-6.04,-6.4,2.36,4.75,Kerguelen Islands,"Year: 2095
+Mean change: -6%
+SD: ±4.8%"
+2095,ssp585,-39.36,-16.54,-18.13,3.35,13.75,Kerguelen Islands,"Year: 2095
+Mean change: -16.5%
+SD: ±13.8%"
+2096,ssp126,-21.11,-7.59,-7.76,1.55,6.58,Kerguelen Islands,"Year: 2096
+Mean change: -7.6%
+SD: ±6.6%"
+2096,ssp585,-42,-16.04,-17.53,6.55,14.94,Kerguelen Islands,"Year: 2096
+Mean change: -16%
+SD: ±14.9%"
+2097,ssp126,-18.85,-8.4,-7.72,0.16,6.14,Kerguelen Islands,"Year: 2097
+Mean change: -8.4%
+SD: ±6.1%"
+2097,ssp585,-37.82,-16.64,-17.19,5.85,14.04,Kerguelen Islands,"Year: 2097
+Mean change: -16.6%
+SD: ±14%"
+2098,ssp126,-16.25,-8.14,-8.42,2.9,6.23,Kerguelen Islands,"Year: 2098
+Mean change: -8.1%
+SD: ±6.2%"
+2098,ssp585,-44.08,-18.38,-18.9,5.9,14.89,Kerguelen Islands,"Year: 2098
+Mean change: -18.4%
+SD: ±14.9%"
+2099,ssp126,-13.4,-7.3,-8.45,2.58,4.87,Kerguelen Islands,"Year: 2099
+Mean change: -7.3%
+SD: ±4.9%"
+2099,ssp585,-41.68,-17.69,-18.33,5.49,14.43,Kerguelen Islands,"Year: 2099
+Mean change: -17.7%
+SD: ±14.4%"
+2100,ssp126,-12.69,-7.55,-8.2,-1.06,3.94,Kerguelen Islands,"Year: 2100
+Mean change: -7.6%
+SD: ±3.9%"
+2100,ssp585,-40.35,-18.18,-18.99,4.74,14.29,Kerguelen Islands,"Year: 2100
+Mean change: -18.2%
+SD: ±14.3%"
+1950,historical,-10.12,-1.79,-2.88,7,6.25,Pacific,"Year: 1950
+Mean change: -1.8%
+SD: ±6.2%"
+1951,historical,-10.38,-3.07,-5.1,6.19,5.64,Pacific,"Year: 1951
+Mean change: -3.1%
+SD: ±5.6%"
+1952,historical,-8.7,-3.07,-4.42,5.33,4.72,Pacific,"Year: 1952
+Mean change: -3.1%
+SD: ±4.7%"
+1953,historical,-12.65,-3.51,-4.39,4.4,5.02,Pacific,"Year: 1953
+Mean change: -3.5%
+SD: ±5%"
+1954,historical,-8.51,-2.6,-3.95,3.6,3.78,Pacific,"Year: 1954
+Mean change: -2.6%
+SD: ±3.8%"
+1955,historical,-6.88,-1.44,-1.75,3.49,3.66,Pacific,"Year: 1955
+Mean change: -1.4%
+SD: ±3.7%"
+1956,historical,-6.21,-1.72,-3.02,6.81,4.59,Pacific,"Year: 1956
+Mean change: -1.7%
+SD: ±4.6%"
+1957,historical,-8.89,-2.71,-3.07,5.73,5,Pacific,"Year: 1957
+Mean change: -2.7%
+SD: ±5%"
+1958,historical,-8.74,-2.77,-3.07,1.79,3.38,Pacific,"Year: 1958
+Mean change: -2.8%
+SD: ±3.4%"
+1959,historical,-5.05,-1.97,-2.4,2.5,2.11,Pacific,"Year: 1959
+Mean change: -2%
+SD: ±2.1%"
+1960,historical,-8.71,-1.06,-0.85,2.5,3.37,Pacific,"Year: 1960
+Mean change: -1.1%
+SD: ±3.4%"
+1961,historical,-8.17,-2.28,-2.35,2.26,2.92,Pacific,"Year: 1961
+Mean change: -2.3%
+SD: ±2.9%"
+1962,historical,-5.22,-1.87,-2.37,1.58,2.23,Pacific,"Year: 1962
+Mean change: -1.9%
+SD: ±2.2%"
+1963,historical,-4.78,-1.09,-1.97,4.3,2.86,Pacific,"Year: 1963
+Mean change: -1.1%
+SD: ±2.9%"
+1964,historical,-8.15,-3.15,-2.85,0.66,2.58,Pacific,"Year: 1964
+Mean change: -3.1%
+SD: ±2.6%"
+1965,historical,-5.88,-2.08,-2.77,1.49,2.38,Pacific,"Year: 1965
+Mean change: -2.1%
+SD: ±2.4%"
+1966,historical,-6.3,1.29,1.62,9.82,4.74,Pacific,"Year: 1966
+Mean change: 1.3%
+SD: ±4.7%"
+1967,historical,-7.02,-0.2,-0.3,6.11,4.81,Pacific,"Year: 1967
+Mean change: -0.2%
+SD: ±4.8%"
+1968,historical,-7.95,-2.19,-1.68,3.82,3.65,Pacific,"Year: 1968
+Mean change: -2.2%
+SD: ±3.6%"
+1969,historical,-4.98,-0.74,-1.94,8.67,4.54,Pacific,"Year: 1969
+Mean change: -0.7%
+SD: ±4.5%"
+1970,historical,-4.93,-1.31,-2.56,4.59,3.13,Pacific,"Year: 1970
+Mean change: -1.3%
+SD: ±3.1%"
+1971,historical,-5.3,-0.82,-0.14,5.58,3.6,Pacific,"Year: 1971
+Mean change: -0.8%
+SD: ±3.6%"
+1972,historical,-5.67,0.11,-0.07,8.37,4.88,Pacific,"Year: 1972
+Mean change: 0.1%
+SD: ±4.9%"
+1973,historical,-6.71,-2.08,-2.47,3.1,3.48,Pacific,"Year: 1973
+Mean change: -2.1%
+SD: ±3.5%"
+1974,historical,-8.75,-4.23,-4.74,2.3,3.81,Pacific,"Year: 1974
+Mean change: -4.2%
+SD: ±3.8%"
+1975,historical,-9.2,-3.9,-4.16,1.83,3.32,Pacific,"Year: 1975
+Mean change: -3.9%
+SD: ±3.3%"
+1976,historical,-7.68,-1.55,-1.26,3.44,3.64,Pacific,"Year: 1976
+Mean change: -1.6%
+SD: ±3.6%"
+1977,historical,-6.94,-2.91,-2.61,1.78,3.25,Pacific,"Year: 1977
+Mean change: -2.9%
+SD: ±3.2%"
+1978,historical,-6.66,-2.08,-1.36,1.69,2.88,Pacific,"Year: 1978
+Mean change: -2.1%
+SD: ±2.9%"
+1979,historical,-6.56,-0.39,-0.88,8.56,3.96,Pacific,"Year: 1979
+Mean change: -0.4%
+SD: ±4%"
+1980,historical,-6.65,-1.23,-1.24,3.26,2.51,Pacific,"Year: 1980
+Mean change: -1.2%
+SD: ±2.5%"
+1981,historical,-10.3,-3.73,-3.56,1.69,3.51,Pacific,"Year: 1981
+Mean change: -3.7%
+SD: ±3.5%"
+1982,historical,-9.02,-3.37,-3.91,4.23,3.94,Pacific,"Year: 1982
+Mean change: -3.4%
+SD: ±3.9%"
+1983,historical,-12.18,-2.72,-1.7,3.15,4.48,Pacific,"Year: 1983
+Mean change: -2.7%
+SD: ±4.5%"
+1984,historical,-10.66,-1.01,1.01,6.27,5.03,Pacific,"Year: 1984
+Mean change: -1%
+SD: ±5%"
+1985,historical,-7.02,-1.98,-1.83,2.97,3.29,Pacific,"Year: 1985
+Mean change: -2%
+SD: ±3.3%"
+1986,historical,-6.58,-0.94,-0.97,4.7,4.43,Pacific,"Year: 1986
+Mean change: -0.9%
+SD: ±4.4%"
+1987,historical,-7.51,-0.1,0.48,5.47,4.63,Pacific,"Year: 1987
+Mean change: -0.1%
+SD: ±4.6%"
+1988,historical,-7.53,0.9,1.41,6.69,4.76,Pacific,"Year: 1988
+Mean change: 0.9%
+SD: ±4.8%"
+1989,historical,-5.86,-1.14,-1.6,6.69,4.32,Pacific,"Year: 1989
+Mean change: -1.1%
+SD: ±4.3%"
+1990,historical,-6.88,0.64,-0.01,9.83,6.01,Pacific,"Year: 1990
+Mean change: 0.6%
+SD: ±6%"
+1991,historical,-5.01,0.74,0.18,8.49,4.27,Pacific,"Year: 1991
+Mean change: 0.7%
+SD: ±4.3%"
+1992,historical,-9.83,-2.63,-4.77,9.37,6.49,Pacific,"Year: 1992
+Mean change: -2.6%
+SD: ±6.5%"
+1993,historical,-11.33,-1.69,-2.87,7.97,6.28,Pacific,"Year: 1993
+Mean change: -1.7%
+SD: ±6.3%"
+1994,historical,-11.57,-1.69,-1.5,6.74,5.11,Pacific,"Year: 1994
+Mean change: -1.7%
+SD: ±5.1%"
+1995,historical,-11.54,-1.54,-0.95,5.63,5.03,Pacific,"Year: 1995
+Mean change: -1.5%
+SD: ±5%"
+1996,historical,-13.68,-1.99,-2.76,5.22,5.5,Pacific,"Year: 1996
+Mean change: -2%
+SD: ±5.5%"
+1997,historical,-11.9,-3.76,-4.48,3.86,4.36,Pacific,"Year: 1997
+Mean change: -3.8%
+SD: ±4.4%"
+1998,historical,-9.08,-4,-4.47,2.55,3.52,Pacific,"Year: 1998
+Mean change: -4%
+SD: ±3.5%"
+1999,historical,-8.37,-1.89,-2.41,3.03,4.07,Pacific,"Year: 1999
+Mean change: -1.9%
+SD: ±4.1%"
+2000,historical,-5.81,-2.13,-2.15,1.57,2.29,Pacific,"Year: 2000
+Mean change: -2.1%
+SD: ±2.3%"
+2001,historical,-8.28,-0.12,1.23,4.05,3.58,Pacific,"Year: 2001
+Mean change: -0.1%
+SD: ±3.6%"
+2002,historical,-8.47,-0.74,0.25,3.53,3.76,Pacific,"Year: 2002
+Mean change: -0.7%
+SD: ±3.8%"
+2003,historical,-4.07,0.02,0.16,5.84,2.81,Pacific,"Year: 2003
+Mean change: 0%
+SD: ±2.8%"
+2004,historical,-7.8,-0.91,-0.5,6.7,4.57,Pacific,"Year: 2004
+Mean change: -0.9%
+SD: ±4.6%"
+2005,historical,-5.76,-0.98,-0.22,1.83,2.67,Pacific,"Year: 2005
+Mean change: -1%
+SD: ±2.7%"
+2006,historical,-7.35,-0.1,-0.54,4.77,3.7,Pacific,"Year: 2006
+Mean change: -0.1%
+SD: ±3.7%"
+2007,historical,-8.51,-1.75,-1.37,1.84,2.87,Pacific,"Year: 2007
+Mean change: -1.8%
+SD: ±2.9%"
+2008,historical,-7.61,-0.8,0.21,2.26,3.2,Pacific,"Year: 2008
+Mean change: -0.8%
+SD: ±3.2%"
+2009,historical,-0.77,2.5,2.32,8.05,2.64,Pacific,"Year: 2009
+Mean change: 2.5%
+SD: ±2.6%"
+2010,historical,-2.05,1.73,0.45,8.3,3.49,Pacific,"Year: 2010
+Mean change: 1.7%
+SD: ±3.5%"
+2011,historical,-4.2,0.01,-0.23,5.41,2.39,Pacific,"Year: 2011
+Mean change: 0%
+SD: ±2.4%"
+2012,historical,-1.97,0.25,-0.5,4.71,2.03,Pacific,"Year: 2012
+Mean change: 0.2%
+SD: ±2%"
+2013,historical,-4.43,-0.45,-1.02,5.38,2.83,Pacific,"Year: 2013
+Mean change: -0.4%
+SD: ±2.8%"
+2014,historical,-6.8,-0.4,-0.44,4.05,3.29,Pacific,"Year: 2014
+Mean change: -0.4%
+SD: ±3.3%"
+2015,ssp126,-6.25,-1.5,-2.32,4.01,3.37,Pacific,"Year: 2015
+Mean change: -1.5%
+SD: ±3.4%"
+2015,ssp585,-9.41,-2.17,-2.47,3.86,4.47,Pacific,"Year: 2015
+Mean change: -2.2%
+SD: ±4.5%"
+2016,ssp126,-4.16,0.45,0.34,7.78,3.62,Pacific,"Year: 2016
+Mean change: 0.4%
+SD: ±3.6%"
+2016,ssp585,-5.6,-0.74,-0.4,4.63,3.04,Pacific,"Year: 2016
+Mean change: -0.7%
+SD: ±3%"
+2017,ssp126,-10.31,-1.31,-1.99,4.96,4.57,Pacific,"Year: 2017
+Mean change: -1.3%
+SD: ±4.6%"
+2017,ssp585,-2.8,0.41,-0.63,5.69,2.77,Pacific,"Year: 2017
+Mean change: 0.4%
+SD: ±2.8%"
+2018,ssp126,-6.81,-1.26,-1.5,5.14,3.62,Pacific,"Year: 2018
+Mean change: -1.3%
+SD: ±3.6%"
+2018,ssp585,-2.65,1.69,1.14,7.34,3.48,Pacific,"Year: 2018
+Mean change: 1.7%
+SD: ±3.5%"
+2019,ssp126,-5.3,-1.13,-1.64,4.98,2.72,Pacific,"Year: 2019
+Mean change: -1.1%
+SD: ±2.7%"
+2019,ssp585,-2.55,2.14,0.81,11.8,4.49,Pacific,"Year: 2019
+Mean change: 2.1%
+SD: ±4.5%"
+2020,ssp126,-4.27,0.01,0.14,4.97,2.67,Pacific,"Year: 2020
+Mean change: 0%
+SD: ±2.7%"
+2020,ssp585,-2.87,1.99,-0.26,16.32,6.17,Pacific,"Year: 2020
+Mean change: 2%
+SD: ±6.2%"
+2021,ssp126,-2.78,0.4,0.25,5.23,2.45,Pacific,"Year: 2021
+Mean change: 0.4%
+SD: ±2.5%"
+2021,ssp585,-6.69,1.36,-1.42,16.06,7.09,Pacific,"Year: 2021
+Mean change: 1.4%
+SD: ±7.1%"
+2022,ssp126,-4.81,0.1,0.71,5.58,3.3,Pacific,"Year: 2022
+Mean change: 0.1%
+SD: ±3.3%"
+2022,ssp585,-11,0.31,-1.44,11.07,6.61,Pacific,"Year: 2022
+Mean change: 0.3%
+SD: ±6.6%"
+2023,ssp126,-7.27,-2.73,-3.94,5.84,4.35,Pacific,"Year: 2023
+Mean change: -2.7%
+SD: ±4.3%"
+2023,ssp585,-6.77,1.39,0.68,11.17,5.12,Pacific,"Year: 2023
+Mean change: 1.4%
+SD: ±5.1%"
+2024,ssp126,-7.41,-2.61,-3.8,5.67,4.11,Pacific,"Year: 2024
+Mean change: -2.6%
+SD: ±4.1%"
+2024,ssp585,-11.69,-0.11,-0.79,11.57,6.32,Pacific,"Year: 2024
+Mean change: -0.1%
+SD: ±6.3%"
+2025,ssp126,-12.18,-4.48,-4.8,5.08,4.63,Pacific,"Year: 2025
+Mean change: -4.5%
+SD: ±4.6%"
+2025,ssp585,-3.68,1.05,0.49,11.92,4.85,Pacific,"Year: 2025
+Mean change: 1%
+SD: ±4.8%"
+2026,ssp126,-11.79,-3.91,-3.09,3.87,4.64,Pacific,"Year: 2026
+Mean change: -3.9%
+SD: ±4.6%"
+2026,ssp585,-3.88,0.89,-0.96,12.06,4.65,Pacific,"Year: 2026
+Mean change: 0.9%
+SD: ±4.7%"
+2027,ssp126,-8.16,-3.71,-4.33,2.71,3.16,Pacific,"Year: 2027
+Mean change: -3.7%
+SD: ±3.2%"
+2027,ssp585,-4.26,0.56,-0.67,11.8,4.68,Pacific,"Year: 2027
+Mean change: 0.6%
+SD: ±4.7%"
+2028,ssp126,-4.74,-1.72,-2.34,2.07,2.26,Pacific,"Year: 2028
+Mean change: -1.7%
+SD: ±2.3%"
+2028,ssp585,-3.85,1.19,0.26,11,4.3,Pacific,"Year: 2028
+Mean change: 1.2%
+SD: ±4.3%"
+2029,ssp126,-4.75,-0.25,-0.01,4.4,2.7,Pacific,"Year: 2029
+Mean change: -0.2%
+SD: ±2.7%"
+2029,ssp585,-6.54,0.22,-1.2,9.9,5.24,Pacific,"Year: 2029
+Mean change: 0.2%
+SD: ±5.2%"
+2030,ssp126,-4.72,-0.51,-0.55,5.15,2.95,Pacific,"Year: 2030
+Mean change: -0.5%
+SD: ±3%"
+2030,ssp585,-4.2,0.01,-1.38,8.53,4.18,Pacific,"Year: 2030
+Mean change: 0%
+SD: ±4.2%"
+2031,ssp126,-7.04,-2.21,-2.89,6.28,3.94,Pacific,"Year: 2031
+Mean change: -2.2%
+SD: ±3.9%"
+2031,ssp585,-9.16,-2.78,-2.52,7.01,4.97,Pacific,"Year: 2031
+Mean change: -2.8%
+SD: ±5%"
+2032,ssp126,-4.84,-1.35,-2.08,3.38,3.02,Pacific,"Year: 2032
+Mean change: -1.4%
+SD: ±3%"
+2032,ssp585,-4.38,-0.47,-2.41,8.98,4.4,Pacific,"Year: 2032
+Mean change: -0.5%
+SD: ±4.4%"
+2033,ssp126,-4.81,-1.5,-0.88,1.56,2.1,Pacific,"Year: 2033
+Mean change: -1.5%
+SD: ±2.1%"
+2033,ssp585,-4.67,-1.05,-1.79,4.77,2.87,Pacific,"Year: 2033
+Mean change: -1%
+SD: ±2.9%"
+2034,ssp126,-4.91,-1.45,-1.59,1.32,2.06,Pacific,"Year: 2034
+Mean change: -1.4%
+SD: ±2.1%"
+2034,ssp585,-8.35,-3,-3.53,3.94,4.14,Pacific,"Year: 2034
+Mean change: -3%
+SD: ±4.1%"
+2035,ssp126,-10.28,-3.11,-2.97,4.16,4.33,Pacific,"Year: 2035
+Mean change: -3.1%
+SD: ±4.3%"
+2035,ssp585,-5.32,-1.94,-2.14,2.87,2.85,Pacific,"Year: 2035
+Mean change: -1.9%
+SD: ±2.9%"
+2036,ssp126,-5.4,-2.4,-2.45,2.4,2.48,Pacific,"Year: 2036
+Mean change: -2.4%
+SD: ±2.5%"
+2036,ssp585,-7.48,-2.91,-2.93,1.68,2.84,Pacific,"Year: 2036
+Mean change: -2.9%
+SD: ±2.8%"
+2037,ssp126,-5.24,-2.39,-2.6,2.26,2.44,Pacific,"Year: 2037
+Mean change: -2.4%
+SD: ±2.4%"
+2037,ssp585,-5.27,-1.26,-1.72,2.26,2.53,Pacific,"Year: 2037
+Mean change: -1.3%
+SD: ±2.5%"
+2038,ssp126,-5.63,-3.01,-4.58,2.28,3.13,Pacific,"Year: 2038
+Mean change: -3%
+SD: ±3.1%"
+2038,ssp585,-5.45,-2.57,-3.1,1.21,2.11,Pacific,"Year: 2038
+Mean change: -2.6%
+SD: ±2.1%"
+2039,ssp126,-11.47,-4.08,-4.38,2.59,4.63,Pacific,"Year: 2039
+Mean change: -4.1%
+SD: ±4.6%"
+2039,ssp585,-6.14,-3.74,-4.21,0.13,2.13,Pacific,"Year: 2039
+Mean change: -3.7%
+SD: ±2.1%"
+2040,ssp126,-8,-3.33,-3.62,0.94,3.12,Pacific,"Year: 2040
+Mean change: -3.3%
+SD: ±3.1%"
+2040,ssp585,-9.68,-3.11,-3.97,10.01,5.39,Pacific,"Year: 2040
+Mean change: -3.1%
+SD: ±5.4%"
+2041,ssp126,-9.22,-2.46,-1.89,2.48,4.51,Pacific,"Year: 2041
+Mean change: -2.5%
+SD: ±4.5%"
+2041,ssp585,-11.65,-1.33,-2.28,12.14,6.84,Pacific,"Year: 2041
+Mean change: -1.3%
+SD: ±6.8%"
+2042,ssp126,-10.22,-3.87,-4.55,5.95,4.61,Pacific,"Year: 2042
+Mean change: -3.9%
+SD: ±4.6%"
+2042,ssp585,-8.03,-3.66,-3.34,1.64,2.83,Pacific,"Year: 2042
+Mean change: -3.7%
+SD: ±2.8%"
+2043,ssp126,-11.24,-5.75,-5.42,-1.53,2.68,Pacific,"Year: 2043
+Mean change: -5.8%
+SD: ±2.7%"
+2043,ssp585,-7.22,-2.98,-3.25,1.92,2.7,Pacific,"Year: 2043
+Mean change: -3%
+SD: ±2.7%"
+2044,ssp126,-12.06,-2.94,-3.19,3.3,4.5,Pacific,"Year: 2044
+Mean change: -2.9%
+SD: ±4.5%"
+2044,ssp585,-7.77,-2.63,-2.87,3.89,3.44,Pacific,"Year: 2044
+Mean change: -2.6%
+SD: ±3.4%"
+2045,ssp126,-12.74,-5.56,-4.57,-1.08,4.29,Pacific,"Year: 2045
+Mean change: -5.6%
+SD: ±4.3%"
+2045,ssp585,-8.48,-3.07,-3.89,2.57,3.52,Pacific,"Year: 2045
+Mean change: -3.1%
+SD: ±3.5%"
+2046,ssp126,-13.64,-5.54,-5.66,6.42,6.14,Pacific,"Year: 2046
+Mean change: -5.5%
+SD: ±6.1%"
+2046,ssp585,-9.41,-4.49,-4.21,-0.11,2.55,Pacific,"Year: 2046
+Mean change: -4.5%
+SD: ±2.5%"
+2047,ssp126,-14.48,-4.44,-4.34,5.76,5.67,Pacific,"Year: 2047
+Mean change: -4.4%
+SD: ±5.7%"
+2047,ssp585,-10.29,-3.28,-4.27,5.17,4.67,Pacific,"Year: 2047
+Mean change: -3.3%
+SD: ±4.7%"
+2048,ssp126,-15.05,-2.61,-1.85,4.58,6.01,Pacific,"Year: 2048
+Mean change: -2.6%
+SD: ±6%"
+2048,ssp585,-11.02,-2.95,-3.31,5.06,5.27,Pacific,"Year: 2048
+Mean change: -3%
+SD: ±5.3%"
+2049,ssp126,-15.38,-3.98,-2.95,3.67,4.76,Pacific,"Year: 2049
+Mean change: -4%
+SD: ±4.8%"
+2049,ssp585,-11.52,-2.82,-3.64,4.15,5.75,Pacific,"Year: 2049
+Mean change: -2.8%
+SD: ±5.8%"
+2050,ssp126,-15.77,-4.91,-4.29,2.95,5.76,Pacific,"Year: 2050
+Mean change: -4.9%
+SD: ±5.8%"
+2050,ssp585,-11.8,-4.17,-4,1.33,4.16,Pacific,"Year: 2050
+Mean change: -4.2%
+SD: ±4.2%"
+2051,ssp126,-16.2,-5.61,-3.56,-1.89,4.38,Pacific,"Year: 2051
+Mean change: -5.6%
+SD: ±4.4%"
+2051,ssp585,-12.11,-4.45,-4.66,2.05,4.21,Pacific,"Year: 2051
+Mean change: -4.4%
+SD: ±4.2%"
+2052,ssp126,-16.66,-3.39,-2.3,6.36,6.63,Pacific,"Year: 2052
+Mean change: -3.4%
+SD: ±6.6%"
+2052,ssp585,-12.55,-3.01,-4,5.15,5.31,Pacific,"Year: 2052
+Mean change: -3%
+SD: ±5.3%"
+2053,ssp126,-17.08,-3.45,-1.47,7.44,7.18,Pacific,"Year: 2053
+Mean change: -3.5%
+SD: ±7.2%"
+2053,ssp585,-12.84,-3.03,-3.02,3.62,5.42,Pacific,"Year: 2053
+Mean change: -3%
+SD: ±5.4%"
+2054,ssp126,-17.28,-4.19,-2.73,2.55,5.79,Pacific,"Year: 2054
+Mean change: -4.2%
+SD: ±5.8%"
+2054,ssp585,-12.99,-4.83,-4.4,0.52,3.7,Pacific,"Year: 2054
+Mean change: -4.8%
+SD: ±3.7%"
+2055,ssp126,-17.19,-4.19,-3.11,4.54,5.68,Pacific,"Year: 2055
+Mean change: -4.2%
+SD: ±5.7%"
+2055,ssp585,-13.16,-2.86,-3.3,7.88,5.81,Pacific,"Year: 2055
+Mean change: -2.9%
+SD: ±5.8%"
+2056,ssp126,-16.99,-3.91,-3.47,2.86,5.46,Pacific,"Year: 2056
+Mean change: -3.9%
+SD: ±5.5%"
+2056,ssp585,-13.28,-4.75,-4.57,3.53,4.39,Pacific,"Year: 2056
+Mean change: -4.8%
+SD: ±4.4%"
+2057,ssp126,-17.11,-5.35,-4.65,0.75,4.84,Pacific,"Year: 2057
+Mean change: -5.3%
+SD: ±4.8%"
+2057,ssp585,-13.59,-5.11,-7.6,7.44,6.1,Pacific,"Year: 2057
+Mean change: -5.1%
+SD: ±6.1%"
+2058,ssp126,-17.59,-5.73,-4.88,2.55,5.31,Pacific,"Year: 2058
+Mean change: -5.7%
+SD: ±5.3%"
+2058,ssp585,-14.14,-4.35,-4.07,4.1,5.08,Pacific,"Year: 2058
+Mean change: -4.3%
+SD: ±5.1%"
+2059,ssp126,-18.13,-5.6,-4.17,0.89,5.55,Pacific,"Year: 2059
+Mean change: -5.6%
+SD: ±5.6%"
+2059,ssp585,-14.93,-5.55,-5.75,1.97,4.64,Pacific,"Year: 2059
+Mean change: -5.6%
+SD: ±4.6%"
+2060,ssp126,-18.46,-4.97,-3.77,1.14,6.32,Pacific,"Year: 2060
+Mean change: -5%
+SD: ±6.3%"
+2060,ssp585,-15.73,-4.81,-4.48,4.26,5.66,Pacific,"Year: 2060
+Mean change: -4.8%
+SD: ±5.7%"
+2061,ssp126,-18.49,-3.78,-2.79,6.71,7.12,Pacific,"Year: 2061
+Mean change: -3.8%
+SD: ±7.1%"
+2061,ssp585,-16.37,-5.39,-4.29,1.06,4.87,Pacific,"Year: 2061
+Mean change: -5.4%
+SD: ±4.9%"
+2062,ssp126,-18.4,-4.07,-3.79,6.33,6.24,Pacific,"Year: 2062
+Mean change: -4.1%
+SD: ±6.2%"
+2062,ssp585,-16.86,-3.19,-2.49,7.7,6.86,Pacific,"Year: 2062
+Mean change: -3.2%
+SD: ±6.9%"
+2063,ssp126,-18.66,-4.88,-4.64,3.8,6.23,Pacific,"Year: 2063
+Mean change: -4.9%
+SD: ±6.2%"
+2063,ssp585,-17.16,-4.26,-4.42,7.42,6.41,Pacific,"Year: 2063
+Mean change: -4.3%
+SD: ±6.4%"
+2064,ssp126,-19.23,-7.57,-6.78,2.08,5.54,Pacific,"Year: 2064
+Mean change: -7.6%
+SD: ±5.5%"
+2064,ssp585,-17.51,-5.27,-4.06,2.78,5.84,Pacific,"Year: 2064
+Mean change: -5.3%
+SD: ±5.8%"
+2065,ssp126,-20.03,-6.44,-4.58,3.41,6.39,Pacific,"Year: 2065
+Mean change: -6.4%
+SD: ±6.4%"
+2065,ssp585,-18.07,-4.92,-5.73,7.7,7.42,Pacific,"Year: 2065
+Mean change: -4.9%
+SD: ±7.4%"
+2066,ssp126,-20.86,-6.01,-5.12,6.16,7.13,Pacific,"Year: 2066
+Mean change: -6%
+SD: ±7.1%"
+2066,ssp585,-18.71,-4.25,-3.08,6.21,7.32,Pacific,"Year: 2066
+Mean change: -4.2%
+SD: ±7.3%"
+2067,ssp126,-21.57,-6.57,-7.59,7.08,8.4,Pacific,"Year: 2067
+Mean change: -6.6%
+SD: ±8.4%"
+2067,ssp585,-19.44,-6.13,-6.05,7.4,7.16,Pacific,"Year: 2067
+Mean change: -6.1%
+SD: ±7.2%"
+2068,ssp126,-22.03,-5.37,-3.11,1.89,7.44,Pacific,"Year: 2068
+Mean change: -5.4%
+SD: ±7.4%"
+2068,ssp585,-20.29,-7.13,-7.04,3.64,6.73,Pacific,"Year: 2068
+Mean change: -7.1%
+SD: ±6.7%"
+2069,ssp126,-22.26,-6.13,-4.31,4.26,6.89,Pacific,"Year: 2069
+Mean change: -6.1%
+SD: ±6.9%"
+2069,ssp585,-21.14,-7.01,-6.03,3.29,6.52,Pacific,"Year: 2069
+Mean change: -7%
+SD: ±6.5%"
+2070,ssp126,-22.29,-3.94,-4.72,6.07,7.93,Pacific,"Year: 2070
+Mean change: -3.9%
+SD: ±7.9%"
+2070,ssp585,-21.83,-7.05,-6.94,2.14,6.66,Pacific,"Year: 2070
+Mean change: -7%
+SD: ±6.7%"
+2071,ssp126,-22.28,-5.99,-4.04,2.34,6.55,Pacific,"Year: 2071
+Mean change: -6%
+SD: ±6.6%"
+2071,ssp585,-22.46,-5.66,-5.33,3.93,7.71,Pacific,"Year: 2071
+Mean change: -5.7%
+SD: ±7.7%"
+2072,ssp126,-22.39,-7,-6.57,0.44,6.68,Pacific,"Year: 2072
+Mean change: -7%
+SD: ±6.7%"
+2072,ssp585,-22.98,-5.8,-6.51,4.08,7.86,Pacific,"Year: 2072
+Mean change: -5.8%
+SD: ±7.9%"
+2073,ssp126,-22.58,-6.19,-6.57,2.34,6.97,Pacific,"Year: 2073
+Mean change: -6.2%
+SD: ±7%"
+2073,ssp585,-23.48,-5.81,-5.97,6.94,8.48,Pacific,"Year: 2073
+Mean change: -5.8%
+SD: ±8.5%"
+2074,ssp126,-22.86,-6.98,-6.18,2,6.47,Pacific,"Year: 2074
+Mean change: -7%
+SD: ±6.5%"
+2074,ssp585,-23.94,-2.87,-2.48,14.12,10.28,Pacific,"Year: 2074
+Mean change: -2.9%
+SD: ±10.3%"
+2075,ssp126,-23.14,-5.85,-5.46,1.95,7.34,Pacific,"Year: 2075
+Mean change: -5.8%
+SD: ±7.3%"
+2075,ssp585,-24.28,-4.34,-4.24,5.37,8.82,Pacific,"Year: 2075
+Mean change: -4.3%
+SD: ±8.8%"
+2076,ssp126,-23.19,-6.48,-5.58,1.36,6.72,Pacific,"Year: 2076
+Mean change: -6.5%
+SD: ±6.7%"
+2076,ssp585,-24.39,-6.3,-7.51,7.04,8.31,Pacific,"Year: 2076
+Mean change: -6.3%
+SD: ±8.3%"
+2077,ssp126,-23.1,-4.45,-4.17,5.27,7.85,Pacific,"Year: 2077
+Mean change: -4.4%
+SD: ±7.8%"
+2077,ssp585,-24.56,-6.37,-5.1,2.13,7.77,Pacific,"Year: 2077
+Mean change: -6.4%
+SD: ±7.8%"
+2078,ssp126,-22.86,-6.63,-6.39,3.31,6.65,Pacific,"Year: 2078
+Mean change: -6.6%
+SD: ±6.7%"
+2078,ssp585,-24.83,-5.75,-5.85,6.81,8.51,Pacific,"Year: 2078
+Mean change: -5.8%
+SD: ±8.5%"
+2079,ssp126,-22.35,-5.25,-4.34,2.39,7.09,Pacific,"Year: 2079
+Mean change: -5.2%
+SD: ±7.1%"
+2079,ssp585,-24.96,-5.88,-5.83,5.7,8.69,Pacific,"Year: 2079
+Mean change: -5.9%
+SD: ±8.7%"
+2080,ssp126,-21.85,-6.16,-4.5,-1.05,5.98,Pacific,"Year: 2080
+Mean change: -6.2%
+SD: ±6%"
+2080,ssp585,-24.91,-6.05,-5.22,1.88,8.5,Pacific,"Year: 2080
+Mean change: -6%
+SD: ±8.5%"
+2081,ssp126,-21.61,-6.54,-6.07,3.29,6.82,Pacific,"Year: 2081
+Mean change: -6.5%
+SD: ±6.8%"
+2081,ssp585,-24.99,-6.04,-6.28,9.43,9.27,Pacific,"Year: 2081
+Mean change: -6%
+SD: ±9.3%"
+2082,ssp126,-21.55,-7.08,-7.53,2.98,6.39,Pacific,"Year: 2082
+Mean change: -7.1%
+SD: ±6.4%"
+2082,ssp585,-25.21,-6.44,-6.41,9.52,9.09,Pacific,"Year: 2082
+Mean change: -6.4%
+SD: ±9.1%"
+2083,ssp126,-21.81,-8.4,-7.85,0.81,6.26,Pacific,"Year: 2083
+Mean change: -8.4%
+SD: ±6.3%"
+2083,ssp585,-25.48,-6.18,-6.99,5.45,8.52,Pacific,"Year: 2083
+Mean change: -6.2%
+SD: ±8.5%"
+2084,ssp126,-22.4,-8.28,-6.84,-1.32,6.05,Pacific,"Year: 2084
+Mean change: -8.3%
+SD: ±6%"
+2084,ssp585,-25.87,-6.91,-6.79,8.04,8.94,Pacific,"Year: 2084
+Mean change: -6.9%
+SD: ±8.9%"
+2085,ssp126,-23.09,-9.08,-7.4,-3.06,6.32,Pacific,"Year: 2085
+Mean change: -9.1%
+SD: ±6.3%"
+2085,ssp585,-26.36,-7,-5.53,4.86,8.69,Pacific,"Year: 2085
+Mean change: -7%
+SD: ±8.7%"
+2086,ssp126,-23.5,-6,-5.45,5.03,8.98,Pacific,"Year: 2086
+Mean change: -6%
+SD: ±9%"
+2086,ssp585,-26.79,-5.66,-5.06,8.37,9.94,Pacific,"Year: 2086
+Mean change: -5.7%
+SD: ±9.9%"
+2087,ssp126,-23.66,-7.25,-5.2,0.38,7.07,Pacific,"Year: 2087
+Mean change: -7.2%
+SD: ±7.1%"
+2087,ssp585,-27.12,-6.23,-7.3,11.69,10.27,Pacific,"Year: 2087
+Mean change: -6.2%
+SD: ±10.3%"
+2088,ssp126,-23.96,-7.43,-7.07,1.33,6.97,Pacific,"Year: 2088
+Mean change: -7.4%
+SD: ±7%"
+2088,ssp585,-27.37,-5.42,-3.71,9.43,10.64,Pacific,"Year: 2088
+Mean change: -5.4%
+SD: ±10.6%"
+2089,ssp126,-24.53,-9.08,-8.89,0.01,7.1,Pacific,"Year: 2089
+Mean change: -9.1%
+SD: ±7.1%"
+2089,ssp585,-27.53,-6.16,-6.51,7.98,10.7,Pacific,"Year: 2089
+Mean change: -6.2%
+SD: ±10.7%"
+2090,ssp126,-25.37,-8.67,-9.36,0.96,7.2,Pacific,"Year: 2090
+Mean change: -8.7%
+SD: ±7.2%"
+2090,ssp585,-27.65,-6.79,-5.43,9.3,10.38,Pacific,"Year: 2090
+Mean change: -6.8%
+SD: ±10.4%"
+2091,ssp126,-26.23,-8.16,-6.41,1.46,7.92,Pacific,"Year: 2091
+Mean change: -8.2%
+SD: ±7.9%"
+2091,ssp585,-27.73,-5.02,-2.01,11.53,11.06,Pacific,"Year: 2091
+Mean change: -5%
+SD: ±11.1%"
+2092,ssp126,-26.97,-9.19,-5.73,-1.2,8.01,Pacific,"Year: 2092
+Mean change: -9.2%
+SD: ±8%"
+2092,ssp585,-27.9,-6.21,-7.53,13.93,11.53,Pacific,"Year: 2092
+Mean change: -6.2%
+SD: ±11.5%"
+2093,ssp126,-27.6,-7.91,-5.21,2.36,9.06,Pacific,"Year: 2093
+Mean change: -7.9%
+SD: ±9.1%"
+2093,ssp585,-28.07,-5.23,-2.96,12.23,11.25,Pacific,"Year: 2093
+Mean change: -5.2%
+SD: ±11.2%"
+2094,ssp126,-28.09,-8.11,-5.73,2.75,8.62,Pacific,"Year: 2094
+Mean change: -8.1%
+SD: ±8.6%"
+2094,ssp585,-28.08,-6.1,-3.85,8.14,10.59,Pacific,"Year: 2094
+Mean change: -6.1%
+SD: ±10.6%"
+2095,ssp126,-28.49,-9.93,-8.84,-0.62,7.42,Pacific,"Year: 2095
+Mean change: -9.9%
+SD: ±7.4%"
+2095,ssp585,-28.1,-6.86,-5.7,6.39,9.87,Pacific,"Year: 2095
+Mean change: -6.9%
+SD: ±9.9%"
+2096,ssp126,-28.67,-6.52,-4.93,5.49,10.05,Pacific,"Year: 2096
+Mean change: -6.5%
+SD: ±10.1%"
+2096,ssp585,-28.3,-7.27,-6.26,3.94,9.6,Pacific,"Year: 2096
+Mean change: -7.3%
+SD: ±9.6%"
+2097,ssp126,-28.7,-10.51,-10.45,2.53,8.24,Pacific,"Year: 2097
+Mean change: -10.5%
+SD: ±8.2%"
+2097,ssp585,-28.68,-9.17,-7.29,0.56,8.81,Pacific,"Year: 2097
+Mean change: -9.2%
+SD: ±8.8%"
+2098,ssp126,-28.56,-8.33,-8.24,1.69,8.88,Pacific,"Year: 2098
+Mean change: -8.3%
+SD: ±8.9%"
+2098,ssp585,-29.18,-7.84,-6.34,9.85,10.64,Pacific,"Year: 2098
+Mean change: -7.8%
+SD: ±10.6%"
+2099,ssp126,-28.3,-7.8,-5.3,1.66,8.42,Pacific,"Year: 2099
+Mean change: -7.8%
+SD: ±8.4%"
+2099,ssp585,-29.7,-8.12,-7.22,8.48,10.81,Pacific,"Year: 2099
+Mean change: -8.1%
+SD: ±10.8%"
+2100,ssp126,-27.98,-7.18,-6.26,4.42,8.72,Pacific,"Year: 2100
+Mean change: -7.2%
+SD: ±8.7%"
+2100,ssp585,-30.27,-7.67,-5.75,14.34,11.7,Pacific,"Year: 2100
+Mean change: -7.7%
+SD: ±11.7%"
+1950,historical,-11.3,-0.99,0.28,7.67,5.69,Prince Edward Island,"Year: 1950
+Mean change: -1%
+SD: ±5.7%"
+1951,historical,-13.68,-0.67,-0.88,9.97,6.65,Prince Edward Island,"Year: 1951
+Mean change: -0.7%
+SD: ±6.7%"
+1952,historical,-5.71,1.89,0.54,20.71,8.58,Prince Edward Island,"Year: 1952
+Mean change: 1.9%
+SD: ±8.6%"
+1953,historical,-7.08,0.5,-0.81,16.57,7.11,Prince Edward Island,"Year: 1953
+Mean change: 0.5%
+SD: ±7.1%"
+1954,historical,-9.46,0.09,1.18,6.05,4.44,Prince Edward Island,"Year: 1954
+Mean change: 0.1%
+SD: ±4.4%"
+1955,historical,-10.91,-1.92,-1.62,6.06,4.78,Prince Edward Island,"Year: 1955
+Mean change: -1.9%
+SD: ±4.8%"
+1956,historical,-12.12,0.1,1.34,8.69,5.71,Prince Edward Island,"Year: 1956
+Mean change: 0.1%
+SD: ±5.7%"
+1957,historical,-13.3,1.33,2.1,11.32,7,Prince Edward Island,"Year: 1957
+Mean change: 1.3%
+SD: ±7%"
+1958,historical,-14.03,0.65,0.96,13.94,7.5,Prince Edward Island,"Year: 1958
+Mean change: 0.7%
+SD: ±7.5%"
+1959,historical,-14.5,-0.63,0.67,11.55,6.86,Prince Edward Island,"Year: 1959
+Mean change: -0.6%
+SD: ±6.9%"
+1960,historical,-13.91,2.98,1.8,14.53,8.19,Prince Edward Island,"Year: 1960
+Mean change: 3%
+SD: ±8.2%"
+1961,historical,-12.45,0.14,0.51,9.73,5.82,Prince Edward Island,"Year: 1961
+Mean change: 0.1%
+SD: ±5.8%"
+1962,historical,-11.52,-0.59,-1.06,12.38,6.38,Prince Edward Island,"Year: 1962
+Mean change: -0.6%
+SD: ±6.4%"
+1963,historical,-11.42,-0.4,-1.6,17.19,7.7,Prince Edward Island,"Year: 1963
+Mean change: -0.4%
+SD: ±7.7%"
+1964,historical,-11.75,-1.4,-0.22,12.61,8.11,Prince Edward Island,"Year: 1964
+Mean change: -1.4%
+SD: ±8.1%"
+1965,historical,-11.62,0.99,0.76,13.97,7.64,Prince Edward Island,"Year: 1965
+Mean change: 1%
+SD: ±7.6%"
+1966,historical,-11.45,-0.49,0.11,12.38,7.2,Prince Edward Island,"Year: 1966
+Mean change: -0.5%
+SD: ±7.2%"
+1967,historical,-11.62,2.07,0.66,20.67,8.76,Prince Edward Island,"Year: 1967
+Mean change: 2.1%
+SD: ±8.8%"
+1968,historical,-11.22,1.17,2.15,15.26,7.44,Prince Edward Island,"Year: 1968
+Mean change: 1.2%
+SD: ±7.4%"
+1969,historical,-11,-1.11,-2.8,11.19,6.7,Prince Edward Island,"Year: 1969
+Mean change: -1.1%
+SD: ±6.7%"
+1970,historical,-11.27,-2.21,-1.56,6.38,5.33,Prince Edward Island,"Year: 1970
+Mean change: -2.2%
+SD: ±5.3%"
+1971,historical,-10.91,1.95,3.27,9.78,6.3,Prince Edward Island,"Year: 1971
+Mean change: 2%
+SD: ±6.3%"
+1972,historical,-10.27,1.45,0.82,11.49,6.08,Prince Edward Island,"Year: 1972
+Mean change: 1.4%
+SD: ±6.1%"
+1973,historical,-9.49,1.3,1.84,17.71,7.79,Prince Edward Island,"Year: 1973
+Mean change: 1.3%
+SD: ±7.8%"
+1974,historical,-10.4,-3.83,-4.34,2.9,4.22,Prince Edward Island,"Year: 1974
+Mean change: -3.8%
+SD: ±4.2%"
+1975,historical,-7.65,-1.68,-1.48,8.25,4.76,Prince Edward Island,"Year: 1975
+Mean change: -1.7%
+SD: ±4.8%"
+1976,historical,-7.49,-0.35,-1.01,13.06,6.68,Prince Edward Island,"Year: 1976
+Mean change: -0.3%
+SD: ±6.7%"
+1977,historical,-11.96,1.04,1.37,19.09,8.17,Prince Edward Island,"Year: 1977
+Mean change: 1%
+SD: ±8.2%"
+1978,historical,-9.93,0.62,0.8,18.19,7.63,Prince Edward Island,"Year: 1978
+Mean change: 0.6%
+SD: ±7.6%"
+1979,historical,-8.61,-0.29,-0.57,7.95,5.32,Prince Edward Island,"Year: 1979
+Mean change: -0.3%
+SD: ±5.3%"
+1980,historical,-9.51,-1.07,-1.38,9.98,5.2,Prince Edward Island,"Year: 1980
+Mean change: -1.1%
+SD: ±5.2%"
+1981,historical,-10.53,-1.08,-1.1,11.72,5.88,Prince Edward Island,"Year: 1981
+Mean change: -1.1%
+SD: ±5.9%"
+1982,historical,-10.78,-0.62,-0.96,13.43,6.34,Prince Edward Island,"Year: 1982
+Mean change: -0.6%
+SD: ±6.3%"
+1983,historical,-9.82,-0.99,0.1,6.8,4.72,Prince Edward Island,"Year: 1983
+Mean change: -1%
+SD: ±4.7%"
+1984,historical,-9.29,-1.8,-2.33,4.18,3.85,Prince Edward Island,"Year: 1984
+Mean change: -1.8%
+SD: ±3.9%"
+1985,historical,-9.45,0.06,0.22,9.64,5.7,Prince Edward Island,"Year: 1985
+Mean change: 0.1%
+SD: ±5.7%"
+1986,historical,-8.8,-0.17,-0.69,6.73,4.61,Prince Edward Island,"Year: 1986
+Mean change: -0.2%
+SD: ±4.6%"
+1987,historical,-8.06,1.14,-0.19,10.56,5.86,Prince Edward Island,"Year: 1987
+Mean change: 1.1%
+SD: ±5.9%"
+1988,historical,-8.53,1.58,1.79,12.65,6.78,Prince Edward Island,"Year: 1988
+Mean change: 1.6%
+SD: ±6.8%"
+1989,historical,-9.65,-0.11,-0.4,8.97,5.51,Prince Edward Island,"Year: 1989
+Mean change: -0.1%
+SD: ±5.5%"
+1990,historical,-10.37,1.15,-0.86,17.53,8.44,Prince Edward Island,"Year: 1990
+Mean change: 1.1%
+SD: ±8.4%"
+1991,historical,-10.59,0.77,0.69,8.33,5.6,Prince Edward Island,"Year: 1991
+Mean change: 0.8%
+SD: ±5.6%"
+1992,historical,-10.3,-2.69,-4.41,8.14,5.58,Prince Edward Island,"Year: 1992
+Mean change: -2.7%
+SD: ±5.6%"
+1993,historical,-9.81,0.79,1.74,7.03,4.29,Prince Edward Island,"Year: 1993
+Mean change: 0.8%
+SD: ±4.3%"
+1994,historical,-9.14,0.04,2.09,5.79,4.82,Prince Edward Island,"Year: 1994
+Mean change: 0%
+SD: ±4.8%"
+1995,historical,-8.87,1.16,1.99,5.91,4.59,Prince Edward Island,"Year: 1995
+Mean change: 1.2%
+SD: ±4.6%"
+1996,historical,-8.76,-1.51,-1.81,4.43,4.21,Prince Edward Island,"Year: 1996
+Mean change: -1.5%
+SD: ±4.2%"
+1997,historical,-7.58,1.32,0.5,14.05,5.42,Prince Edward Island,"Year: 1997
+Mean change: 1.3%
+SD: ±5.4%"
+1998,historical,-6.13,-0.35,0.3,3.6,3.17,Prince Edward Island,"Year: 1998
+Mean change: -0.3%
+SD: ±3.2%"
+1999,historical,-6.46,-2.41,-2.38,2.47,3.18,Prince Edward Island,"Year: 1999
+Mean change: -2.4%
+SD: ±3.2%"
+2000,historical,-10.25,-0.38,-0.06,12.05,5.79,Prince Edward Island,"Year: 2000
+Mean change: -0.4%
+SD: ±5.8%"
+2001,historical,-4.74,0.24,0.31,5.82,3.3,Prince Edward Island,"Year: 2001
+Mean change: 0.2%
+SD: ±3.3%"
+2002,historical,-2.4,2.34,1.86,8.05,2.77,Prince Edward Island,"Year: 2002
+Mean change: 2.3%
+SD: ±2.8%"
+2003,historical,-9.18,1.34,1.5,6.91,4.5,Prince Edward Island,"Year: 2003
+Mean change: 1.3%
+SD: ±4.5%"
+2004,historical,-11.83,-1.49,0.59,7.74,6.18,Prince Edward Island,"Year: 2004
+Mean change: -1.5%
+SD: ±6.2%"
+2005,historical,-10.37,-1.48,0.02,4.35,4.26,Prince Edward Island,"Year: 2005
+Mean change: -1.5%
+SD: ±4.3%"
+2006,historical,-9.75,-2.01,-0.23,3.53,4.26,Prince Edward Island,"Year: 2006
+Mean change: -2%
+SD: ±4.3%"
+2007,historical,-2.85,2.43,0.59,12.94,4.44,Prince Edward Island,"Year: 2007
+Mean change: 2.4%
+SD: ±4.4%"
+2008,historical,-6.62,-0.28,0.37,2.6,2.69,Prince Edward Island,"Year: 2008
+Mean change: -0.3%
+SD: ±2.7%"
+2009,historical,-4.14,0.5,0.2,4.71,2.32,Prince Edward Island,"Year: 2009
+Mean change: 0.5%
+SD: ±2.3%"
+2010,historical,-3.71,3.42,2.56,11.4,4.61,Prince Edward Island,"Year: 2010
+Mean change: 3.4%
+SD: ±4.6%"
+2011,historical,-4.12,-0.83,-1.21,3.57,2.01,Prince Edward Island,"Year: 2011
+Mean change: -0.8%
+SD: ±2%"
+2012,historical,-5.88,-0.86,-0.73,3.27,2.77,Prince Edward Island,"Year: 2012
+Mean change: -0.9%
+SD: ±2.8%"
+2013,historical,-4.78,-0.79,-0.53,2.38,2.14,Prince Edward Island,"Year: 2013
+Mean change: -0.8%
+SD: ±2.1%"
+2014,historical,-2.8,-0.09,-0.18,2.33,1.71,Prince Edward Island,"Year: 2014
+Mean change: -0.1%
+SD: ±1.7%"
+2015,ssp126,-7.46,-1.46,-0.91,1.89,3.06,Prince Edward Island,"Year: 2015
+Mean change: -1.5%
+SD: ±3.1%"
+2015,ssp585,-3.4,-1.08,-0.85,0.34,1.11,Prince Edward Island,"Year: 2015
+Mean change: -1.1%
+SD: ±1.1%"
+2016,ssp126,-9.81,-1.11,-1.44,5.35,4.49,Prince Edward Island,"Year: 2016
+Mean change: -1.1%
+SD: ±4.5%"
+2016,ssp585,-10.61,-3.36,-2.1,2.97,3.99,Prince Edward Island,"Year: 2016
+Mean change: -3.4%
+SD: ±4%"
+2017,ssp126,-10.98,-4.44,-3.73,-0.76,3.33,Prince Edward Island,"Year: 2017
+Mean change: -4.4%
+SD: ±3.3%"
+2017,ssp585,-5.62,-1.36,-1.7,8.73,4.06,Prince Edward Island,"Year: 2017
+Mean change: -1.4%
+SD: ±4.1%"
+2018,ssp126,-9.72,-5.55,-5.7,-1.55,3.29,Prince Edward Island,"Year: 2018
+Mean change: -5.6%
+SD: ±3.3%"
+2018,ssp585,-5.11,-1.51,-1.27,3.22,2.94,Prince Edward Island,"Year: 2018
+Mean change: -1.5%
+SD: ±2.9%"
+2019,ssp126,-5.76,-3.93,-4.26,-1.94,1.4,Prince Edward Island,"Year: 2019
+Mean change: -3.9%
+SD: ±1.4%"
+2019,ssp585,-5.72,-0.85,-1.08,6.15,3.36,Prince Edward Island,"Year: 2019
+Mean change: -0.8%
+SD: ±3.4%"
+2020,ssp126,-11.26,-4.59,-3.81,-2.12,2.87,Prince Edward Island,"Year: 2020
+Mean change: -4.6%
+SD: ±2.9%"
+2020,ssp585,-15.67,-4.45,-3.91,2.88,5.05,Prince Edward Island,"Year: 2020
+Mean change: -4.4%
+SD: ±5%"
+2021,ssp126,-8.8,-3.66,-2.61,-0.25,2.83,Prince Edward Island,"Year: 2021
+Mean change: -3.7%
+SD: ±2.8%"
+2021,ssp585,-8.83,1.23,0.22,9.62,5.84,Prince Edward Island,"Year: 2021
+Mean change: 1.2%
+SD: ±5.8%"
+2022,ssp126,-10.99,-3.96,-4.16,8.89,5.84,Prince Edward Island,"Year: 2022
+Mean change: -4%
+SD: ±5.8%"
+2022,ssp585,-9.03,0.36,-1.01,10.03,6.52,Prince Edward Island,"Year: 2022
+Mean change: 0.4%
+SD: ±6.5%"
+2023,ssp126,-11.35,-3.53,-2.45,-0.51,3.3,Prince Edward Island,"Year: 2023
+Mean change: -3.5%
+SD: ±3.3%"
+2023,ssp585,-7.56,-1.97,-1.83,7.41,4.33,Prince Edward Island,"Year: 2023
+Mean change: -2%
+SD: ±4.3%"
+2024,ssp126,-16.36,-3.23,-1.59,5.53,6.79,Prince Edward Island,"Year: 2024
+Mean change: -3.2%
+SD: ±6.8%"
+2024,ssp585,-7.57,-2.53,-1.61,2.91,3.18,Prince Edward Island,"Year: 2024
+Mean change: -2.5%
+SD: ±3.2%"
+2025,ssp126,-9.69,-3.04,-2.62,1.98,3.5,Prince Edward Island,"Year: 2025
+Mean change: -3%
+SD: ±3.5%"
+2025,ssp585,-9,-3.18,-2.62,0.23,2.74,Prince Edward Island,"Year: 2025
+Mean change: -3.2%
+SD: ±2.7%"
+2026,ssp126,-10.46,-3.85,-3.27,2.11,3.85,Prince Edward Island,"Year: 2026
+Mean change: -3.9%
+SD: ±3.9%"
+2026,ssp585,-13.66,-4.81,-3.71,1.7,4.52,Prince Edward Island,"Year: 2026
+Mean change: -4.8%
+SD: ±4.5%"
+2027,ssp126,-13.53,-5.03,-3.86,1.37,4.18,Prince Edward Island,"Year: 2027
+Mean change: -5%
+SD: ±4.2%"
+2027,ssp585,-9.01,-3.78,-3.75,2.93,3.18,Prince Edward Island,"Year: 2027
+Mean change: -3.8%
+SD: ±3.2%"
+2028,ssp126,-8.18,-4.71,-5.14,2.04,3.23,Prince Edward Island,"Year: 2028
+Mean change: -4.7%
+SD: ±3.2%"
+2028,ssp585,-7.18,-2.39,-2.4,0.37,2.21,Prince Edward Island,"Year: 2028
+Mean change: -2.4%
+SD: ±2.2%"
+2029,ssp126,-11.75,-3.74,-3.09,0.96,3.64,Prince Edward Island,"Year: 2029
+Mean change: -3.7%
+SD: ±3.6%"
+2029,ssp585,-10.34,-3.57,-3.41,3.03,4.24,Prince Edward Island,"Year: 2029
+Mean change: -3.6%
+SD: ±4.2%"
+2030,ssp126,-13.15,-4.22,-3.3,1.01,3.73,Prince Edward Island,"Year: 2030
+Mean change: -4.2%
+SD: ±3.7%"
+2030,ssp585,-8.66,-2.69,-2.65,1.22,3.06,Prince Edward Island,"Year: 2030
+Mean change: -2.7%
+SD: ±3.1%"
+2031,ssp126,-15.09,-4.65,-4.83,8.75,6.12,Prince Edward Island,"Year: 2031
+Mean change: -4.7%
+SD: ±6.1%"
+2031,ssp585,-14.14,-4.38,-3.38,0.66,4.15,Prince Edward Island,"Year: 2031
+Mean change: -4.4%
+SD: ±4.2%"
+2032,ssp126,-8.87,-3.22,-2.86,-0.02,2.82,Prince Edward Island,"Year: 2032
+Mean change: -3.2%
+SD: ±2.8%"
+2032,ssp585,-10.36,-3.59,-4.08,2.78,3.97,Prince Edward Island,"Year: 2032
+Mean change: -3.6%
+SD: ±4%"
+2033,ssp126,-12.7,-3.76,-3.99,3.01,4.81,Prince Edward Island,"Year: 2033
+Mean change: -3.8%
+SD: ±4.8%"
+2033,ssp585,-6.7,-3.46,-3.62,-0.53,2.39,Prince Edward Island,"Year: 2033
+Mean change: -3.5%
+SD: ±2.4%"
+2034,ssp126,-10.4,-1.2,-1.28,6.22,5.95,Prince Edward Island,"Year: 2034
+Mean change: -1.2%
+SD: ±6%"
+2034,ssp585,-7.96,-2.86,-3.81,4.53,4.07,Prince Edward Island,"Year: 2034
+Mean change: -2.9%
+SD: ±4.1%"
+2035,ssp126,-7.52,-2.58,-2.91,7.22,4.35,Prince Edward Island,"Year: 2035
+Mean change: -2.6%
+SD: ±4.3%"
+2035,ssp585,-12.87,-3.14,-2.4,3.19,4.47,Prince Edward Island,"Year: 2035
+Mean change: -3.1%
+SD: ±4.5%"
+2036,ssp126,-11.79,-5.05,-5.03,2.17,4.38,Prince Edward Island,"Year: 2036
+Mean change: -5%
+SD: ±4.4%"
+2036,ssp585,-14.91,-4.85,-4.25,4.11,6.22,Prince Edward Island,"Year: 2036
+Mean change: -4.8%
+SD: ±6.2%"
+2037,ssp126,-7.35,-1.77,-1.29,3.23,3.45,Prince Edward Island,"Year: 2037
+Mean change: -1.8%
+SD: ±3.5%"
+2037,ssp585,-14.59,-5.05,-4.99,1.85,4.66,Prince Edward Island,"Year: 2037
+Mean change: -5%
+SD: ±4.7%"
+2038,ssp126,-13.46,-2.85,-2.24,3.04,4.84,Prince Edward Island,"Year: 2038
+Mean change: -2.9%
+SD: ±4.8%"
+2038,ssp585,-16.37,-4.54,-4.44,2.86,5.53,Prince Edward Island,"Year: 2038
+Mean change: -4.5%
+SD: ±5.5%"
+2039,ssp126,-8.81,-2.58,-3.63,6.45,4.66,Prince Edward Island,"Year: 2039
+Mean change: -2.6%
+SD: ±4.7%"
+2039,ssp585,-13.76,-5.2,-4.92,2.52,5.65,Prince Edward Island,"Year: 2039
+Mean change: -5.2%
+SD: ±5.7%"
+2040,ssp126,-9.83,-2.26,-3.25,7.23,5.03,Prince Edward Island,"Year: 2040
+Mean change: -2.3%
+SD: ±5%"
+2040,ssp585,-18.75,-6.54,-6.01,3.84,5.54,Prince Edward Island,"Year: 2040
+Mean change: -6.5%
+SD: ±5.5%"
+2041,ssp126,-8.24,-1.23,-1.66,11.36,5.78,Prince Edward Island,"Year: 2041
+Mean change: -1.2%
+SD: ±5.8%"
+2041,ssp585,-13.11,-4.66,-4.86,3.53,4.59,Prince Edward Island,"Year: 2041
+Mean change: -4.7%
+SD: ±4.6%"
+2042,ssp126,-14.01,-4.92,-4.45,3.13,5.47,Prince Edward Island,"Year: 2042
+Mean change: -4.9%
+SD: ±5.5%"
+2042,ssp585,-14.74,-2.6,-2.92,10.9,6.81,Prince Edward Island,"Year: 2042
+Mean change: -2.6%
+SD: ±6.8%"
+2043,ssp126,-7.32,-3.82,-3.61,2.26,3.03,Prince Edward Island,"Year: 2043
+Mean change: -3.8%
+SD: ±3%"
+2043,ssp585,-27.06,-5.87,-3.58,5.49,8.94,Prince Edward Island,"Year: 2043
+Mean change: -5.9%
+SD: ±8.9%"
+2044,ssp126,-7.9,-0.5,-0.52,7.13,4.36,Prince Edward Island,"Year: 2044
+Mean change: -0.5%
+SD: ±4.4%"
+2044,ssp585,-12.91,-5.67,-5.62,0.43,4.6,Prince Edward Island,"Year: 2044
+Mean change: -5.7%
+SD: ±4.6%"
+2045,ssp126,-18.82,-5.35,-5.27,4.16,6.1,Prince Edward Island,"Year: 2045
+Mean change: -5.3%
+SD: ±6.1%"
+2045,ssp585,-8.53,-4.96,-5.4,1.06,2.88,Prince Edward Island,"Year: 2045
+Mean change: -5%
+SD: ±2.9%"
+2046,ssp126,-12.86,-4.44,-3.79,1.17,3.77,Prince Edward Island,"Year: 2046
+Mean change: -4.4%
+SD: ±3.8%"
+2046,ssp585,-20.06,-4.71,-4.39,9.14,8.13,Prince Edward Island,"Year: 2046
+Mean change: -4.7%
+SD: ±8.1%"
+2047,ssp126,-6.87,-0.56,0.05,4.1,3.67,Prince Edward Island,"Year: 2047
+Mean change: -0.6%
+SD: ±3.7%"
+2047,ssp585,-15.64,-3.98,-4.48,4,5.7,Prince Edward Island,"Year: 2047
+Mean change: -4%
+SD: ±5.7%"
+2048,ssp126,-8.4,-1.86,-1.6,4.12,3.97,Prince Edward Island,"Year: 2048
+Mean change: -1.9%
+SD: ±4%"
+2048,ssp585,-22.12,-6.1,-5.36,5.38,8.45,Prince Edward Island,"Year: 2048
+Mean change: -6.1%
+SD: ±8.4%"
+2049,ssp126,-10.37,-3.41,-4.21,7.27,4.57,Prince Edward Island,"Year: 2049
+Mean change: -3.4%
+SD: ±4.6%"
+2049,ssp585,-11.42,-3.15,-5.06,10.75,7.06,Prince Edward Island,"Year: 2049
+Mean change: -3.1%
+SD: ±7.1%"
+2050,ssp126,-6.45,-1.77,-2.66,5.41,4.27,Prince Edward Island,"Year: 2050
+Mean change: -1.8%
+SD: ±4.3%"
+2050,ssp585,-19.78,-5.82,-4.31,5.21,7.74,Prince Edward Island,"Year: 2050
+Mean change: -5.8%
+SD: ±7.7%"
+2051,ssp126,-11.32,-1.9,-2.85,7.38,5.27,Prince Edward Island,"Year: 2051
+Mean change: -1.9%
+SD: ±5.3%"
+2051,ssp585,-21.89,-7.16,-6.64,6.18,8.52,Prince Edward Island,"Year: 2051
+Mean change: -7.2%
+SD: ±8.5%"
+2052,ssp126,-14.86,-1.36,-1.25,6.42,6.46,Prince Edward Island,"Year: 2052
+Mean change: -1.4%
+SD: ±6.5%"
+2052,ssp585,-21,-6.83,-5.7,-0.19,6.14,Prince Edward Island,"Year: 2052
+Mean change: -6.8%
+SD: ±6.1%"
+2053,ssp126,-7.66,-0.25,-0.68,7.7,5.08,Prince Edward Island,"Year: 2053
+Mean change: -0.2%
+SD: ±5.1%"
+2053,ssp585,-19.09,-6.98,-6.67,1.47,6.81,Prince Edward Island,"Year: 2053
+Mean change: -7%
+SD: ±6.8%"
+2054,ssp126,-17.66,-3.82,-2.21,5.68,7.36,Prince Edward Island,"Year: 2054
+Mean change: -3.8%
+SD: ±7.4%"
+2054,ssp585,-25.11,-6.77,-7.1,5.46,8.2,Prince Edward Island,"Year: 2054
+Mean change: -6.8%
+SD: ±8.2%"
+2055,ssp126,-12.61,-2.36,-3.32,6.82,7.11,Prince Edward Island,"Year: 2055
+Mean change: -2.4%
+SD: ±7.1%"
+2055,ssp585,-21.83,-8.12,-6.98,-0.33,6.34,Prince Edward Island,"Year: 2055
+Mean change: -8.1%
+SD: ±6.3%"
+2056,ssp126,-5.66,-1.41,-1,5.35,3.74,Prince Edward Island,"Year: 2056
+Mean change: -1.4%
+SD: ±3.7%"
+2056,ssp585,-19.96,-7.1,-7.67,4.22,6.42,Prince Edward Island,"Year: 2056
+Mean change: -7.1%
+SD: ±6.4%"
+2057,ssp126,-6.15,-2.23,-2.63,4.44,3.55,Prince Edward Island,"Year: 2057
+Mean change: -2.2%
+SD: ±3.5%"
+2057,ssp585,-19.21,-8.36,-8.46,-1.01,5.83,Prince Edward Island,"Year: 2057
+Mean change: -8.4%
+SD: ±5.8%"
+2058,ssp126,-16.46,-4.3,-4.03,3.14,5.99,Prince Edward Island,"Year: 2058
+Mean change: -4.3%
+SD: ±6%"
+2058,ssp585,-18.37,-6.62,-6.8,3.76,7.23,Prince Edward Island,"Year: 2058
+Mean change: -6.6%
+SD: ±7.2%"
+2059,ssp126,-10.05,-3.32,-4.14,6.45,5.32,Prince Edward Island,"Year: 2059
+Mean change: -3.3%
+SD: ±5.3%"
+2059,ssp585,-23.62,-8.6,-8.52,1.56,8.31,Prince Edward Island,"Year: 2059
+Mean change: -8.6%
+SD: ±8.3%"
+2060,ssp126,-17.68,-5.48,-4.55,1.86,6.07,Prince Edward Island,"Year: 2060
+Mean change: -5.5%
+SD: ±6.1%"
+2060,ssp585,-26.3,-9.69,-9.03,1.75,7.66,Prince Edward Island,"Year: 2060
+Mean change: -9.7%
+SD: ±7.7%"
+2061,ssp126,-19.87,-6.43,-4.72,2.13,6.26,Prince Edward Island,"Year: 2061
+Mean change: -6.4%
+SD: ±6.3%"
+2061,ssp585,-15.37,-6.01,-6.99,9.18,6.72,Prince Edward Island,"Year: 2061
+Mean change: -6%
+SD: ±6.7%"
+2062,ssp126,-8.67,-3.37,-3.31,2.78,3.35,Prince Edward Island,"Year: 2062
+Mean change: -3.4%
+SD: ±3.4%"
+2062,ssp585,-25.49,-8.11,-8.36,5.19,9.56,Prince Edward Island,"Year: 2062
+Mean change: -8.1%
+SD: ±9.6%"
+2063,ssp126,-6.71,-1.96,-2.47,2.74,3.22,Prince Edward Island,"Year: 2063
+Mean change: -2%
+SD: ±3.2%"
+2063,ssp585,-28.75,-8.44,-8.35,5.45,9.96,Prince Edward Island,"Year: 2063
+Mean change: -8.4%
+SD: ±10%"
+2064,ssp126,-9.9,-4.5,-4.82,5.2,4.24,Prince Edward Island,"Year: 2064
+Mean change: -4.5%
+SD: ±4.2%"
+2064,ssp585,-23.35,-7.73,-7.9,3.79,8.16,Prince Edward Island,"Year: 2064
+Mean change: -7.7%
+SD: ±8.2%"
+2065,ssp126,-17.22,-6.83,-5.52,3.3,6.21,Prince Edward Island,"Year: 2065
+Mean change: -6.8%
+SD: ±6.2%"
+2065,ssp585,-23.77,-9.66,-8.19,1.12,8.78,Prince Edward Island,"Year: 2065
+Mean change: -9.7%
+SD: ±8.8%"
+2066,ssp126,-8.68,-4.41,-4.85,2.98,3.61,Prince Edward Island,"Year: 2066
+Mean change: -4.4%
+SD: ±3.6%"
+2066,ssp585,-21.79,-9.95,-9.32,3.37,7.41,Prince Edward Island,"Year: 2066
+Mean change: -9.9%
+SD: ±7.4%"
+2067,ssp126,-18.53,-6.97,-7.11,-0.12,5.78,Prince Edward Island,"Year: 2067
+Mean change: -7%
+SD: ±5.8%"
+2067,ssp585,-26.01,-8.35,-8.77,3.19,8.4,Prince Edward Island,"Year: 2067
+Mean change: -8.3%
+SD: ±8.4%"
+2068,ssp126,-18.71,-6.68,-6.36,1.18,5.44,Prince Edward Island,"Year: 2068
+Mean change: -6.7%
+SD: ±5.4%"
+2068,ssp585,-25.41,-8.72,-8.93,5.9,10.34,Prince Edward Island,"Year: 2068
+Mean change: -8.7%
+SD: ±10.3%"
+2069,ssp126,-16.75,-5.44,-6.21,-0.02,5.39,Prince Edward Island,"Year: 2069
+Mean change: -5.4%
+SD: ±5.4%"
+2069,ssp585,-31.91,-10.57,-10.54,6.05,11.94,Prince Edward Island,"Year: 2069
+Mean change: -10.6%
+SD: ±11.9%"
+2070,ssp126,-11.19,-5.1,-5.22,1.27,3.99,Prince Edward Island,"Year: 2070
+Mean change: -5.1%
+SD: ±4%"
+2070,ssp585,-29.83,-11.65,-9.35,-1.21,8.92,Prince Edward Island,"Year: 2070
+Mean change: -11.7%
+SD: ±8.9%"
+2071,ssp126,-17.2,-6.31,-6.39,2.11,5.71,Prince Edward Island,"Year: 2071
+Mean change: -6.3%
+SD: ±5.7%"
+2071,ssp585,-32.64,-12.08,-9.91,2.08,9.75,Prince Edward Island,"Year: 2071
+Mean change: -12.1%
+SD: ±9.8%"
+2072,ssp126,-19.96,-8.13,-7.63,3.23,6.84,Prince Edward Island,"Year: 2072
+Mean change: -8.1%
+SD: ±6.8%"
+2072,ssp585,-32.25,-10.64,-10.31,4.54,11.46,Prince Edward Island,"Year: 2072
+Mean change: -10.6%
+SD: ±11.5%"
+2073,ssp126,-21.3,-8.06,-7.99,5.44,8.72,Prince Edward Island,"Year: 2073
+Mean change: -8.1%
+SD: ±8.7%"
+2073,ssp585,-29.03,-11.21,-9.9,1.69,10.19,Prince Edward Island,"Year: 2073
+Mean change: -11.2%
+SD: ±10.2%"
+2074,ssp126,-17.56,-5.72,-6.91,3.72,6.58,Prince Edward Island,"Year: 2074
+Mean change: -5.7%
+SD: ±6.6%"
+2074,ssp585,-31.48,-11.82,-10.12,2.24,11.59,Prince Edward Island,"Year: 2074
+Mean change: -11.8%
+SD: ±11.6%"
+2075,ssp126,-18.79,-7.49,-7.65,2.98,6.81,Prince Edward Island,"Year: 2075
+Mean change: -7.5%
+SD: ±6.8%"
+2075,ssp585,-34.35,-11.72,-10.25,4.28,12.74,Prince Edward Island,"Year: 2075
+Mean change: -11.7%
+SD: ±12.7%"
+2076,ssp126,-18.57,-5.63,-5.78,4.23,7.04,Prince Edward Island,"Year: 2076
+Mean change: -5.6%
+SD: ±7%"
+2076,ssp585,-30.67,-11.88,-10.63,4.84,11.75,Prince Edward Island,"Year: 2076
+Mean change: -11.9%
+SD: ±11.8%"
+2077,ssp126,-22.01,-4.58,-6.06,11.16,9.27,Prince Edward Island,"Year: 2077
+Mean change: -4.6%
+SD: ±9.3%"
+2077,ssp585,-36.39,-13.2,-12.19,4.04,12.72,Prince Edward Island,"Year: 2077
+Mean change: -13.2%
+SD: ±12.7%"
+2078,ssp126,-13.33,-6.19,-6.45,0.18,4.58,Prince Edward Island,"Year: 2078
+Mean change: -6.2%
+SD: ±4.6%"
+2078,ssp585,-33.15,-11.92,-12.06,3.08,12.55,Prince Edward Island,"Year: 2078
+Mean change: -11.9%
+SD: ±12.6%"
+2079,ssp126,-18.16,-6.48,-6.84,2.37,5.87,Prince Edward Island,"Year: 2079
+Mean change: -6.5%
+SD: ±5.9%"
+2079,ssp585,-35.98,-11,-11.46,11.01,13.81,Prince Edward Island,"Year: 2079
+Mean change: -11%
+SD: ±13.8%"
+2080,ssp126,-16.1,-6.69,-6.62,1.56,5.49,Prince Edward Island,"Year: 2080
+Mean change: -6.7%
+SD: ±5.5%"
+2080,ssp585,-35.01,-9.6,-9.95,12.06,14.04,Prince Edward Island,"Year: 2080
+Mean change: -9.6%
+SD: ±14%"
+2081,ssp126,-18.59,-6.73,-6.5,6.48,7.47,Prince Edward Island,"Year: 2081
+Mean change: -6.7%
+SD: ±7.5%"
+2081,ssp585,-31.54,-8.35,-8.77,7.36,12.98,Prince Edward Island,"Year: 2081
+Mean change: -8.3%
+SD: ±13%"
+2082,ssp126,-21.65,-7.87,-7.94,3.01,7.37,Prince Edward Island,"Year: 2082
+Mean change: -7.9%
+SD: ±7.4%"
+2082,ssp585,-31.97,-10.45,-8.84,7.88,12.79,Prince Edward Island,"Year: 2082
+Mean change: -10.4%
+SD: ±12.8%"
+2083,ssp126,-24.41,-8.12,-6.94,-1.32,6.61,Prince Edward Island,"Year: 2083
+Mean change: -8.1%
+SD: ±6.6%"
+2083,ssp585,-30.77,-11.13,-11.27,3.73,11.74,Prince Edward Island,"Year: 2083
+Mean change: -11.1%
+SD: ±11.7%"
+2084,ssp126,-13.99,-4.89,-4.34,6.01,5.61,Prince Edward Island,"Year: 2084
+Mean change: -4.9%
+SD: ±5.6%"
+2084,ssp585,-40.58,-15.47,-14.76,2.93,14.79,Prince Edward Island,"Year: 2084
+Mean change: -15.5%
+SD: ±14.8%"
+2085,ssp126,-12.78,-4.55,-4.79,6.36,5.34,Prince Edward Island,"Year: 2085
+Mean change: -4.6%
+SD: ±5.3%"
+2085,ssp585,-40.59,-15.61,-15.1,5.88,14.34,Prince Edward Island,"Year: 2085
+Mean change: -15.6%
+SD: ±14.3%"
+2086,ssp126,-25.16,-5.72,-6.23,2.98,8.1,Prince Edward Island,"Year: 2086
+Mean change: -5.7%
+SD: ±8.1%"
+2086,ssp585,-38.76,-16.26,-15.24,1.25,13.77,Prince Edward Island,"Year: 2086
+Mean change: -16.3%
+SD: ±13.8%"
+2087,ssp126,-11.95,-4.03,-3.77,1.78,4.42,Prince Edward Island,"Year: 2087
+Mean change: -4%
+SD: ±4.4%"
+2087,ssp585,-29.19,-12.45,-13.32,7.46,12.15,Prince Edward Island,"Year: 2087
+Mean change: -12.4%
+SD: ±12.2%"
+2088,ssp126,-17.76,-5.42,-5.72,2.04,5.8,Prince Edward Island,"Year: 2088
+Mean change: -5.4%
+SD: ±5.8%"
+2088,ssp585,-36.88,-13.18,-12.99,4.92,13.92,Prince Edward Island,"Year: 2088
+Mean change: -13.2%
+SD: ±13.9%"
+2089,ssp126,-16.56,-4.39,-3.74,4.08,6.26,Prince Edward Island,"Year: 2089
+Mean change: -4.4%
+SD: ±6.3%"
+2089,ssp585,-37.85,-15.28,-15.14,1.56,13.64,Prince Edward Island,"Year: 2089
+Mean change: -15.3%
+SD: ±13.6%"
+2090,ssp126,-17.8,-5.52,-5.74,5.89,6.73,Prince Edward Island,"Year: 2090
+Mean change: -5.5%
+SD: ±6.7%"
+2090,ssp585,-36.6,-15.56,-13.83,0.27,12.37,Prince Edward Island,"Year: 2090
+Mean change: -15.6%
+SD: ±12.4%"
+2091,ssp126,-19.85,-7.86,-7.18,-0.78,5.76,Prince Edward Island,"Year: 2091
+Mean change: -7.9%
+SD: ±5.8%"
+2091,ssp585,-43.54,-16.42,-14.43,2.7,14.89,Prince Edward Island,"Year: 2091
+Mean change: -16.4%
+SD: ±14.9%"
+2092,ssp126,-15.25,-7.6,-6.69,-2.47,4.41,Prince Edward Island,"Year: 2092
+Mean change: -7.6%
+SD: ±4.4%"
+2092,ssp585,-35.26,-14.02,-14.99,4.81,14.78,Prince Edward Island,"Year: 2092
+Mean change: -14%
+SD: ±14.8%"
+2093,ssp126,-17.34,-7.21,-7.39,0.12,4.99,Prince Edward Island,"Year: 2093
+Mean change: -7.2%
+SD: ±5%"
+2093,ssp585,-41.01,-15.42,-15.47,6.75,15.68,Prince Edward Island,"Year: 2093
+Mean change: -15.4%
+SD: ±15.7%"
+2094,ssp126,-18.8,-7.65,-8.06,1.25,5.42,Prince Edward Island,"Year: 2094
+Mean change: -7.7%
+SD: ±5.4%"
+2094,ssp585,-39.47,-14.63,-15.27,7.78,15.77,Prince Edward Island,"Year: 2094
+Mean change: -14.6%
+SD: ±15.8%"
+2095,ssp126,-14.07,-5.27,-3.9,1.5,4.74,Prince Edward Island,"Year: 2095
+Mean change: -5.3%
+SD: ±4.7%"
+2095,ssp585,-40.69,-15.54,-15.6,5.21,15.4,Prince Edward Island,"Year: 2095
+Mean change: -15.5%
+SD: ±15.4%"
+2096,ssp126,-11.29,-5.73,-5.87,0.14,4.16,Prince Edward Island,"Year: 2096
+Mean change: -5.7%
+SD: ±4.2%"
+2096,ssp585,-43.94,-16.95,-17.2,3.43,16.22,Prince Edward Island,"Year: 2096
+Mean change: -17%
+SD: ±16.2%"
+2097,ssp126,-22.59,-9.94,-8.24,-3.38,6.12,Prince Edward Island,"Year: 2097
+Mean change: -9.9%
+SD: ±6.1%"
+2097,ssp585,-43.36,-17.14,-18.01,3.71,16.23,Prince Edward Island,"Year: 2097
+Mean change: -17.1%
+SD: ±16.2%"
+2098,ssp126,-21.01,-9.45,-9.49,0.63,6.23,Prince Edward Island,"Year: 2098
+Mean change: -9.4%
+SD: ±6.2%"
+2098,ssp585,-36.91,-15.39,-17.2,6.78,14.73,Prince Edward Island,"Year: 2098
+Mean change: -15.4%
+SD: ±14.7%"
+2099,ssp126,-18.23,-7.07,-5.87,-1,5.35,Prince Edward Island,"Year: 2099
+Mean change: -7.1%
+SD: ±5.3%"
+2099,ssp585,-38.59,-16.2,-15.87,1.68,14.19,Prince Edward Island,"Year: 2099
+Mean change: -16.2%
+SD: ±14.2%"
+2100,ssp126,-15.21,-7.84,-8.65,4.57,6.11,Prince Edward Island,"Year: 2100
+Mean change: -7.8%
+SD: ±6.1%"
+2100,ssp585,-47.6,-17.43,-15.51,2.09,15.98,Prince Edward Island,"Year: 2100
+Mean change: -17.4%
+SD: ±16%"

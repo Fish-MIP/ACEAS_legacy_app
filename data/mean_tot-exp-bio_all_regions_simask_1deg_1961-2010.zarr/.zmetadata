@@ -1,0 +1,143 @@
+{
+    "metadata": {
+        ".zattrs": {},
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "fao-48/.zarray": {
+            "chunks": [
+                38,
+                372
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                38,
+                372
+            ],
+            "zarr_format": 2
+        },
+        "fao-48/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "lat",
+                "lon"
+            ]
+        },
+        "fao-58/.zarray": {
+            "chunks": [
+                38,
+                372
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                38,
+                372
+            ],
+            "zarr_format": 2
+        },
+        "fao-58/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "lat",
+                "lon"
+            ]
+        },
+        "fao-88/.zarray": {
+            "chunks": [
+                38,
+                372
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                38,
+                372
+            ],
+            "zarr_format": 2
+        },
+        "fao-88/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "lat",
+                "lon"
+            ]
+        },
+        "lat/.zarray": {
+            "chunks": [
+                26
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                38
+            ],
+            "zarr_format": 2
+        },
+        "lat/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "lat"
+            ]
+        },
+        "lon/.zarray": {
+            "chunks": [
+                120
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                372
+            ],
+            "zarr_format": 2
+        },
+        "lon/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "lon"
+            ]
+        }
+    },
+    "zarr_consolidated_format": 1
+}
