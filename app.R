@@ -187,8 +187,9 @@ ui <- navbarPage(
           "Choose region type",
           choiceNames = c("CCAMLR Statistical Areas", "CCAMLR Subdivisions", 
                           "CCAMLR Marine Protected Areas", 
-                          "Exclusive Economic Zones"),
-          choiceValues = c("CCAMLR", "CCAMLR_sub", "CCAMLR_mpa", "EEZ"),
+                          "Exclusive Economic Zones", "Southern Ocean"),
+          choiceValues = c("CCAMLR", "CCAMLR_sub", "CCAMLR_mpa", "EEZ", 
+                           "southern-ocean"),
           selected = "CCAMLR"
         ),
         
@@ -510,7 +511,7 @@ ui <- navbarPage(
 # Server Logic ---------------------------------------------------------------
 server <- function(input, output, session) {
   
-  ## Fish biomass projections ------------------------------------------------
+  ## Fish biomass projected maps ---------------------------------------------
   # Update region choices based on region type
   observe({
     if(input$region_type == "CCAMLR"){
@@ -521,9 +522,11 @@ server <- function(input, output, session) {
     }else if(input$region_type == "CCAMLR_mpa"){
       # Use MPA list
       choices <- mpa_list
-    }else{
+    }else if(input$region_type == "EEZ"){
       # Get unique EEZ names (exclude CCAMLR regions)
       choices <- region_list[!region_list %in% ant_sectors$region_name]
+    }else{
+      choices <- "Southern Ocean"
     }
     updateSelectInput(session, "selected_region", choices = choices)
   })
@@ -641,19 +644,21 @@ server <- function(input, output, session) {
   #     write_csv(data_to_download, file)
   #   }
   # )
-  # 
+  
+
+  ## Fish biomass projected timeseries ------------------------------------
   # Reactive data for time series
   ts_plot_data <- reactive({
     req(input$selected_region)
 
     # For CCAMLR regions, use the selected region directly
     # For other types, try to match with available time series data
-    if (input$region_type == "CCAMLR") {
+    if(input$region_type == "CCAMLR"){
       ts_data |>
         filter(region_name == input$selected_region)
-    } else {
-      # For other region types, show time series for the parent CCAMLR region if available
-      # Otherwise return empty data
+    }else{
+      # For other region types, show time series for the parent CCAMLR region 
+      # if available. Otherwise return empty data
       ts_data |>
         filter(region_name == input$selected_region)
     }
@@ -663,71 +668,44 @@ server <- function(input, output, session) {
   output$plot_ts <- renderGirafe({
     req(ts_plot_data())
 
-    p <- ggplot(
-      ts_plot_data(),
-      aes(x = year, y = mean_change, colour = scenario, group = scenario)
-    ) +
-      geom_point_interactive(
-        aes(tooltip = tooltip),
-        size = 0.1,
-        hover_nearest = TRUE
-      ) +
-      geom_line(linewidth = 0.5) +
-      geom_hline(
-        yintercept = 0,
-        color = "grey80",
-        linewidth = 0.65,
-        linetype = 2
-      ) +
-      geom_vline(
-        xintercept = 2015,
-        color = "grey80",
-        linewidth = 0.65
-      ) +
-      geom_ribbon(
-        aes(
-          ymin = mean_change - sd_change,
-          ymax = mean_change + sd_change,
-          fill = scenario
-        ),
-        alpha = 0.3,
-        color = NA
-      ) +
-      scale_color_manual(
-        values = c("historical" = "black", "ssp126" = "#33bbee", "ssp585" = "#ee3377"),
-        name = "Scenarios",
-        labels = c("Historical", "SSP1-2.6", "SSP5-8.5")
-      ) +
-      scale_fill_manual(
-        values = c("historical" = "black", "ssp126" = "#33bbee", "ssp585" = "#ee3377"),
-        name = "Scenarios",
-        labels = c("Historical", "SSP1-2.6", "SSP5-8.5")
-      ) +
-      scale_x_continuous(breaks = seq(1950, 2100, 10)) +
-      labs(
-        title = paste("Fish biomass change:", input$selected_region),
-        y = "Change in exploitable fish biomass (%)"
-      ) +
-      guides(color = guide_legend(nrow = 1, title.position = "left")) +
-      theme_classic() +
-      theme(
-        legend.position = "top",
-        legend.justification = "center",
-        legend.text = element_text(size = 11),
-        legend.title = element_text(size = 11),
-        plot.title = element_text(hjust = 0.5, size = 13, face = "bold"),
-        axis.title.x = element_blank(),
-        axis.title.y = element_text(size = 11),
-        axis.text.x = element_text(angle = 45, vjust = 0.765, hjust = 0.65, size = 10),
-        axis.text.y = element_text(size = 10)
-      )
+    p <- ggplot(ts_plot_data(), aes(x = year, y = mean_change, 
+                                    colour = scenario, group = scenario))+
+      geom_point_interactive(aes(tooltip = tooltip), size = 0.1, 
+                             hover_nearest = TRUE)+
+      geom_line(linewidth = 0.5)+
+      geom_hline(yintercept = 0, color = "grey80", linewidth = 0.65,
+                 linetype = 2)+
+      geom_vline(xintercept = 2015, color = "grey80", linewidth = 0.65)+
+      geom_ribbon(aes(ymin = mean_change-sd_change,
+                      ymax = mean_change+sd_change, fill = scenario),
+                  alpha = 0.3, color = NA)+
+      scale_color_manual(values = c("historical" = "black", 
+                                    "ssp126" = "#33bbee", "ssp585" = "#ee3377"),
+                         name = "Scenarios", 
+                         labels = c("Historical", "SSP1-2.6", "SSP5-8.5"))+
+      scale_fill_manual(values = c("historical" = "black", "ssp126" = "#33bbee",
+                                   "ssp585" = "#ee3377"),
+                        name = "Scenarios",
+                        labels = c("Historical", "SSP1-2.6", "SSP5-8.5"))+
+      scale_x_continuous(breaks = seq(1950, 2100, 10))+
+      labs(title = paste("Fish biomass change:", input$selected_region),
+           y = "Change in exploitable fish biomass (%)")+
+      guides(color = guide_legend(nrow = 1, title.position = "left"))+
+      theme_classic()+
+      theme(legend.position = "top", legend.justification = "center",
+            legend.text = element_text(size = 11), 
+            legend.title = element_text(size = 11),
+            plot.title = element_text(hjust = 0.5, size = 13, face = "bold"),
+            axis.title.x = element_blank(),
+            axis.title.y = element_text(size = 11),
+            axis.text.x = element_text(angle = 45, vjust = 0.765, hjust = 0.65,
+                                       size = 10), 
+            axis.text.y = element_text(size = 10))
 
     girafe(ggobj = p, height_svg = 5) |>
-      girafe_options(
-        opts_selection(type = "none", only_shiny = TRUE)
-      )
+      girafe_options(opts_selection(type = "none", only_shiny = TRUE))
   })
-  # 
+
   # # Download time series data
   # output$download_ts <- downloadHandler(
   #   filename = function() {
@@ -750,115 +728,104 @@ server <- function(input, output, session) {
   #     write_csv(summary_stats, file)
   #   }
   # )
-  # 
-  # # Render description text for global model
-  # output$global_model_description <- renderText({
-  #   var_label <- ifelse(input$global_model_variable == "Biomass", "biomass", "catches")
-  #   paste("Mean", var_label, "from DBPM model (1961-2010 time-averaged).")
-  # })
-  # 
-  # # Reactive data for global model evaluation maps
-  # global_model_data <- reactive({
-  #   req(input$global_model, input$global_model_region, input$global_model_variable)
-  #   
-  #   # DBPM data available for both biomass and catches
-  #   if (input$global_model == "DBPM") {
-  #     if (input$global_model_variable == "Biomass" && !is.null(dbpm_biomass_sf)) {
-  #       # Filter biomass data by selected region
-  #       filtered <- dbpm_biomass_sf |>
-  #         filter(region == input$global_model_region)
-  #       return(filtered)
-  #     } else if (input$global_model_variable == "Catches" && !is.null(dbpm_catches_sf)) {
-  #       # Filter catches data by selected region
-  #       filtered <- dbpm_catches_sf |>
-  #         filter(region == input$global_model_region)
-  #       return(filtered)
-  #     }
-  #   }
-  #   
-  #   return(NULL)
-  # })
-  # 
-  # # Reactive data for sim vs obs catches time series
-  # sim_obs_ts_data <- reactive({
-  #   req(input$global_model_region, input$obs_source, input$model_config)
-  #   
-  #   if (is.null(sim_obs_catches)) return(NULL)
-  #   
-  #   # Parse model config (res_run format)
-  #   config_parts <- strsplit(input$model_config, "_")[[1]]
-  #   res_val <- config_parts[1]
-  #   run_val <- config_parts[2]
-  #   
-  #   # Filter data
-  #   filtered <- sim_obs_catches |>
-  #     filter(
-  #       region_display == input$global_model_region,
-  #       res == res_val,
-  #       run == run_val,
-  #       source == input$obs_source
-  #     )
-  #   
-  #   return(filtered)
-  # })
-  # 
-  # # Render simulated vs observed catches time series
-  # output$plot_sim_obs_ts <- renderGirafe({
-  #   ts_data <- sim_obs_ts_data()
-  #   
-  #   if (is.null(ts_data) || nrow(ts_data) == 0) {
-  #     return(NULL)
-  #   }
-  #   
-  #   # Prepare data for plotting
-  #   plot_data <- ts_data |>
-  #     select(year, vals, obs, pseudo) |>
-  #     pivot_longer(cols = c(vals, obs, pseudo), names_to = "type", values_to = "catch") |>
-  #     mutate(
-  #       type_label = case_when(
-  #         type == "vals" ~ "Simulated (DBPM)",
-  #         type == "obs" ~ "Observed",
-  #         type == "pseudo" ~ "Pseudo-observation"
-  #       )
-  #     )
-  #   
-  #   # Create plot
-  #   p <- ggplot(plot_data, aes(x = year, y = catch, color = type_label, group = type_label)) +
-  #     geom_line(linewidth = 0.8) +
-  #     geom_point(size = 1.5, alpha = 0.6) +
-  #     scale_color_manual(
-  #       values = c(
-  #         "Simulated (DBPM)" = "#2E86AB",
-  #         "Observed" = "#A23B72",
-  #         "Pseudo-observation" = "#F18F01"
-  #       ),
-  #       name = "Data type"
-  #     ) +
-  #     scale_x_continuous(breaks = seq(1960, 2010, 10)) +
-  #     labs(
-  #       title = paste0("DBPM vs Observed Catches - ", input$global_model_region),
-  #       subtitle = paste0("Model: ", gsub("_", " - ", input$model_config), " | Obs: ", 
-  #                        gsub("obs_", "", input$obs_source)),
-  #       x = "Year",
-  #       y = "Mean catch density (tonnes/km²)"
-  #     ) +
-  #     theme_classic() +
-  #     theme(
-  #       legend.position = "top",
-  #       plot.title = element_text(hjust = 0.5, size = 13, face = "bold"),
-  #       plot.subtitle = element_text(hjust = 0.5, size = 11),
-  #       axis.title = element_text(size = 11),
-  #       axis.text = element_text(size = 10),
-  #       legend.text = element_text(size = 10)
-  #     )
-  #   
-  #   girafe(ggobj = p, height_svg = 5) |>
-  #     girafe_options(
-  #       opts_selection(type = "none", only_shiny = TRUE),
-  #       opts_tooltip(opacity = 0.8)
-  #     )
-  # })
-  # 
+
+  # Render description text for global model
+  output$global_model_description <- renderText({
+    var_label <- ifelse(input$global_model_variable == "Biomass", "biomass", 
+                        "catches")
+    paste("Mean", var_label, "from DBPM model (1961-2010 time-averaged).")
+  })
+
+
+  ## Global MEM evaluation -----------------------------------------------
+  # Reactive data for global model evaluation maps
+  global_model_data <- reactive({
+    req(input$global_model, input$global_model_region, 
+        input$global_model_variable)
+
+    # DBPM data available for both biomass and catches
+    if(input$global_model == "DBPM"){
+      if(input$global_model_variable == "Biomass" && 
+          !is.null(dbpm_biomass_sf)){
+        # Filter biomass data by selected region
+        filtered <- dbpm_biomass_sf |>
+          filter(region == input$global_model_region)
+        return(filtered)
+      }else if(input$global_model_variable == "Catches" &&
+               !is.null(dbpm_catches_sf)){
+        # Filter catches data by selected region
+        filtered <- dbpm_catches_sf |>
+          filter(region == input$global_model_region)
+        return(filtered)
+      }
+    }
+    return(NULL)
+  })
+
+  # Reactive data for sim vs obs catches time series
+  sim_obs_ts_data <- reactive({
+    req(input$global_model_region, input$obs_source, input$model_config)
+
+    if (is.null(sim_obs_catches)) return(NULL)
+
+    # Parse model config (res_run format)
+    config_parts <- strsplit(input$model_config, "_")[[1]]
+    res_val <- config_parts[1]
+    run_val <- config_parts[2]
+
+    # Filter data
+    filtered <- sim_obs_catches |>
+      filter(region_display == input$global_model_region, res == res_val,
+             run == run_val, source == input$obs_source)
+
+    return(filtered)
+  })
+
+  # Render simulated vs observed catches time series
+  output$plot_sim_obs_ts <- renderGirafe({
+    ts_data <- sim_obs_ts_data()
+
+    if (is.null(ts_data) || nrow(ts_data) == 0) {
+      return(NULL)
+    }
+
+    # Prepare data for plotting
+    plot_data <- ts_data |>
+      select(year, vals, obs, pseudo) |>
+      pivot_longer(cols = c(vals, obs, pseudo), names_to = "type", 
+                   values_to = "catch") |>
+      mutate(type_label = case_when(
+        type == "vals" ~ "Simulated (DBPM)", type == "obs" ~ "Observed",
+        type == "pseudo" ~ "Pseudo-observation"))
+
+    # Create plot
+    p <- ggplot(plot_data, aes(x = year, y = catch, color = type_label, 
+                               group = type_label))+
+      geom_line(linewidth = 0.8)+
+      geom_point(size = 1.5, alpha = 0.6)+
+      scale_color_manual(values = c("Simulated (DBPM)" = "#2E86AB",
+                                    "Observed" = "#A23B72",
+                                    "Pseudo-observation" = "#F18F01"),
+                         name = "Data type")+
+      scale_x_continuous(breaks = seq(1960, 2010, 10))+
+      labs(title = paste0("DBPM vs Observed Catches - ", 
+                          input$global_model_region),
+           subtitle = paste0("Model: ", gsub("_", " - ", input$model_config), 
+                             " | Obs: ", gsub("obs_", "", input$obs_source)),
+           x = "Year", y = "Mean catch density (tonnes/km²)")+
+      theme_classic()+
+      theme(legend.position = "top", 
+            plot.title = element_text(hjust = 0.5, size = 13, face = "bold"),
+            plot.subtitle = element_text(hjust = 0.5, size = 11),
+            axis.title = element_text(size = 11), 
+            axis.text = element_text(size = 10), 
+            legend.text = element_text(size = 10))
+
+    girafe(ggobj = p, height_svg = 5) |>
+      girafe_options(opts_selection(type = "none", only_shiny = TRUE),
+                     opts_tooltip(opacity = 0.8))
+  })
+
   # # Reactive data for performance metrics
   # perf_data <- reactive({
   #   req(input$global_model_region, input$perf_obs_source, input$perf_model_config)
