@@ -28,14 +28,7 @@ maps_data <- list.files("data/ensemble_outputs/", pattern = "^ensemble",
   mutate(region_name = str_remove(region_name, " Ocean")) |> 
   #Calculate Coefficient of variation (indicator of high uncertainty)
   mutate(cv = ifelse(mean_change != 0, sd_change/abs(mean_change), NA),
-         cv_mask = ifelse(cv > 1, 1, NA),
-         # Add tooltip for interactive maps
-         tooltip = paste0(
-           "Lon: ", round(longitude, 2), "°, Lat: ", round(latitude, 2), "°\n",
-           "Mean change: ", round(mean_change, 1), "%\n",
-           "Range: [", round(min_change, 1), ", ", round(max_change, 1), "]%\n",
-           "SD: ±", round(sd_change, 1), "%\n",
-           "CV: ", round(cv, 2)))
+         cv_mask = ifelse(cv > 1, 1, NA))
 
 # Extract unique coordinate pairs in dataset above
 coords <- maps_data |> 
@@ -74,9 +67,15 @@ maps_data |>
 # Creating raster layers
 
 create_maps_data <- function(maps_data, grouping){
-  reg_split <- maps_data |> 
-    group_by(decade, scenario, !!sym(grouping)) |> 
-    group_split()
+  if(!is.null(grouping)){
+    reg_split <- maps_data |> 
+      group_by(decade, scenario, !!sym(grouping)) |> 
+      group_split()
+  }else{
+    reg_split <- maps_data |> 
+      group_by(decade, scenario) |> 
+      group_split()
+  }
   
   maps_ras_df <- reg_split |> 
       map(\(x) select(x, longitude, latitude, mean_change, sd_change, cv_mask, 
@@ -96,14 +95,26 @@ create_maps_data <- function(maps_data, grouping){
           st_as_sf(coords = c("longitude", "latitude"), crs = 4326) |>
           st_transform(crs = "+proj=ortho +lat_0=-90 +lon_0=0"))
   
-  fn_out <- reg_split |> 
-    map(\(x) distinct(x, !!sym(grouping), decade, scenario) |>
-          mutate(fn_mean = paste0("mean-cvmask_ensemble_perc_change_", 
-                                 str_replace_all(str_to_lower(!!sym(grouping)), 
-                                                 " ", "-"), "_", 
-                                 decade, "_", scenario, ".shp"),
-                 fn_shp = str_replace(fn_mean, "^mean-cvmask", "cv"))) |> 
-    bind_rows()
+  if(!is.null(grouping)){
+    fn_out <- reg_split |> 
+      map(\(x) distinct(x, !!sym(grouping), decade, scenario) |>
+            mutate(fn_mean = 
+                     paste0("mean-cvmask_ensemble_perc_change_", 
+                            str_replace_all(str_to_lower(!!sym(grouping)), 
+                                            " ", "-"), "_", decade, "_", 
+                            scenario, ".shp"),
+                   fn_shp = str_replace(fn_mean, "^mean-cvmask", "cv"))) |> 
+      bind_rows()
+  }else{
+    fn_out <- reg_split |> 
+      map(\(x) distinct(x, decade, scenario) |>
+            mutate(fn_mean = 
+                     paste0("mean-cvmask_ensemble_perc_change_southern-ocean_", 
+                            decade, "_", scenario, ".shp"),
+                   fn_shp = str_replace(fn_mean, "^mean-cvmask", "cv"))) |> 
+      bind_rows()
+  }
+  
   
   out_folder <- "data/projection_maps"
   if(!dir.exists(out_folder)){
@@ -122,6 +133,8 @@ create_maps_data <- function(maps_data, grouping){
 create_maps_data(maps_data, "region_name")
 create_maps_data(maps_data, "subregion")
 create_maps_data(maps_data, "mpa")
+# Creates panantarctic datasets
+create_maps_data(maps_data, NULL)
 
 ### Create summary statistics table ---------------------------------------
 summary_stats <- maps_data |>
