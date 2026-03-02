@@ -86,7 +86,7 @@ ccamlr_mpas_fixed |>
 
 # Saving to disk
 ccamlr_mpas_fixed |> 
-  write_sf("data/map_layers/southern_ocean_mpas.shp")
+  write_sf("data/map_layers/ccamlr_mpas_wgs84.shp")
 
 
 
