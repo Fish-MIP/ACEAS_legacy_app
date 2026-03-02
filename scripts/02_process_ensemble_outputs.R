@@ -33,20 +33,20 @@ ccamlr_areas <- load_ASDs() |>
   select(GAR_Short_Label) |> 
   rename(subregion = GAR_Short_Label)
 
-ccmalr_mpas <- load_MPAs()|> 
-  select(GAR_Short_Label) |> 
-  rename(mpa = GAR_Short_Label)
+ccamlr_mpas <- read_sf("data/map_layers/ccamlr_mpas.shp") |> 
+  select(!mpa_code)
 
-# Extract unique coordinate pairs in dataset above
+# Extract unique coordinate pairs in the ensemble data frame
 coords <- maps_data |> 
   distinct(longitude, latitude) |> 
-  st_as_sf(coords = c("longitude", "latitude"), crs = 4326, remove = FALSE) |> 
-  st_transform(st_crs(ccamlr_areas))
+  st_as_sf(coords = c("longitude", "latitude"), crs = 4326, remove = FALSE) |>
+  # Extract MPA information from MPA mask
+  st_join(ccamlr_mpas)
 
 # Join CCMALR datasets to unique coordinates
 coords <- coords |> 
+  st_transform(st_crs(ccamlr_areas)) |> 
   st_join(ccamlr_areas) |> 
-  st_join(ccmalr_mpas) |> 
   st_drop_geometry()
 
 maps_data <- maps_data |> 
