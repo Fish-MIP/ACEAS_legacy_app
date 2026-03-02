@@ -1,0 +1,2845 @@
+year,scenario,eez,min_change,mean_change,median_change,max_change,sd_change,tooltip
+1950,historical,Crozet Islands,-25.65,-5.1,-2.76,3.55,8.43,"Year: 1950
+Mean change: -5.1%
+SD: ±8.4%"
+1950,historical,Heard Island and McDonald Islands,-19.13,-4.78,-1.71,4.51,7.72,"Year: 1950
+Mean change: -4.8%
+SD: ±7.7%"
+1950,historical,Kerguelen Islands,-9.51,-2.99,-2.86,1.71,3.9,"Year: 1950
+Mean change: -3%
+SD: ±3.9%"
+1950,historical,Prince Edward Islands,-11.3,-0.99,0.28,7.67,5.69,"Year: 1950
+Mean change: -1%
+SD: ±5.7%"
+1951,historical,Crozet Islands,-25.9,-5.33,-3.31,2.42,8.29,"Year: 1951
+Mean change: -5.3%
+SD: ±8.3%"
+1951,historical,Heard Island and McDonald Islands,-20.52,-4.32,-2.59,5.43,8.11,"Year: 1951
+Mean change: -4.3%
+SD: ±8.1%"
+1951,historical,Kerguelen Islands,-10.19,-3.8,-4.41,3.94,4.56,"Year: 1951
+Mean change: -3.8%
+SD: ±4.6%"
+1951,historical,Prince Edward Islands,-13.68,-0.67,-0.88,9.97,6.65,"Year: 1951
+Mean change: -0.7%
+SD: ±6.7%"
+1952,historical,Crozet Islands,-25.51,-2.25,-0.17,14.14,10.08,"Year: 1952
+Mean change: -2.2%
+SD: ±10.1%"
+1952,historical,Heard Island and McDonald Islands,-23.27,-4.33,-0.33,4.76,8.89,"Year: 1952
+Mean change: -4.3%
+SD: ±8.9%"
+1952,historical,Kerguelen Islands,-10.67,-2.68,-1.36,2.71,4.95,"Year: 1952
+Mean change: -2.7%
+SD: ±5%"
+1952,historical,Prince Edward Islands,-5.71,1.89,0.54,20.71,8.58,"Year: 1952
+Mean change: 1.9%
+SD: ±8.6%"
+1953,historical,Crozet Islands,-24.6,-2.72,-1.6,7.91,9.35,"Year: 1953
+Mean change: -2.7%
+SD: ±9.3%"
+1953,historical,Heard Island and McDonald Islands,-21.71,-3.12,1.3,6.43,8.78,"Year: 1953
+Mean change: -3.1%
+SD: ±8.8%"
+1953,historical,Kerguelen Islands,-10.13,-2.71,-3.19,4.59,4.33,"Year: 1953
+Mean change: -2.7%
+SD: ±4.3%"
+1953,historical,Prince Edward Islands,-7.08,0.5,-0.81,16.57,7.11,"Year: 1953
+Mean change: 0.5%
+SD: ±7.1%"
+1954,historical,Crozet Islands,-24.24,-2.88,-1.71,10.98,9.65,"Year: 1954
+Mean change: -2.9%
+SD: ±9.7%"
+1954,historical,Heard Island and McDonald Islands,-18.3,-2.75,-0.57,6.24,7.6,"Year: 1954
+Mean change: -2.8%
+SD: ±7.6%"
+1954,historical,Kerguelen Islands,-10.87,-0.75,0.04,7.67,6.25,"Year: 1954
+Mean change: -0.8%
+SD: ±6.2%"
+1954,historical,Prince Edward Islands,-9.46,0.09,1.18,6.05,4.44,"Year: 1954
+Mean change: 0.1%
+SD: ±4.4%"
+1955,historical,Crozet Islands,-24.51,-5,-4.28,8.75,8.8,"Year: 1955
+Mean change: -5%
+SD: ±8.8%"
+1955,historical,Heard Island and McDonald Islands,-16.33,-2.32,0.62,5.78,7.74,"Year: 1955
+Mean change: -2.3%
+SD: ±7.7%"
+1955,historical,Kerguelen Islands,-9.04,-2.66,-3.04,3.4,4.24,"Year: 1955
+Mean change: -2.7%
+SD: ±4.2%"
+1955,historical,Prince Edward Islands,-10.91,-1.92,-1.62,6.06,4.78,"Year: 1955
+Mean change: -1.9%
+SD: ±4.8%"
+1956,historical,Crozet Islands,-24.9,-4.55,-3.3,6.1,8.61,"Year: 1956
+Mean change: -4.6%
+SD: ±8.6%"
+1956,historical,Heard Island and McDonald Islands,-17.9,-2.06,0.57,6.8,7.88,"Year: 1956
+Mean change: -2.1%
+SD: ±7.9%"
+1956,historical,Kerguelen Islands,-9.77,-1.81,-1.06,4.46,4.6,"Year: 1956
+Mean change: -1.8%
+SD: ±4.6%"
+1956,historical,Prince Edward Islands,-12.12,0.1,1.34,8.69,5.71,"Year: 1956
+Mean change: 0.1%
+SD: ±5.7%"
+1957,historical,Crozet Islands,-24.76,-2.32,-0.14,8.06,9.1,"Year: 1957
+Mean change: -2.3%
+SD: ±9.1%"
+1957,historical,Heard Island and McDonald Islands,-17.85,-3.16,-0.82,4.25,6.9,"Year: 1957
+Mean change: -3.2%
+SD: ±6.9%"
+1957,historical,Kerguelen Islands,-8.51,-1.57,-0.44,6.43,4.74,"Year: 1957
+Mean change: -1.6%
+SD: ±4.7%"
+1957,historical,Prince Edward Islands,-13.3,1.33,2.1,11.32,7,"Year: 1957
+Mean change: 1.3%
+SD: ±7%"
+1958,historical,Crozet Islands,-24.01,-2.81,-1.12,8.64,8.58,"Year: 1958
+Mean change: -2.8%
+SD: ±8.6%"
+1958,historical,Heard Island and McDonald Islands,-13.86,-2.01,2.35,4.51,7.23,"Year: 1958
+Mean change: -2%
+SD: ±7.2%"
+1958,historical,Kerguelen Islands,-7.85,-1.31,-1.5,5.64,3.79,"Year: 1958
+Mean change: -1.3%
+SD: ±3.8%"
+1958,historical,Prince Edward Islands,-14.03,0.65,0.96,13.94,7.5,"Year: 1958
+Mean change: 0.7%
+SD: ±7.5%"
+1959,historical,Crozet Islands,-23.17,-4.02,-1.88,1.88,7.15,"Year: 1959
+Mean change: -4%
+SD: ±7.2%"
+1959,historical,Heard Island and McDonald Islands,-15.32,-3.27,-1.09,4.39,6.91,"Year: 1959
+Mean change: -3.3%
+SD: ±6.9%"
+1959,historical,Kerguelen Islands,-8.21,-3.18,-3.28,1.05,3.43,"Year: 1959
+Mean change: -3.2%
+SD: ±3.4%"
+1959,historical,Prince Edward Islands,-14.5,-0.63,0.67,11.55,6.86,"Year: 1959
+Mean change: -0.6%
+SD: ±6.9%"
+1960,historical,Crozet Islands,-22.37,-0.03,-0.54,12.38,9.22,"Year: 1960
+Mean change: 0%
+SD: ±9.2%"
+1960,historical,Heard Island and McDonald Islands,-15.92,-2.6,0.42,7.4,7.76,"Year: 1960
+Mean change: -2.6%
+SD: ±7.8%"
+1960,historical,Kerguelen Islands,-9.22,-3.07,-1.99,2.22,4.36,"Year: 1960
+Mean change: -3.1%
+SD: ±4.4%"
+1960,historical,Prince Edward Islands,-13.91,2.98,1.8,14.53,8.19,"Year: 1960
+Mean change: 3%
+SD: ±8.2%"
+1961,historical,Crozet Islands,-21.57,-2.8,-0.51,2.69,7.4,"Year: 1961
+Mean change: -2.8%
+SD: ±7.4%"
+1961,historical,Heard Island and McDonald Islands,-12.45,-2.1,0.9,3.84,5.99,"Year: 1961
+Mean change: -2.1%
+SD: ±6%"
+1961,historical,Kerguelen Islands,-10.25,-1.94,-1.63,1.78,3.49,"Year: 1961
+Mean change: -1.9%
+SD: ±3.5%"
+1961,historical,Prince Edward Islands,-12.45,0.14,0.51,9.73,5.82,"Year: 1961
+Mean change: 0.1%
+SD: ±5.8%"
+1962,historical,Crozet Islands,-21.47,-3.1,-3.4,13.63,8.96,"Year: 1962
+Mean change: -3.1%
+SD: ±9%"
+1962,historical,Heard Island and McDonald Islands,-9.75,-1.61,0.78,5.59,6.03,"Year: 1962
+Mean change: -1.6%
+SD: ±6%"
+1962,historical,Kerguelen Islands,-9.82,-2.25,-1.56,1.18,3.17,"Year: 1962
+Mean change: -2.2%
+SD: ±3.2%"
+1962,historical,Prince Edward Islands,-11.52,-0.59,-1.06,12.38,6.38,"Year: 1962
+Mean change: -0.6%
+SD: ±6.4%"
+1963,historical,Crozet Islands,-22.08,-3.67,-4.1,11.02,8.91,"Year: 1963
+Mean change: -3.7%
+SD: ±8.9%"
+1963,historical,Heard Island and McDonald Islands,-10.57,-1.82,-0.77,4,4.59,"Year: 1963
+Mean change: -1.8%
+SD: ±4.6%"
+1963,historical,Kerguelen Islands,-8.67,-0.85,-0.06,6.77,4.72,"Year: 1963
+Mean change: -0.8%
+SD: ±4.7%"
+1963,historical,Prince Edward Islands,-11.42,-0.4,-1.6,17.19,7.7,"Year: 1963
+Mean change: -0.4%
+SD: ±7.7%"
+1964,historical,Crozet Islands,-22.79,-5.09,-4.93,8.14,8.58,"Year: 1964
+Mean change: -5.1%
+SD: ±8.6%"
+1964,historical,Heard Island and McDonald Islands,-8.91,-3.35,-2.64,3.39,4.19,"Year: 1964
+Mean change: -3.4%
+SD: ±4.2%"
+1964,historical,Kerguelen Islands,-8.51,-4.13,-4.85,0.76,3.99,"Year: 1964
+Mean change: -4.1%
+SD: ±4%"
+1964,historical,Prince Edward Islands,-11.75,-1.4,-0.22,12.61,8.11,"Year: 1964
+Mean change: -1.4%
+SD: ±8.1%"
+1965,historical,Crozet Islands,-23.07,-2.83,-0.3,6.14,8.98,"Year: 1965
+Mean change: -2.8%
+SD: ±9%"
+1965,historical,Heard Island and McDonald Islands,-12.12,-2.09,-1.03,3.96,4.88,"Year: 1965
+Mean change: -2.1%
+SD: ±4.9%"
+1965,historical,Kerguelen Islands,-9.09,-2.49,-1.8,4.53,4.22,"Year: 1965
+Mean change: -2.5%
+SD: ±4.2%"
+1965,historical,Prince Edward Islands,-11.62,0.99,0.76,13.97,7.64,"Year: 1965
+Mean change: 1%
+SD: ±7.6%"
+1966,historical,Crozet Islands,-22.87,-2.26,-1.72,10.36,9.7,"Year: 1966
+Mean change: -2.3%
+SD: ±9.7%"
+1966,historical,Heard Island and McDonald Islands,-10.98,-1.96,-1.68,8,5.75,"Year: 1966
+Mean change: -2%
+SD: ±5.8%"
+1966,historical,Kerguelen Islands,-8.38,-1.05,0.09,8.7,5.31,"Year: 1966
+Mean change: -1%
+SD: ±5.3%"
+1966,historical,Prince Edward Islands,-11.45,-0.49,0.11,12.38,7.2,"Year: 1966
+Mean change: -0.5%
+SD: ±7.2%"
+1967,historical,Crozet Islands,-22.57,-2.04,-1.6,13.38,9.73,"Year: 1967
+Mean change: -2%
+SD: ±9.7%"
+1967,historical,Heard Island and McDonald Islands,-11.72,-4.11,-4.08,2.72,5.17,"Year: 1967
+Mean change: -4.1%
+SD: ±5.2%"
+1967,historical,Kerguelen Islands,-7.19,-1.05,-0.68,7.01,4.74,"Year: 1967
+Mean change: -1%
+SD: ±4.7%"
+1967,historical,Prince Edward Islands,-11.62,2.07,0.66,20.67,8.76,"Year: 1967
+Mean change: 2.1%
+SD: ±8.8%"
+1968,historical,Crozet Islands,-22.18,-1.77,-1.21,8.74,8.67,"Year: 1968
+Mean change: -1.8%
+SD: ±8.7%"
+1968,historical,Heard Island and McDonald Islands,-9.37,-2.69,-2.56,3.59,4.23,"Year: 1968
+Mean change: -2.7%
+SD: ±4.2%"
+1968,historical,Kerguelen Islands,-6.08,-0.51,0.31,3.33,3.2,"Year: 1968
+Mean change: -0.5%
+SD: ±3.2%"
+1968,historical,Prince Edward Islands,-11.22,1.17,2.15,15.26,7.44,"Year: 1968
+Mean change: 1.2%
+SD: ±7.4%"
+1969,historical,Crozet Islands,-21.41,-2.1,-0.27,5.96,7.3,"Year: 1969
+Mean change: -2.1%
+SD: ±7.3%"
+1969,historical,Heard Island and McDonald Islands,-9,-3.19,-3.65,2.84,4.29,"Year: 1969
+Mean change: -3.2%
+SD: ±4.3%"
+1969,historical,Kerguelen Islands,-6.32,0.37,1.08,4.09,3.3,"Year: 1969
+Mean change: 0.4%
+SD: ±3.3%"
+1969,historical,Prince Edward Islands,-11,-1.11,-2.8,11.19,6.7,"Year: 1969
+Mean change: -1.1%
+SD: ±6.7%"
+1970,historical,Crozet Islands,-20.48,-5.1,-4.22,4.87,6.37,"Year: 1970
+Mean change: -5.1%
+SD: ±6.4%"
+1970,historical,Heard Island and McDonald Islands,-9.45,-3.21,-3.09,2.58,3.28,"Year: 1970
+Mean change: -3.2%
+SD: ±3.3%"
+1970,historical,Kerguelen Islands,-6.74,-1.6,-1.46,3.06,2.84,"Year: 1970
+Mean change: -1.6%
+SD: ±2.8%"
+1970,historical,Prince Edward Islands,-11.27,-2.21,-1.56,6.38,5.33,"Year: 1970
+Mean change: -2.2%
+SD: ±5.3%"
+1971,historical,Crozet Islands,-19.39,-1.34,0.3,4.61,7.27,"Year: 1971
+Mean change: -1.3%
+SD: ±7.3%"
+1971,historical,Heard Island and McDonald Islands,-9.46,-1.7,-1,3.42,4.21,"Year: 1971
+Mean change: -1.7%
+SD: ±4.2%"
+1971,historical,Kerguelen Islands,-6.21,0.08,1.28,6.18,4.42,"Year: 1971
+Mean change: 0.1%
+SD: ±4.4%"
+1971,historical,Prince Edward Islands,-10.91,1.95,3.27,9.78,6.3,"Year: 1971
+Mean change: 2%
+SD: ±6.3%"
+1972,historical,Crozet Islands,-18.28,-1.4,0.11,4.98,7.04,"Year: 1972
+Mean change: -1.4%
+SD: ±7%"
+1972,historical,Heard Island and McDonald Islands,-9.07,-1.14,-2.12,6.71,5.12,"Year: 1972
+Mean change: -1.1%
+SD: ±5.1%"
+1972,historical,Kerguelen Islands,-5.78,-0.13,-0.03,2.72,2.47,"Year: 1972
+Mean change: -0.1%
+SD: ±2.5%"
+1972,historical,Prince Edward Islands,-10.27,1.45,0.82,11.49,6.08,"Year: 1972
+Mean change: 1.4%
+SD: ±6.1%"
+1973,historical,Crozet Islands,-17.52,-0.78,-0.49,18.79,9.39,"Year: 1973
+Mean change: -0.8%
+SD: ±9.4%"
+1973,historical,Heard Island and McDonald Islands,-12.26,-1.95,-0.91,6.13,6.02,"Year: 1973
+Mean change: -2%
+SD: ±6%"
+1973,historical,Kerguelen Islands,-7.36,-1.18,-0.98,7.35,4.35,"Year: 1973
+Mean change: -1.2%
+SD: ±4.3%"
+1973,historical,Prince Edward Islands,-9.49,1.3,1.84,17.71,7.79,"Year: 1973
+Mean change: 1.3%
+SD: ±7.8%"
+1974,historical,Crozet Islands,-16.74,-4.21,-4.64,4.66,5.95,"Year: 1974
+Mean change: -4.2%
+SD: ±6%"
+1974,historical,Heard Island and McDonald Islands,-11.6,-3.01,-1.02,1.77,5,"Year: 1974
+Mean change: -3%
+SD: ±5%"
+1974,historical,Kerguelen Islands,-8.44,-1.62,-1.91,8.44,4.74,"Year: 1974
+Mean change: -1.6%
+SD: ±4.7%"
+1974,historical,Prince Edward Islands,-10.4,-3.83,-4.34,2.9,4.22,"Year: 1974
+Mean change: -3.8%
+SD: ±4.2%"
+1975,historical,Crozet Islands,-16.48,-3.18,-3.7,6.43,6.01,"Year: 1975
+Mean change: -3.2%
+SD: ±6%"
+1975,historical,Heard Island and McDonald Islands,-8.84,-1.77,-0.23,3.58,4.36,"Year: 1975
+Mean change: -1.8%
+SD: ±4.4%"
+1975,historical,Kerguelen Islands,-5.83,-1,-1.12,4.12,3.51,"Year: 1975
+Mean change: -1%
+SD: ±3.5%"
+1975,historical,Prince Edward Islands,-7.65,-1.68,-1.48,8.25,4.76,"Year: 1975
+Mean change: -1.7%
+SD: ±4.8%"
+1976,historical,Crozet Islands,-16.63,-3.04,-2.39,3.47,5.79,"Year: 1976
+Mean change: -3%
+SD: ±5.8%"
+1976,historical,Heard Island and McDonald Islands,-11.57,-2.48,-2.38,3.98,5.11,"Year: 1976
+Mean change: -2.5%
+SD: ±5.1%"
+1976,historical,Kerguelen Islands,-6.87,-2.61,-2.78,1.39,3.11,"Year: 1976
+Mean change: -2.6%
+SD: ±3.1%"
+1976,historical,Prince Edward Islands,-7.49,-0.35,-1.01,13.06,6.68,"Year: 1976
+Mean change: -0.3%
+SD: ±6.7%"
+1977,historical,Crozet Islands,-16.46,-0.65,-0.59,19.82,9.77,"Year: 1977
+Mean change: -0.7%
+SD: ±9.8%"
+1977,historical,Heard Island and McDonald Islands,-8.83,-1,1.44,3.91,4.77,"Year: 1977
+Mean change: -1%
+SD: ±4.8%"
+1977,historical,Kerguelen Islands,-10.05,-1.18,-0.55,9.14,5.2,"Year: 1977
+Mean change: -1.2%
+SD: ±5.2%"
+1977,historical,Prince Edward Islands,-11.96,1.04,1.37,19.09,8.17,"Year: 1977
+Mean change: 1%
+SD: ±8.2%"
+1978,historical,Crozet Islands,-15.32,0.18,0.24,23.83,10.72,"Year: 1978
+Mean change: 0.2%
+SD: ±10.7%"
+1978,historical,Heard Island and McDonald Islands,-11.05,-1.83,-1.24,5.84,5.57,"Year: 1978
+Mean change: -1.8%
+SD: ±5.6%"
+1978,historical,Kerguelen Islands,-10.03,-0.64,-0.05,12.46,6.1,"Year: 1978
+Mean change: -0.6%
+SD: ±6.1%"
+1978,historical,Prince Edward Islands,-9.93,0.62,0.8,18.19,7.63,"Year: 1978
+Mean change: 0.6%
+SD: ±7.6%"
+1979,historical,Crozet Islands,-13.73,-0.31,0.67,12.89,7.04,"Year: 1979
+Mean change: -0.3%
+SD: ±7%"
+1979,historical,Heard Island and McDonald Islands,-12.46,-0.7,0.24,7.1,5.85,"Year: 1979
+Mean change: -0.7%
+SD: ±5.8%"
+1979,historical,Kerguelen Islands,-4.27,0.43,-0.86,13.78,5.74,"Year: 1979
+Mean change: 0.4%
+SD: ±5.7%"
+1979,historical,Prince Edward Islands,-8.61,-0.29,-0.57,7.95,5.32,"Year: 1979
+Mean change: -0.3%
+SD: ±5.3%"
+1980,historical,Crozet Islands,-12.83,-2.11,-1.27,5.94,5.32,"Year: 1980
+Mean change: -2.1%
+SD: ±5.3%"
+1980,historical,Heard Island and McDonald Islands,-5.99,-1.07,-0.12,2.19,2.89,"Year: 1980
+Mean change: -1.1%
+SD: ±2.9%"
+1980,historical,Kerguelen Islands,-3.91,-1.12,-1.36,2.39,1.96,"Year: 1980
+Mean change: -1.1%
+SD: ±2%"
+1980,historical,Prince Edward Islands,-9.51,-1.07,-1.38,9.98,5.2,"Year: 1980
+Mean change: -1.1%
+SD: ±5.2%"
+1981,historical,Crozet Islands,-12.44,-2.23,-1.19,7.4,5.32,"Year: 1981
+Mean change: -2.2%
+SD: ±5.3%"
+1981,historical,Heard Island and McDonald Islands,-8.01,-2.41,-2.68,1.78,3.36,"Year: 1981
+Mean change: -2.4%
+SD: ±3.4%"
+1981,historical,Kerguelen Islands,-10.41,-0.95,0.02,5.71,4.18,"Year: 1981
+Mean change: -0.9%
+SD: ±4.2%"
+1981,historical,Prince Edward Islands,-10.53,-1.08,-1.1,11.72,5.88,"Year: 1981
+Mean change: -1.1%
+SD: ±5.9%"
+1982,historical,Crozet Islands,-11.32,-1.3,-2.33,10.74,5.74,"Year: 1982
+Mean change: -1.3%
+SD: ±5.7%"
+1982,historical,Heard Island and McDonald Islands,-7.33,-3.48,-5.2,3.37,3.67,"Year: 1982
+Mean change: -3.5%
+SD: ±3.7%"
+1982,historical,Kerguelen Islands,-9.25,-2.78,-1.57,0.18,3.2,"Year: 1982
+Mean change: -2.8%
+SD: ±3.2%"
+1982,historical,Prince Edward Islands,-10.78,-0.62,-0.96,13.43,6.34,"Year: 1982
+Mean change: -0.6%
+SD: ±6.3%"
+1983,historical,Crozet Islands,-9.3,-2.19,-0.75,2.15,3.95,"Year: 1983
+Mean change: -2.2%
+SD: ±4%"
+1983,historical,Heard Island and McDonald Islands,-13.12,-1.36,-0.17,3.11,4.62,"Year: 1983
+Mean change: -1.4%
+SD: ±4.6%"
+1983,historical,Kerguelen Islands,-3.76,-0.01,-0.09,5.29,2.79,"Year: 1983
+Mean change: 0%
+SD: ±2.8%"
+1983,historical,Prince Edward Islands,-9.82,-0.99,0.1,6.8,4.72,"Year: 1983
+Mean change: -1%
+SD: ±4.7%"
+1984,historical,Crozet Islands,-8.64,-1.28,-0.63,4.63,4.7,"Year: 1984
+Mean change: -1.3%
+SD: ±4.7%"
+1984,historical,Heard Island and McDonald Islands,-10.57,-0.87,0.21,4.6,4.95,"Year: 1984
+Mean change: -0.9%
+SD: ±5%"
+1984,historical,Kerguelen Islands,-8.49,-0.77,-0.86,4.07,4.01,"Year: 1984
+Mean change: -0.8%
+SD: ±4%"
+1984,historical,Prince Edward Islands,-9.29,-1.8,-2.33,4.18,3.85,"Year: 1984
+Mean change: -1.8%
+SD: ±3.9%"
+1985,historical,Crozet Islands,-7.66,-0.69,-1.37,4.48,3.71,"Year: 1985
+Mean change: -0.7%
+SD: ±3.7%"
+1985,historical,Heard Island and McDonald Islands,-7.38,-1.56,-1.29,3.01,3.54,"Year: 1985
+Mean change: -1.6%
+SD: ±3.5%"
+1985,historical,Kerguelen Islands,-5.69,-1.31,-2.06,2.99,2.96,"Year: 1985
+Mean change: -1.3%
+SD: ±3%"
+1985,historical,Prince Edward Islands,-9.45,0.06,0.22,9.64,5.7,"Year: 1985
+Mean change: 0.1%
+SD: ±5.7%"
+1986,historical,Crozet Islands,-7.61,-1.27,-0.03,5.14,4.48,"Year: 1986
+Mean change: -1.3%
+SD: ±4.5%"
+1986,historical,Heard Island and McDonald Islands,-6.1,-1.08,-1.89,4.18,3.52,"Year: 1986
+Mean change: -1.1%
+SD: ±3.5%"
+1986,historical,Kerguelen Islands,-5.4,-0.65,-0.81,3.53,3.26,"Year: 1986
+Mean change: -0.7%
+SD: ±3.3%"
+1986,historical,Prince Edward Islands,-8.8,-0.17,-0.69,6.73,4.61,"Year: 1986
+Mean change: -0.2%
+SD: ±4.6%"
+1987,historical,Crozet Islands,-8.04,-0.4,0.78,5.39,4.33,"Year: 1987
+Mean change: -0.4%
+SD: ±4.3%"
+1987,historical,Heard Island and McDonald Islands,-6.63,-0.49,-0.57,5.33,4.64,"Year: 1987
+Mean change: -0.5%
+SD: ±4.6%"
+1987,historical,Kerguelen Islands,-4.95,-0.31,0.17,3.97,3.16,"Year: 1987
+Mean change: -0.3%
+SD: ±3.2%"
+1987,historical,Prince Edward Islands,-8.06,1.14,-0.19,10.56,5.86,"Year: 1987
+Mean change: 1.1%
+SD: ±5.9%"
+1988,historical,Crozet Islands,-8.37,2.11,1.99,15.57,7.52,"Year: 1988
+Mean change: 2.1%
+SD: ±7.5%"
+1988,historical,Heard Island and McDonald Islands,-7.08,-0.58,-0.2,5.93,4.65,"Year: 1988
+Mean change: -0.6%
+SD: ±4.7%"
+1988,historical,Kerguelen Islands,-9.12,1.39,2.4,7.96,5.21,"Year: 1988
+Mean change: 1.4%
+SD: ±5.2%"
+1988,historical,Prince Edward Islands,-8.53,1.58,1.79,12.65,6.78,"Year: 1988
+Mean change: 1.6%
+SD: ±6.8%"
+1989,historical,Crozet Islands,-8.59,-0.93,-2.14,7.51,4.86,"Year: 1989
+Mean change: -0.9%
+SD: ±4.9%"
+1989,historical,Heard Island and McDonald Islands,-7.75,-1.22,-2.15,5.2,4.75,"Year: 1989
+Mean change: -1.2%
+SD: ±4.8%"
+1989,historical,Kerguelen Islands,-5.52,-0.76,-1.36,5.79,4.02,"Year: 1989
+Mean change: -0.8%
+SD: ±4%"
+1989,historical,Prince Edward Islands,-9.65,-0.11,-0.4,8.97,5.51,"Year: 1989
+Mean change: -0.1%
+SD: ±5.5%"
+1990,historical,Crozet Islands,-8.69,-0.64,-2.24,8.81,5.9,"Year: 1990
+Mean change: -0.6%
+SD: ±5.9%"
+1990,historical,Heard Island and McDonald Islands,-4.08,-0.9,-2.47,5.48,3.68,"Year: 1990
+Mean change: -0.9%
+SD: ±3.7%"
+1990,historical,Kerguelen Islands,-6.14,-1.29,-2.84,6.02,4.15,"Year: 1990
+Mean change: -1.3%
+SD: ±4.2%"
+1990,historical,Prince Edward Islands,-10.37,1.15,-0.86,17.53,8.44,"Year: 1990
+Mean change: 1.1%
+SD: ±8.4%"
+1991,historical,Crozet Islands,-8.25,0.64,1.43,9.75,5.81,"Year: 1991
+Mean change: 0.6%
+SD: ±5.8%"
+1991,historical,Heard Island and McDonald Islands,-7.92,-0.51,-0.76,5.91,3.99,"Year: 1991
+Mean change: -0.5%
+SD: ±4%"
+1991,historical,Kerguelen Islands,-5.48,0.58,0.24,6.04,3.55,"Year: 1991
+Mean change: 0.6%
+SD: ±3.5%"
+1991,historical,Prince Edward Islands,-10.59,0.77,0.69,8.33,5.6,"Year: 1991
+Mean change: 0.8%
+SD: ±5.6%"
+1992,historical,Crozet Islands,-7.76,-2.18,-2.72,6.43,4.33,"Year: 1992
+Mean change: -2.2%
+SD: ±4.3%"
+1992,historical,Heard Island and McDonald Islands,-7.14,-1.61,-2.89,5.85,5.12,"Year: 1992
+Mean change: -1.6%
+SD: ±5.1%"
+1992,historical,Kerguelen Islands,-10.57,-1.77,-2.47,5.74,5.71,"Year: 1992
+Mean change: -1.8%
+SD: ±5.7%"
+1992,historical,Prince Edward Islands,-10.3,-2.69,-4.41,8.14,5.58,"Year: 1992
+Mean change: -2.7%
+SD: ±5.6%"
+1993,historical,Crozet Islands,-6.07,0.15,0.88,5.39,3.33,"Year: 1993
+Mean change: 0.1%
+SD: ±3.3%"
+1993,historical,Heard Island and McDonald Islands,-6.98,0.06,-0.3,6.2,4.03,"Year: 1993
+Mean change: 0.1%
+SD: ±4%"
+1993,historical,Kerguelen Islands,-5.54,-0.06,-0.24,3.94,3.1,"Year: 1993
+Mean change: -0.1%
+SD: ±3.1%"
+1993,historical,Prince Edward Islands,-9.81,0.79,1.74,7.03,4.29,"Year: 1993
+Mean change: 0.8%
+SD: ±4.3%"
+1994,historical,Crozet Islands,-4.41,0.67,0.04,6.62,3.76,"Year: 1994
+Mean change: 0.7%
+SD: ±3.8%"
+1994,historical,Heard Island and McDonald Islands,-7.23,-0.41,0.17,3.59,3.24,"Year: 1994
+Mean change: -0.4%
+SD: ±3.2%"
+1994,historical,Kerguelen Islands,-2.07,0.71,-0.53,5.75,2.73,"Year: 1994
+Mean change: 0.7%
+SD: ±2.7%"
+1994,historical,Prince Edward Islands,-9.14,0.04,2.09,5.79,4.82,"Year: 1994
+Mean change: 0%
+SD: ±4.8%"
+1995,historical,Crozet Islands,-4.64,0.6,1.04,6.97,4.29,"Year: 1995
+Mean change: 0.6%
+SD: ±4.3%"
+1995,historical,Heard Island and McDonald Islands,-7.94,-0.28,0.39,3.5,3.74,"Year: 1995
+Mean change: -0.3%
+SD: ±3.7%"
+1995,historical,Kerguelen Islands,-6.69,0.63,1.26,4.54,3.27,"Year: 1995
+Mean change: 0.6%
+SD: ±3.3%"
+1995,historical,Prince Edward Islands,-8.87,1.16,1.99,5.91,4.59,"Year: 1995
+Mean change: 1.2%
+SD: ±4.6%"
+1996,historical,Crozet Islands,-11.15,-2.13,-2.52,3.66,4.22,"Year: 1996
+Mean change: -2.1%
+SD: ±4.2%"
+1996,historical,Heard Island and McDonald Islands,-8.26,-2.62,-2.98,2.66,3.64,"Year: 1996
+Mean change: -2.6%
+SD: ±3.6%"
+1996,historical,Kerguelen Islands,-9.19,-3.53,-3.35,1.75,4.03,"Year: 1996
+Mean change: -3.5%
+SD: ±4%"
+1996,historical,Prince Edward Islands,-8.76,-1.51,-1.81,4.43,4.21,"Year: 1996
+Mean change: -1.5%
+SD: ±4.2%"
+1997,historical,Crozet Islands,-4.62,0.77,-0.17,14.04,5.2,"Year: 1997
+Mean change: 0.8%
+SD: ±5.2%"
+1997,historical,Heard Island and McDonald Islands,-2.92,2.3,1.41,11.26,4.09,"Year: 1997
+Mean change: 2.3%
+SD: ±4.1%"
+1997,historical,Kerguelen Islands,-7.72,0.63,1.23,13.37,5.93,"Year: 1997
+Mean change: 0.6%
+SD: ±5.9%"
+1997,historical,Prince Edward Islands,-7.58,1.32,0.5,14.05,5.42,"Year: 1997
+Mean change: 1.3%
+SD: ±5.4%"
+1998,historical,Crozet Islands,-4.93,-0.12,0.41,3.74,2.63,"Year: 1998
+Mean change: -0.1%
+SD: ±2.6%"
+1998,historical,Heard Island and McDonald Islands,-4.48,0.01,-0.3,4.38,3.07,"Year: 1998
+Mean change: 0%
+SD: ±3.1%"
+1998,historical,Kerguelen Islands,-5.44,-0.8,-0.31,2.79,2.41,"Year: 1998
+Mean change: -0.8%
+SD: ±2.4%"
+1998,historical,Prince Edward Islands,-6.13,-0.35,0.3,3.6,3.17,"Year: 1998
+Mean change: -0.3%
+SD: ±3.2%"
+1999,historical,Crozet Islands,-5.5,-0.76,-1.34,5.67,3.51,"Year: 1999
+Mean change: -0.8%
+SD: ±3.5%"
+1999,historical,Heard Island and McDonald Islands,-2.61,1.06,0.93,5.23,2.15,"Year: 1999
+Mean change: 1.1%
+SD: ±2.1%"
+1999,historical,Kerguelen Islands,-2.9,-0.9,-1.04,1.44,1.48,"Year: 1999
+Mean change: -0.9%
+SD: ±1.5%"
+1999,historical,Prince Edward Islands,-6.46,-2.41,-2.38,2.47,3.18,"Year: 1999
+Mean change: -2.4%
+SD: ±3.2%"
+2000,historical,Crozet Islands,-10.87,-1.48,-1.21,10.16,5.69,"Year: 2000
+Mean change: -1.5%
+SD: ±5.7%"
+2000,historical,Heard Island and McDonald Islands,-4.91,1.43,1.58,5.01,2.73,"Year: 2000
+Mean change: 1.4%
+SD: ±2.7%"
+2000,historical,Kerguelen Islands,-6.95,-0.07,-0.04,7.45,3.67,"Year: 2000
+Mean change: -0.1%
+SD: ±3.7%"
+2000,historical,Prince Edward Islands,-10.25,-0.38,-0.06,12.05,5.79,"Year: 2000
+Mean change: -0.4%
+SD: ±5.8%"
+2001,historical,Crozet Islands,-5.37,-0.45,0.71,5.05,3.39,"Year: 2001
+Mean change: -0.4%
+SD: ±3.4%"
+2001,historical,Heard Island and McDonald Islands,-3.51,1.99,1.71,8.02,3.2,"Year: 2001
+Mean change: 2%
+SD: ±3.2%"
+2001,historical,Kerguelen Islands,-4.95,-0.28,-0.18,1.51,1.88,"Year: 2001
+Mean change: -0.3%
+SD: ±1.9%"
+2001,historical,Prince Edward Islands,-4.74,0.24,0.31,5.82,3.3,"Year: 2001
+Mean change: 0.2%
+SD: ±3.3%"
+2002,historical,Crozet Islands,-4.32,0.26,0.57,4.17,2.54,"Year: 2002
+Mean change: 0.3%
+SD: ±2.5%"
+2002,historical,Heard Island and McDonald Islands,-1.88,1.41,1.89,4.02,1.81,"Year: 2002
+Mean change: 1.4%
+SD: ±1.8%"
+2002,historical,Kerguelen Islands,-8.7,-0.68,0.24,2.22,3.26,"Year: 2002
+Mean change: -0.7%
+SD: ±3.3%"
+2002,historical,Prince Edward Islands,-2.4,2.34,1.86,8.05,2.77,"Year: 2002
+Mean change: 2.3%
+SD: ±2.8%"
+2003,historical,Crozet Islands,-6.2,-0.57,0.08,6.42,3.72,"Year: 2003
+Mean change: -0.6%
+SD: ±3.7%"
+2003,historical,Heard Island and McDonald Islands,-9.06,-0.84,0.3,3.86,4.27,"Year: 2003
+Mean change: -0.8%
+SD: ±4.3%"
+2003,historical,Kerguelen Islands,-4.91,-1.38,-0.99,3.49,2.49,"Year: 2003
+Mean change: -1.4%
+SD: ±2.5%"
+2003,historical,Prince Edward Islands,-9.18,1.34,1.5,6.91,4.5,"Year: 2003
+Mean change: 1.3%
+SD: ±4.5%"
+2004,historical,Crozet Islands,-10.09,-1.97,-0.36,1.99,4.15,"Year: 2004
+Mean change: -2%
+SD: ±4.2%"
+2004,historical,Heard Island and McDonald Islands,-7.98,-2.81,-2.93,3.39,4.37,"Year: 2004
+Mean change: -2.8%
+SD: ±4.4%"
+2004,historical,Kerguelen Islands,-7.16,-1.44,-0.65,5.89,3.5,"Year: 2004
+Mean change: -1.4%
+SD: ±3.5%"
+2004,historical,Prince Edward Islands,-11.83,-1.49,0.59,7.74,6.18,"Year: 2004
+Mean change: -1.5%
+SD: ±6.2%"
+2005,historical,Crozet Islands,-6.75,-1.89,-1.11,2.17,2.69,"Year: 2005
+Mean change: -1.9%
+SD: ±2.7%"
+2005,historical,Heard Island and McDonald Islands,-5.98,-1.61,-1.15,1.16,2.16,"Year: 2005
+Mean change: -1.6%
+SD: ±2.2%"
+2005,historical,Kerguelen Islands,-4.23,-1.27,-1.24,1.73,2.04,"Year: 2005
+Mean change: -1.3%
+SD: ±2%"
+2005,historical,Prince Edward Islands,-10.37,-1.48,0.02,4.35,4.26,"Year: 2005
+Mean change: -1.5%
+SD: ±4.3%"
+2006,historical,Crozet Islands,-7.97,-1.85,-0.7,3.01,3.93,"Year: 2006
+Mean change: -1.9%
+SD: ±3.9%"
+2006,historical,Heard Island and McDonald Islands,-5.59,-0.62,-0.58,4.37,2.9,"Year: 2006
+Mean change: -0.6%
+SD: ±2.9%"
+2006,historical,Kerguelen Islands,-5.64,-0.48,-0.36,6.38,3.41,"Year: 2006
+Mean change: -0.5%
+SD: ±3.4%"
+2006,historical,Prince Edward Islands,-9.75,-2.01,-0.23,3.53,4.26,"Year: 2006
+Mean change: -2%
+SD: ±4.3%"
+2007,historical,Crozet Islands,-2.91,2.44,1.55,9.73,3.95,"Year: 2007
+Mean change: 2.4%
+SD: ±4%"
+2007,historical,Heard Island and McDonald Islands,-3.02,-0.83,-0.73,1.45,1.85,"Year: 2007
+Mean change: -0.8%
+SD: ±1.9%"
+2007,historical,Kerguelen Islands,-1.66,0.22,0.19,3.18,1.53,"Year: 2007
+Mean change: 0.2%
+SD: ±1.5%"
+2007,historical,Prince Edward Islands,-2.85,2.43,0.59,12.94,4.44,"Year: 2007
+Mean change: 2.4%
+SD: ±4.4%"
+2008,historical,Crozet Islands,-2.47,0.32,0.38,3.85,2.02,"Year: 2008
+Mean change: 0.3%
+SD: ±2%"
+2008,historical,Heard Island and McDonald Islands,-2.99,-0.87,-0.51,0.66,1.34,"Year: 2008
+Mean change: -0.9%
+SD: ±1.3%"
+2008,historical,Kerguelen Islands,-2.29,-0,-0.05,2.14,1.23,"Year: 2008
+Mean change: 0%
+SD: ±1.2%"
+2008,historical,Prince Edward Islands,-6.62,-0.28,0.37,2.6,2.69,"Year: 2008
+Mean change: -0.3%
+SD: ±2.7%"
+2009,historical,Crozet Islands,-4,0.82,0.37,6.83,2.74,"Year: 2009
+Mean change: 0.8%
+SD: ±2.7%"
+2009,historical,Heard Island and McDonald Islands,-5.77,1.48,0.61,8.48,4.47,"Year: 2009
+Mean change: 1.5%
+SD: ±4.5%"
+2009,historical,Kerguelen Islands,-8.86,0.86,1.16,5.87,4.17,"Year: 2009
+Mean change: 0.9%
+SD: ±4.2%"
+2009,historical,Prince Edward Islands,-4.14,0.5,0.2,4.71,2.32,"Year: 2009
+Mean change: 0.5%
+SD: ±2.3%"
+2010,historical,Crozet Islands,-0.73,3.96,2.59,12.38,4.34,"Year: 2010
+Mean change: 4%
+SD: ±4.3%"
+2010,historical,Heard Island and McDonald Islands,-6.2,0.22,0.81,4.26,3.64,"Year: 2010
+Mean change: 0.2%
+SD: ±3.6%"
+2010,historical,Kerguelen Islands,-4.39,0.11,0.58,3.37,2.41,"Year: 2010
+Mean change: 0.1%
+SD: ±2.4%"
+2010,historical,Prince Edward Islands,-3.71,3.42,2.56,11.4,4.61,"Year: 2010
+Mean change: 3.4%
+SD: ±4.6%"
+2011,historical,Crozet Islands,-1.99,1.23,1.2,5.02,1.8,"Year: 2011
+Mean change: 1.2%
+SD: ±1.8%"
+2011,historical,Heard Island and McDonald Islands,-3.05,1.2,0.94,6.6,2.54,"Year: 2011
+Mean change: 1.2%
+SD: ±2.5%"
+2011,historical,Kerguelen Islands,-3.32,2.27,0.85,11.47,4.18,"Year: 2011
+Mean change: 2.3%
+SD: ±4.2%"
+2011,historical,Prince Edward Islands,-4.12,-0.83,-1.21,3.57,2.01,"Year: 2011
+Mean change: -0.8%
+SD: ±2%"
+2012,historical,Crozet Islands,-12.42,-1.58,0.18,2.84,4.53,"Year: 2012
+Mean change: -1.6%
+SD: ±4.5%"
+2012,historical,Heard Island and McDonald Islands,-4.52,0.53,0.27,5.58,2.55,"Year: 2012
+Mean change: 0.5%
+SD: ±2.5%"
+2012,historical,Kerguelen Islands,-2.04,0.4,0.54,3.7,1.77,"Year: 2012
+Mean change: 0.4%
+SD: ±1.8%"
+2012,historical,Prince Edward Islands,-5.88,-0.86,-0.73,3.27,2.77,"Year: 2012
+Mean change: -0.9%
+SD: ±2.8%"
+2013,historical,Crozet Islands,-4.45,-1.04,-1.04,2.71,2.3,"Year: 2013
+Mean change: -1%
+SD: ±2.3%"
+2013,historical,Heard Island and McDonald Islands,-5.21,0.94,1.2,5.63,3.16,"Year: 2013
+Mean change: 0.9%
+SD: ±3.2%"
+2013,historical,Kerguelen Islands,-7.93,-0.99,-0.27,2.29,2.84,"Year: 2013
+Mean change: -1%
+SD: ±2.8%"
+2013,historical,Prince Edward Islands,-4.78,-0.79,-0.53,2.38,2.14,"Year: 2013
+Mean change: -0.8%
+SD: ±2.1%"
+2014,historical,Crozet Islands,-5.43,-2.41,-2.31,0.29,1.78,"Year: 2014
+Mean change: -2.4%
+SD: ±1.8%"
+2014,historical,Heard Island and McDonald Islands,-5.17,-0.44,-0.17,2.14,2.37,"Year: 2014
+Mean change: -0.4%
+SD: ±2.4%"
+2014,historical,Kerguelen Islands,-4.42,-1.11,-0.64,1.24,1.95,"Year: 2014
+Mean change: -1.1%
+SD: ±2%"
+2014,historical,Prince Edward Islands,-2.8,-0.09,-0.18,2.33,1.71,"Year: 2014
+Mean change: -0.1%
+SD: ±1.7%"
+2015,ssp126,Crozet Islands,-4.6,-1.72,-1.57,1.98,2.55,"Year: 2015
+Mean change: -1.7%
+SD: ±2.5%"
+2015,ssp126,Heard Island and McDonald Islands,-1.1,1.06,0.43,6.86,2.27,"Year: 2015
+Mean change: 1.1%
+SD: ±2.3%"
+2015,ssp126,Kerguelen Islands,-2.41,0.43,-0.21,6.7,2.58,"Year: 2015
+Mean change: 0.4%
+SD: ±2.6%"
+2015,ssp126,Prince Edward Islands,-7.46,-1.46,-0.91,1.89,3.06,"Year: 2015
+Mean change: -1.5%
+SD: ±3.1%"
+2015,ssp585,Crozet Islands,-10.01,-1.89,-0.58,0.64,3.31,"Year: 2015
+Mean change: -1.9%
+SD: ±3.3%"
+2015,ssp585,Heard Island and McDonald Islands,-4,-0.18,-0.28,2.5,2,"Year: 2015
+Mean change: -0.2%
+SD: ±2%"
+2015,ssp585,Kerguelen Islands,-5.42,-0.14,0.36,5.1,2.75,"Year: 2015
+Mean change: -0.1%
+SD: ±2.8%"
+2015,ssp585,Prince Edward Islands,-3.4,-1.08,-0.85,0.34,1.11,"Year: 2015
+Mean change: -1.1%
+SD: ±1.1%"
+2016,ssp126,Crozet Islands,-14.9,-2.7,-0.96,5.74,5.89,"Year: 2016
+Mean change: -2.7%
+SD: ±5.9%"
+2016,ssp126,Heard Island and McDonald Islands,-8.24,-1.6,-0.86,2.65,3.16,"Year: 2016
+Mean change: -1.6%
+SD: ±3.2%"
+2016,ssp126,Kerguelen Islands,-15.72,-2.3,-1.21,5.71,5.71,"Year: 2016
+Mean change: -2.3%
+SD: ±5.7%"
+2016,ssp126,Prince Edward Islands,-9.81,-1.11,-1.44,5.35,4.49,"Year: 2016
+Mean change: -1.1%
+SD: ±4.5%"
+2016,ssp585,Crozet Islands,-11.83,-3.96,-3.18,2.02,3.71,"Year: 2016
+Mean change: -4%
+SD: ±3.7%"
+2016,ssp585,Heard Island and McDonald Islands,-6.02,-1.43,-1.1,3.92,3.01,"Year: 2016
+Mean change: -1.4%
+SD: ±3%"
+2016,ssp585,Kerguelen Islands,-6.44,-2.34,-1.94,0.62,2.5,"Year: 2016
+Mean change: -2.3%
+SD: ±2.5%"
+2016,ssp585,Prince Edward Islands,-10.61,-3.36,-2.1,2.97,3.99,"Year: 2016
+Mean change: -3.4%
+SD: ±4%"
+2017,ssp126,Crozet Islands,-11.95,-6.09,-7.08,-0.52,3.68,"Year: 2017
+Mean change: -6.1%
+SD: ±3.7%"
+2017,ssp126,Heard Island and McDonald Islands,-7.42,-4.03,-4.76,0.21,2.9,"Year: 2017
+Mean change: -4%
+SD: ±2.9%"
+2017,ssp126,Kerguelen Islands,-9.85,-3.1,-1.97,1.5,3.73,"Year: 2017
+Mean change: -3.1%
+SD: ±3.7%"
+2017,ssp126,Prince Edward Islands,-10.98,-4.44,-3.73,-0.76,3.33,"Year: 2017
+Mean change: -4.4%
+SD: ±3.3%"
+2017,ssp585,Crozet Islands,-7.35,-2.75,-1.88,2.89,2.93,"Year: 2017
+Mean change: -2.8%
+SD: ±2.9%"
+2017,ssp585,Heard Island and McDonald Islands,-8.23,-1.61,-1.35,6.24,4.19,"Year: 2017
+Mean change: -1.6%
+SD: ±4.2%"
+2017,ssp585,Kerguelen Islands,-5.49,-2.53,-1.94,-0.47,1.73,"Year: 2017
+Mean change: -2.5%
+SD: ±1.7%"
+2017,ssp585,Prince Edward Islands,-5.62,-1.36,-1.7,8.73,4.06,"Year: 2017
+Mean change: -1.4%
+SD: ±4.1%"
+2018,ssp126,Crozet Islands,-12.49,-7.78,-8.39,-1.79,3.51,"Year: 2018
+Mean change: -7.8%
+SD: ±3.5%"
+2018,ssp126,Heard Island and McDonald Islands,-13.59,-5.47,-4.63,0.86,4.85,"Year: 2018
+Mean change: -5.5%
+SD: ±4.8%"
+2018,ssp126,Kerguelen Islands,-10.33,-5.67,-6.33,0.41,3.4,"Year: 2018
+Mean change: -5.7%
+SD: ±3.4%"
+2018,ssp126,Prince Edward Islands,-9.72,-5.55,-5.7,-1.55,3.29,"Year: 2018
+Mean change: -5.6%
+SD: ±3.3%"
+2018,ssp585,Crozet Islands,-9.1,-3.14,-3.61,3.84,3.63,"Year: 2018
+Mean change: -3.1%
+SD: ±3.6%"
+2018,ssp585,Heard Island and McDonald Islands,-14.96,0.3,0.75,10.28,6.57,"Year: 2018
+Mean change: 0.3%
+SD: ±6.6%"
+2018,ssp585,Kerguelen Islands,-11.14,-1.52,-0.61,3.33,4.1,"Year: 2018
+Mean change: -1.5%
+SD: ±4.1%"
+2018,ssp585,Prince Edward Islands,-5.11,-1.51,-1.27,3.22,2.94,"Year: 2018
+Mean change: -1.5%
+SD: ±2.9%"
+2019,ssp126,Crozet Islands,-13.55,-5.58,-5.96,-1.83,3.64,"Year: 2019
+Mean change: -5.6%
+SD: ±3.6%"
+2019,ssp126,Heard Island and McDonald Islands,-20.05,-5.16,-4.75,5.21,7.53,"Year: 2019
+Mean change: -5.2%
+SD: ±7.5%"
+2019,ssp126,Kerguelen Islands,-14.03,-4.28,-3.94,0.46,4.26,"Year: 2019
+Mean change: -4.3%
+SD: ±4.3%"
+2019,ssp126,Prince Edward Islands,-5.76,-3.93,-4.26,-1.94,1.4,"Year: 2019
+Mean change: -3.9%
+SD: ±1.4%"
+2019,ssp585,Crozet Islands,-10.69,-1.68,-1.32,3.71,4.07,"Year: 2019
+Mean change: -1.7%
+SD: ±4.1%"
+2019,ssp585,Heard Island and McDonald Islands,-17.54,-0.78,0.71,5.11,6.29,"Year: 2019
+Mean change: -0.8%
+SD: ±6.3%"
+2019,ssp585,Kerguelen Islands,-9.34,-3.11,-3.03,2.6,3.41,"Year: 2019
+Mean change: -3.1%
+SD: ±3.4%"
+2019,ssp585,Prince Edward Islands,-5.72,-0.85,-1.08,6.15,3.36,"Year: 2019
+Mean change: -0.8%
+SD: ±3.4%"
+2020,ssp126,Crozet Islands,-19.42,-8.54,-7.36,-1.44,6.47,"Year: 2020
+Mean change: -8.5%
+SD: ±6.5%"
+2020,ssp126,Heard Island and McDonald Islands,-14.57,-3.9,-2.7,0.99,4.65,"Year: 2020
+Mean change: -3.9%
+SD: ±4.7%"
+2020,ssp126,Kerguelen Islands,-10.11,-5.16,-5,0.3,3.23,"Year: 2020
+Mean change: -5.2%
+SD: ±3.2%"
+2020,ssp126,Prince Edward Islands,-11.26,-4.59,-3.81,-2.12,2.87,"Year: 2020
+Mean change: -4.6%
+SD: ±2.9%"
+2020,ssp585,Crozet Islands,-13.75,-4.97,-3.2,-2,4.27,"Year: 2020
+Mean change: -5%
+SD: ±4.3%"
+2020,ssp585,Heard Island and McDonald Islands,-15.06,-2.12,-0.86,4.48,5.62,"Year: 2020
+Mean change: -2.1%
+SD: ±5.6%"
+2020,ssp585,Kerguelen Islands,-8.93,-3.59,-2.58,-0.17,3.22,"Year: 2020
+Mean change: -3.6%
+SD: ±3.2%"
+2020,ssp585,Prince Edward Islands,-15.67,-4.45,-3.91,2.88,5.05,"Year: 2020
+Mean change: -4.4%
+SD: ±5%"
+2021,ssp126,Crozet Islands,-18.23,-5.35,-3.83,-2.15,4.92,"Year: 2021
+Mean change: -5.3%
+SD: ±4.9%"
+2021,ssp126,Heard Island and McDonald Islands,-14.34,-4.46,-3.32,4.1,6.09,"Year: 2021
+Mean change: -4.5%
+SD: ±6.1%"
+2021,ssp126,Kerguelen Islands,-9.07,-4.14,-3.92,0.6,3.06,"Year: 2021
+Mean change: -4.1%
+SD: ±3.1%"
+2021,ssp126,Prince Edward Islands,-8.8,-3.66,-2.61,-0.25,2.83,"Year: 2021
+Mean change: -3.7%
+SD: ±2.8%"
+2021,ssp585,Crozet Islands,-12.39,-0.75,0.05,5.74,4.81,"Year: 2021
+Mean change: -0.8%
+SD: ±4.8%"
+2021,ssp585,Heard Island and McDonald Islands,-12.03,-2.14,-1.85,2.75,4.2,"Year: 2021
+Mean change: -2.1%
+SD: ±4.2%"
+2021,ssp585,Kerguelen Islands,-6.68,-2.74,-2.33,2.11,2.74,"Year: 2021
+Mean change: -2.7%
+SD: ±2.7%"
+2021,ssp585,Prince Edward Islands,-8.83,1.23,0.22,9.62,5.84,"Year: 2021
+Mean change: 1.2%
+SD: ±5.8%"
+2022,ssp126,Crozet Islands,-19.72,-5.14,-4.33,5.54,6.55,"Year: 2022
+Mean change: -5.1%
+SD: ±6.6%"
+2022,ssp126,Heard Island and McDonald Islands,-9.55,-4.73,-5,1.13,3.84,"Year: 2022
+Mean change: -4.7%
+SD: ±3.8%"
+2022,ssp126,Kerguelen Islands,-10.44,-4.68,-4.6,0.04,3.39,"Year: 2022
+Mean change: -4.7%
+SD: ±3.4%"
+2022,ssp126,Prince Edward Islands,-10.99,-3.96,-4.16,8.89,5.84,"Year: 2022
+Mean change: -4%
+SD: ±5.8%"
+2022,ssp585,Crozet Islands,-11.66,-2,-1.37,3.85,4.44,"Year: 2022
+Mean change: -2%
+SD: ±4.4%"
+2022,ssp585,Heard Island and McDonald Islands,-17.32,-2.14,-0.69,5.83,6.13,"Year: 2022
+Mean change: -2.1%
+SD: ±6.1%"
+2022,ssp585,Kerguelen Islands,-7.07,-2.63,-2.47,1.55,2.69,"Year: 2022
+Mean change: -2.6%
+SD: ±2.7%"
+2022,ssp585,Prince Edward Islands,-9.03,0.36,-1.01,10.03,6.52,"Year: 2022
+Mean change: 0.4%
+SD: ±6.5%"
+2023,ssp126,Crozet Islands,-19.66,-4,-2.24,1.08,5.93,"Year: 2023
+Mean change: -4%
+SD: ±5.9%"
+2023,ssp126,Heard Island and McDonald Islands,-11.22,-5.31,-6.89,4.94,5.18,"Year: 2023
+Mean change: -5.3%
+SD: ±5.2%"
+2023,ssp126,Kerguelen Islands,-10.06,-4.3,-3.6,1.57,3.66,"Year: 2023
+Mean change: -4.3%
+SD: ±3.7%"
+2023,ssp126,Prince Edward Islands,-11.35,-3.53,-2.45,-0.51,3.3,"Year: 2023
+Mean change: -3.5%
+SD: ±3.3%"
+2023,ssp585,Crozet Islands,-11.25,-0.75,-0.98,11.46,5.57,"Year: 2023
+Mean change: -0.8%
+SD: ±5.6%"
+2023,ssp585,Heard Island and McDonald Islands,-11.11,-2.89,-2.04,2.32,3.85,"Year: 2023
+Mean change: -2.9%
+SD: ±3.9%"
+2023,ssp585,Kerguelen Islands,-7.62,-1.73,-1.45,2.05,3.01,"Year: 2023
+Mean change: -1.7%
+SD: ±3%"
+2023,ssp585,Prince Edward Islands,-7.56,-1.97,-1.83,7.41,4.33,"Year: 2023
+Mean change: -2%
+SD: ±4.3%"
+2024,ssp126,Crozet Islands,-18.4,-4.41,-2.35,2.83,6.71,"Year: 2024
+Mean change: -4.4%
+SD: ±6.7%"
+2024,ssp126,Heard Island and McDonald Islands,-15.76,-3.5,-2.79,4.78,5.65,"Year: 2024
+Mean change: -3.5%
+SD: ±5.7%"
+2024,ssp126,Kerguelen Islands,-10.53,-2.52,-0.83,0.38,3.93,"Year: 2024
+Mean change: -2.5%
+SD: ±3.9%"
+2024,ssp126,Prince Edward Islands,-16.36,-3.23,-1.59,5.53,6.79,"Year: 2024
+Mean change: -3.2%
+SD: ±6.8%"
+2024,ssp585,Crozet Islands,-11.61,-2.15,-1.55,4.75,4.16,"Year: 2024
+Mean change: -2.1%
+SD: ±4.2%"
+2024,ssp585,Heard Island and McDonald Islands,-7.69,-0.41,0.83,5.7,4.14,"Year: 2024
+Mean change: -0.4%
+SD: ±4.1%"
+2024,ssp585,Kerguelen Islands,-7.38,-0.17,0.34,3.07,3.01,"Year: 2024
+Mean change: -0.2%
+SD: ±3%"
+2024,ssp585,Prince Edward Islands,-7.57,-2.53,-1.61,2.91,3.18,"Year: 2024
+Mean change: -2.5%
+SD: ±3.2%"
+2025,ssp126,Crozet Islands,-17.05,-3.38,-1.86,2.25,5.56,"Year: 2025
+Mean change: -3.4%
+SD: ±5.6%"
+2025,ssp126,Heard Island and McDonald Islands,-12.7,-3.18,-2.65,7.87,6.07,"Year: 2025
+Mean change: -3.2%
+SD: ±6.1%"
+2025,ssp126,Kerguelen Islands,-9.37,-4.19,-3.61,0.63,3.49,"Year: 2025
+Mean change: -4.2%
+SD: ±3.5%"
+2025,ssp126,Prince Edward Islands,-9.69,-3.04,-2.62,1.98,3.5,"Year: 2025
+Mean change: -3%
+SD: ±3.5%"
+2025,ssp585,Crozet Islands,-12.18,-5.05,-4.41,1.41,4.44,"Year: 2025
+Mean change: -5%
+SD: ±4.4%"
+2025,ssp585,Heard Island and McDonald Islands,-10.3,-1.58,-0.84,5.42,5.27,"Year: 2025
+Mean change: -1.6%
+SD: ±5.3%"
+2025,ssp585,Kerguelen Islands,-8.46,-2.77,-1.79,0.48,2.87,"Year: 2025
+Mean change: -2.8%
+SD: ±2.9%"
+2025,ssp585,Prince Edward Islands,-9,-3.18,-2.62,0.23,2.74,"Year: 2025
+Mean change: -3.2%
+SD: ±2.7%"
+2026,ssp126,Crozet Islands,-15.85,-4.45,-2.58,2.84,5.91,"Year: 2026
+Mean change: -4.4%
+SD: ±5.9%"
+2026,ssp126,Heard Island and McDonald Islands,-9.6,-0.99,0.61,2.65,4.06,"Year: 2026
+Mean change: -1%
+SD: ±4.1%"
+2026,ssp126,Kerguelen Islands,-10.23,-3.34,-2.75,0.5,3.4,"Year: 2026
+Mean change: -3.3%
+SD: ±3.4%"
+2026,ssp126,Prince Edward Islands,-10.46,-3.85,-3.27,2.11,3.85,"Year: 2026
+Mean change: -3.9%
+SD: ±3.9%"
+2026,ssp585,Crozet Islands,-14.03,-6.63,-5.86,0.15,5.56,"Year: 2026
+Mean change: -6.6%
+SD: ±5.6%"
+2026,ssp585,Heard Island and McDonald Islands,-9.86,-4.91,-4.92,3.19,3.97,"Year: 2026
+Mean change: -4.9%
+SD: ±4%"
+2026,ssp585,Kerguelen Islands,-13.22,-4.34,-3.78,0.89,3.79,"Year: 2026
+Mean change: -4.3%
+SD: ±3.8%"
+2026,ssp585,Prince Edward Islands,-13.66,-4.81,-3.71,1.7,4.52,"Year: 2026
+Mean change: -4.8%
+SD: ±4.5%"
+2027,ssp126,Crozet Islands,-15.23,-6.34,-5.68,1.45,5.33,"Year: 2027
+Mean change: -6.3%
+SD: ±5.3%"
+2027,ssp126,Heard Island and McDonald Islands,-9.71,-3.98,-4.13,0.72,3.24,"Year: 2027
+Mean change: -4%
+SD: ±3.2%"
+2027,ssp126,Kerguelen Islands,-10.48,-3.8,-2.85,1.14,3.63,"Year: 2027
+Mean change: -3.8%
+SD: ±3.6%"
+2027,ssp126,Prince Edward Islands,-13.53,-5.03,-3.86,1.37,4.18,"Year: 2027
+Mean change: -5%
+SD: ±4.2%"
+2027,ssp585,Crozet Islands,-13.93,-5.39,-4.16,0.29,4.35,"Year: 2027
+Mean change: -5.4%
+SD: ±4.3%"
+2027,ssp585,Heard Island and McDonald Islands,-10.23,-4.35,-4.01,1.78,4.09,"Year: 2027
+Mean change: -4.3%
+SD: ±4.1%"
+2027,ssp585,Kerguelen Islands,-13.16,-4.55,-3.31,-0.26,4.33,"Year: 2027
+Mean change: -4.6%
+SD: ±4.3%"
+2027,ssp585,Prince Edward Islands,-9.01,-3.78,-3.75,2.93,3.18,"Year: 2027
+Mean change: -3.8%
+SD: ±3.2%"
+2028,ssp126,Crozet Islands,-15.59,-6.71,-5.29,-1.35,4.66,"Year: 2028
+Mean change: -6.7%
+SD: ±4.7%"
+2028,ssp126,Heard Island and McDonald Islands,-12.65,-4.77,-3.93,2.22,4.76,"Year: 2028
+Mean change: -4.8%
+SD: ±4.8%"
+2028,ssp126,Kerguelen Islands,-9.58,-4.31,-3.59,0.23,3.09,"Year: 2028
+Mean change: -4.3%
+SD: ±3.1%"
+2028,ssp126,Prince Edward Islands,-8.18,-4.71,-5.14,2.04,3.23,"Year: 2028
+Mean change: -4.7%
+SD: ±3.2%"
+2028,ssp585,Crozet Islands,-14.37,-3.31,-2.59,4.9,4.83,"Year: 2028
+Mean change: -3.3%
+SD: ±4.8%"
+2028,ssp585,Heard Island and McDonald Islands,-12.6,-1.63,-1.5,7.84,6.33,"Year: 2028
+Mean change: -1.6%
+SD: ±6.3%"
+2028,ssp585,Kerguelen Islands,-8.12,-1.03,-0.28,6.4,4.43,"Year: 2028
+Mean change: -1%
+SD: ±4.4%"
+2028,ssp585,Prince Edward Islands,-7.18,-2.39,-2.4,0.37,2.21,"Year: 2028
+Mean change: -2.4%
+SD: ±2.2%"
+2029,ssp126,Crozet Islands,-16.14,-5.16,-3.61,0.68,5.24,"Year: 2029
+Mean change: -5.2%
+SD: ±5.2%"
+2029,ssp126,Heard Island and McDonald Islands,-9.98,-4.34,-4.14,0.8,3.62,"Year: 2029
+Mean change: -4.3%
+SD: ±3.6%"
+2029,ssp126,Kerguelen Islands,-15.41,-5.84,-5.03,-1.22,4.45,"Year: 2029
+Mean change: -5.8%
+SD: ±4.4%"
+2029,ssp126,Prince Edward Islands,-11.75,-3.74,-3.09,0.96,3.64,"Year: 2029
+Mean change: -3.7%
+SD: ±3.6%"
+2029,ssp585,Crozet Islands,-14.62,-5.21,-4.66,4.15,5.18,"Year: 2029
+Mean change: -5.2%
+SD: ±5.2%"
+2029,ssp585,Heard Island and McDonald Islands,-11.17,-3.03,-3,2.58,3.84,"Year: 2029
+Mean change: -3%
+SD: ±3.8%"
+2029,ssp585,Kerguelen Islands,-7.75,-1.43,-1.79,2.97,3.18,"Year: 2029
+Mean change: -1.4%
+SD: ±3.2%"
+2029,ssp585,Prince Edward Islands,-10.34,-3.57,-3.41,3.03,4.24,"Year: 2029
+Mean change: -3.6%
+SD: ±4.2%"
+2030,ssp126,Crozet Islands,-21.41,-7.29,-4.86,-0.33,7.01,"Year: 2030
+Mean change: -7.3%
+SD: ±7%"
+2030,ssp126,Heard Island and McDonald Islands,-10.46,-4.38,-3.66,0.11,3.36,"Year: 2030
+Mean change: -4.4%
+SD: ±3.4%"
+2030,ssp126,Kerguelen Islands,-11.07,-3.97,-3.28,1.21,3.96,"Year: 2030
+Mean change: -4%
+SD: ±4%"
+2030,ssp126,Prince Edward Islands,-13.15,-4.22,-3.3,1.01,3.73,"Year: 2030
+Mean change: -4.2%
+SD: ±3.7%"
+2030,ssp585,Crozet Islands,-15.25,-5.48,-4.34,1.1,5.34,"Year: 2030
+Mean change: -5.5%
+SD: ±5.3%"
+2030,ssp585,Heard Island and McDonald Islands,-10.15,-2.6,-1.59,2.34,3.56,"Year: 2030
+Mean change: -2.6%
+SD: ±3.6%"
+2030,ssp585,Kerguelen Islands,-6.22,-1.88,-1.56,2.75,3.33,"Year: 2030
+Mean change: -1.9%
+SD: ±3.3%"
+2030,ssp585,Prince Edward Islands,-8.66,-2.69,-2.65,1.22,3.06,"Year: 2030
+Mean change: -2.7%
+SD: ±3.1%"
+2031,ssp126,Crozet Islands,-17.71,-6.42,-5.25,2.55,5.44,"Year: 2031
+Mean change: -6.4%
+SD: ±5.4%"
+2031,ssp126,Heard Island and McDonald Islands,-10.58,-4.17,-4.77,0.88,3.2,"Year: 2031
+Mean change: -4.2%
+SD: ±3.2%"
+2031,ssp126,Kerguelen Islands,-12.7,-4.32,-2.4,0.33,4.46,"Year: 2031
+Mean change: -4.3%
+SD: ±4.5%"
+2031,ssp126,Prince Edward Islands,-15.09,-4.65,-4.83,8.75,6.12,"Year: 2031
+Mean change: -4.7%
+SD: ±6.1%"
+2031,ssp585,Crozet Islands,-16.49,-6.83,-5.6,-0.43,5.77,"Year: 2031
+Mean change: -6.8%
+SD: ±5.8%"
+2031,ssp585,Heard Island and McDonald Islands,-13.67,-4.44,-4.36,5.61,5.8,"Year: 2031
+Mean change: -4.4%
+SD: ±5.8%"
+2031,ssp585,Kerguelen Islands,-7.87,-3.9,-4.09,1,3.29,"Year: 2031
+Mean change: -3.9%
+SD: ±3.3%"
+2031,ssp585,Prince Edward Islands,-14.14,-4.38,-3.38,0.66,4.15,"Year: 2031
+Mean change: -4.4%
+SD: ±4.2%"
+2032,ssp126,Crozet Islands,-17.73,-5.27,-4.46,2.35,6.05,"Year: 2032
+Mean change: -5.3%
+SD: ±6%"
+2032,ssp126,Heard Island and McDonald Islands,-10.71,-4.11,-4.16,4.31,4.42,"Year: 2032
+Mean change: -4.1%
+SD: ±4.4%"
+2032,ssp126,Kerguelen Islands,-10.68,-4.34,-4.69,2.78,4.18,"Year: 2032
+Mean change: -4.3%
+SD: ±4.2%"
+2032,ssp126,Prince Edward Islands,-8.87,-3.22,-2.86,-0.02,2.82,"Year: 2032
+Mean change: -3.2%
+SD: ±2.8%"
+2032,ssp585,Crozet Islands,-16.11,-5.05,-4.02,1.67,4.79,"Year: 2032
+Mean change: -5%
+SD: ±4.8%"
+2032,ssp585,Heard Island and McDonald Islands,-14.77,-3.82,-3.85,6.46,5.95,"Year: 2032
+Mean change: -3.8%
+SD: ±6%"
+2032,ssp585,Kerguelen Islands,-7.95,-4.55,-5.56,0.04,2.98,"Year: 2032
+Mean change: -4.6%
+SD: ±3%"
+2032,ssp585,Prince Edward Islands,-10.36,-3.59,-4.08,2.78,3.97,"Year: 2032
+Mean change: -3.6%
+SD: ±4%"
+2033,ssp126,Crozet Islands,-17.09,-5.45,-4.54,-0.28,4.86,"Year: 2033
+Mean change: -5.4%
+SD: ±4.9%"
+2033,ssp126,Heard Island and McDonald Islands,-15.21,-4.74,-3.52,3.92,5.19,"Year: 2033
+Mean change: -4.7%
+SD: ±5.2%"
+2033,ssp126,Kerguelen Islands,-10.52,-5.36,-5.59,-1.22,3.23,"Year: 2033
+Mean change: -5.4%
+SD: ±3.2%"
+2033,ssp126,Prince Edward Islands,-12.7,-3.76,-3.99,3.01,4.81,"Year: 2033
+Mean change: -3.8%
+SD: ±4.8%"
+2033,ssp585,Crozet Islands,-15.79,-5.09,-4.39,-0.31,4.48,"Year: 2033
+Mean change: -5.1%
+SD: ±4.5%"
+2033,ssp585,Heard Island and McDonald Islands,-11.51,-4.56,-4.16,2.36,3.91,"Year: 2033
+Mean change: -4.6%
+SD: ±3.9%"
+2033,ssp585,Kerguelen Islands,-7.24,-4.47,-4.62,0.54,2.61,"Year: 2033
+Mean change: -4.5%
+SD: ±2.6%"
+2033,ssp585,Prince Edward Islands,-6.7,-3.46,-3.62,-0.53,2.39,"Year: 2033
+Mean change: -3.5%
+SD: ±2.4%"
+2034,ssp126,Crozet Islands,-15.99,-4.25,-4.33,6.2,6.33,"Year: 2034
+Mean change: -4.2%
+SD: ±6.3%"
+2034,ssp126,Heard Island and McDonald Islands,-9.3,-4.78,-4.23,-1.53,2.76,"Year: 2034
+Mean change: -4.8%
+SD: ±2.8%"
+2034,ssp126,Kerguelen Islands,-10.15,-3.73,-3.41,0.94,3.64,"Year: 2034
+Mean change: -3.7%
+SD: ±3.6%"
+2034,ssp126,Prince Edward Islands,-10.4,-1.2,-1.28,6.22,5.95,"Year: 2034
+Mean change: -1.2%
+SD: ±6%"
+2034,ssp585,Crozet Islands,-15.2,-5.17,-3.96,2.74,4.79,"Year: 2034
+Mean change: -5.2%
+SD: ±4.8%"
+2034,ssp585,Heard Island and McDonald Islands,-9.64,-3.84,-3.25,1.24,3.71,"Year: 2034
+Mean change: -3.8%
+SD: ±3.7%"
+2034,ssp585,Kerguelen Islands,-7.76,-2.64,-3.02,4.63,3.7,"Year: 2034
+Mean change: -2.6%
+SD: ±3.7%"
+2034,ssp585,Prince Edward Islands,-7.96,-2.86,-3.81,4.53,4.07,"Year: 2034
+Mean change: -2.9%
+SD: ±4.1%"
+2035,ssp126,Crozet Islands,-14.63,-3.1,-3.35,6.91,5.44,"Year: 2035
+Mean change: -3.1%
+SD: ±5.4%"
+2035,ssp126,Heard Island and McDonald Islands,-8.65,-3.85,-4.16,6.68,4.6,"Year: 2035
+Mean change: -3.9%
+SD: ±4.6%"
+2035,ssp126,Kerguelen Islands,-8.68,-3.13,-3.17,2.51,3.74,"Year: 2035
+Mean change: -3.1%
+SD: ±3.7%"
+2035,ssp126,Prince Edward Islands,-7.52,-2.58,-2.91,7.22,4.35,"Year: 2035
+Mean change: -2.6%
+SD: ±4.3%"
+2035,ssp585,Crozet Islands,-16.58,-5.47,-3.66,-0.13,5.58,"Year: 2035
+Mean change: -5.5%
+SD: ±5.6%"
+2035,ssp585,Heard Island and McDonald Islands,-12.32,-2.95,-2.71,3.82,5.2,"Year: 2035
+Mean change: -3%
+SD: ±5.2%"
+2035,ssp585,Kerguelen Islands,-9.87,-3.06,-1.67,1.79,4.19,"Year: 2035
+Mean change: -3.1%
+SD: ±4.2%"
+2035,ssp585,Prince Edward Islands,-12.87,-3.14,-2.4,3.19,4.47,"Year: 2035
+Mean change: -3.1%
+SD: ±4.5%"
+2036,ssp126,Crozet Islands,-15.34,-7.5,-6.28,2.07,5.46,"Year: 2036
+Mean change: -7.5%
+SD: ±5.5%"
+2036,ssp126,Heard Island and McDonald Islands,-7.82,-3.67,-4.26,2.22,3.29,"Year: 2036
+Mean change: -3.7%
+SD: ±3.3%"
+2036,ssp126,Kerguelen Islands,-7.65,-4.05,-4.2,-1.48,2.31,"Year: 2036
+Mean change: -4%
+SD: ±2.3%"
+2036,ssp126,Prince Edward Islands,-11.79,-5.05,-5.03,2.17,4.38,"Year: 2036
+Mean change: -5%
+SD: ±4.4%"
+2036,ssp585,Crozet Islands,-16.43,-6.28,-4.62,2.92,6.3,"Year: 2036
+Mean change: -6.3%
+SD: ±6.3%"
+2036,ssp585,Heard Island and McDonald Islands,-10.36,-3.62,-3.1,1.35,4.12,"Year: 2036
+Mean change: -3.6%
+SD: ±4.1%"
+2036,ssp585,Kerguelen Islands,-14.92,-4.57,-4.64,3.44,4.82,"Year: 2036
+Mean change: -4.6%
+SD: ±4.8%"
+2036,ssp585,Prince Edward Islands,-14.91,-4.85,-4.25,4.11,6.22,"Year: 2036
+Mean change: -4.8%
+SD: ±6.2%"
+2037,ssp126,Crozet Islands,-13.63,-4.01,-3.7,1.82,4.45,"Year: 2037
+Mean change: -4%
+SD: ±4.4%"
+2037,ssp126,Heard Island and McDonald Islands,-8.7,-4.17,-4.12,0.12,2.95,"Year: 2037
+Mean change: -4.2%
+SD: ±3%"
+2037,ssp126,Kerguelen Islands,-7.26,-4.37,-5.36,-0.91,2.41,"Year: 2037
+Mean change: -4.4%
+SD: ±2.4%"
+2037,ssp126,Prince Edward Islands,-7.35,-1.77,-1.29,3.23,3.45,"Year: 2037
+Mean change: -1.8%
+SD: ±3.5%"
+2037,ssp585,Crozet Islands,-14.53,-5.88,-4.95,3.34,5.92,"Year: 2037
+Mean change: -5.9%
+SD: ±5.9%"
+2037,ssp585,Heard Island and McDonald Islands,-10,-2.35,-2.76,3.78,4.26,"Year: 2037
+Mean change: -2.4%
+SD: ±4.3%"
+2037,ssp585,Kerguelen Islands,-8.57,-3.32,-3.37,4.04,3.67,"Year: 2037
+Mean change: -3.3%
+SD: ±3.7%"
+2037,ssp585,Prince Edward Islands,-14.59,-5.05,-4.99,1.85,4.66,"Year: 2037
+Mean change: -5%
+SD: ±4.7%"
+2038,ssp126,Crozet Islands,-16.78,-4.88,-4.6,2.41,6.23,"Year: 2038
+Mean change: -4.9%
+SD: ±6.2%"
+2038,ssp126,Heard Island and McDonald Islands,-8.02,-2.73,-1.98,1.23,3.12,"Year: 2038
+Mean change: -2.7%
+SD: ±3.1%"
+2038,ssp126,Kerguelen Islands,-17.58,-4.77,-3.78,3.6,5.74,"Year: 2038
+Mean change: -4.8%
+SD: ±5.7%"
+2038,ssp126,Prince Edward Islands,-13.46,-2.85,-2.24,3.04,4.84,"Year: 2038
+Mean change: -2.9%
+SD: ±4.8%"
+2038,ssp585,Crozet Islands,-15.16,-6.59,-5.1,1.17,5.14,"Year: 2038
+Mean change: -6.6%
+SD: ±5.1%"
+2038,ssp585,Heard Island and McDonald Islands,-9.5,-3.35,-3.9,3.27,3.58,"Year: 2038
+Mean change: -3.4%
+SD: ±3.6%"
+2038,ssp585,Kerguelen Islands,-10.91,-4.82,-5.15,-0.67,3.41,"Year: 2038
+Mean change: -4.8%
+SD: ±3.4%"
+2038,ssp585,Prince Edward Islands,-16.37,-4.54,-4.44,2.86,5.53,"Year: 2038
+Mean change: -4.5%
+SD: ±5.5%"
+2039,ssp126,Crozet Islands,-12.29,-4.07,-4.03,2.13,4.49,"Year: 2039
+Mean change: -4.1%
+SD: ±4.5%"
+2039,ssp126,Heard Island and McDonald Islands,-7.07,-4.2,-4.38,0.24,2.29,"Year: 2039
+Mean change: -4.2%
+SD: ±2.3%"
+2039,ssp126,Kerguelen Islands,-15.22,-6.18,-6.03,-0.05,4.64,"Year: 2039
+Mean change: -6.2%
+SD: ±4.6%"
+2039,ssp126,Prince Edward Islands,-8.81,-2.58,-3.63,6.45,4.66,"Year: 2039
+Mean change: -2.6%
+SD: ±4.7%"
+2039,ssp585,Crozet Islands,-16.77,-6.83,-6.72,2.03,6.34,"Year: 2039
+Mean change: -6.8%
+SD: ±6.3%"
+2039,ssp585,Heard Island and McDonald Islands,-10.89,-4,-2.62,1.03,4.35,"Year: 2039
+Mean change: -4%
+SD: ±4.3%"
+2039,ssp585,Kerguelen Islands,-13.96,-5.2,-5.59,2.33,4.65,"Year: 2039
+Mean change: -5.2%
+SD: ±4.7%"
+2039,ssp585,Prince Edward Islands,-13.76,-5.2,-4.92,2.52,5.65,"Year: 2039
+Mean change: -5.2%
+SD: ±5.7%"
+2040,ssp126,Crozet Islands,-14.94,-5.47,-4.66,4.69,5.78,"Year: 2040
+Mean change: -5.5%
+SD: ±5.8%"
+2040,ssp126,Heard Island and McDonald Islands,-8.26,-3.11,-3.08,4.75,3.71,"Year: 2040
+Mean change: -3.1%
+SD: ±3.7%"
+2040,ssp126,Kerguelen Islands,-16.29,-4.81,-3.89,3.99,5.13,"Year: 2040
+Mean change: -4.8%
+SD: ±5.1%"
+2040,ssp126,Prince Edward Islands,-9.83,-2.26,-3.25,7.23,5.03,"Year: 2040
+Mean change: -2.3%
+SD: ±5%"
+2040,ssp585,Crozet Islands,-18.18,-7.04,-6.13,3.44,5.91,"Year: 2040
+Mean change: -7%
+SD: ±5.9%"
+2040,ssp585,Heard Island and McDonald Islands,-16.17,-4.85,-3.29,6.4,6.93,"Year: 2040
+Mean change: -4.8%
+SD: ±6.9%"
+2040,ssp585,Kerguelen Islands,-10.86,-5.22,-6.13,2.21,4.6,"Year: 2040
+Mean change: -5.2%
+SD: ±4.6%"
+2040,ssp585,Prince Edward Islands,-18.75,-6.54,-6.01,3.84,5.54,"Year: 2040
+Mean change: -6.5%
+SD: ±5.5%"
+2041,ssp126,Crozet Islands,-12.08,-3.45,-3.59,6.78,6.15,"Year: 2041
+Mean change: -3.5%
+SD: ±6.2%"
+2041,ssp126,Heard Island and McDonald Islands,-10.82,-5.18,-6.28,3.84,4.67,"Year: 2041
+Mean change: -5.2%
+SD: ±4.7%"
+2041,ssp126,Kerguelen Islands,-17.17,-6.25,-5.42,5.13,6.41,"Year: 2041
+Mean change: -6.2%
+SD: ±6.4%"
+2041,ssp126,Prince Edward Islands,-8.24,-1.23,-1.66,11.36,5.78,"Year: 2041
+Mean change: -1.2%
+SD: ±5.8%"
+2041,ssp585,Crozet Islands,-15.61,-6.51,-4.4,-0.67,4.96,"Year: 2041
+Mean change: -6.5%
+SD: ±5%"
+2041,ssp585,Heard Island and McDonald Islands,-19.08,-4.31,-4.29,7.48,7.56,"Year: 2041
+Mean change: -4.3%
+SD: ±7.6%"
+2041,ssp585,Kerguelen Islands,-11.66,-4.8,-5.01,0.39,3.68,"Year: 2041
+Mean change: -4.8%
+SD: ±3.7%"
+2041,ssp585,Prince Edward Islands,-13.11,-4.66,-4.86,3.53,4.59,"Year: 2041
+Mean change: -4.7%
+SD: ±4.6%"
+2042,ssp126,Crozet Islands,-16.35,-4.28,-3.35,4.31,6.4,"Year: 2042
+Mean change: -4.3%
+SD: ±6.4%"
+2042,ssp126,Heard Island and McDonald Islands,-9.5,-4.38,-5.88,8.8,5.06,"Year: 2042
+Mean change: -4.4%
+SD: ±5.1%"
+2042,ssp126,Kerguelen Islands,-16.48,-5.37,-6.26,2.88,5.6,"Year: 2042
+Mean change: -5.4%
+SD: ±5.6%"
+2042,ssp126,Prince Edward Islands,-14.01,-4.92,-4.45,3.13,5.47,"Year: 2042
+Mean change: -4.9%
+SD: ±5.5%"
+2042,ssp585,Crozet Islands,-17.82,-5.18,-4.23,4.44,6.88,"Year: 2042
+Mean change: -5.2%
+SD: ±6.9%"
+2042,ssp585,Heard Island and McDonald Islands,-10.89,-3.43,-3.03,8.54,5.51,"Year: 2042
+Mean change: -3.4%
+SD: ±5.5%"
+2042,ssp585,Kerguelen Islands,-18.15,-5.44,-4.83,2.56,6.16,"Year: 2042
+Mean change: -5.4%
+SD: ±6.2%"
+2042,ssp585,Prince Edward Islands,-14.74,-2.6,-2.92,10.9,6.81,"Year: 2042
+Mean change: -2.6%
+SD: ±6.8%"
+2043,ssp126,Crozet Islands,-11.97,-4.6,-4.08,2.18,4.18,"Year: 2043
+Mean change: -4.6%
+SD: ±4.2%"
+2043,ssp126,Heard Island and McDonald Islands,-9.07,-2.92,-2.04,1.47,3.41,"Year: 2043
+Mean change: -2.9%
+SD: ±3.4%"
+2043,ssp126,Kerguelen Islands,-9.42,-4.33,-3.39,1.71,3.76,"Year: 2043
+Mean change: -4.3%
+SD: ±3.8%"
+2043,ssp126,Prince Edward Islands,-7.32,-3.82,-3.61,2.26,3.03,"Year: 2043
+Mean change: -3.8%
+SD: ±3%"
+2043,ssp585,Crozet Islands,-21.27,-6.01,-3.97,4.55,7.27,"Year: 2043
+Mean change: -6%
+SD: ±7.3%"
+2043,ssp585,Heard Island and McDonald Islands,-10.65,-4.48,-4.19,2.79,4.34,"Year: 2043
+Mean change: -4.5%
+SD: ±4.3%"
+2043,ssp585,Kerguelen Islands,-14.26,-5.61,-5.04,0.97,4.67,"Year: 2043
+Mean change: -5.6%
+SD: ±4.7%"
+2043,ssp585,Prince Edward Islands,-27.06,-5.87,-3.58,5.49,8.94,"Year: 2043
+Mean change: -5.9%
+SD: ±8.9%"
+2044,ssp126,Crozet Islands,-10.81,-2.91,-2.9,3.38,4.5,"Year: 2044
+Mean change: -2.9%
+SD: ±4.5%"
+2044,ssp126,Heard Island and McDonald Islands,-8.94,-3.44,-3.3,3.6,4.26,"Year: 2044
+Mean change: -3.4%
+SD: ±4.3%"
+2044,ssp126,Kerguelen Islands,-10.55,-3.06,-2.75,3.96,4.76,"Year: 2044
+Mean change: -3.1%
+SD: ±4.8%"
+2044,ssp126,Prince Edward Islands,-7.9,-0.5,-0.52,7.13,4.36,"Year: 2044
+Mean change: -0.5%
+SD: ±4.4%"
+2044,ssp585,Crozet Islands,-20.98,-7.33,-6.03,0.3,6.51,"Year: 2044
+Mean change: -7.3%
+SD: ±6.5%"
+2044,ssp585,Heard Island and McDonald Islands,-10.17,-3.52,-2.97,1.23,3.45,"Year: 2044
+Mean change: -3.5%
+SD: ±3.5%"
+2044,ssp585,Kerguelen Islands,-18.46,-6.37,-6.03,0.43,5.32,"Year: 2044
+Mean change: -6.4%
+SD: ±5.3%"
+2044,ssp585,Prince Edward Islands,-12.91,-5.67,-5.62,0.43,4.6,"Year: 2044
+Mean change: -5.7%
+SD: ±4.6%"
+2045,ssp126,Crozet Islands,-15.38,-3.99,-4.84,5.36,6.24,"Year: 2045
+Mean change: -4%
+SD: ±6.2%"
+2045,ssp126,Heard Island and McDonald Islands,-12.8,-5.64,-5.52,1.22,4.82,"Year: 2045
+Mean change: -5.6%
+SD: ±4.8%"
+2045,ssp126,Kerguelen Islands,-16.45,-5.03,-3.9,0.87,4.93,"Year: 2045
+Mean change: -5%
+SD: ±4.9%"
+2045,ssp126,Prince Edward Islands,-18.82,-5.35,-5.27,4.16,6.1,"Year: 2045
+Mean change: -5.3%
+SD: ±6.1%"
+2045,ssp585,Crozet Islands,-16.3,-6.34,-4.59,-1.79,4.65,"Year: 2045
+Mean change: -6.3%
+SD: ±4.7%"
+2045,ssp585,Heard Island and McDonald Islands,-7.23,-4.42,-5.16,2.05,2.81,"Year: 2045
+Mean change: -4.4%
+SD: ±2.8%"
+2045,ssp585,Kerguelen Islands,-16.77,-6.53,-6.56,0.76,5.18,"Year: 2045
+Mean change: -6.5%
+SD: ±5.2%"
+2045,ssp585,Prince Edward Islands,-8.53,-4.96,-5.4,1.06,2.88,"Year: 2045
+Mean change: -5%
+SD: ±2.9%"
+2046,ssp126,Crozet Islands,-12.46,-4.03,-5.27,5.09,5,"Year: 2046
+Mean change: -4%
+SD: ±5%"
+2046,ssp126,Heard Island and McDonald Islands,-10.58,-3.77,-4,6.8,5.21,"Year: 2046
+Mean change: -3.8%
+SD: ±5.2%"
+2046,ssp126,Kerguelen Islands,-12.6,-4.98,-6.64,4.35,5.38,"Year: 2046
+Mean change: -5%
+SD: ±5.4%"
+2046,ssp126,Prince Edward Islands,-12.86,-4.44,-3.79,1.17,3.77,"Year: 2046
+Mean change: -4.4%
+SD: ±3.8%"
+2046,ssp585,Crozet Islands,-17.53,-5.07,-4.7,4.57,7.44,"Year: 2046
+Mean change: -5.1%
+SD: ±7.4%"
+2046,ssp585,Heard Island and McDonald Islands,-7.49,-4.07,-4.14,0.23,2.44,"Year: 2046
+Mean change: -4.1%
+SD: ±2.4%"
+2046,ssp585,Kerguelen Islands,-16.4,-5.8,-5.59,5.88,6.1,"Year: 2046
+Mean change: -5.8%
+SD: ±6.1%"
+2046,ssp585,Prince Edward Islands,-20.06,-4.71,-4.39,9.14,8.13,"Year: 2046
+Mean change: -4.7%
+SD: ±8.1%"
+2047,ssp126,Crozet Islands,-6.35,-2.56,-3.37,4.87,4.04,"Year: 2047
+Mean change: -2.6%
+SD: ±4%"
+2047,ssp126,Heard Island and McDonald Islands,-10.24,-3.09,-2.95,1.75,3.79,"Year: 2047
+Mean change: -3.1%
+SD: ±3.8%"
+2047,ssp126,Kerguelen Islands,-8.91,-3.31,-3.31,4.14,4.38,"Year: 2047
+Mean change: -3.3%
+SD: ±4.4%"
+2047,ssp126,Prince Edward Islands,-6.87,-0.56,0.05,4.1,3.67,"Year: 2047
+Mean change: -0.6%
+SD: ±3.7%"
+2047,ssp585,Crozet Islands,-18.7,-4.8,-6.01,5.97,7.8,"Year: 2047
+Mean change: -4.8%
+SD: ±7.8%"
+2047,ssp585,Heard Island and McDonald Islands,-9.51,-2.83,-5.04,9.34,5.73,"Year: 2047
+Mean change: -2.8%
+SD: ±5.7%"
+2047,ssp585,Kerguelen Islands,-22.03,-5.18,-5.85,6.55,8.38,"Year: 2047
+Mean change: -5.2%
+SD: ±8.4%"
+2047,ssp585,Prince Edward Islands,-15.64,-3.98,-4.48,4,5.7,"Year: 2047
+Mean change: -4%
+SD: ±5.7%"
+2048,ssp126,Crozet Islands,-10.19,-2.71,-3.7,4.29,4.92,"Year: 2048
+Mean change: -2.7%
+SD: ±4.9%"
+2048,ssp126,Heard Island and McDonald Islands,-9.19,-2.5,-2.25,3.58,4.1,"Year: 2048
+Mean change: -2.5%
+SD: ±4.1%"
+2048,ssp126,Kerguelen Islands,-14.48,-4.56,-4.15,2.53,5.26,"Year: 2048
+Mean change: -4.6%
+SD: ±5.3%"
+2048,ssp126,Prince Edward Islands,-8.4,-1.86,-1.6,4.12,3.97,"Year: 2048
+Mean change: -1.9%
+SD: ±4%"
+2048,ssp585,Crozet Islands,-17.78,-5.96,-5.49,4.84,7.06,"Year: 2048
+Mean change: -6%
+SD: ±7.1%"
+2048,ssp585,Heard Island and McDonald Islands,-9.82,-3.56,-2.8,0.39,3.51,"Year: 2048
+Mean change: -3.6%
+SD: ±3.5%"
+2048,ssp585,Kerguelen Islands,-21.41,-6.28,-6.73,3.4,7.41,"Year: 2048
+Mean change: -6.3%
+SD: ±7.4%"
+2048,ssp585,Prince Edward Islands,-22.12,-6.1,-5.36,5.38,8.45,"Year: 2048
+Mean change: -6.1%
+SD: ±8.4%"
+2049,ssp126,Crozet Islands,-11.61,-4.49,-4.23,0.55,4,"Year: 2049
+Mean change: -4.5%
+SD: ±4%"
+2049,ssp126,Heard Island and McDonald Islands,-9.57,-3.26,-3.7,4.79,4.17,"Year: 2049
+Mean change: -3.3%
+SD: ±4.2%"
+2049,ssp126,Kerguelen Islands,-15.79,-4.9,-4.57,4.5,6.01,"Year: 2049
+Mean change: -4.9%
+SD: ±6%"
+2049,ssp126,Prince Edward Islands,-10.37,-3.41,-4.21,7.27,4.57,"Year: 2049
+Mean change: -3.4%
+SD: ±4.6%"
+2049,ssp585,Crozet Islands,-17.28,-5.88,-5.71,6.49,6.68,"Year: 2049
+Mean change: -5.9%
+SD: ±6.7%"
+2049,ssp585,Heard Island and McDonald Islands,-13.65,-4.51,-4.38,2.45,4.68,"Year: 2049
+Mean change: -4.5%
+SD: ±4.7%"
+2049,ssp585,Kerguelen Islands,-20.4,-6.59,-6.42,1.84,6.76,"Year: 2049
+Mean change: -6.6%
+SD: ±6.8%"
+2049,ssp585,Prince Edward Islands,-11.42,-3.15,-5.06,10.75,7.06,"Year: 2049
+Mean change: -3.1%
+SD: ±7.1%"
+2050,ssp126,Crozet Islands,-9.57,-3.4,-3.34,4.21,4.37,"Year: 2050
+Mean change: -3.4%
+SD: ±4.4%"
+2050,ssp126,Heard Island and McDonald Islands,-8.76,-2.86,-2.8,2.33,2.91,"Year: 2050
+Mean change: -2.9%
+SD: ±2.9%"
+2050,ssp126,Kerguelen Islands,-13.28,-4.62,-4.08,4.55,5.18,"Year: 2050
+Mean change: -4.6%
+SD: ±5.2%"
+2050,ssp126,Prince Edward Islands,-6.45,-1.77,-2.66,5.41,4.27,"Year: 2050
+Mean change: -1.8%
+SD: ±4.3%"
+2050,ssp585,Crozet Islands,-20.63,-5.96,-6.87,7.44,8.42,"Year: 2050
+Mean change: -6%
+SD: ±8.4%"
+2050,ssp585,Heard Island and McDonald Islands,-16.93,-4.57,-4.31,6.07,6.5,"Year: 2050
+Mean change: -4.6%
+SD: ±6.5%"
+2050,ssp585,Kerguelen Islands,-26.19,-7.22,-7.15,5.27,8.7,"Year: 2050
+Mean change: -7.2%
+SD: ±8.7%"
+2050,ssp585,Prince Edward Islands,-19.78,-5.82,-4.31,5.21,7.74,"Year: 2050
+Mean change: -5.8%
+SD: ±7.7%"
+2051,ssp126,Crozet Islands,-14.01,-3.66,-3.93,6.59,5.74,"Year: 2051
+Mean change: -3.7%
+SD: ±5.7%"
+2051,ssp126,Heard Island and McDonald Islands,-9.52,-5.7,-5.97,-2,2.49,"Year: 2051
+Mean change: -5.7%
+SD: ±2.5%"
+2051,ssp126,Kerguelen Islands,-14.45,-5.52,-4.5,0.26,4.93,"Year: 2051
+Mean change: -5.5%
+SD: ±4.9%"
+2051,ssp126,Prince Edward Islands,-11.32,-1.9,-2.85,7.38,5.27,"Year: 2051
+Mean change: -1.9%
+SD: ±5.3%"
+2051,ssp585,Crozet Islands,-21.84,-7.7,-7.21,5.82,7.92,"Year: 2051
+Mean change: -7.7%
+SD: ±7.9%"
+2051,ssp585,Heard Island and McDonald Islands,-8.36,-3.37,-3.76,2.67,3.5,"Year: 2051
+Mean change: -3.4%
+SD: ±3.5%"
+2051,ssp585,Kerguelen Islands,-22.15,-6.75,-6.38,6.11,8.71,"Year: 2051
+Mean change: -6.8%
+SD: ±8.7%"
+2051,ssp585,Prince Edward Islands,-21.89,-7.16,-6.64,6.18,8.52,"Year: 2051
+Mean change: -7.2%
+SD: ±8.5%"
+2052,ssp126,Crozet Islands,-14.63,-3.45,-3.97,6.05,6.03,"Year: 2052
+Mean change: -3.5%
+SD: ±6%"
+2052,ssp126,Heard Island and McDonald Islands,-10.6,-4.53,-4.41,5.74,4.29,"Year: 2052
+Mean change: -4.5%
+SD: ±4.3%"
+2052,ssp126,Kerguelen Islands,-13.16,-4.95,-4.6,3.92,4.9,"Year: 2052
+Mean change: -5%
+SD: ±4.9%"
+2052,ssp126,Prince Edward Islands,-14.86,-1.36,-1.25,6.42,6.46,"Year: 2052
+Mean change: -1.4%
+SD: ±6.5%"
+2052,ssp585,Crozet Islands,-19.4,-7.82,-7.5,-1.04,5.85,"Year: 2052
+Mean change: -7.8%
+SD: ±5.8%"
+2052,ssp585,Heard Island and McDonald Islands,-8.74,-3.95,-5.62,3.92,4.54,"Year: 2052
+Mean change: -4%
+SD: ±4.5%"
+2052,ssp585,Kerguelen Islands,-24.17,-8,-7.24,2.05,7.64,"Year: 2052
+Mean change: -8%
+SD: ±7.6%"
+2052,ssp585,Prince Edward Islands,-21,-6.83,-5.7,-0.19,6.14,"Year: 2052
+Mean change: -6.8%
+SD: ±6.1%"
+2053,ssp126,Crozet Islands,-16.46,-3.57,-3.11,3.74,6.63,"Year: 2053
+Mean change: -3.6%
+SD: ±6.6%"
+2053,ssp126,Heard Island and McDonald Islands,-11.44,-3.86,-3.1,3.11,4.04,"Year: 2053
+Mean change: -3.9%
+SD: ±4%"
+2053,ssp126,Kerguelen Islands,-12.47,-3.88,-2.99,3.76,5.8,"Year: 2053
+Mean change: -3.9%
+SD: ±5.8%"
+2053,ssp126,Prince Edward Islands,-7.66,-0.25,-0.68,7.7,5.08,"Year: 2053
+Mean change: -0.2%
+SD: ±5.1%"
+2053,ssp585,Crozet Islands,-17.79,-6.92,-6.85,4.26,6.87,"Year: 2053
+Mean change: -6.9%
+SD: ±6.9%"
+2053,ssp585,Heard Island and McDonald Islands,-11.92,-4.86,-3.87,-1.43,3.17,"Year: 2053
+Mean change: -4.9%
+SD: ±3.2%"
+2053,ssp585,Kerguelen Islands,-22.65,-8.01,-8.41,0.39,6.49,"Year: 2053
+Mean change: -8%
+SD: ±6.5%"
+2053,ssp585,Prince Edward Islands,-19.09,-6.98,-6.67,1.47,6.81,"Year: 2053
+Mean change: -7%
+SD: ±6.8%"
+2054,ssp126,Crozet Islands,-17.58,-5.18,-4.2,6.11,7.29,"Year: 2054
+Mean change: -5.2%
+SD: ±7.3%"
+2054,ssp126,Heard Island and McDonald Islands,-12.07,-4.11,-4.34,4.39,4.74,"Year: 2054
+Mean change: -4.1%
+SD: ±4.7%"
+2054,ssp126,Kerguelen Islands,-16.62,-4.67,-3.77,4.59,6.2,"Year: 2054
+Mean change: -4.7%
+SD: ±6.2%"
+2054,ssp126,Prince Edward Islands,-17.66,-3.82,-2.21,5.68,7.36,"Year: 2054
+Mean change: -3.8%
+SD: ±7.4%"
+2054,ssp585,Crozet Islands,-23.66,-7.41,-7.24,6.16,8.38,"Year: 2054
+Mean change: -7.4%
+SD: ±8.4%"
+2054,ssp585,Heard Island and McDonald Islands,-10.92,-3.35,-2.39,3.38,4.43,"Year: 2054
+Mean change: -3.4%
+SD: ±4.4%"
+2054,ssp585,Kerguelen Islands,-19.84,-6.69,-6.23,4.57,7.93,"Year: 2054
+Mean change: -6.7%
+SD: ±7.9%"
+2054,ssp585,Prince Edward Islands,-25.11,-6.77,-7.1,5.46,8.2,"Year: 2054
+Mean change: -6.8%
+SD: ±8.2%"
+2055,ssp126,Crozet Islands,-16.39,-4.3,-4.74,6.18,7.07,"Year: 2055
+Mean change: -4.3%
+SD: ±7.1%"
+2055,ssp126,Heard Island and McDonald Islands,-12.69,-3.16,-3.42,3.38,5.28,"Year: 2055
+Mean change: -3.2%
+SD: ±5.3%"
+2055,ssp126,Kerguelen Islands,-17.39,-4.88,-5.79,4.71,6.45,"Year: 2055
+Mean change: -4.9%
+SD: ±6.4%"
+2055,ssp126,Prince Edward Islands,-12.61,-2.36,-3.32,6.82,7.11,"Year: 2055
+Mean change: -2.4%
+SD: ±7.1%"
+2055,ssp585,Crozet Islands,-24.73,-7.97,-7.01,2.5,8.31,"Year: 2055
+Mean change: -8%
+SD: ±8.3%"
+2055,ssp585,Heard Island and McDonald Islands,-11.2,-6.04,-7.17,1.29,3.31,"Year: 2055
+Mean change: -6%
+SD: ±3.3%"
+2055,ssp585,Kerguelen Islands,-23.53,-8.69,-8.26,1.57,8.4,"Year: 2055
+Mean change: -8.7%
+SD: ±8.4%"
+2055,ssp585,Prince Edward Islands,-21.83,-8.12,-6.98,-0.33,6.34,"Year: 2055
+Mean change: -8.1%
+SD: ±6.3%"
+2056,ssp126,Crozet Islands,-6.99,-2.44,-4.72,7.2,4.97,"Year: 2056
+Mean change: -2.4%
+SD: ±5%"
+2056,ssp126,Heard Island and McDonald Islands,-13.29,-4.65,-4.62,1.23,4.19,"Year: 2056
+Mean change: -4.7%
+SD: ±4.2%"
+2056,ssp126,Kerguelen Islands,-12.06,-4.7,-5.53,3.53,4.52,"Year: 2056
+Mean change: -4.7%
+SD: ±4.5%"
+2056,ssp126,Prince Edward Islands,-5.66,-1.41,-1,5.35,3.74,"Year: 2056
+Mean change: -1.4%
+SD: ±3.7%"
+2056,ssp585,Crozet Islands,-14.12,-5.11,-6.59,6.07,5.96,"Year: 2056
+Mean change: -5.1%
+SD: ±6%"
+2056,ssp585,Heard Island and McDonald Islands,-11.79,-5.05,-5.54,5.71,4.7,"Year: 2056
+Mean change: -5%
+SD: ±4.7%"
+2056,ssp585,Kerguelen Islands,-15.69,-5.65,-7.36,7.77,7.19,"Year: 2056
+Mean change: -5.7%
+SD: ±7.2%"
+2056,ssp585,Prince Edward Islands,-19.96,-7.1,-7.67,4.22,6.42,"Year: 2056
+Mean change: -7.1%
+SD: ±6.4%"
+2057,ssp126,Crozet Islands,-15.97,-4.71,-4.62,1.18,4.87,"Year: 2057
+Mean change: -4.7%
+SD: ±4.9%"
+2057,ssp126,Heard Island and McDonald Islands,-13.66,-6.06,-5.22,-0.23,3.64,"Year: 2057
+Mean change: -6.1%
+SD: ±3.6%"
+2057,ssp126,Kerguelen Islands,-17.26,-5.63,-5.04,-0.04,4.91,"Year: 2057
+Mean change: -5.6%
+SD: ±4.9%"
+2057,ssp126,Prince Edward Islands,-6.15,-2.23,-2.63,4.44,3.55,"Year: 2057
+Mean change: -2.2%
+SD: ±3.5%"
+2057,ssp585,Crozet Islands,-18.79,-7.54,-6.57,2.12,5.98,"Year: 2057
+Mean change: -7.5%
+SD: ±6%"
+2057,ssp585,Heard Island and McDonald Islands,-11.15,-6.03,-6.76,2.78,3.61,"Year: 2057
+Mean change: -6%
+SD: ±3.6%"
+2057,ssp585,Kerguelen Islands,-20.29,-7.67,-7.36,1.23,6.18,"Year: 2057
+Mean change: -7.7%
+SD: ±6.2%"
+2057,ssp585,Prince Edward Islands,-19.21,-8.36,-8.46,-1.01,5.83,"Year: 2057
+Mean change: -8.4%
+SD: ±5.8%"
+2058,ssp126,Crozet Islands,-17.27,-5.41,-6.67,1.8,5.56,"Year: 2058
+Mean change: -5.4%
+SD: ±5.6%"
+2058,ssp126,Heard Island and McDonald Islands,-14.16,-5,-5,1.23,4.02,"Year: 2058
+Mean change: -5%
+SD: ±4%"
+2058,ssp126,Kerguelen Islands,-12.79,-5.95,-6.52,3.83,5.22,"Year: 2058
+Mean change: -6%
+SD: ±5.2%"
+2058,ssp126,Prince Edward Islands,-16.46,-4.3,-4.03,3.14,5.99,"Year: 2058
+Mean change: -4.3%
+SD: ±6%"
+2058,ssp585,Crozet Islands,-12.75,-4.92,-6.01,5.75,5.56,"Year: 2058
+Mean change: -4.9%
+SD: ±5.6%"
+2058,ssp585,Heard Island and McDonald Islands,-9.31,-5.48,-5.96,4.29,3.82,"Year: 2058
+Mean change: -5.5%
+SD: ±3.8%"
+2058,ssp585,Kerguelen Islands,-16.28,-6.47,-5.12,3.5,5.89,"Year: 2058
+Mean change: -6.5%
+SD: ±5.9%"
+2058,ssp585,Prince Edward Islands,-18.37,-6.62,-6.8,3.76,7.23,"Year: 2058
+Mean change: -6.6%
+SD: ±7.2%"
+2059,ssp126,Crozet Islands,-9.96,-4.08,-5.68,6.1,5.1,"Year: 2059
+Mean change: -4.1%
+SD: ±5.1%"
+2059,ssp126,Heard Island and McDonald Islands,-14.6,-4.29,-3.74,2.12,5.05,"Year: 2059
+Mean change: -4.3%
+SD: ±5%"
+2059,ssp126,Kerguelen Islands,-15.76,-5.35,-5.68,3.19,5.49,"Year: 2059
+Mean change: -5.3%
+SD: ±5.5%"
+2059,ssp126,Prince Edward Islands,-10.05,-3.32,-4.14,6.45,5.32,"Year: 2059
+Mean change: -3.3%
+SD: ±5.3%"
+2059,ssp585,Crozet Islands,-19.35,-6.14,-6.1,5.02,7.68,"Year: 2059
+Mean change: -6.1%
+SD: ±7.7%"
+2059,ssp585,Heard Island and McDonald Islands,-8.63,-5.27,-6.69,2.62,3.68,"Year: 2059
+Mean change: -5.3%
+SD: ±3.7%"
+2059,ssp585,Kerguelen Islands,-16.57,-6.8,-6.95,2.36,6.07,"Year: 2059
+Mean change: -6.8%
+SD: ±6.1%"
+2059,ssp585,Prince Edward Islands,-23.62,-8.6,-8.52,1.56,8.31,"Year: 2059
+Mean change: -8.6%
+SD: ±8.3%"
+2060,ssp126,Crozet Islands,-17.14,-5.14,-5.47,4.81,6.38,"Year: 2060
+Mean change: -5.1%
+SD: ±6.4%"
+2060,ssp126,Heard Island and McDonald Islands,-14.6,-3.96,-2.68,4.06,5.04,"Year: 2060
+Mean change: -4%
+SD: ±5%"
+2060,ssp126,Kerguelen Islands,-20.04,-5.99,-6.77,7.09,7.69,"Year: 2060
+Mean change: -6%
+SD: ±7.7%"
+2060,ssp126,Prince Edward Islands,-17.68,-5.48,-4.55,1.86,6.07,"Year: 2060
+Mean change: -5.5%
+SD: ±6.1%"
+2060,ssp585,Crozet Islands,-25.19,-7.6,-5.61,1.86,8.27,"Year: 2060
+Mean change: -7.6%
+SD: ±8.3%"
+2060,ssp585,Heard Island and McDonald Islands,-8.98,-4.4,-5.15,2.65,3.6,"Year: 2060
+Mean change: -4.4%
+SD: ±3.6%"
+2060,ssp585,Kerguelen Islands,-16.9,-6.31,-4.83,5.15,6.63,"Year: 2060
+Mean change: -6.3%
+SD: ±6.6%"
+2060,ssp585,Prince Edward Islands,-26.3,-9.69,-9.03,1.75,7.66,"Year: 2060
+Mean change: -9.7%
+SD: ±7.7%"
+2061,ssp126,Crozet Islands,-20.24,-7.47,-6.72,3.37,6.3,"Year: 2061
+Mean change: -7.5%
+SD: ±6.3%"
+2061,ssp126,Heard Island and McDonald Islands,-13.69,-3.92,-1.68,0.98,4.61,"Year: 2061
+Mean change: -3.9%
+SD: ±4.6%"
+2061,ssp126,Kerguelen Islands,-13.48,-4.42,-4.85,6.83,5.94,"Year: 2061
+Mean change: -4.4%
+SD: ±5.9%"
+2061,ssp126,Prince Edward Islands,-19.87,-6.43,-4.72,2.13,6.26,"Year: 2061
+Mean change: -6.4%
+SD: ±6.3%"
+2061,ssp585,Crozet Islands,-18.53,-7.24,-7.46,4.22,7.25,"Year: 2061
+Mean change: -7.2%
+SD: ±7.2%"
+2061,ssp585,Heard Island and McDonald Islands,-15.02,-6.89,-7.68,0.45,4.43,"Year: 2061
+Mean change: -6.9%
+SD: ±4.4%"
+2061,ssp585,Kerguelen Islands,-26.2,-8.85,-8.35,-0.05,7.82,"Year: 2061
+Mean change: -8.8%
+SD: ±7.8%"
+2061,ssp585,Prince Edward Islands,-15.37,-6.01,-6.99,9.18,6.72,"Year: 2061
+Mean change: -6%
+SD: ±6.7%"
+2062,ssp126,Crozet Islands,-10.53,-4.69,-5.42,1.96,3.55,"Year: 2062
+Mean change: -4.7%
+SD: ±3.5%"
+2062,ssp126,Heard Island and McDonald Islands,-12.02,-3.18,-5.71,9.62,6.76,"Year: 2062
+Mean change: -3.2%
+SD: ±6.8%"
+2062,ssp126,Kerguelen Islands,-9.31,-4.31,-6.92,4.55,4.97,"Year: 2062
+Mean change: -4.3%
+SD: ±5%"
+2062,ssp126,Prince Edward Islands,-8.67,-3.37,-3.31,2.78,3.35,"Year: 2062
+Mean change: -3.4%
+SD: ±3.4%"
+2062,ssp585,Crozet Islands,-26.26,-7.87,-6.1,3.86,9.61,"Year: 2062
+Mean change: -7.9%
+SD: ±9.6%"
+2062,ssp585,Heard Island and McDonald Islands,-15.53,-7.1,-8.45,-0.15,4.65,"Year: 2062
+Mean change: -7.1%
+SD: ±4.7%"
+2062,ssp585,Kerguelen Islands,-26.11,-8.72,-8.24,7.75,9.09,"Year: 2062
+Mean change: -8.7%
+SD: ±9.1%"
+2062,ssp585,Prince Edward Islands,-25.49,-8.11,-8.36,5.19,9.56,"Year: 2062
+Mean change: -8.1%
+SD: ±9.6%"
+2063,ssp126,Crozet Islands,-10.77,-3.6,-3.35,1.32,3.72,"Year: 2063
+Mean change: -3.6%
+SD: ±3.7%"
+2063,ssp126,Heard Island and McDonald Islands,-14.75,-6.61,-5.77,1.16,4.45,"Year: 2063
+Mean change: -6.6%
+SD: ±4.4%"
+2063,ssp126,Kerguelen Islands,-11.38,-5.34,-5.96,2.25,4.18,"Year: 2063
+Mean change: -5.3%
+SD: ±4.2%"
+2063,ssp126,Prince Edward Islands,-6.71,-1.96,-2.47,2.74,3.22,"Year: 2063
+Mean change: -2%
+SD: ±3.2%"
+2063,ssp585,Crozet Islands,-28.7,-7.5,-7.47,7.65,10.46,"Year: 2063
+Mean change: -7.5%
+SD: ±10.5%"
+2063,ssp585,Heard Island and McDonald Islands,-15.53,-6.53,-6.85,4.23,5.31,"Year: 2063
+Mean change: -6.5%
+SD: ±5.3%"
+2063,ssp585,Kerguelen Islands,-23.5,-8.72,-8.97,3.34,8.94,"Year: 2063
+Mean change: -8.7%
+SD: ±8.9%"
+2063,ssp585,Prince Edward Islands,-28.75,-8.44,-8.35,5.45,9.96,"Year: 2063
+Mean change: -8.4%
+SD: ±10%"
+2064,ssp126,Crozet Islands,-11.86,-5.63,-5.36,3.27,4.61,"Year: 2064
+Mean change: -5.6%
+SD: ±4.6%"
+2064,ssp126,Heard Island and McDonald Islands,-11.3,-5.68,-5.58,0.48,3.66,"Year: 2064
+Mean change: -5.7%
+SD: ±3.7%"
+2064,ssp126,Kerguelen Islands,-9.49,-4.9,-6.27,1.42,3.53,"Year: 2064
+Mean change: -4.9%
+SD: ±3.5%"
+2064,ssp126,Prince Edward Islands,-9.9,-4.5,-4.82,5.2,4.24,"Year: 2064
+Mean change: -4.5%
+SD: ±4.2%"
+2064,ssp585,Crozet Islands,-25.79,-8.13,-6.48,2.81,9.26,"Year: 2064
+Mean change: -8.1%
+SD: ±9.3%"
+2064,ssp585,Heard Island and McDonald Islands,-18.45,-8.21,-8.33,-0.07,5.33,"Year: 2064
+Mean change: -8.2%
+SD: ±5.3%"
+2064,ssp585,Kerguelen Islands,-26.91,-10.48,-10.01,1.28,8.36,"Year: 2064
+Mean change: -10.5%
+SD: ±8.4%"
+2064,ssp585,Prince Edward Islands,-23.35,-7.73,-7.9,3.79,8.16,"Year: 2064
+Mean change: -7.7%
+SD: ±8.2%"
+2065,ssp126,Crozet Islands,-17.45,-5.62,-6.36,3.41,6.7,"Year: 2065
+Mean change: -5.6%
+SD: ±6.7%"
+2065,ssp126,Heard Island and McDonald Islands,-10.35,-4.17,-4.56,2.83,3.44,"Year: 2065
+Mean change: -4.2%
+SD: ±3.4%"
+2065,ssp126,Kerguelen Islands,-12.36,-5.37,-5.73,-0.16,3.75,"Year: 2065
+Mean change: -5.4%
+SD: ±3.8%"
+2065,ssp126,Prince Edward Islands,-17.22,-6.83,-5.52,3.3,6.21,"Year: 2065
+Mean change: -6.8%
+SD: ±6.2%"
+2065,ssp585,Crozet Islands,-23.46,-8.35,-7.53,2.89,8.67,"Year: 2065
+Mean change: -8.3%
+SD: ±8.7%"
+2065,ssp585,Heard Island and McDonald Islands,-18.9,-7.39,-8.54,4.75,7.23,"Year: 2065
+Mean change: -7.4%
+SD: ±7.2%"
+2065,ssp585,Kerguelen Islands,-25.41,-9.1,-9.59,4.24,8.9,"Year: 2065
+Mean change: -9.1%
+SD: ±8.9%"
+2065,ssp585,Prince Edward Islands,-23.77,-9.66,-8.19,1.12,8.78,"Year: 2065
+Mean change: -9.7%
+SD: ±8.8%"
+2066,ssp126,Crozet Islands,-9.83,-3.93,-4.26,3.67,4.24,"Year: 2066
+Mean change: -3.9%
+SD: ±4.2%"
+2066,ssp126,Heard Island and McDonald Islands,-9.14,-2.02,-1.93,4.61,4.17,"Year: 2066
+Mean change: -2%
+SD: ±4.2%"
+2066,ssp126,Kerguelen Islands,-8.92,-3.94,-4.57,3.57,3.85,"Year: 2066
+Mean change: -3.9%
+SD: ±3.9%"
+2066,ssp126,Prince Edward Islands,-8.68,-4.41,-4.85,2.98,3.61,"Year: 2066
+Mean change: -4.4%
+SD: ±3.6%"
+2066,ssp585,Crozet Islands,-22.42,-9.15,-8.61,4.29,8.55,"Year: 2066
+Mean change: -9.2%
+SD: ±8.6%"
+2066,ssp585,Heard Island and McDonald Islands,-22.38,-7.97,-7.78,4.3,7.5,"Year: 2066
+Mean change: -8%
+SD: ±7.5%"
+2066,ssp585,Kerguelen Islands,-33.23,-9.96,-11.35,4.84,10.75,"Year: 2066
+Mean change: -10%
+SD: ±10.8%"
+2066,ssp585,Prince Edward Islands,-21.79,-9.95,-9.32,3.37,7.41,"Year: 2066
+Mean change: -9.9%
+SD: ±7.4%"
+2067,ssp126,Crozet Islands,-19.32,-8.1,-6.84,-0.57,6.06,"Year: 2067
+Mean change: -8.1%
+SD: ±6.1%"
+2067,ssp126,Heard Island and McDonald Islands,-9.07,-3.44,-2.96,2.87,3.91,"Year: 2067
+Mean change: -3.4%
+SD: ±3.9%"
+2067,ssp126,Kerguelen Islands,-20.42,-7.37,-6.68,2.65,6.6,"Year: 2067
+Mean change: -7.4%
+SD: ±6.6%"
+2067,ssp126,Prince Edward Islands,-18.53,-6.97,-7.11,-0.12,5.78,"Year: 2067
+Mean change: -7%
+SD: ±5.8%"
+2067,ssp585,Crozet Islands,-27.17,-8.25,-7.3,3.14,8.44,"Year: 2067
+Mean change: -8.2%
+SD: ±8.4%"
+2067,ssp585,Heard Island and McDonald Islands,-17.15,-8.65,-8.89,0.46,5.51,"Year: 2067
+Mean change: -8.7%
+SD: ±5.5%"
+2067,ssp585,Kerguelen Islands,-18.7,-8.43,-8.68,3.44,7.15,"Year: 2067
+Mean change: -8.4%
+SD: ±7.2%"
+2067,ssp585,Prince Edward Islands,-26.01,-8.35,-8.77,3.19,8.4,"Year: 2067
+Mean change: -8.3%
+SD: ±8.4%"
+2068,ssp126,Crozet Islands,-19.45,-7.17,-7.06,-0.56,5.35,"Year: 2068
+Mean change: -7.2%
+SD: ±5.3%"
+2068,ssp126,Heard Island and McDonald Islands,-10.17,-6.39,-6.02,-4.15,2.09,"Year: 2068
+Mean change: -6.4%
+SD: ±2.1%"
+2068,ssp126,Kerguelen Islands,-16.7,-7.75,-7.68,-0.11,5.58,"Year: 2068
+Mean change: -7.8%
+SD: ±5.6%"
+2068,ssp126,Prince Edward Islands,-18.71,-6.68,-6.36,1.18,5.44,"Year: 2068
+Mean change: -6.7%
+SD: ±5.4%"
+2068,ssp585,Crozet Islands,-30.62,-9.66,-8.67,3.28,10.62,"Year: 2068
+Mean change: -9.7%
+SD: ±10.6%"
+2068,ssp585,Heard Island and McDonald Islands,-17.76,-8.74,-9.65,0.47,5.7,"Year: 2068
+Mean change: -8.7%
+SD: ±5.7%"
+2068,ssp585,Kerguelen Islands,-23.43,-10.02,-9.88,4.27,8.39,"Year: 2068
+Mean change: -10%
+SD: ±8.4%"
+2068,ssp585,Prince Edward Islands,-25.41,-8.72,-8.93,5.9,10.34,"Year: 2068
+Mean change: -8.7%
+SD: ±10.3%"
+2069,ssp126,Crozet Islands,-20.04,-5.2,-3.54,0.92,6.62,"Year: 2069
+Mean change: -5.2%
+SD: ±6.6%"
+2069,ssp126,Heard Island and McDonald Islands,-9.65,-5.39,-5.48,-0.62,2.75,"Year: 2069
+Mean change: -5.4%
+SD: ±2.8%"
+2069,ssp126,Kerguelen Islands,-15.26,-6.48,-7.01,0.33,4.89,"Year: 2069
+Mean change: -6.5%
+SD: ±4.9%"
+2069,ssp126,Prince Edward Islands,-16.75,-5.44,-6.21,-0.02,5.39,"Year: 2069
+Mean change: -5.4%
+SD: ±5.4%"
+2069,ssp585,Crozet Islands,-29.64,-11.15,-10.98,2.7,10.45,"Year: 2069
+Mean change: -11.2%
+SD: ±10.4%"
+2069,ssp585,Heard Island and McDonald Islands,-18.43,-8.72,-9.87,4,6.07,"Year: 2069
+Mean change: -8.7%
+SD: ±6.1%"
+2069,ssp585,Kerguelen Islands,-28.04,-12.33,-11.8,0.78,9.39,"Year: 2069
+Mean change: -12.3%
+SD: ±9.4%"
+2069,ssp585,Prince Edward Islands,-31.91,-10.57,-10.54,6.05,11.94,"Year: 2069
+Mean change: -10.6%
+SD: ±11.9%"
+2070,ssp126,Crozet Islands,-14.46,-3.75,-3.4,3.41,5.45,"Year: 2070
+Mean change: -3.8%
+SD: ±5.4%"
+2070,ssp126,Heard Island and McDonald Islands,-9.32,-4.36,-3.6,-1.56,2.49,"Year: 2070
+Mean change: -4.4%
+SD: ±2.5%"
+2070,ssp126,Kerguelen Islands,-11.2,-4.44,-4.22,1.47,3.85,"Year: 2070
+Mean change: -4.4%
+SD: ±3.9%"
+2070,ssp126,Prince Edward Islands,-11.19,-5.1,-5.22,1.27,3.99,"Year: 2070
+Mean change: -5.1%
+SD: ±4%"
+2070,ssp585,Crozet Islands,-30.57,-11.47,-9.86,1.49,10.44,"Year: 2070
+Mean change: -11.5%
+SD: ±10.4%"
+2070,ssp585,Heard Island and McDonald Islands,-18.79,-9.92,-11.28,0.91,6.09,"Year: 2070
+Mean change: -9.9%
+SD: ±6.1%"
+2070,ssp585,Kerguelen Islands,-25.32,-11.25,-11.25,3.59,9.42,"Year: 2070
+Mean change: -11.2%
+SD: ±9.4%"
+2070,ssp585,Prince Edward Islands,-29.83,-11.65,-9.35,-1.21,8.92,"Year: 2070
+Mean change: -11.7%
+SD: ±8.9%"
+2071,ssp126,Crozet Islands,-17.42,-4.72,-4.92,4.43,6.04,"Year: 2071
+Mean change: -4.7%
+SD: ±6%"
+2071,ssp126,Heard Island and McDonald Islands,-9.1,-2.59,-2.02,3.53,3.91,"Year: 2071
+Mean change: -2.6%
+SD: ±3.9%"
+2071,ssp126,Kerguelen Islands,-8.97,-3.82,-3.83,2.07,3.39,"Year: 2071
+Mean change: -3.8%
+SD: ±3.4%"
+2071,ssp126,Prince Edward Islands,-17.2,-6.31,-6.39,2.11,5.71,"Year: 2071
+Mean change: -6.3%
+SD: ±5.7%"
+2071,ssp585,Crozet Islands,-34.99,-12.05,-10.53,0.52,10.51,"Year: 2071
+Mean change: -12.1%
+SD: ±10.5%"
+2071,ssp585,Heard Island and McDonald Islands,-18.79,-11.2,-11.73,-1.34,6,"Year: 2071
+Mean change: -11.2%
+SD: ±6%"
+2071,ssp585,Kerguelen Islands,-29.5,-12.4,-11.97,1.55,9.84,"Year: 2071
+Mean change: -12.4%
+SD: ±9.8%"
+2071,ssp585,Prince Edward Islands,-32.64,-12.08,-9.91,2.08,9.75,"Year: 2071
+Mean change: -12.1%
+SD: ±9.8%"
+2072,ssp126,Crozet Islands,-17.69,-6.05,-4.95,1.07,5.68,"Year: 2072
+Mean change: -6%
+SD: ±5.7%"
+2072,ssp126,Heard Island and McDonald Islands,-8.7,-3.86,-4.47,2.27,3.58,"Year: 2072
+Mean change: -3.9%
+SD: ±3.6%"
+2072,ssp126,Kerguelen Islands,-9,-4.06,-4.26,3.92,4.24,"Year: 2072
+Mean change: -4.1%
+SD: ±4.2%"
+2072,ssp126,Prince Edward Islands,-19.96,-8.13,-7.63,3.23,6.84,"Year: 2072
+Mean change: -8.1%
+SD: ±6.8%"
+2072,ssp585,Crozet Islands,-36.1,-11.52,-10.28,4.16,11.95,"Year: 2072
+Mean change: -11.5%
+SD: ±11.9%"
+2072,ssp585,Heard Island and McDonald Islands,-18.69,-10.21,-11.18,-1.75,6,"Year: 2072
+Mean change: -10.2%
+SD: ±6%"
+2072,ssp585,Kerguelen Islands,-28.86,-12.34,-12.11,0.08,9.95,"Year: 2072
+Mean change: -12.3%
+SD: ±9.9%"
+2072,ssp585,Prince Edward Islands,-32.25,-10.64,-10.31,4.54,11.46,"Year: 2072
+Mean change: -10.6%
+SD: ±11.5%"
+2073,ssp126,Crozet Islands,-24.35,-8.44,-6.65,0.46,7.98,"Year: 2073
+Mean change: -8.4%
+SD: ±8%"
+2073,ssp126,Heard Island and McDonald Islands,-8.67,-4.29,-4.89,1.54,3.19,"Year: 2073
+Mean change: -4.3%
+SD: ±3.2%"
+2073,ssp126,Kerguelen Islands,-13.07,-6.82,-5.97,-0.94,4.43,"Year: 2073
+Mean change: -6.8%
+SD: ±4.4%"
+2073,ssp126,Prince Edward Islands,-21.3,-8.06,-7.99,5.44,8.72,"Year: 2073
+Mean change: -8.1%
+SD: ±8.7%"
+2073,ssp585,Crozet Islands,-32.14,-10.64,-9.59,1.92,11.26,"Year: 2073
+Mean change: -10.6%
+SD: ±11.3%"
+2073,ssp585,Heard Island and McDonald Islands,-18.04,-8.82,-9.34,3.07,7.02,"Year: 2073
+Mean change: -8.8%
+SD: ±7%"
+2073,ssp585,Kerguelen Islands,-28.93,-10.88,-10.76,4.32,10.62,"Year: 2073
+Mean change: -10.9%
+SD: ±10.6%"
+2073,ssp585,Prince Edward Islands,-29.03,-11.21,-9.9,1.69,10.19,"Year: 2073
+Mean change: -11.2%
+SD: ±10.2%"
+2074,ssp126,Crozet Islands,-16.99,-5.65,-6.08,3.69,6.76,"Year: 2074
+Mean change: -5.7%
+SD: ±6.8%"
+2074,ssp126,Heard Island and McDonald Islands,-10.25,-4.63,-5.04,-0.64,3.1,"Year: 2074
+Mean change: -4.6%
+SD: ±3.1%"
+2074,ssp126,Kerguelen Islands,-25.43,-6.32,-4.35,3.63,7.96,"Year: 2074
+Mean change: -6.3%
+SD: ±8%"
+2074,ssp126,Prince Edward Islands,-17.56,-5.72,-6.91,3.72,6.58,"Year: 2074
+Mean change: -5.7%
+SD: ±6.6%"
+2074,ssp585,Crozet Islands,-32.1,-11.76,-10.64,4.79,11.72,"Year: 2074
+Mean change: -11.8%
+SD: ±11.7%"
+2074,ssp585,Heard Island and McDonald Islands,-19.35,-9.94,-11.07,2.05,6.69,"Year: 2074
+Mean change: -9.9%
+SD: ±6.7%"
+2074,ssp585,Kerguelen Islands,-32.64,-12.72,-12.32,5.56,11.73,"Year: 2074
+Mean change: -12.7%
+SD: ±11.7%"
+2074,ssp585,Prince Edward Islands,-31.48,-11.82,-10.12,2.24,11.59,"Year: 2074
+Mean change: -11.8%
+SD: ±11.6%"
+2075,ssp126,Crozet Islands,-14.92,-5.1,-4.33,2.39,6.23,"Year: 2075
+Mean change: -5.1%
+SD: ±6.2%"
+2075,ssp126,Heard Island and McDonald Islands,-8.15,-3.87,-3.71,0.58,3.34,"Year: 2075
+Mean change: -3.9%
+SD: ±3.3%"
+2075,ssp126,Kerguelen Islands,-16.56,-5.02,-4.09,4.04,5.53,"Year: 2075
+Mean change: -5%
+SD: ±5.5%"
+2075,ssp126,Prince Edward Islands,-18.79,-7.49,-7.65,2.98,6.81,"Year: 2075
+Mean change: -7.5%
+SD: ±6.8%"
+2075,ssp585,Crozet Islands,-33.73,-11.7,-9.93,4.75,12.98,"Year: 2075
+Mean change: -11.7%
+SD: ±13%"
+2075,ssp585,Heard Island and McDonald Islands,-17.71,-10.09,-11,2.55,6.06,"Year: 2075
+Mean change: -10.1%
+SD: ±6.1%"
+2075,ssp585,Kerguelen Islands,-30.66,-12.66,-12.66,4.95,10.63,"Year: 2075
+Mean change: -12.7%
+SD: ±10.6%"
+2075,ssp585,Prince Edward Islands,-34.35,-11.72,-10.25,4.28,12.74,"Year: 2075
+Mean change: -11.7%
+SD: ±12.7%"
+2076,ssp126,Crozet Islands,-25.21,-3.78,-1.63,6.45,9.06,"Year: 2076
+Mean change: -3.8%
+SD: ±9.1%"
+2076,ssp126,Heard Island and McDonald Islands,-12.15,-2.14,-2.83,8.84,5.95,"Year: 2076
+Mean change: -2.1%
+SD: ±6%"
+2076,ssp126,Kerguelen Islands,-17.53,-4.62,-4.04,3.97,6.25,"Year: 2076
+Mean change: -4.6%
+SD: ±6.2%"
+2076,ssp126,Prince Edward Islands,-18.57,-5.63,-5.78,4.23,7.04,"Year: 2076
+Mean change: -5.6%
+SD: ±7%"
+2076,ssp585,Crozet Islands,-26.38,-9.23,-9.08,7.43,10.91,"Year: 2076
+Mean change: -9.2%
+SD: ±10.9%"
+2076,ssp585,Heard Island and McDonald Islands,-21.01,-9.75,-10.71,9.7,8.58,"Year: 2076
+Mean change: -9.8%
+SD: ±8.6%"
+2076,ssp585,Kerguelen Islands,-25.62,-9.87,-11.29,9.94,10.56,"Year: 2076
+Mean change: -9.9%
+SD: ±10.6%"
+2076,ssp585,Prince Edward Islands,-30.67,-11.88,-10.63,4.84,11.75,"Year: 2076
+Mean change: -11.9%
+SD: ±11.8%"
+2077,ssp126,Crozet Islands,-17.47,-1.17,-0.66,19.63,9.64,"Year: 2077
+Mean change: -1.2%
+SD: ±9.6%"
+2077,ssp126,Heard Island and McDonald Islands,-11.12,-4.48,-4.36,3.11,4.56,"Year: 2077
+Mean change: -4.5%
+SD: ±4.6%"
+2077,ssp126,Kerguelen Islands,-16.48,-6.21,-5.42,-0.15,5.74,"Year: 2077
+Mean change: -6.2%
+SD: ±5.7%"
+2077,ssp126,Prince Edward Islands,-22.01,-4.58,-6.06,11.16,9.27,"Year: 2077
+Mean change: -4.6%
+SD: ±9.3%"
+2077,ssp585,Crozet Islands,-31.68,-10.41,-10.65,6.33,11.74,"Year: 2077
+Mean change: -10.4%
+SD: ±11.7%"
+2077,ssp585,Heard Island and McDonald Islands,-19.7,-10.41,-11.34,1.14,6.71,"Year: 2077
+Mean change: -10.4%
+SD: ±6.7%"
+2077,ssp585,Kerguelen Islands,-25.92,-11.17,-10.86,3.69,9.91,"Year: 2077
+Mean change: -11.2%
+SD: ±9.9%"
+2077,ssp585,Prince Edward Islands,-36.39,-13.2,-12.19,4.04,12.72,"Year: 2077
+Mean change: -13.2%
+SD: ±12.7%"
+2078,ssp126,Crozet Islands,-12.92,-3.48,-4.55,6.83,6.5,"Year: 2078
+Mean change: -3.5%
+SD: ±6.5%"
+2078,ssp126,Heard Island and McDonald Islands,-9.8,-5.83,-6.53,1.6,3.38,"Year: 2078
+Mean change: -5.8%
+SD: ±3.4%"
+2078,ssp126,Kerguelen Islands,-14.89,-5.8,-5.67,2.34,5.14,"Year: 2078
+Mean change: -5.8%
+SD: ±5.1%"
+2078,ssp126,Prince Edward Islands,-13.33,-6.19,-6.45,0.18,4.58,"Year: 2078
+Mean change: -6.2%
+SD: ±4.6%"
+2078,ssp585,Crozet Islands,-28.91,-11.46,-10.48,3.97,11.13,"Year: 2078
+Mean change: -11.5%
+SD: ±11.1%"
+2078,ssp585,Heard Island and McDonald Islands,-21.54,-11.63,-12.05,1.45,6.74,"Year: 2078
+Mean change: -11.6%
+SD: ±6.7%"
+2078,ssp585,Kerguelen Islands,-34.98,-14.32,-13.39,3.06,11.5,"Year: 2078
+Mean change: -14.3%
+SD: ±11.5%"
+2078,ssp585,Prince Edward Islands,-33.15,-11.92,-12.06,3.08,12.55,"Year: 2078
+Mean change: -11.9%
+SD: ±12.6%"
+2079,ssp126,Crozet Islands,-19.65,-3.65,-3.81,8.06,7.94,"Year: 2079
+Mean change: -3.6%
+SD: ±7.9%"
+2079,ssp126,Heard Island and McDonald Islands,-14.42,-3.91,-3.75,5.25,5.9,"Year: 2079
+Mean change: -3.9%
+SD: ±5.9%"
+2079,ssp126,Kerguelen Islands,-13.53,-4.43,-3.47,3.17,5.99,"Year: 2079
+Mean change: -4.4%
+SD: ±6%"
+2079,ssp126,Prince Edward Islands,-18.16,-6.48,-6.84,2.37,5.87,"Year: 2079
+Mean change: -6.5%
+SD: ±5.9%"
+2079,ssp585,Crozet Islands,-33.73,-11.55,-10.15,4.59,12.04,"Year: 2079
+Mean change: -11.6%
+SD: ±12%"
+2079,ssp585,Heard Island and McDonald Islands,-21.19,-12.09,-13.48,0.27,6.72,"Year: 2079
+Mean change: -12.1%
+SD: ±6.7%"
+2079,ssp585,Kerguelen Islands,-26.4,-12.73,-13.18,-0.19,8.77,"Year: 2079
+Mean change: -12.7%
+SD: ±8.8%"
+2079,ssp585,Prince Edward Islands,-35.98,-11,-11.46,11.01,13.81,"Year: 2079
+Mean change: -11%
+SD: ±13.8%"
+2080,ssp126,Crozet Islands,-13.98,-1.97,-2.28,11.19,7.67,"Year: 2080
+Mean change: -2%
+SD: ±7.7%"
+2080,ssp126,Heard Island and McDonald Islands,-9.93,-4.61,-4.98,0.67,4.21,"Year: 2080
+Mean change: -4.6%
+SD: ±4.2%"
+2080,ssp126,Kerguelen Islands,-12.36,-4.56,-4.2,0.39,4.04,"Year: 2080
+Mean change: -4.6%
+SD: ±4%"
+2080,ssp126,Prince Edward Islands,-16.1,-6.69,-6.62,1.56,5.49,"Year: 2080
+Mean change: -6.7%
+SD: ±5.5%"
+2080,ssp585,Crozet Islands,-36.73,-11.37,-10.05,5.97,13.43,"Year: 2080
+Mean change: -11.4%
+SD: ±13.4%"
+2080,ssp585,Heard Island and McDonald Islands,-20.44,-10.53,-10.53,1.87,6.91,"Year: 2080
+Mean change: -10.5%
+SD: ±6.9%"
+2080,ssp585,Kerguelen Islands,-27.93,-12.5,-13.08,3.33,10.13,"Year: 2080
+Mean change: -12.5%
+SD: ±10.1%"
+2080,ssp585,Prince Edward Islands,-35.01,-9.6,-9.95,12.06,14.04,"Year: 2080
+Mean change: -9.6%
+SD: ±14%"
+2081,ssp126,Crozet Islands,-24.9,-5.81,-4.2,7.66,8.72,"Year: 2081
+Mean change: -5.8%
+SD: ±8.7%"
+2081,ssp126,Heard Island and McDonald Islands,-8.93,-4.26,-5.12,0.97,3.18,"Year: 2081
+Mean change: -4.3%
+SD: ±3.2%"
+2081,ssp126,Kerguelen Islands,-14.48,-5.72,-4.91,1.27,4.82,"Year: 2081
+Mean change: -5.7%
+SD: ±4.8%"
+2081,ssp126,Prince Edward Islands,-18.59,-6.73,-6.5,6.48,7.47,"Year: 2081
+Mean change: -6.7%
+SD: ±7.5%"
+2081,ssp585,Crozet Islands,-29.19,-9.39,-9.17,6.82,11.55,"Year: 2081
+Mean change: -9.4%
+SD: ±11.6%"
+2081,ssp585,Heard Island and McDonald Islands,-18.73,-9.06,-9.66,2.76,6.81,"Year: 2081
+Mean change: -9.1%
+SD: ±6.8%"
+2081,ssp585,Kerguelen Islands,-27.01,-10.87,-10.78,6.06,11.14,"Year: 2081
+Mean change: -10.9%
+SD: ±11.1%"
+2081,ssp585,Prince Edward Islands,-31.54,-8.35,-8.77,7.36,12.98,"Year: 2081
+Mean change: -8.3%
+SD: ±13%"
+2082,ssp126,Crozet Islands,-18.64,-6.79,-5.48,5.31,7.75,"Year: 2082
+Mean change: -6.8%
+SD: ±7.8%"
+2082,ssp126,Heard Island and McDonald Islands,-13.68,-5.9,-6.33,3.73,4.91,"Year: 2082
+Mean change: -5.9%
+SD: ±4.9%"
+2082,ssp126,Kerguelen Islands,-20.5,-7.35,-6.64,1.88,6.35,"Year: 2082
+Mean change: -7.3%
+SD: ±6.3%"
+2082,ssp126,Prince Edward Islands,-21.65,-7.87,-7.94,3.01,7.37,"Year: 2082
+Mean change: -7.9%
+SD: ±7.4%"
+2082,ssp585,Crozet Islands,-31.65,-10.68,-9.41,5.33,12.93,"Year: 2082
+Mean change: -10.7%
+SD: ±12.9%"
+2082,ssp585,Heard Island and McDonald Islands,-23.35,-10.37,-11.82,4.96,8.37,"Year: 2082
+Mean change: -10.4%
+SD: ±8.4%"
+2082,ssp585,Kerguelen Islands,-33.99,-13.12,-13.18,3.78,12,"Year: 2082
+Mean change: -13.1%
+SD: ±12%"
+2082,ssp585,Prince Edward Islands,-31.97,-10.45,-8.84,7.88,12.79,"Year: 2082
+Mean change: -10.4%
+SD: ±12.8%"
+2083,ssp126,Crozet Islands,-20.95,-6.95,-5.57,1.93,6.55,"Year: 2083
+Mean change: -7%
+SD: ±6.6%"
+2083,ssp126,Heard Island and McDonald Islands,-14.72,-7.28,-7.98,1.95,4.78,"Year: 2083
+Mean change: -7.3%
+SD: ±4.8%"
+2083,ssp126,Kerguelen Islands,-15.08,-8.25,-8.17,-1.02,4.65,"Year: 2083
+Mean change: -8.2%
+SD: ±4.7%"
+2083,ssp126,Prince Edward Islands,-24.41,-8.12,-6.94,-1.32,6.61,"Year: 2083
+Mean change: -8.1%
+SD: ±6.6%"
+2083,ssp585,Crozet Islands,-30.36,-11.3,-10.79,2.78,11.64,"Year: 2083
+Mean change: -11.3%
+SD: ±11.6%"
+2083,ssp585,Heard Island and McDonald Islands,-22.76,-11.91,-13.91,2.07,7.39,"Year: 2083
+Mean change: -11.9%
+SD: ±7.4%"
+2083,ssp585,Kerguelen Islands,-31.76,-12.61,-13.57,5.41,11.52,"Year: 2083
+Mean change: -12.6%
+SD: ±11.5%"
+2083,ssp585,Prince Edward Islands,-30.77,-11.13,-11.27,3.73,11.74,"Year: 2083
+Mean change: -11.1%
+SD: ±11.7%"
+2084,ssp126,Crozet Islands,-14.63,-4.01,-4.22,3.73,5.35,"Year: 2084
+Mean change: -4%
+SD: ±5.3%"
+2084,ssp126,Heard Island and McDonald Islands,-17.03,-7.16,-7.83,2.91,5.9,"Year: 2084
+Mean change: -7.2%
+SD: ±5.9%"
+2084,ssp126,Kerguelen Islands,-12.57,-6.47,-7.36,2.48,4.52,"Year: 2084
+Mean change: -6.5%
+SD: ±4.5%"
+2084,ssp126,Prince Edward Islands,-13.99,-4.89,-4.34,6.01,5.61,"Year: 2084
+Mean change: -4.9%
+SD: ±5.6%"
+2084,ssp585,Crozet Islands,-36.29,-14.57,-12.53,4.8,13.3,"Year: 2084
+Mean change: -14.6%
+SD: ±13.3%"
+2084,ssp585,Heard Island and McDonald Islands,-23.55,-10.65,-12.94,5.33,8.77,"Year: 2084
+Mean change: -10.7%
+SD: ±8.8%"
+2084,ssp585,Kerguelen Islands,-30.42,-13.31,-13.72,4.11,11.13,"Year: 2084
+Mean change: -13.3%
+SD: ±11.1%"
+2084,ssp585,Prince Edward Islands,-40.58,-15.47,-14.76,2.93,14.79,"Year: 2084
+Mean change: -15.5%
+SD: ±14.8%"
+2085,ssp126,Crozet Islands,-17.21,-4.8,-3.92,4.5,6.07,"Year: 2085
+Mean change: -4.8%
+SD: ±6.1%"
+2085,ssp126,Heard Island and McDonald Islands,-13.84,-6.61,-7.72,-0.88,4.07,"Year: 2085
+Mean change: -6.6%
+SD: ±4.1%"
+2085,ssp126,Kerguelen Islands,-17.63,-6.43,-6.53,-0.03,5.34,"Year: 2085
+Mean change: -6.4%
+SD: ±5.3%"
+2085,ssp126,Prince Edward Islands,-12.78,-4.55,-4.79,6.36,5.34,"Year: 2085
+Mean change: -4.6%
+SD: ±5.3%"
+2085,ssp585,Crozet Islands,-39.44,-15.41,-13.95,2.3,13.93,"Year: 2085
+Mean change: -15.4%
+SD: ±13.9%"
+2085,ssp585,Heard Island and McDonald Islands,-26.86,-12.25,-13.34,0.63,7.7,"Year: 2085
+Mean change: -12.2%
+SD: ±7.7%"
+2085,ssp585,Kerguelen Islands,-40.03,-14.93,-14.71,4.2,12.32,"Year: 2085
+Mean change: -14.9%
+SD: ±12.3%"
+2085,ssp585,Prince Edward Islands,-40.59,-15.61,-15.1,5.88,14.34,"Year: 2085
+Mean change: -15.6%
+SD: ±14.3%"
+2086,ssp126,Crozet Islands,-22.9,-5.33,-3.29,3.72,8.22,"Year: 2086
+Mean change: -5.3%
+SD: ±8.2%"
+2086,ssp126,Heard Island and McDonald Islands,-14.74,-5.6,-5.36,1.33,4.4,"Year: 2086
+Mean change: -5.6%
+SD: ±4.4%"
+2086,ssp126,Kerguelen Islands,-16.33,-6.7,-7.29,3.73,6.39,"Year: 2086
+Mean change: -6.7%
+SD: ±6.4%"
+2086,ssp126,Prince Edward Islands,-25.16,-5.72,-6.23,2.98,8.1,"Year: 2086
+Mean change: -5.7%
+SD: ±8.1%"
+2086,ssp585,Crozet Islands,-40.91,-16.48,-16.2,3.29,13.79,"Year: 2086
+Mean change: -16.5%
+SD: ±13.8%"
+2086,ssp585,Heard Island and McDonald Islands,-25.94,-13.79,-14.58,1.83,7.23,"Year: 2086
+Mean change: -13.8%
+SD: ±7.2%"
+2086,ssp585,Kerguelen Islands,-42.34,-16.96,-16.33,3.83,13.07,"Year: 2086
+Mean change: -17%
+SD: ±13.1%"
+2086,ssp585,Prince Edward Islands,-38.76,-16.26,-15.24,1.25,13.77,"Year: 2086
+Mean change: -16.3%
+SD: ±13.8%"
+2087,ssp126,Crozet Islands,-15.76,-4.48,-3.9,1.66,5.19,"Year: 2087
+Mean change: -4.5%
+SD: ±5.2%"
+2087,ssp126,Heard Island and McDonald Islands,-14.91,-5.25,-5.44,4.16,5.19,"Year: 2087
+Mean change: -5.2%
+SD: ±5.2%"
+2087,ssp126,Kerguelen Islands,-10.19,-4.41,-5.06,2.95,4.81,"Year: 2087
+Mean change: -4.4%
+SD: ±4.8%"
+2087,ssp126,Prince Edward Islands,-11.95,-4.03,-3.77,1.78,4.42,"Year: 2087
+Mean change: -4%
+SD: ±4.4%"
+2087,ssp585,Crozet Islands,-32.87,-13.91,-15.06,4.28,12.09,"Year: 2087
+Mean change: -13.9%
+SD: ±12.1%"
+2087,ssp585,Heard Island and McDonald Islands,-26.16,-14.34,-14.67,-0.95,6.99,"Year: 2087
+Mean change: -14.3%
+SD: ±7%"
+2087,ssp585,Kerguelen Islands,-35.25,-16.64,-16.63,4.53,11.37,"Year: 2087
+Mean change: -16.6%
+SD: ±11.4%"
+2087,ssp585,Prince Edward Islands,-29.19,-12.45,-13.32,7.46,12.15,"Year: 2087
+Mean change: -12.4%
+SD: ±12.2%"
+2088,ssp126,Crozet Islands,-26.1,-6.53,-4.56,-0.07,7.68,"Year: 2088
+Mean change: -6.5%
+SD: ±7.7%"
+2088,ssp126,Heard Island and McDonald Islands,-14.24,-6.56,-7.62,-0.83,4.02,"Year: 2088
+Mean change: -6.6%
+SD: ±4%"
+2088,ssp126,Kerguelen Islands,-16.72,-6.51,-6.76,0.48,5.02,"Year: 2088
+Mean change: -6.5%
+SD: ±5%"
+2088,ssp126,Prince Edward Islands,-17.76,-5.42,-5.72,2.04,5.8,"Year: 2088
+Mean change: -5.4%
+SD: ±5.8%"
+2088,ssp585,Crozet Islands,-38.12,-13.25,-14.3,6.18,13.54,"Year: 2088
+Mean change: -13.2%
+SD: ±13.5%"
+2088,ssp585,Heard Island and McDonald Islands,-29.39,-14.04,-14.46,3.81,8.98,"Year: 2088
+Mean change: -14%
+SD: ±9%"
+2088,ssp585,Kerguelen Islands,-35.48,-16.03,-15.65,4.3,11.51,"Year: 2088
+Mean change: -16%
+SD: ±11.5%"
+2088,ssp585,Prince Edward Islands,-36.88,-13.18,-12.99,4.92,13.92,"Year: 2088
+Mean change: -13.2%
+SD: ±13.9%"
+2089,ssp126,Crozet Islands,-14.14,-4.04,-3.24,4.16,5.5,"Year: 2089
+Mean change: -4%
+SD: ±5.5%"
+2089,ssp126,Heard Island and McDonald Islands,-13.13,-6.13,-6.2,1.7,4.08,"Year: 2089
+Mean change: -6.1%
+SD: ±4.1%"
+2089,ssp126,Kerguelen Islands,-12.21,-6.25,-6.25,-0.58,3.69,"Year: 2089
+Mean change: -6.2%
+SD: ±3.7%"
+2089,ssp126,Prince Edward Islands,-16.56,-4.39,-3.74,4.08,6.26,"Year: 2089
+Mean change: -4.4%
+SD: ±6.3%"
+2089,ssp585,Crozet Islands,-38.08,-15.68,-15.01,2.14,13.98,"Year: 2089
+Mean change: -15.7%
+SD: ±14%"
+2089,ssp585,Heard Island and McDonald Islands,-31.68,-15.39,-17.74,-0.81,9.2,"Year: 2089
+Mean change: -15.4%
+SD: ±9.2%"
+2089,ssp585,Kerguelen Islands,-40.1,-16.62,-17.36,1.7,13.44,"Year: 2089
+Mean change: -16.6%
+SD: ±13.4%"
+2089,ssp585,Prince Edward Islands,-37.85,-15.28,-15.14,1.56,13.64,"Year: 2089
+Mean change: -15.3%
+SD: ±13.6%"
+2090,ssp126,Crozet Islands,-21.66,-4.33,-2.52,4.39,8,"Year: 2090
+Mean change: -4.3%
+SD: ±8%"
+2090,ssp126,Heard Island and McDonald Islands,-12.41,-6.64,-6.66,-1.16,3.47,"Year: 2090
+Mean change: -6.6%
+SD: ±3.5%"
+2090,ssp126,Kerguelen Islands,-14.24,-5.49,-5.72,-0.46,4.63,"Year: 2090
+Mean change: -5.5%
+SD: ±4.6%"
+2090,ssp126,Prince Edward Islands,-17.8,-5.52,-5.74,5.89,6.73,"Year: 2090
+Mean change: -5.5%
+SD: ±6.7%"
+2090,ssp585,Crozet Islands,-36.32,-14.25,-13.68,3.66,13.75,"Year: 2090
+Mean change: -14.2%
+SD: ±13.8%"
+2090,ssp585,Heard Island and McDonald Islands,-34.37,-15.81,-17.76,0.53,10.19,"Year: 2090
+Mean change: -15.8%
+SD: ±10.2%"
+2090,ssp585,Kerguelen Islands,-41.23,-15.77,-16.41,3.98,13.73,"Year: 2090
+Mean change: -15.8%
+SD: ±13.7%"
+2090,ssp585,Prince Edward Islands,-36.6,-15.56,-13.83,0.27,12.37,"Year: 2090
+Mean change: -15.6%
+SD: ±12.4%"
+2091,ssp126,Crozet Islands,-19.15,-6.67,-6.07,2.12,7.32,"Year: 2091
+Mean change: -6.7%
+SD: ±7.3%"
+2091,ssp126,Heard Island and McDonald Islands,-13.13,-5.96,-7.6,3.17,5.5,"Year: 2091
+Mean change: -6%
+SD: ±5.5%"
+2091,ssp126,Kerguelen Islands,-17.08,-5.55,-5.65,5.18,6.62,"Year: 2091
+Mean change: -5.6%
+SD: ±6.6%"
+2091,ssp126,Prince Edward Islands,-19.85,-7.86,-7.18,-0.78,5.76,"Year: 2091
+Mean change: -7.9%
+SD: ±5.8%"
+2091,ssp585,Crozet Islands,-42.4,-15.7,-14.44,2.43,14.82,"Year: 2091
+Mean change: -15.7%
+SD: ±14.8%"
+2091,ssp585,Heard Island and McDonald Islands,-30.98,-15.13,-16.43,0.8,9.67,"Year: 2091
+Mean change: -15.1%
+SD: ±9.7%"
+2091,ssp585,Kerguelen Islands,-36.51,-16.39,-16.86,-0.99,12.03,"Year: 2091
+Mean change: -16.4%
+SD: ±12%"
+2091,ssp585,Prince Edward Islands,-43.54,-16.42,-14.43,2.7,14.89,"Year: 2091
+Mean change: -16.4%
+SD: ±14.9%"
+2092,ssp126,Crozet Islands,-19.28,-7.09,-5.28,-0.82,5.55,"Year: 2092
+Mean change: -7.1%
+SD: ±5.6%"
+2092,ssp126,Heard Island and McDonald Islands,-12.56,-5.89,-6.54,3.35,4.5,"Year: 2092
+Mean change: -5.9%
+SD: ±4.5%"
+2092,ssp126,Kerguelen Islands,-17.55,-8.12,-8.11,-0.08,5.89,"Year: 2092
+Mean change: -8.1%
+SD: ±5.9%"
+2092,ssp126,Prince Edward Islands,-15.25,-7.6,-6.69,-2.47,4.41,"Year: 2092
+Mean change: -7.6%
+SD: ±4.4%"
+2092,ssp585,Crozet Islands,-38.3,-15.74,-16.14,1.77,13.95,"Year: 2092
+Mean change: -15.7%
+SD: ±13.9%"
+2092,ssp585,Heard Island and McDonald Islands,-31.53,-15.17,-16.97,4.55,10.48,"Year: 2092
+Mean change: -15.2%
+SD: ±10.5%"
+2092,ssp585,Kerguelen Islands,-39.79,-17.21,-17.64,2.4,13.56,"Year: 2092
+Mean change: -17.2%
+SD: ±13.6%"
+2092,ssp585,Prince Edward Islands,-35.26,-14.02,-14.99,4.81,14.78,"Year: 2092
+Mean change: -14%
+SD: ±14.8%"
+2093,ssp126,Crozet Islands,-18.63,-5.19,-3.32,5.74,6.83,"Year: 2093
+Mean change: -5.2%
+SD: ±6.8%"
+2093,ssp126,Heard Island and McDonald Islands,-12.35,-6.4,-6.86,-1.15,3.21,"Year: 2093
+Mean change: -6.4%
+SD: ±3.2%"
+2093,ssp126,Kerguelen Islands,-15.84,-6.92,-7.16,-0.29,4.84,"Year: 2093
+Mean change: -6.9%
+SD: ±4.8%"
+2093,ssp126,Prince Edward Islands,-17.34,-7.21,-7.39,0.12,4.99,"Year: 2093
+Mean change: -7.2%
+SD: ±5%"
+2093,ssp585,Crozet Islands,-40.6,-14.88,-14.78,7.16,16.49,"Year: 2093
+Mean change: -14.9%
+SD: ±16.5%"
+2093,ssp585,Heard Island and McDonald Islands,-26.26,-13.14,-12.27,6.91,9.98,"Year: 2093
+Mean change: -13.1%
+SD: ±10%"
+2093,ssp585,Kerguelen Islands,-36.54,-15.21,-15.99,5.06,12.52,"Year: 2093
+Mean change: -15.2%
+SD: ±12.5%"
+2093,ssp585,Prince Edward Islands,-41.01,-15.42,-15.47,6.75,15.68,"Year: 2093
+Mean change: -15.4%
+SD: ±15.7%"
+2094,ssp126,Crozet Islands,-21.22,-7.29,-6.68,1.81,7.06,"Year: 2094
+Mean change: -7.3%
+SD: ±7.1%"
+2094,ssp126,Heard Island and McDonald Islands,-14.46,-7.83,-8.74,-1.61,4.29,"Year: 2094
+Mean change: -7.8%
+SD: ±4.3%"
+2094,ssp126,Kerguelen Islands,-20.89,-7.22,-6.58,4.17,7.28,"Year: 2094
+Mean change: -7.2%
+SD: ±7.3%"
+2094,ssp126,Prince Edward Islands,-18.8,-7.65,-8.06,1.25,5.42,"Year: 2094
+Mean change: -7.7%
+SD: ±5.4%"
+2094,ssp585,Crozet Islands,-41.32,-13.77,-15.01,14.03,17.31,"Year: 2094
+Mean change: -13.8%
+SD: ±17.3%"
+2094,ssp585,Heard Island and McDonald Islands,-32.73,-13.72,-15.4,7.07,11.96,"Year: 2094
+Mean change: -13.7%
+SD: ±12%"
+2094,ssp585,Kerguelen Islands,-44.87,-16.25,-18.19,6.3,15.71,"Year: 2094
+Mean change: -16.2%
+SD: ±15.7%"
+2094,ssp585,Prince Edward Islands,-39.47,-14.63,-15.27,7.78,15.77,"Year: 2094
+Mean change: -14.6%
+SD: ±15.8%"
+2095,ssp126,Crozet Islands,-14.85,-5.7,-4.7,-0.37,4.46,"Year: 2095
+Mean change: -5.7%
+SD: ±4.5%"
+2095,ssp126,Heard Island and McDonald Islands,-12.37,-4.6,-5.45,3.28,5.4,"Year: 2095
+Mean change: -4.6%
+SD: ±5.4%"
+2095,ssp126,Kerguelen Islands,-12.47,-6.04,-6.4,2.36,4.75,"Year: 2095
+Mean change: -6%
+SD: ±4.8%"
+2095,ssp126,Prince Edward Islands,-14.07,-5.27,-3.9,1.5,4.74,"Year: 2095
+Mean change: -5.3%
+SD: ±4.7%"
+2095,ssp585,Crozet Islands,-36.06,-12.75,-13.29,16.13,16.15,"Year: 2095
+Mean change: -12.8%
+SD: ±16.1%"
+2095,ssp585,Heard Island and McDonald Islands,-27.72,-13.89,-14.22,0.91,10,"Year: 2095
+Mean change: -13.9%
+SD: ±10%"
+2095,ssp585,Kerguelen Islands,-39.36,-16.54,-18.13,3.35,13.75,"Year: 2095
+Mean change: -16.5%
+SD: ±13.8%"
+2095,ssp585,Prince Edward Islands,-40.69,-15.54,-15.6,5.21,15.4,"Year: 2095
+Mean change: -15.5%
+SD: ±15.4%"
+2096,ssp126,Crozet Islands,-16.33,-5.96,-4.24,2.28,6.21,"Year: 2096
+Mean change: -6%
+SD: ±6.2%"
+2096,ssp126,Heard Island and McDonald Islands,-15.08,-5.78,-5.94,2.95,6.02,"Year: 2096
+Mean change: -5.8%
+SD: ±6%"
+2096,ssp126,Kerguelen Islands,-21.11,-7.59,-7.76,1.55,6.58,"Year: 2096
+Mean change: -7.6%
+SD: ±6.6%"
+2096,ssp126,Prince Edward Islands,-11.29,-5.73,-5.87,0.14,4.16,"Year: 2096
+Mean change: -5.7%
+SD: ±4.2%"
+2096,ssp585,Crozet Islands,-43.56,-14.98,-15.72,9.02,16.9,"Year: 2096
+Mean change: -15%
+SD: ±16.9%"
+2096,ssp585,Heard Island and McDonald Islands,-34.14,-14.93,-16.64,3.17,11.39,"Year: 2096
+Mean change: -14.9%
+SD: ±11.4%"
+2096,ssp585,Kerguelen Islands,-42,-16.04,-17.53,6.55,14.94,"Year: 2096
+Mean change: -16%
+SD: ±14.9%"
+2096,ssp585,Prince Edward Islands,-43.94,-16.95,-17.2,3.43,16.22,"Year: 2096
+Mean change: -17%
+SD: ±16.2%"
+2097,ssp126,Crozet Islands,-23.67,-8.88,-7.28,-0.17,6.98,"Year: 2097
+Mean change: -8.9%
+SD: ±7%"
+2097,ssp126,Heard Island and McDonald Islands,-14.99,-8.6,-8.52,-4.11,3.18,"Year: 2097
+Mean change: -8.6%
+SD: ±3.2%"
+2097,ssp126,Kerguelen Islands,-18.85,-8.4,-7.72,0.16,6.14,"Year: 2097
+Mean change: -8.4%
+SD: ±6.1%"
+2097,ssp126,Prince Edward Islands,-22.59,-9.94,-8.24,-3.38,6.12,"Year: 2097
+Mean change: -9.9%
+SD: ±6.1%"
+2097,ssp585,Crozet Islands,-43.52,-14.79,-15.69,6.09,16.89,"Year: 2097
+Mean change: -14.8%
+SD: ±16.9%"
+2097,ssp585,Heard Island and McDonald Islands,-32.02,-14.9,-16.83,6.1,11.02,"Year: 2097
+Mean change: -14.9%
+SD: ±11%"
+2097,ssp585,Kerguelen Islands,-37.82,-16.64,-17.19,5.85,14.04,"Year: 2097
+Mean change: -16.6%
+SD: ±14%"
+2097,ssp585,Prince Edward Islands,-43.36,-17.14,-18.01,3.71,16.23,"Year: 2097
+Mean change: -17.1%
+SD: ±16.2%"
+2098,ssp126,Crozet Islands,-24.09,-8.85,-7.81,-0.69,6.81,"Year: 2098
+Mean change: -8.8%
+SD: ±6.8%"
+2098,ssp126,Heard Island and McDonald Islands,-16.25,-9.12,-9.84,1.72,4.79,"Year: 2098
+Mean change: -9.1%
+SD: ±4.8%"
+2098,ssp126,Kerguelen Islands,-16.25,-8.14,-8.42,2.9,6.23,"Year: 2098
+Mean change: -8.1%
+SD: ±6.2%"
+2098,ssp126,Prince Edward Islands,-21.01,-9.45,-9.49,0.63,6.23,"Year: 2098
+Mean change: -9.4%
+SD: ±6.2%"
+2098,ssp585,Crozet Islands,-39.1,-14.79,-17,7.53,16.52,"Year: 2098
+Mean change: -14.8%
+SD: ±16.5%"
+2098,ssp585,Heard Island and McDonald Islands,-39.78,-16.35,-18.01,8.67,13.39,"Year: 2098
+Mean change: -16.4%
+SD: ±13.4%"
+2098,ssp585,Kerguelen Islands,-44.08,-18.38,-18.9,5.9,14.89,"Year: 2098
+Mean change: -18.4%
+SD: ±14.9%"
+2098,ssp585,Prince Edward Islands,-36.91,-15.39,-17.2,6.78,14.73,"Year: 2098
+Mean change: -15.4%
+SD: ±14.7%"
+2099,ssp126,Crozet Islands,-16.42,-6.79,-6.11,1.67,4.92,"Year: 2099
+Mean change: -6.8%
+SD: ±4.9%"
+2099,ssp126,Heard Island and McDonald Islands,-15.89,-7.4,-8.81,5.61,5.81,"Year: 2099
+Mean change: -7.4%
+SD: ±5.8%"
+2099,ssp126,Kerguelen Islands,-13.4,-7.3,-8.45,2.58,4.87,"Year: 2099
+Mean change: -7.3%
+SD: ±4.9%"
+2099,ssp126,Prince Edward Islands,-18.23,-7.07,-5.87,-1,5.35,"Year: 2099
+Mean change: -7.1%
+SD: ±5.3%"
+2099,ssp585,Crozet Islands,-39.14,-15.56,-15.99,4.48,15.02,"Year: 2099
+Mean change: -15.6%
+SD: ±15%"
+2099,ssp585,Heard Island and McDonald Islands,-34.17,-16.27,-17.73,5.1,11.76,"Year: 2099
+Mean change: -16.3%
+SD: ±11.8%"
+2099,ssp585,Kerguelen Islands,-41.68,-17.69,-18.33,5.49,14.43,"Year: 2099
+Mean change: -17.7%
+SD: ±14.4%"
+2099,ssp585,Prince Edward Islands,-38.59,-16.2,-15.87,1.68,14.19,"Year: 2099
+Mean change: -16.2%
+SD: ±14.2%"
+2100,ssp126,Crozet Islands,-15.03,-6.8,-6.16,1.49,5.35,"Year: 2100
+Mean change: -6.8%
+SD: ±5.3%"
+2100,ssp126,Heard Island and McDonald Islands,-14.12,-6.79,-6.13,1.62,4.68,"Year: 2100
+Mean change: -6.8%
+SD: ±4.7%"
+2100,ssp126,Kerguelen Islands,-12.69,-7.55,-8.2,-1.06,3.94,"Year: 2100
+Mean change: -7.6%
+SD: ±3.9%"
+2100,ssp126,Prince Edward Islands,-15.21,-7.84,-8.65,4.57,6.11,"Year: 2100
+Mean change: -7.8%
+SD: ±6.1%"
+2100,ssp585,Crozet Islands,-49.33,-17.33,-16.89,2.69,17.94,"Year: 2100
+Mean change: -17.3%
+SD: ±17.9%"
+2100,ssp585,Heard Island and McDonald Islands,-32.09,-17.01,-19.41,2.43,10.97,"Year: 2100
+Mean change: -17%
+SD: ±11%"
+2100,ssp585,Kerguelen Islands,-40.35,-18.18,-18.99,4.74,14.29,"Year: 2100
+Mean change: -18.2%
+SD: ±14.3%"
+2100,ssp585,Prince Edward Islands,-47.6,-17.43,-15.51,2.09,15.98,"Year: 2100
+Mean change: -17.4%
+SD: ±16%"

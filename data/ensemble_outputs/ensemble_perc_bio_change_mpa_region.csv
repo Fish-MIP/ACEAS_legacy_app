@@ -1,0 +1,4267 @@
+year,scenario,mpa,min_change,mean_change,median_change,max_change,sd_change,tooltip
+1950,historical,GPZi,-21.17,-6.1,-9.22,15.91,11.82,"Year: 1950
+Mean change: -6.1%
+SD: ±11.8%"
+1950,historical,GPZii,-18.14,-4.42,-3.06,9.29,7.81,"Year: 1950
+Mean change: -4.4%
+SD: ±7.8%"
+1950,historical,GPZiii,-27.92,-6.05,-2.57,10.1,12.88,"Year: 1950
+Mean change: -6%
+SD: ±12.9%"
+1950,historical,KRZ,-27.22,-9.48,-13.89,10.89,12.81,"Year: 1950
+Mean change: -9.5%
+SD: ±12.8%"
+1950,historical,SOSS,-36.41,-9.92,-9.04,19.69,17.75,"Year: 1950
+Mean change: -9.9%
+SD: ±17.8%"
+1950,historical,SRZ,-27.83,-3.02,-3.95,26.98,19.69,"Year: 1950
+Mean change: -3%
+SD: ±19.7%"
+1951,historical,GPZi,-27.56,-5.81,-5.51,13.41,12.68,"Year: 1951
+Mean change: -5.8%
+SD: ±12.7%"
+1951,historical,GPZii,-16.29,-3.43,-2.32,7.49,7.12,"Year: 1951
+Mean change: -3.4%
+SD: ±7.1%"
+1951,historical,GPZiii,-24.35,-8.08,-7.86,8.65,10.16,"Year: 1951
+Mean change: -8.1%
+SD: ±10.2%"
+1951,historical,KRZ,-20.75,-12.01,-17.24,7.13,10.38,"Year: 1951
+Mean change: -12%
+SD: ±10.4%"
+1951,historical,SOSS,-59.9,-15.49,-5.31,5.19,20.44,"Year: 1951
+Mean change: -15.5%
+SD: ±20.4%"
+1951,historical,SRZ,-32.38,-6.22,-7.91,24.27,18.87,"Year: 1951
+Mean change: -6.2%
+SD: ±18.9%"
+1952,historical,GPZi,-29.24,-7.71,-10.06,13.54,12.37,"Year: 1952
+Mean change: -7.7%
+SD: ±12.4%"
+1952,historical,GPZii,-17.55,-4.45,-2.65,6.11,6.96,"Year: 1952
+Mean change: -4.4%
+SD: ±7%"
+1952,historical,GPZiii,-25.49,-10.76,-11.58,9.93,10.83,"Year: 1952
+Mean change: -10.8%
+SD: ±10.8%"
+1952,historical,KRZ,-20.86,-8.77,-7.63,6.94,9.5,"Year: 1952
+Mean change: -8.8%
+SD: ±9.5%"
+1952,historical,SOSS,-73.05,-24.46,-12.85,3.6,26.76,"Year: 1952
+Mean change: -24.5%
+SD: ±26.8%"
+1952,historical,SRZ,-55.7,-19.25,-20.51,15.91,25.46,"Year: 1952
+Mean change: -19.2%
+SD: ±25.5%"
+1953,historical,GPZi,-40.62,-13.47,-12.41,9.06,16.39,"Year: 1953
+Mean change: -13.5%
+SD: ±16.4%"
+1953,historical,GPZii,-9.73,2.77,2.96,12.37,6.95,"Year: 1953
+Mean change: 2.8%
+SD: ±7%"
+1953,historical,GPZiii,-26.72,-3.29,-7.47,24.02,16.46,"Year: 1953
+Mean change: -3.3%
+SD: ±16.5%"
+1953,historical,KRZ,-24.2,-12.51,-15.61,4.36,10.83,"Year: 1953
+Mean change: -12.5%
+SD: ±10.8%"
+1953,historical,SOSS,-37.53,-13.69,-11.63,5.73,16.16,"Year: 1953
+Mean change: -13.7%
+SD: ±16.2%"
+1953,historical,SRZ,-74.82,-24.46,-14.7,10.12,30.35,"Year: 1953
+Mean change: -24.5%
+SD: ±30.4%"
+1954,historical,GPZi,-39.2,-13.89,-11.73,5.15,15.4,"Year: 1954
+Mean change: -13.9%
+SD: ±15.4%"
+1954,historical,GPZii,-4.85,2.19,0.96,12.89,5.17,"Year: 1954
+Mean change: 2.2%
+SD: ±5.2%"
+1954,historical,GPZiii,-40.39,-15.69,-14.08,10.48,15.04,"Year: 1954
+Mean change: -15.7%
+SD: ±15%"
+1954,historical,KRZ,-26.22,-12.81,-14.62,6.64,12.13,"Year: 1954
+Mean change: -12.8%
+SD: ±12.1%"
+1954,historical,SOSS,-26.34,-8.45,-8.32,13.35,14.1,"Year: 1954
+Mean change: -8.4%
+SD: ±14.1%"
+1954,historical,SRZ,-72.67,-20.18,-8.52,14.27,32.01,"Year: 1954
+Mean change: -20.2%
+SD: ±32%"
+1955,historical,GPZi,-18.8,-6.84,-6.41,8.52,9.53,"Year: 1955
+Mean change: -6.8%
+SD: ±9.5%"
+1955,historical,GPZii,-11.6,1.6,1.82,12.04,6.34,"Year: 1955
+Mean change: 1.6%
+SD: ±6.3%"
+1955,historical,GPZiii,-29.43,-6.03,-7.86,26.88,19.16,"Year: 1955
+Mean change: -6%
+SD: ±19.2%"
+1955,historical,KRZ,-26.25,-4.74,-2.78,7.74,10.13,"Year: 1955
+Mean change: -4.7%
+SD: ±10.1%"
+1955,historical,SOSS,-25.25,-0.47,-1.77,36.94,18.25,"Year: 1955
+Mean change: -0.5%
+SD: ±18.2%"
+1955,historical,SRZ,-47.47,-15.68,-13.76,15.65,20.07,"Year: 1955
+Mean change: -15.7%
+SD: ±20.1%"
+1956,historical,GPZi,-19.84,-7.41,-7.33,6.06,8.07,"Year: 1956
+Mean change: -7.4%
+SD: ±8.1%"
+1956,historical,GPZii,-5.68,0.94,-0.2,9.88,4.53,"Year: 1956
+Mean change: 0.9%
+SD: ±4.5%"
+1956,historical,GPZiii,-30.69,-13.54,-16.58,8.58,10.8,"Year: 1956
+Mean change: -13.5%
+SD: ±10.8%"
+1956,historical,KRZ,-27.38,-2.97,-0.06,10.69,10.91,"Year: 1956
+Mean change: -3%
+SD: ±10.9%"
+1956,historical,SOSS,-39.32,-1.08,-10.75,63.56,31.14,"Year: 1956
+Mean change: -1.1%
+SD: ±31.1%"
+1956,historical,SRZ,-30.89,-11.52,-14.38,16.73,16.34,"Year: 1956
+Mean change: -11.5%
+SD: ±16.3%"
+1957,historical,GPZi,-20.69,-7.07,-6.88,7.31,10.2,"Year: 1957
+Mean change: -7.1%
+SD: ±10.2%"
+1957,historical,GPZii,-11.62,-1.39,-0.74,10.05,5.42,"Year: 1957
+Mean change: -1.4%
+SD: ±5.4%"
+1957,historical,GPZiii,-31.98,-2.24,-7.6,43.3,21.56,"Year: 1957
+Mean change: -2.2%
+SD: ±21.6%"
+1957,historical,KRZ,-28.27,-3.57,-0.77,8.63,10.97,"Year: 1957
+Mean change: -3.6%
+SD: ±11%"
+1957,historical,SOSS,-33.47,-9.68,-11.93,12.67,14.92,"Year: 1957
+Mean change: -9.7%
+SD: ±14.9%"
+1957,historical,SRZ,-48.78,-17.45,-13.27,15.18,21.96,"Year: 1957
+Mean change: -17.4%
+SD: ±22%"
+1958,historical,GPZi,-21.23,-6.44,-5.96,4.51,9.21,"Year: 1958
+Mean change: -6.4%
+SD: ±9.2%"
+1958,historical,GPZii,-9.35,1.54,1.73,11.34,7.13,"Year: 1958
+Mean change: 1.5%
+SD: ±7.1%"
+1958,historical,GPZiii,-33.24,-6.68,-7.69,20.6,15.42,"Year: 1958
+Mean change: -6.7%
+SD: ±15.4%"
+1958,historical,KRZ,-28.99,-4.16,-0.62,9.27,10.58,"Year: 1958
+Mean change: -4.2%
+SD: ±10.6%"
+1958,historical,SOSS,-19.35,-2.42,-2.82,29.74,14.46,"Year: 1958
+Mean change: -2.4%
+SD: ±14.5%"
+1958,historical,SRZ,-60.59,-20.43,-13.75,10.46,24.78,"Year: 1958
+Mean change: -20.4%
+SD: ±24.8%"
+1959,historical,GPZi,-21.33,-2.23,-1.08,10.29,9.84,"Year: 1959
+Mean change: -2.2%
+SD: ±9.8%"
+1959,historical,GPZii,-18.01,-0.99,-0,8.8,8.24,"Year: 1959
+Mean change: -1%
+SD: ±8.2%"
+1959,historical,GPZiii,-34.43,-6.59,-6.4,11.31,12.99,"Year: 1959
+Mean change: -6.6%
+SD: ±13%"
+1959,historical,KRZ,-29.44,-6.86,-6.87,4.46,9.83,"Year: 1959
+Mean change: -6.9%
+SD: ±9.8%"
+1959,historical,SOSS,-16.41,-0.02,0.74,28.51,14.03,"Year: 1959
+Mean change: 0%
+SD: ±14%"
+1959,historical,SRZ,-32.11,-2.55,-1.86,19.86,15.59,"Year: 1959
+Mean change: -2.5%
+SD: ±15.6%"
+1960,historical,GPZi,-21,-2.53,-0.93,13.76,10.81,"Year: 1960
+Mean change: -2.5%
+SD: ±10.8%"
+1960,historical,GPZii,-19.41,-1.25,-0.06,9.75,8.35,"Year: 1960
+Mean change: -1.2%
+SD: ±8.3%"
+1960,historical,GPZiii,-35.5,-3.95,-4.44,25.69,17.76,"Year: 1960
+Mean change: -4%
+SD: ±17.8%"
+1960,historical,KRZ,-29.53,-3.4,0.86,7.53,11.68,"Year: 1960
+Mean change: -3.4%
+SD: ±11.7%"
+1960,historical,SOSS,-13.6,5.93,4.16,27.91,14.19,"Year: 1960
+Mean change: 5.9%
+SD: ±14.2%"
+1960,historical,SRZ,-32.05,2.44,4.1,22.98,15.13,"Year: 1960
+Mean change: 2.4%
+SD: ±15.1%"
+1961,historical,GPZi,-21.62,-8.09,-8.55,12.12,11.81,"Year: 1961
+Mean change: -8.1%
+SD: ±11.8%"
+1961,historical,GPZii,-15.95,-1.79,-1.1,6.43,6.02,"Year: 1961
+Mean change: -1.8%
+SD: ±6%"
+1961,historical,GPZiii,-36.43,-9.89,-9.78,10.99,12.21,"Year: 1961
+Mean change: -9.9%
+SD: ±12.2%"
+1961,historical,KRZ,-29.32,-4.52,-0.4,7.58,11.57,"Year: 1961
+Mean change: -4.5%
+SD: ±11.6%"
+1961,historical,SOSS,-44.61,-13.17,-6.29,3.11,16.52,"Year: 1961
+Mean change: -13.2%
+SD: ±16.5%"
+1961,historical,SRZ,-71.18,-17.32,-3.63,17.15,30.57,"Year: 1961
+Mean change: -17.3%
+SD: ±30.6%"
+1962,historical,GPZi,-20.99,-5.37,-5.47,10.93,11.05,"Year: 1962
+Mean change: -5.4%
+SD: ±11.1%"
+1962,historical,GPZii,-15.14,-1.97,-1.02,5.32,6.14,"Year: 1962
+Mean change: -2%
+SD: ±6.1%"
+1962,historical,GPZiii,-37.29,-7.26,-4.12,11.46,12.68,"Year: 1962
+Mean change: -7.3%
+SD: ±12.7%"
+1962,historical,KRZ,-28.95,-0.94,2.01,15.47,12.71,"Year: 1962
+Mean change: -0.9%
+SD: ±12.7%"
+1962,historical,SOSS,-44.65,-13.33,-8.33,1.87,16.81,"Year: 1962
+Mean change: -13.3%
+SD: ±16.8%"
+1962,historical,SRZ,-46.89,-13.41,-6.35,14.28,21.54,"Year: 1962
+Mean change: -13.4%
+SD: ±21.5%"
+1963,historical,GPZi,-19.36,-1.8,-3.37,14.97,10.31,"Year: 1963
+Mean change: -1.8%
+SD: ±10.3%"
+1963,historical,GPZii,-13.9,-4.16,-2.49,3.13,5.8,"Year: 1963
+Mean change: -4.2%
+SD: ±5.8%"
+1963,historical,GPZiii,-38.1,5.2,6.62,63.03,25.63,"Year: 1963
+Mean change: 5.2%
+SD: ±25.6%"
+1963,historical,KRZ,-28.75,-1.86,-2.59,23.45,15.98,"Year: 1963
+Mean change: -1.9%
+SD: ±16%"
+1963,historical,SOSS,-13.77,2.64,0.14,31.49,14.53,"Year: 1963
+Mean change: 2.6%
+SD: ±14.5%"
+1963,historical,SRZ,-31.04,0.2,-1.17,39.02,17.58,"Year: 1963
+Mean change: 0.2%
+SD: ±17.6%"
+1964,historical,GPZi,-18.73,0.37,2.06,10.3,9.08,"Year: 1964
+Mean change: 0.4%
+SD: ±9.1%"
+1964,historical,GPZii,-19.25,-3.48,-2.03,8.76,8.64,"Year: 1964
+Mean change: -3.5%
+SD: ±8.6%"
+1964,historical,GPZiii,-38.89,-5.56,-6.44,35.45,19.99,"Year: 1964
+Mean change: -5.6%
+SD: ±20%"
+1964,historical,KRZ,-28.64,-1.96,-0.5,14.64,11.89,"Year: 1964
+Mean change: -2%
+SD: ±11.9%"
+1964,historical,SOSS,-19.52,0.89,-0.84,27.2,14.51,"Year: 1964
+Mean change: 0.9%
+SD: ±14.5%"
+1964,historical,SRZ,-30.27,6.08,7.11,31.82,16.12,"Year: 1964
+Mean change: 6.1%
+SD: ±16.1%"
+1965,historical,GPZi,-18.03,-1.69,0.89,9.43,8.72,"Year: 1965
+Mean change: -1.7%
+SD: ±8.7%"
+1965,historical,GPZii,-15.32,-3.47,-1.96,3.19,6.01,"Year: 1965
+Mean change: -3.5%
+SD: ±6%"
+1965,historical,GPZiii,-39.71,-4.78,-5.43,15.88,15.68,"Year: 1965
+Mean change: -4.8%
+SD: ±15.7%"
+1965,historical,KRZ,-28.27,3.86,5.5,33.09,16.33,"Year: 1965
+Mean change: 3.9%
+SD: ±16.3%"
+1965,historical,SOSS,-10.16,1.54,0.83,18.35,9.8,"Year: 1965
+Mean change: 1.5%
+SD: ±9.8%"
+1965,historical,SRZ,-29.26,1.34,1.09,19.65,13.87,"Year: 1965
+Mean change: 1.3%
+SD: ±13.9%"
+1966,historical,GPZi,-17.31,0.94,2.81,11.06,8.8,"Year: 1966
+Mean change: 0.9%
+SD: ±8.8%"
+1966,historical,GPZii,-16.1,-3.38,-2.38,12.3,8.58,"Year: 1966
+Mean change: -3.4%
+SD: ±8.6%"
+1966,historical,GPZiii,-40.46,9.52,6.37,64.76,28.5,"Year: 1966
+Mean change: 9.5%
+SD: ±28.5%"
+1966,historical,KRZ,-27.74,1.46,2.88,18.22,13.05,"Year: 1966
+Mean change: 1.5%
+SD: ±13.1%"
+1966,historical,SOSS,-31.64,-9.44,-8.1,2.46,9.88,"Year: 1966
+Mean change: -9.4%
+SD: ±9.9%"
+1966,historical,SRZ,-28.06,5.09,5.24,45.95,19.55,"Year: 1966
+Mean change: 5.1%
+SD: ±19.6%"
+1967,historical,GPZi,-16.71,-0.29,1.17,15.63,10.12,"Year: 1967
+Mean change: -0.3%
+SD: ±10.1%"
+1967,historical,GPZii,-22.62,3.21,0.07,28.2,14.18,"Year: 1967
+Mean change: 3.2%
+SD: ±14.2%"
+1967,historical,GPZiii,-41.13,0.36,-0.96,30.11,18.72,"Year: 1967
+Mean change: 0.4%
+SD: ±18.7%"
+1967,historical,KRZ,-27.22,8.03,10.59,34.72,17.46,"Year: 1967
+Mean change: 8%
+SD: ±17.5%"
+1967,historical,SOSS,-32.97,-6.96,-5.15,19.97,14.89,"Year: 1967
+Mean change: -7%
+SD: ±14.9%"
+1967,historical,SRZ,-26.87,-1.21,-0.42,21.97,15.43,"Year: 1967
+Mean change: -1.2%
+SD: ±15.4%"
+1968,historical,GPZi,-18.84,-2.62,-4.8,22.21,12.92,"Year: 1968
+Mean change: -2.6%
+SD: ±12.9%"
+1968,historical,GPZii,-20.68,-1.58,-0.1,15.32,9.41,"Year: 1968
+Mean change: -1.6%
+SD: ±9.4%"
+1968,historical,GPZiii,-41.76,-6.25,-4.43,20.42,16.75,"Year: 1968
+Mean change: -6.2%
+SD: ±16.8%"
+1968,historical,KRZ,-26.8,-2.42,-3.52,22.15,12.34,"Year: 1968
+Mean change: -2.4%
+SD: ±12.3%"
+1968,historical,SOSS,-11.62,4.05,-0.8,37.09,15.15,"Year: 1968
+Mean change: 4%
+SD: ±15.2%"
+1968,historical,SRZ,-33.65,-2.28,0.42,23.47,19.2,"Year: 1968
+Mean change: -2.3%
+SD: ±19.2%"
+1969,historical,GPZi,-15.83,1.29,1.84,24.09,12.97,"Year: 1969
+Mean change: 1.3%
+SD: ±13%"
+1969,historical,GPZii,-10.61,-0.1,-1.96,17.59,8.13,"Year: 1969
+Mean change: -0.1%
+SD: ±8.1%"
+1969,historical,GPZiii,-42.33,0.96,0.32,36.26,20.46,"Year: 1969
+Mean change: 1%
+SD: ±20.5%"
+1969,historical,KRZ,-26.65,-2.72,-2.44,21.81,13.43,"Year: 1969
+Mean change: -2.7%
+SD: ±13.4%"
+1969,historical,SOSS,-20.36,2.21,-0.66,34.62,13.84,"Year: 1969
+Mean change: 2.2%
+SD: ±13.8%"
+1969,historical,SRZ,-24.57,14.33,19.23,56.14,24.78,"Year: 1969
+Mean change: 14.3%
+SD: ±24.8%"
+1970,historical,GPZi,-15.51,-1.17,-2.69,25.54,12.69,"Year: 1970
+Mean change: -1.2%
+SD: ±12.7%"
+1970,historical,GPZii,-11.46,0.73,-0.81,15.61,8.75,"Year: 1970
+Mean change: 0.7%
+SD: ±8.8%"
+1970,historical,GPZiii,-42.98,-2.22,-3.08,27.71,19.47,"Year: 1970
+Mean change: -2.2%
+SD: ±19.5%"
+1970,historical,KRZ,-26.69,0.96,4.84,24.33,13.73,"Year: 1970
+Mean change: 1%
+SD: ±13.7%"
+1970,historical,SOSS,-18.46,4.15,-2.6,43.37,20.03,"Year: 1970
+Mean change: 4.2%
+SD: ±20%"
+1970,historical,SRZ,-23.37,6.06,8.11,36.18,17.93,"Year: 1970
+Mean change: 6.1%
+SD: ±17.9%"
+1971,historical,GPZi,-15.15,1.96,2.31,24.22,13.32,"Year: 1971
+Mean change: 2%
+SD: ±13.3%"
+1971,historical,GPZii,-15.17,-2.09,-0.75,4.41,6.17,"Year: 1971
+Mean change: -2.1%
+SD: ±6.2%"
+1971,historical,GPZiii,-43.7,2.24,3.15,39.05,22.61,"Year: 1971
+Mean change: 2.2%
+SD: ±22.6%"
+1971,historical,KRZ,-26.78,4.52,5.38,27.61,15.02,"Year: 1971
+Mean change: 4.5%
+SD: ±15%"
+1971,historical,SOSS,-36.29,-10.25,-8.87,13.51,15.55,"Year: 1971
+Mean change: -10.2%
+SD: ±15.6%"
+1971,historical,SRZ,-40.95,-5,-9.16,30.65,22.98,"Year: 1971
+Mean change: -5%
+SD: ±23%"
+1972,historical,GPZi,-24.24,-1.66,2.83,21.98,15.88,"Year: 1972
+Mean change: -1.7%
+SD: ±15.9%"
+1972,historical,GPZii,-17.99,-1.42,-0.46,9.59,7.53,"Year: 1972
+Mean change: -1.4%
+SD: ±7.5%"
+1972,historical,GPZiii,-44.36,-1.94,-5.17,33.3,23.95,"Year: 1972
+Mean change: -1.9%
+SD: ±24%"
+1972,historical,KRZ,-27.95,-3.65,-1.21,21.87,18.57,"Year: 1972
+Mean change: -3.6%
+SD: ±18.6%"
+1972,historical,SOSS,-33.44,-8.29,-3.44,4.07,12.92,"Year: 1972
+Mean change: -8.3%
+SD: ±12.9%"
+1972,historical,SRZ,-43.21,-5.66,-0.59,22.13,21.61,"Year: 1972
+Mean change: -5.7%
+SD: ±21.6%"
+1973,historical,GPZi,-17.17,1.8,3.82,18.89,12.17,"Year: 1973
+Mean change: 1.8%
+SD: ±12.2%"
+1973,historical,GPZii,-25.42,-7.51,-4.17,7.7,10.43,"Year: 1973
+Mean change: -7.5%
+SD: ±10.4%"
+1973,historical,GPZiii,-44.97,1.44,4.64,35.99,22.72,"Year: 1973
+Mean change: 1.4%
+SD: ±22.7%"
+1973,historical,KRZ,-27.11,-4.02,-2.82,16.62,17.29,"Year: 1973
+Mean change: -4%
+SD: ±17.3%"
+1973,historical,SOSS,-29.32,-3.01,0.02,8.42,11.24,"Year: 1973
+Mean change: -3%
+SD: ±11.2%"
+1973,historical,SRZ,-20.62,7.26,7.75,33.96,15.8,"Year: 1973
+Mean change: 7.3%
+SD: ±15.8%"
+1974,historical,GPZi,-21.25,-4.66,-5.27,16.16,13.65,"Year: 1974
+Mean change: -4.7%
+SD: ±13.7%"
+1974,historical,GPZii,-23.21,-2.95,-3.32,23.33,11.46,"Year: 1974
+Mean change: -3%
+SD: ±11.5%"
+1974,historical,GPZiii,-45.42,-2.05,2.2,18.76,19.62,"Year: 1974
+Mean change: -2%
+SD: ±19.6%"
+1974,historical,KRZ,-28.73,-6.99,-7.22,11.78,16.42,"Year: 1974
+Mean change: -7%
+SD: ±16.4%"
+1974,historical,SOSS,-17.54,-2.45,-0.81,9.17,8.51,"Year: 1974
+Mean change: -2.5%
+SD: ±8.5%"
+1974,historical,SRZ,-52.99,-12.15,-1.05,13.56,25.45,"Year: 1974
+Mean change: -12.2%
+SD: ±25.4%"
+1975,historical,GPZi,-19.98,-3.82,-4.5,13.49,12.8,"Year: 1975
+Mean change: -3.8%
+SD: ±12.8%"
+1975,historical,GPZii,-18.48,0.71,-2.48,27.96,13.23,"Year: 1975
+Mean change: 0.7%
+SD: ±13.2%"
+1975,historical,GPZiii,-45.72,-5.91,-4.31,18.26,17.64,"Year: 1975
+Mean change: -5.9%
+SD: ±17.6%"
+1975,historical,KRZ,-27.18,-4.18,-2.4,9.51,11.8,"Year: 1975
+Mean change: -4.2%
+SD: ±11.8%"
+1975,historical,SOSS,-32.81,-9.43,-4.34,6.35,12.71,"Year: 1975
+Mean change: -9.4%
+SD: ±12.7%"
+1975,historical,SRZ,-43.3,-11.33,-2.88,9.94,20.78,"Year: 1975
+Mean change: -11.3%
+SD: ±20.8%"
+1976,historical,GPZi,-17.2,2.14,3.18,18.37,11.06,"Year: 1976
+Mean change: 2.1%
+SD: ±11.1%"
+1976,historical,GPZii,-21.35,-1.35,-1.49,11.66,8.95,"Year: 1976
+Mean change: -1.4%
+SD: ±8.9%"
+1976,historical,GPZiii,-45.92,-4.38,-1.21,17.52,17.18,"Year: 1976
+Mean change: -4.4%
+SD: ±17.2%"
+1976,historical,KRZ,-26.88,0.15,7.63,10.97,12.88,"Year: 1976
+Mean change: 0.1%
+SD: ±12.9%"
+1976,historical,SOSS,-37.13,-4.37,-3.23,15.9,13.47,"Year: 1976
+Mean change: -4.4%
+SD: ±13.5%"
+1976,historical,SRZ,-20.43,8.76,8.42,60.96,23.74,"Year: 1976
+Mean change: 8.8%
+SD: ±23.7%"
+1977,historical,GPZi,-14.36,-3.09,-5.26,14.49,9.3,"Year: 1977
+Mean change: -3.1%
+SD: ±9.3%"
+1977,historical,GPZii,-17.64,0.02,-0.24,14.21,9.19,"Year: 1977
+Mean change: 0%
+SD: ±9.2%"
+1977,historical,GPZiii,-46.04,-8.1,-5.5,16.53,18.81,"Year: 1977
+Mean change: -8.1%
+SD: ±18.8%"
+1977,historical,KRZ,-26.52,-2.91,-0.68,9.32,10.23,"Year: 1977
+Mean change: -2.9%
+SD: ±10.2%"
+1977,historical,SOSS,-31.07,-4.45,-1.67,27.2,16.74,"Year: 1977
+Mean change: -4.4%
+SD: ±16.7%"
+1977,historical,SRZ,-20.5,-4.18,-2.77,13.3,11.06,"Year: 1977
+Mean change: -4.2%
+SD: ±11.1%"
+1978,historical,GPZi,-14.16,-2.42,-3.38,13.83,9.18,"Year: 1978
+Mean change: -2.4%
+SD: ±9.2%"
+1978,historical,GPZii,-14.14,0.59,-0.74,19.28,8.94,"Year: 1978
+Mean change: 0.6%
+SD: ±8.9%"
+1978,historical,GPZiii,-46.06,-8.46,-4.61,13.58,15.18,"Year: 1978
+Mean change: -8.5%
+SD: ±15.2%"
+1978,historical,KRZ,-25.98,2.83,4.54,30.72,15.38,"Year: 1978
+Mean change: 2.8%
+SD: ±15.4%"
+1978,historical,SOSS,-34.66,-6.61,-6.25,40.21,21,"Year: 1978
+Mean change: -6.6%
+SD: ±21%"
+1978,historical,SRZ,-20.5,-0.45,2.59,16.87,13.02,"Year: 1978
+Mean change: -0.4%
+SD: ±13%"
+1979,historical,GPZi,-15.32,-1.06,1.82,13.15,9.86,"Year: 1979
+Mean change: -1.1%
+SD: ±9.9%"
+1979,historical,GPZii,-14.76,2.92,0.09,29.76,12.89,"Year: 1979
+Mean change: 2.9%
+SD: ±12.9%"
+1979,historical,GPZiii,-46.02,1.29,-0.35,48.8,23.94,"Year: 1979
+Mean change: 1.3%
+SD: ±23.9%"
+1979,historical,KRZ,-25.31,-0.23,3.76,9.59,10.18,"Year: 1979
+Mean change: -0.2%
+SD: ±10.2%"
+1979,historical,SOSS,-22.21,-6.18,-4,5.15,9.63,"Year: 1979
+Mean change: -6.2%
+SD: ±9.6%"
+1979,historical,SRZ,-31.49,-4.3,-7.07,30.31,21.19,"Year: 1979
+Mean change: -4.3%
+SD: ±21.2%"
+1980,historical,GPZi,-13.59,1.22,3.64,13.3,8.29,"Year: 1980
+Mean change: 1.2%
+SD: ±8.3%"
+1980,historical,GPZii,-13.03,-3.68,-3.24,6.77,5.99,"Year: 1980
+Mean change: -3.7%
+SD: ±6%"
+1980,historical,GPZiii,-45.9,-0.5,-3.56,37.64,21.86,"Year: 1980
+Mean change: -0.5%
+SD: ±21.9%"
+1980,historical,KRZ,-24.71,1.25,3.57,8.58,9.53,"Year: 1980
+Mean change: 1.2%
+SD: ±9.5%"
+1980,historical,SOSS,-6.88,4.23,3.2,18.82,9.03,"Year: 1980
+Mean change: 4.2%
+SD: ±9%"
+1980,historical,SRZ,-20.27,4.42,8.19,21.39,14.11,"Year: 1980
+Mean change: 4.4%
+SD: ±14.1%"
+1981,historical,GPZi,-23.25,-5.37,-5.6,15.11,13.1,"Year: 1981
+Mean change: -5.4%
+SD: ±13.1%"
+1981,historical,GPZii,-13.44,-5.54,-7.1,4.8,5.87,"Year: 1981
+Mean change: -5.5%
+SD: ±5.9%"
+1981,historical,GPZiii,-45.71,9.07,14.88,42.26,26.07,"Year: 1981
+Mean change: 9.1%
+SD: ±26.1%"
+1981,historical,KRZ,-32.72,-6.51,0.99,9.26,15.64,"Year: 1981
+Mean change: -6.5%
+SD: ±15.6%"
+1981,historical,SOSS,-4.9,0.02,-1.91,9.34,5.14,"Year: 1981
+Mean change: 0%
+SD: ±5.1%"
+1981,historical,SRZ,-62.47,-15.68,-11.14,14.54,26.17,"Year: 1981
+Mean change: -15.7%
+SD: ±26.2%"
+1982,historical,GPZi,-12.88,-3.48,-1.92,9.43,7.65,"Year: 1982
+Mean change: -3.5%
+SD: ±7.7%"
+1982,historical,GPZii,-17.03,-1.85,-2.29,16.35,9.34,"Year: 1982
+Mean change: -1.9%
+SD: ±9.3%"
+1982,historical,GPZiii,-45.47,-7.69,-3.72,36.87,26.24,"Year: 1982
+Mean change: -7.7%
+SD: ±26.2%"
+1982,historical,KRZ,-24.06,-4.74,-3.03,4.12,8.85,"Year: 1982
+Mean change: -4.7%
+SD: ±8.8%"
+1982,historical,SOSS,-21.66,-1.08,-1.41,21.25,13.07,"Year: 1982
+Mean change: -1.1%
+SD: ±13.1%"
+1982,historical,SRZ,-19.98,-1.25,0.72,7.07,8.35,"Year: 1982
+Mean change: -1.2%
+SD: ±8.3%"
+1983,historical,GPZi,-31.76,-7.2,-6.74,16.21,16.37,"Year: 1983
+Mean change: -7.2%
+SD: ±16.4%"
+1983,historical,GPZii,-16.29,1.9,-0.65,31.3,13.82,"Year: 1983
+Mean change: 1.9%
+SD: ±13.8%"
+1983,historical,GPZiii,-45.21,-6.3,-3.37,10.29,16.3,"Year: 1983
+Mean change: -6.3%
+SD: ±16.3%"
+1983,historical,KRZ,-23.7,0.38,4.29,18.64,12.57,"Year: 1983
+Mean change: 0.4%
+SD: ±12.6%"
+1983,historical,SOSS,-27.87,-8.89,-8.65,4.23,10.53,"Year: 1983
+Mean change: -8.9%
+SD: ±10.5%"
+1983,historical,SRZ,-55.44,-11.52,-1.89,18.13,25.98,"Year: 1983
+Mean change: -11.5%
+SD: ±26%"
+1984,historical,GPZi,-21.98,-0.53,-0.91,17.06,13.95,"Year: 1984
+Mean change: -0.5%
+SD: ±13.9%"
+1984,historical,GPZii,-10.35,4.32,2.97,22.14,9.06,"Year: 1984
+Mean change: 4.3%
+SD: ±9.1%"
+1984,historical,GPZiii,-44.77,9.45,9.19,50.53,28.8,"Year: 1984
+Mean change: 9.4%
+SD: ±28.8%"
+1984,historical,KRZ,-23.06,-0.32,2.42,10.57,10.62,"Year: 1984
+Mean change: -0.3%
+SD: ±10.6%"
+1984,historical,SOSS,-26.43,-0.42,-0.59,38.33,17.23,"Year: 1984
+Mean change: -0.4%
+SD: ±17.2%"
+1984,historical,SRZ,-35.12,-7.62,-3.89,23.57,19.16,"Year: 1984
+Mean change: -7.6%
+SD: ±19.2%"
+1985,historical,GPZi,-20.91,-4.88,-3.34,8.52,10.99,"Year: 1985
+Mean change: -4.9%
+SD: ±11%"
+1985,historical,GPZii,-7.23,4.34,2.29,32.54,10.91,"Year: 1985
+Mean change: 4.3%
+SD: ±10.9%"
+1985,historical,GPZiii,-44.13,-4.3,1.39,33.88,26.86,"Year: 1985
+Mean change: -4.3%
+SD: ±26.9%"
+1985,historical,KRZ,-22.57,-4.26,-1.94,10.33,12.08,"Year: 1985
+Mean change: -4.3%
+SD: ±12.1%"
+1985,historical,SOSS,-28.47,4.22,2.78,38.55,17.18,"Year: 1985
+Mean change: 4.2%
+SD: ±17.2%"
+1985,historical,SRZ,-27,-8.7,-10.65,10.4,13.7,"Year: 1985
+Mean change: -8.7%
+SD: ±13.7%"
+1986,historical,GPZi,-17.49,-2.65,-3.78,18.34,11.75,"Year: 1986
+Mean change: -2.6%
+SD: ±11.8%"
+1986,historical,GPZii,-8.29,6.84,4.17,29.63,12.21,"Year: 1986
+Mean change: 6.8%
+SD: ±12.2%"
+1986,historical,GPZiii,-43.36,4.31,7.09,44.75,22.96,"Year: 1986
+Mean change: 4.3%
+SD: ±23%"
+1986,historical,KRZ,-33.27,-8.92,-7.66,11.98,16.21,"Year: 1986
+Mean change: -8.9%
+SD: ±16.2%"
+1986,historical,SOSS,-25.06,2.8,1.11,43.07,19.26,"Year: 1986
+Mean change: 2.8%
+SD: ±19.3%"
+1986,historical,SRZ,-18.41,-1.8,-3.44,14.07,11.56,"Year: 1986
+Mean change: -1.8%
+SD: ±11.6%"
+1987,historical,GPZi,-12.05,7.48,8.94,24.76,11.6,"Year: 1987
+Mean change: 7.5%
+SD: ±11.6%"
+1987,historical,GPZii,-10.37,1.25,1.87,15.12,7.79,"Year: 1987
+Mean change: 1.2%
+SD: ±7.8%"
+1987,historical,GPZiii,-42.07,4.25,8.68,22.91,17.96,"Year: 1987
+Mean change: 4.2%
+SD: ±18%"
+1987,historical,KRZ,-19.37,2.82,2.25,25.44,14.63,"Year: 1987
+Mean change: 2.8%
+SD: ±14.6%"
+1987,historical,SOSS,-28.1,3.6,0.51,38.62,19.63,"Year: 1987
+Mean change: 3.6%
+SD: ±19.6%"
+1987,historical,SRZ,-17.4,13.14,9.27,56.51,20.17,"Year: 1987
+Mean change: 13.1%
+SD: ±20.2%"
+1988,historical,GPZi,-8.42,4.19,4.86,19.52,8.97,"Year: 1988
+Mean change: 4.2%
+SD: ±9%"
+1988,historical,GPZii,-18.32,-1.47,-1.6,15.35,9.36,"Year: 1988
+Mean change: -1.5%
+SD: ±9.4%"
+1988,historical,GPZiii,-40.1,5.28,8.52,25.77,17.14,"Year: 1988
+Mean change: 5.3%
+SD: ±17.1%"
+1988,historical,KRZ,-17.02,8.46,13.26,32.94,14.02,"Year: 1988
+Mean change: 8.5%
+SD: ±14%"
+1988,historical,SOSS,-31.29,-0.98,2.36,30.47,17.86,"Year: 1988
+Mean change: -1%
+SD: ±17.9%"
+1988,historical,SRZ,-16.13,8.08,10.84,22.88,12.18,"Year: 1988
+Mean change: 8.1%
+SD: ±12.2%"
+1989,historical,GPZi,-11.45,-0.09,0.11,14.49,8.56,"Year: 1989
+Mean change: -0.1%
+SD: ±8.6%"
+1989,historical,GPZii,-13.97,-0.73,0.63,14.72,8.88,"Year: 1989
+Mean change: -0.7%
+SD: ±8.9%"
+1989,historical,GPZiii,-37.56,-0.91,4.43,23.16,17.48,"Year: 1989
+Mean change: -0.9%
+SD: ±17.5%"
+1989,historical,KRZ,-14.81,2.18,1.22,27.67,13.41,"Year: 1989
+Mean change: 2.2%
+SD: ±13.4%"
+1989,historical,SOSS,-32.19,-1.85,-1.38,12.31,13.01,"Year: 1989
+Mean change: -1.9%
+SD: ±13%"
+1989,historical,SRZ,-14.91,2.29,2.49,18.7,10.13,"Year: 1989
+Mean change: 2.3%
+SD: ±10.1%"
+1990,historical,GPZi,-6.32,7.66,6.99,18.52,7.42,"Year: 1990
+Mean change: 7.7%
+SD: ±7.4%"
+1990,historical,GPZii,-9.09,3.61,4.46,19.02,8.62,"Year: 1990
+Mean change: 3.6%
+SD: ±8.6%"
+1990,historical,GPZiii,-34.88,3.94,7,30.71,17.68,"Year: 1990
+Mean change: 3.9%
+SD: ±17.7%"
+1990,historical,KRZ,-12.3,7.91,7.92,24.66,11.04,"Year: 1990
+Mean change: 7.9%
+SD: ±11%"
+1990,historical,SOSS,-26.29,-1.67,3.31,26.71,17.24,"Year: 1990
+Mean change: -1.7%
+SD: ±17.2%"
+1990,historical,SRZ,-13.61,13.21,16.89,25.85,12.05,"Year: 1990
+Mean change: 13.2%
+SD: ±12.1%"
+1991,historical,GPZi,-5.12,4.14,3.77,17.01,6.97,"Year: 1991
+Mean change: 4.1%
+SD: ±7%"
+1991,historical,GPZii,-15.31,5.75,3.89,28.06,12.25,"Year: 1991
+Mean change: 5.8%
+SD: ±12.2%"
+1991,historical,GPZiii,-32,2.92,5.63,14.56,13.57,"Year: 1991
+Mean change: 2.9%
+SD: ±13.6%"
+1991,historical,KRZ,-10.42,6.38,3.85,21.59,10.78,"Year: 1991
+Mean change: 6.4%
+SD: ±10.8%"
+1991,historical,SOSS,-26.87,-4.63,-8.08,16.91,14.5,"Year: 1991
+Mean change: -4.6%
+SD: ±14.5%"
+1991,historical,SRZ,-16.14,3.55,2.16,28.29,14.06,"Year: 1991
+Mean change: 3.5%
+SD: ±14.1%"
+1992,historical,GPZi,-24.51,-1.24,-4.28,18.9,13.41,"Year: 1992
+Mean change: -1.2%
+SD: ±13.4%"
+1992,historical,GPZii,-14.06,1.26,2.72,15.01,9.07,"Year: 1992
+Mean change: 1.3%
+SD: ±9.1%"
+1992,historical,GPZiii,-29.01,0.69,8.66,19.05,17.18,"Year: 1992
+Mean change: 0.7%
+SD: ±17.2%"
+1992,historical,KRZ,-9.15,0.92,-0.59,19.7,9.85,"Year: 1992
+Mean change: 0.9%
+SD: ±9.8%"
+1992,historical,SOSS,-29.39,-1.24,2.66,31.42,17.3,"Year: 1992
+Mean change: -1.2%
+SD: ±17.3%"
+1992,historical,SRZ,-65.71,-13.79,-6.89,16.11,29.75,"Year: 1992
+Mean change: -13.8%
+SD: ±29.8%"
+1993,historical,GPZi,-22.38,-3.02,-4.62,15.29,12.68,"Year: 1993
+Mean change: -3%
+SD: ±12.7%"
+1993,historical,GPZii,-8.17,1.24,1,15.47,6.7,"Year: 1993
+Mean change: 1.2%
+SD: ±6.7%"
+1993,historical,GPZiii,-26.31,1.98,2.36,16.66,12.4,"Year: 1993
+Mean change: 2%
+SD: ±12.4%"
+1993,historical,KRZ,-7.69,1.85,1.46,17.35,8.37,"Year: 1993
+Mean change: 1.9%
+SD: ±8.4%"
+1993,historical,SOSS,-26.52,-7.34,-8.45,8.52,11.88,"Year: 1993
+Mean change: -7.3%
+SD: ±11.9%"
+1993,historical,SRZ,-49.2,-7.95,-3.73,24.48,24.09,"Year: 1993
+Mean change: -8%
+SD: ±24.1%"
+1994,historical,GPZi,-17.99,-2.37,-1.62,12.32,9.01,"Year: 1994
+Mean change: -2.4%
+SD: ±9%"
+1994,historical,GPZii,-13.29,0.51,0.36,14.78,7.22,"Year: 1994
+Mean change: 0.5%
+SD: ±7.2%"
+1994,historical,GPZiii,-23.8,-1.03,0.01,12.86,11.1,"Year: 1994
+Mean change: -1%
+SD: ±11.1%"
+1994,historical,KRZ,-20.67,-0.03,-2.99,14.81,11.79,"Year: 1994
+Mean change: 0%
+SD: ±11.8%"
+1994,historical,SOSS,-18.84,2.94,-1.77,38.19,18.06,"Year: 1994
+Mean change: 2.9%
+SD: ±18.1%"
+1994,historical,SRZ,-24.11,-2.77,-0.71,13.78,13.19,"Year: 1994
+Mean change: -2.8%
+SD: ±13.2%"
+1995,historical,GPZi,-18.43,2.81,4.89,17.29,10.9,"Year: 1995
+Mean change: 2.8%
+SD: ±10.9%"
+1995,historical,GPZii,-12.46,-0.63,0.39,13.61,7.05,"Year: 1995
+Mean change: -0.6%
+SD: ±7%"
+1995,historical,GPZiii,-21.32,3.01,5.54,21.85,12.02,"Year: 1995
+Mean change: 3%
+SD: ±12%"
+1995,historical,KRZ,-14.97,-0.93,-3.36,14.51,10.56,"Year: 1995
+Mean change: -0.9%
+SD: ±10.6%"
+1995,historical,SOSS,-19,-0.98,2.07,11.36,10.57,"Year: 1995
+Mean change: -1%
+SD: ±10.6%"
+1995,historical,SRZ,-24.51,5.13,8.52,21.18,13.26,"Year: 1995
+Mean change: 5.1%
+SD: ±13.3%"
+1996,historical,GPZi,-12.69,-0.66,0.07,11.09,8.25,"Year: 1996
+Mean change: -0.7%
+SD: ±8.2%"
+1996,historical,GPZii,-12.64,-2.72,-4.48,11.71,7.33,"Year: 1996
+Mean change: -2.7%
+SD: ±7.3%"
+1996,historical,GPZiii,-18.8,-1.29,1.2,10.29,8.89,"Year: 1996
+Mean change: -1.3%
+SD: ±8.9%"
+1996,historical,KRZ,-23.17,-4.63,-6.27,9.38,9.64,"Year: 1996
+Mean change: -4.6%
+SD: ±9.6%"
+1996,historical,SOSS,-12.65,1.58,2.5,15.32,9.37,"Year: 1996
+Mean change: 1.6%
+SD: ±9.4%"
+1996,historical,SRZ,-19.03,5.36,7.19,28.83,16.85,"Year: 1996
+Mean change: 5.4%
+SD: ±16.9%"
+1997,historical,GPZi,-30.5,-6.72,-3.92,8.8,13.41,"Year: 1997
+Mean change: -6.7%
+SD: ±13.4%"
+1997,historical,GPZii,-13.4,-1.72,-1.92,9.46,6.68,"Year: 1997
+Mean change: -1.7%
+SD: ±6.7%"
+1997,historical,GPZiii,-18.91,-4.82,-3.73,8.54,9.75,"Year: 1997
+Mean change: -4.8%
+SD: ±9.8%"
+1997,historical,KRZ,-13.32,-2.98,-2.89,7.74,6.67,"Year: 1997
+Mean change: -3%
+SD: ±6.7%"
+1997,historical,SOSS,-26.92,-3.21,-1.08,5.76,10.23,"Year: 1997
+Mean change: -3.2%
+SD: ±10.2%"
+1997,historical,SRZ,-54.27,-14.1,-8.34,10.06,21.02,"Year: 1997
+Mean change: -14.1%
+SD: ±21%"
+1998,historical,GPZi,-29.36,-7.61,-5.2,4.02,11.4,"Year: 1998
+Mean change: -7.6%
+SD: ±11.4%"
+1998,historical,GPZii,-12.82,0.01,-1.97,15.09,8.83,"Year: 1998
+Mean change: 0%
+SD: ±8.8%"
+1998,historical,GPZiii,-16.04,-3.31,-2.12,9.05,8.36,"Year: 1998
+Mean change: -3.3%
+SD: ±8.4%"
+1998,historical,KRZ,-24.73,-0.47,-2.95,15.29,11.71,"Year: 1998
+Mean change: -0.5%
+SD: ±11.7%"
+1998,historical,SOSS,-24.51,-5.69,-7.51,28.54,15.29,"Year: 1998
+Mean change: -5.7%
+SD: ±15.3%"
+1998,historical,SRZ,-47.61,-9.9,-5.16,21.15,23.77,"Year: 1998
+Mean change: -9.9%
+SD: ±23.8%"
+1999,historical,GPZi,-10.01,-0.91,-1.44,5.95,4.73,"Year: 1999
+Mean change: -0.9%
+SD: ±4.7%"
+1999,historical,GPZii,-9.32,-3.29,-4.73,5.7,5.22,"Year: 1999
+Mean change: -3.3%
+SD: ±5.2%"
+1999,historical,GPZiii,-13.75,-0.73,-2.53,16.18,10.34,"Year: 1999
+Mean change: -0.7%
+SD: ±10.3%"
+1999,historical,KRZ,-24.55,-4.95,-2.45,5.33,9.54,"Year: 1999
+Mean change: -5%
+SD: ±9.5%"
+1999,historical,SOSS,-16.99,0.89,-3.66,29.92,16.12,"Year: 1999
+Mean change: 0.9%
+SD: ±16.1%"
+1999,historical,SRZ,-11.39,4.24,6,13.97,8.1,"Year: 1999
+Mean change: 4.2%
+SD: ±8.1%"
+2000,historical,GPZi,-8.81,-0.57,0.21,5.43,4.79,"Year: 2000
+Mean change: -0.6%
+SD: ±4.8%"
+2000,historical,GPZii,-14.77,-1.81,0.77,4.86,6.51,"Year: 2000
+Mean change: -1.8%
+SD: ±6.5%"
+2000,historical,GPZiii,-12.96,0.03,0.86,10.13,8.06,"Year: 2000
+Mean change: 0%
+SD: ±8.1%"
+2000,historical,KRZ,-24.64,-4.78,-1.7,4.72,8.8,"Year: 2000
+Mean change: -4.8%
+SD: ±8.8%"
+2000,historical,SOSS,-9.74,-0.96,-0.26,7.6,5.21,"Year: 2000
+Mean change: -1%
+SD: ±5.2%"
+2000,historical,SRZ,-6.59,8,4.4,34.63,12.11,"Year: 2000
+Mean change: 8%
+SD: ±12.1%"
+2001,historical,GPZi,-7.13,1.02,1.14,6.9,3.83,"Year: 2001
+Mean change: 1%
+SD: ±3.8%"
+2001,historical,GPZii,-8.69,-0.06,0.59,14.19,6.6,"Year: 2001
+Mean change: -0.1%
+SD: ±6.6%"
+2001,historical,GPZiii,-12.88,2.19,-0.81,16.9,11.34,"Year: 2001
+Mean change: 2.2%
+SD: ±11.3%"
+2001,historical,KRZ,-7.69,7.22,2.47,37.05,15.02,"Year: 2001
+Mean change: 7.2%
+SD: ±15%"
+2001,historical,SOSS,-34.55,-10.71,-9.78,3.65,12.3,"Year: 2001
+Mean change: -10.7%
+SD: ±12.3%"
+2001,historical,SRZ,-4.32,9.38,5,26.83,11.65,"Year: 2001
+Mean change: 9.4%
+SD: ±11.7%"
+2002,historical,GPZi,-33.45,-6.15,0.74,5.97,14.2,"Year: 2002
+Mean change: -6.2%
+SD: ±14.2%"
+2002,historical,GPZii,-7.29,-0.29,1.32,5.24,4.34,"Year: 2002
+Mean change: -0.3%
+SD: ±4.3%"
+2002,historical,GPZiii,-20.42,1.72,-1.69,36.22,16.43,"Year: 2002
+Mean change: 1.7%
+SD: ±16.4%"
+2002,historical,KRZ,-16.15,-2.45,-1.29,6.84,7.07,"Year: 2002
+Mean change: -2.5%
+SD: ±7.1%"
+2002,historical,SOSS,-15.75,8.53,1.66,45.85,19,"Year: 2002
+Mean change: 8.5%
+SD: ±19%"
+2002,historical,SRZ,-60.72,-9.14,-1.94,30.78,30.18,"Year: 2002
+Mean change: -9.1%
+SD: ±30.2%"
+2003,historical,GPZi,-16.44,-3.92,-1.13,9.71,8.48,"Year: 2003
+Mean change: -3.9%
+SD: ±8.5%"
+2003,historical,GPZii,-4.78,-0.94,-1.73,5.88,3.51,"Year: 2003
+Mean change: -0.9%
+SD: ±3.5%"
+2003,historical,GPZiii,-6.83,7.23,4.92,35.51,12.75,"Year: 2003
+Mean change: 7.2%
+SD: ±12.8%"
+2003,historical,KRZ,-8.61,-0.37,-0,4.67,3.57,"Year: 2003
+Mean change: -0.4%
+SD: ±3.6%"
+2003,historical,SOSS,-22.37,1.14,0.14,34.34,17.79,"Year: 2003
+Mean change: 1.1%
+SD: ±17.8%"
+2003,historical,SRZ,-40.77,-12.84,-5.91,7.51,19.01,"Year: 2003
+Mean change: -12.8%
+SD: ±19%"
+2004,historical,GPZi,-9.68,-0.95,-0.42,11.14,6.85,"Year: 2004
+Mean change: -0.9%
+SD: ±6.8%"
+2004,historical,GPZii,-3.28,0.1,-0.47,4.98,2.58,"Year: 2004
+Mean change: 0.1%
+SD: ±2.6%"
+2004,historical,GPZiii,-11.72,6.89,3.27,44.34,15.65,"Year: 2004
+Mean change: 6.9%
+SD: ±15.7%"
+2004,historical,KRZ,-1.02,2.86,1.05,8.84,4.06,"Year: 2004
+Mean change: 2.9%
+SD: ±4.1%"
+2004,historical,SOSS,-15.64,-2.72,-1.64,11.17,7.98,"Year: 2004
+Mean change: -2.7%
+SD: ±8%"
+2004,historical,SRZ,-44.82,-12.69,-12.14,11.53,18.3,"Year: 2004
+Mean change: -12.7%
+SD: ±18.3%"
+2005,historical,GPZi,-16.85,-2.14,0.14,14.01,8.96,"Year: 2005
+Mean change: -2.1%
+SD: ±9%"
+2005,historical,GPZii,-5.2,-1.67,-1.4,1.11,2.2,"Year: 2005
+Mean change: -1.7%
+SD: ±2.2%"
+2005,historical,GPZiii,-9.35,1.55,1.33,12.25,6.88,"Year: 2005
+Mean change: 1.6%
+SD: ±6.9%"
+2005,historical,KRZ,-14.7,1.53,0.83,21.1,8.87,"Year: 2005
+Mean change: 1.5%
+SD: ±8.9%"
+2005,historical,SOSS,-17.17,-1.64,-1.51,24.09,11.62,"Year: 2005
+Mean change: -1.6%
+SD: ±11.6%"
+2005,historical,SRZ,-37.11,-4.98,-5.77,13.87,13.9,"Year: 2005
+Mean change: -5%
+SD: ±13.9%"
+2006,historical,GPZi,-10.58,2.06,1.01,13.46,6.8,"Year: 2006
+Mean change: 2.1%
+SD: ±6.8%"
+2006,historical,GPZii,-4.55,-0.58,-1.23,6.16,3.74,"Year: 2006
+Mean change: -0.6%
+SD: ±3.7%"
+2006,historical,GPZiii,-3.96,9.98,5.58,32.08,14.14,"Year: 2006
+Mean change: 10%
+SD: ±14.1%"
+2006,historical,KRZ,-26.23,-1.71,-0.34,22.22,14.09,"Year: 2006
+Mean change: -1.7%
+SD: ±14.1%"
+2006,historical,SOSS,-23.52,-7.97,-2.8,0.96,9.28,"Year: 2006
+Mean change: -8%
+SD: ±9.3%"
+2006,historical,SRZ,-33.92,1.66,5.44,17.07,14.44,"Year: 2006
+Mean change: 1.7%
+SD: ±14.4%"
+2007,historical,GPZi,-8.15,-0.85,-0.14,3.6,3.99,"Year: 2007
+Mean change: -0.8%
+SD: ±4%"
+2007,historical,GPZii,-3.34,3.32,1.77,21.83,7.41,"Year: 2007
+Mean change: 3.3%
+SD: ±7.4%"
+2007,historical,GPZiii,-15.02,-3.13,-2.84,3.46,5.35,"Year: 2007
+Mean change: -3.1%
+SD: ±5.3%"
+2007,historical,KRZ,-9.12,2.53,1.04,20.31,8.87,"Year: 2007
+Mean change: 2.5%
+SD: ±8.9%"
+2007,historical,SOSS,-1.77,3.98,2.18,10.42,4.88,"Year: 2007
+Mean change: 4%
+SD: ±4.9%"
+2007,historical,SRZ,-17.74,-2.84,0.93,6.77,9.63,"Year: 2007
+Mean change: -2.8%
+SD: ±9.6%"
+2008,historical,GPZi,-11.23,-4.08,-3.97,2.06,4.11,"Year: 2008
+Mean change: -4.1%
+SD: ±4.1%"
+2008,historical,GPZii,-6.18,2.3,2.14,13.58,5.47,"Year: 2008
+Mean change: 2.3%
+SD: ±5.5%"
+2008,historical,GPZiii,-13.83,2.41,0.71,26.95,12.26,"Year: 2008
+Mean change: 2.4%
+SD: ±12.3%"
+2008,historical,KRZ,-18.84,-0.83,-1.07,13.62,8.19,"Year: 2008
+Mean change: -0.8%
+SD: ±8.2%"
+2008,historical,SOSS,-8.72,-0.41,0.09,6.65,4.87,"Year: 2008
+Mean change: -0.4%
+SD: ±4.9%"
+2008,historical,SRZ,-31.74,-7.87,-4,2.75,10.63,"Year: 2008
+Mean change: -7.9%
+SD: ±10.6%"
+2009,historical,GPZi,-11.63,-0.81,0.12,1.67,3.87,"Year: 2009
+Mean change: -0.8%
+SD: ±3.9%"
+2009,historical,GPZii,-14.93,0.04,1.2,8.55,8.13,"Year: 2009
+Mean change: 0%
+SD: ±8.1%"
+2009,historical,GPZiii,-17.46,-2.71,-0.08,5,7.92,"Year: 2009
+Mean change: -2.7%
+SD: ±7.9%"
+2009,historical,KRZ,-20.7,-2.69,-0.08,4.95,7.66,"Year: 2009
+Mean change: -2.7%
+SD: ±7.7%"
+2009,historical,SOSS,-23.72,-1.93,-1.51,21.29,11.45,"Year: 2009
+Mean change: -1.9%
+SD: ±11.4%"
+2009,historical,SRZ,-33.49,-0.91,-1.29,21.77,16.24,"Year: 2009
+Mean change: -0.9%
+SD: ±16.2%"
+2010,historical,GPZi,-7.39,4.78,2.74,18.93,8.7,"Year: 2010
+Mean change: 4.8%
+SD: ±8.7%"
+2010,historical,GPZii,-21.86,-1.9,1.03,8.55,10.18,"Year: 2010
+Mean change: -1.9%
+SD: ±10.2%"
+2010,historical,GPZiii,-6.11,2.04,1.44,11.23,4.7,"Year: 2010
+Mean change: 2%
+SD: ±4.7%"
+2010,historical,KRZ,-19.99,-3.26,-1.14,13.83,10.06,"Year: 2010
+Mean change: -3.3%
+SD: ±10.1%"
+2010,historical,SOSS,-0.09,11.97,10.27,39.46,12.05,"Year: 2010
+Mean change: 12%
+SD: ±12.1%"
+2010,historical,SRZ,-7.85,10.19,2.99,51.02,18.68,"Year: 2010
+Mean change: 10.2%
+SD: ±18.7%"
+2011,historical,GPZi,-11.42,2.27,0.55,13.21,7.27,"Year: 2011
+Mean change: 2.3%
+SD: ±7.3%"
+2011,historical,GPZii,-5.91,-0.84,-0.18,2.65,2.53,"Year: 2011
+Mean change: -0.8%
+SD: ±2.5%"
+2011,historical,GPZiii,-13.67,-1.69,-1.66,3.46,4.89,"Year: 2011
+Mean change: -1.7%
+SD: ±4.9%"
+2011,historical,KRZ,-26.32,-0.52,0.73,12.86,11.63,"Year: 2011
+Mean change: -0.5%
+SD: ±11.6%"
+2011,historical,SOSS,-5.16,6.62,3.72,33.16,10.37,"Year: 2011
+Mean change: 6.6%
+SD: ±10.4%"
+2011,historical,SRZ,-13.52,4.27,5.55,14.86,9.44,"Year: 2011
+Mean change: 4.3%
+SD: ±9.4%"
+2012,historical,GPZi,-4.21,1.49,0.92,8.81,4.44,"Year: 2012
+Mean change: 1.5%
+SD: ±4.4%"
+2012,historical,GPZii,-5.04,0.97,-1.26,13.05,6.39,"Year: 2012
+Mean change: 1%
+SD: ±6.4%"
+2012,historical,GPZiii,-9.58,-1.77,-1.99,13.51,6.93,"Year: 2012
+Mean change: -1.8%
+SD: ±6.9%"
+2012,historical,KRZ,-3.59,0.39,-0.04,5.91,3.16,"Year: 2012
+Mean change: 0.4%
+SD: ±3.2%"
+2012,historical,SOSS,-16.63,-3.72,-0.41,2.25,6.61,"Year: 2012
+Mean change: -3.7%
+SD: ±6.6%"
+2012,historical,SRZ,-4.71,7.25,2.5,34.17,12.85,"Year: 2012
+Mean change: 7.2%
+SD: ±12.8%"
+2013,historical,GPZi,-8.87,-0.97,-0.34,7.93,4.68,"Year: 2013
+Mean change: -1%
+SD: ±4.7%"
+2013,historical,GPZii,-11.44,-0.74,-0.37,9.12,5.18,"Year: 2013
+Mean change: -0.7%
+SD: ±5.2%"
+2013,historical,GPZiii,-16.44,-4.78,-4.74,3.67,6.42,"Year: 2013
+Mean change: -4.8%
+SD: ±6.4%"
+2013,historical,KRZ,-7.64,1.84,0.95,13.14,6.47,"Year: 2013
+Mean change: 1.8%
+SD: ±6.5%"
+2013,historical,SOSS,-17.12,-1.6,-0.41,11.29,9.75,"Year: 2013
+Mean change: -1.6%
+SD: ±9.8%"
+2013,historical,SRZ,-21.57,0.36,0.09,36.66,16.49,"Year: 2013
+Mean change: 0.4%
+SD: ±16.5%"
+2014,historical,GPZi,-12.39,-1.74,-1.78,7.43,6.29,"Year: 2014
+Mean change: -1.7%
+SD: ±6.3%"
+2014,historical,GPZii,-9.09,-0.89,-0.62,3.23,3.93,"Year: 2014
+Mean change: -0.9%
+SD: ±3.9%"
+2014,historical,GPZiii,-12.72,-1.9,-0.38,3.5,5.13,"Year: 2014
+Mean change: -1.9%
+SD: ±5.1%"
+2014,historical,KRZ,-5.74,2.71,1.42,19.78,7.13,"Year: 2014
+Mean change: 2.7%
+SD: ±7.1%"
+2014,historical,SOSS,-25.24,-5.3,-3.41,6.35,8.44,"Year: 2014
+Mean change: -5.3%
+SD: ±8.4%"
+2014,historical,SRZ,-41.73,-7.13,-3.15,25.96,21.34,"Year: 2014
+Mean change: -7.1%
+SD: ±21.3%"
+2015,ssp126,GPZi,-13.77,-4.28,-2.99,2.82,6.3,"Year: 2015
+Mean change: -4.3%
+SD: ±6.3%"
+2015,ssp126,GPZii,-8.01,-0.21,-1.07,5.06,4.26,"Year: 2015
+Mean change: -0.2%
+SD: ±4.3%"
+2015,ssp126,GPZiii,-18.91,-5.36,-5.07,2.96,6.56,"Year: 2015
+Mean change: -5.4%
+SD: ±6.6%"
+2015,ssp126,KRZ,-3.66,5.24,0.68,24.37,10,"Year: 2015
+Mean change: 5.2%
+SD: ±10%"
+2015,ssp126,SOSS,-17.07,0.3,-0.3,16.56,10.05,"Year: 2015
+Mean change: 0.3%
+SD: ±10.1%"
+2015,ssp126,SRZ,-34.76,-10.01,-4.72,6.86,15.23,"Year: 2015
+Mean change: -10%
+SD: ±15.2%"
+2015,ssp585,GPZi,-13.8,-3.94,-2.33,2.82,6.49,"Year: 2015
+Mean change: -3.9%
+SD: ±6.5%"
+2015,ssp585,GPZii,-7,-0.73,-0.61,4.59,3.7,"Year: 2015
+Mean change: -0.7%
+SD: ±3.7%"
+2015,ssp585,GPZiii,-23.12,-6.97,-6.44,2.97,8.34,"Year: 2015
+Mean change: -7%
+SD: ±8.3%"
+2015,ssp585,KRZ,-6.15,0.19,0.55,4.81,3.16,"Year: 2015
+Mean change: 0.2%
+SD: ±3.2%"
+2015,ssp585,SOSS,-5.11,6.9,3.13,31.27,13.1,"Year: 2015
+Mean change: 6.9%
+SD: ±13.1%"
+2015,ssp585,SRZ,-21.26,-6.36,-3.95,6.66,10.07,"Year: 2015
+Mean change: -6.4%
+SD: ±10.1%"
+2016,ssp126,GPZi,-4.38,3.63,0.75,27.19,9.11,"Year: 2016
+Mean change: 3.6%
+SD: ±9.1%"
+2016,ssp126,GPZii,-13.28,-2.64,-2,6.15,5.21,"Year: 2016
+Mean change: -2.6%
+SD: ±5.2%"
+2016,ssp126,GPZiii,-10.52,1.11,0.23,25.44,11.32,"Year: 2016
+Mean change: 1.1%
+SD: ±11.3%"
+2016,ssp126,KRZ,-9.7,1.14,0.72,15.17,6.09,"Year: 2016
+Mean change: 1.1%
+SD: ±6.1%"
+2016,ssp126,SOSS,-19.55,1.85,0.19,23.58,12.49,"Year: 2016
+Mean change: 1.9%
+SD: ±12.5%"
+2016,ssp126,SRZ,-17.6,4.64,0.37,41.78,17.34,"Year: 2016
+Mean change: 4.6%
+SD: ±17.3%"
+2016,ssp585,GPZi,-5.52,2.28,0.71,18.45,6.85,"Year: 2016
+Mean change: 2.3%
+SD: ±6.8%"
+2016,ssp585,GPZii,-11.27,-4.08,-3.15,6.74,5.1,"Year: 2016
+Mean change: -4.1%
+SD: ±5.1%"
+2016,ssp585,GPZiii,-6.34,1.72,-2.81,19.7,9.01,"Year: 2016
+Mean change: 1.7%
+SD: ±9%"
+2016,ssp585,KRZ,-4.17,-0.68,-0.73,3.42,2.38,"Year: 2016
+Mean change: -0.7%
+SD: ±2.4%"
+2016,ssp585,SOSS,-13.9,-3.41,-2.3,3.93,5.88,"Year: 2016
+Mean change: -3.4%
+SD: ±5.9%"
+2016,ssp585,SRZ,-12.03,3.78,-1.5,35.03,14.04,"Year: 2016
+Mean change: 3.8%
+SD: ±14%"
+2017,ssp126,GPZi,-7.04,5.04,4,31.86,10.62,"Year: 2017
+Mean change: 5%
+SD: ±10.6%"
+2017,ssp126,GPZii,-26.29,-4.64,-3.23,9.46,10.68,"Year: 2017
+Mean change: -4.6%
+SD: ±10.7%"
+2017,ssp126,GPZiii,-10.24,-3.78,-2.69,1.43,4.22,"Year: 2017
+Mean change: -3.8%
+SD: ±4.2%"
+2017,ssp126,KRZ,-4.66,3.46,2.22,24.61,8.22,"Year: 2017
+Mean change: 3.5%
+SD: ±8.2%"
+2017,ssp126,SOSS,-7.87,1.97,1.88,12.92,6.91,"Year: 2017
+Mean change: 2%
+SD: ±6.9%"
+2017,ssp126,SRZ,-4.95,9.67,10.62,22.47,10.24,"Year: 2017
+Mean change: 9.7%
+SD: ±10.2%"
+2017,ssp585,GPZi,-4.71,1.17,1.31,7.29,4.42,"Year: 2017
+Mean change: 1.2%
+SD: ±4.4%"
+2017,ssp585,GPZii,-12.16,-2.02,-1.78,8.61,6.41,"Year: 2017
+Mean change: -2%
+SD: ±6.4%"
+2017,ssp585,GPZiii,-32.28,-8.17,-4.19,1.45,11.86,"Year: 2017
+Mean change: -8.2%
+SD: ±11.9%"
+2017,ssp585,KRZ,-32.38,-6.62,-1.58,5.31,13.7,"Year: 2017
+Mean change: -6.6%
+SD: ±13.7%"
+2017,ssp585,SOSS,-10.14,4.37,3.06,29.37,11.89,"Year: 2017
+Mean change: 4.4%
+SD: ±11.9%"
+2017,ssp585,SRZ,-12.41,8.11,-1.74,51.91,21.2,"Year: 2017
+Mean change: 8.1%
+SD: ±21.2%"
+2018,ssp126,GPZi,-5.91,3.24,2.32,19.34,7.07,"Year: 2018
+Mean change: 3.2%
+SD: ±7.1%"
+2018,ssp126,GPZii,-10.63,-2.91,-3.11,5.48,4.75,"Year: 2018
+Mean change: -2.9%
+SD: ±4.8%"
+2018,ssp126,GPZiii,-16.64,-2.97,-3.39,16.46,8.99,"Year: 2018
+Mean change: -3%
+SD: ±9%"
+2018,ssp126,KRZ,-18.42,0.74,0.76,21.8,10.18,"Year: 2018
+Mean change: 0.7%
+SD: ±10.2%"
+2018,ssp126,SOSS,-17.49,-4.03,-4.54,11.92,8.89,"Year: 2018
+Mean change: -4%
+SD: ±8.9%"
+2018,ssp126,SRZ,-5.46,7,5.76,20.96,9.18,"Year: 2018
+Mean change: 7%
+SD: ±9.2%"
+2018,ssp585,GPZi,-6.35,2.62,1.77,12.56,6.68,"Year: 2018
+Mean change: 2.6%
+SD: ±6.7%"
+2018,ssp585,GPZii,-5.99,-1.05,-2.66,10.05,4.85,"Year: 2018
+Mean change: -1%
+SD: ±4.8%"
+2018,ssp585,GPZiii,-7.07,0.55,-0.95,14.88,7.49,"Year: 2018
+Mean change: 0.6%
+SD: ±7.5%"
+2018,ssp585,KRZ,-6.89,0.01,-1,7.78,4.53,"Year: 2018
+Mean change: 0%
+SD: ±4.5%"
+2018,ssp585,SOSS,-14.03,0.37,0.24,13.87,7.29,"Year: 2018
+Mean change: 0.4%
+SD: ±7.3%"
+2018,ssp585,SRZ,-5.53,9.41,9.71,27.43,11.59,"Year: 2018
+Mean change: 9.4%
+SD: ±11.6%"
+2019,ssp126,GPZi,-4.87,3.33,1.71,14.95,5.42,"Year: 2019
+Mean change: 3.3%
+SD: ±5.4%"
+2019,ssp126,GPZii,-11.62,-2.17,-2.02,6.3,5.47,"Year: 2019
+Mean change: -2.2%
+SD: ±5.5%"
+2019,ssp126,GPZiii,-14.13,-2.76,-2.17,15.63,8.23,"Year: 2019
+Mean change: -2.8%
+SD: ±8.2%"
+2019,ssp126,KRZ,-12.52,0.35,-0.72,21.69,9.85,"Year: 2019
+Mean change: 0.3%
+SD: ±9.8%"
+2019,ssp126,SOSS,-21.87,-0.61,-5.63,39.96,18.36,"Year: 2019
+Mean change: -0.6%
+SD: ±18.4%"
+2019,ssp126,SRZ,-7.34,6.68,6.79,35.47,12.61,"Year: 2019
+Mean change: 6.7%
+SD: ±12.6%"
+2019,ssp585,GPZi,-13.21,-0.46,-0.96,10.91,6.69,"Year: 2019
+Mean change: -0.5%
+SD: ±6.7%"
+2019,ssp585,GPZii,-4.71,0.52,-0.36,12.87,4.86,"Year: 2019
+Mean change: 0.5%
+SD: ±4.9%"
+2019,ssp585,GPZiii,-8.11,-1.33,-1.58,8.28,4.25,"Year: 2019
+Mean change: -1.3%
+SD: ±4.2%"
+2019,ssp585,KRZ,-8.59,1,-0.06,14.92,7.42,"Year: 2019
+Mean change: 1%
+SD: ±7.4%"
+2019,ssp585,SOSS,-15.06,-1.55,-3.51,23.97,12.11,"Year: 2019
+Mean change: -1.6%
+SD: ±12.1%"
+2019,ssp585,SRZ,-41.7,-2.43,-0.14,24.49,24.81,"Year: 2019
+Mean change: -2.4%
+SD: ±24.8%"
+2020,ssp126,GPZi,-5.72,2.12,1.85,8.61,5.23,"Year: 2020
+Mean change: 2.1%
+SD: ±5.2%"
+2020,ssp126,GPZii,-13.5,-2.82,-3.59,8.51,7.62,"Year: 2020
+Mean change: -2.8%
+SD: ±7.6%"
+2020,ssp126,GPZiii,-7.7,-1.96,-2.08,6.74,4.05,"Year: 2020
+Mean change: -2%
+SD: ±4%"
+2020,ssp126,KRZ,-5.48,1.26,-1.17,13.17,6.49,"Year: 2020
+Mean change: 1.3%
+SD: ±6.5%"
+2020,ssp126,SOSS,-16.5,-2.45,-8.29,21.62,13.7,"Year: 2020
+Mean change: -2.5%
+SD: ±13.7%"
+2020,ssp126,SRZ,-6.21,9.03,7.41,39.73,13.85,"Year: 2020
+Mean change: 9%
+SD: ±13.8%"
+2020,ssp585,GPZi,-7.62,-0.22,-0.74,13.05,5.58,"Year: 2020
+Mean change: -0.2%
+SD: ±5.6%"
+2020,ssp585,GPZii,-5.3,0.33,-2.28,16.41,6.52,"Year: 2020
+Mean change: 0.3%
+SD: ±6.5%"
+2020,ssp585,GPZiii,-6.67,-0.14,-2.54,8.68,6.25,"Year: 2020
+Mean change: -0.1%
+SD: ±6.2%"
+2020,ssp585,KRZ,-8.57,-0.67,-1.48,9.95,5.65,"Year: 2020
+Mean change: -0.7%
+SD: ±5.7%"
+2020,ssp585,SOSS,-16.67,-5.2,-5.75,5.91,6.73,"Year: 2020
+Mean change: -5.2%
+SD: ±6.7%"
+2020,ssp585,SRZ,-30.9,-5.43,-2.32,20.56,15.02,"Year: 2020
+Mean change: -5.4%
+SD: ±15%"
+2021,ssp126,GPZi,-6,0.92,0.64,6.95,4.56,"Year: 2021
+Mean change: 0.9%
+SD: ±4.6%"
+2021,ssp126,GPZii,-11.47,-1.74,-2.84,6.03,5.95,"Year: 2021
+Mean change: -1.7%
+SD: ±6%"
+2021,ssp126,GPZiii,-10.71,-0.17,0.76,10.79,6.01,"Year: 2021
+Mean change: -0.2%
+SD: ±6%"
+2021,ssp126,KRZ,-15.56,4.9,1.5,30.23,14.4,"Year: 2021
+Mean change: 4.9%
+SD: ±14.4%"
+2021,ssp126,SOSS,-13.41,-3.69,-5.07,8.8,7.63,"Year: 2021
+Mean change: -3.7%
+SD: ±7.6%"
+2021,ssp126,SRZ,-13.69,4.15,4.45,28.6,13.3,"Year: 2021
+Mean change: 4.2%
+SD: ±13.3%"
+2021,ssp585,GPZi,-14.77,-1.49,-1.54,12.18,7.25,"Year: 2021
+Mean change: -1.5%
+SD: ±7.2%"
+2021,ssp585,GPZii,-4.87,-0.02,-1.77,18.42,6.8,"Year: 2021
+Mean change: 0%
+SD: ±6.8%"
+2021,ssp585,GPZiii,-19.25,-2.09,-2.73,19.01,10.34,"Year: 2021
+Mean change: -2.1%
+SD: ±10.3%"
+2021,ssp585,KRZ,-13.79,-4,-4.3,9.62,7.58,"Year: 2021
+Mean change: -4%
+SD: ±7.6%"
+2021,ssp585,SOSS,-12.42,0.3,-3.34,17.06,10.3,"Year: 2021
+Mean change: 0.3%
+SD: ±10.3%"
+2021,ssp585,SRZ,-19.67,-3.7,-5.53,19.32,11.48,"Year: 2021
+Mean change: -3.7%
+SD: ±11.5%"
+2022,ssp126,GPZi,-6.6,5.26,4.9,23.89,8.47,"Year: 2022
+Mean change: 5.3%
+SD: ±8.5%"
+2022,ssp126,GPZii,-14.82,-5.7,-6.25,6.96,6.17,"Year: 2022
+Mean change: -5.7%
+SD: ±6.2%"
+2022,ssp126,GPZiii,-12.52,-3.7,-3.67,6.97,5.69,"Year: 2022
+Mean change: -3.7%
+SD: ±5.7%"
+2022,ssp126,KRZ,-5.58,1.6,3.25,6.39,4.57,"Year: 2022
+Mean change: 1.6%
+SD: ±4.6%"
+2022,ssp126,SOSS,-26.65,-5.79,-2.62,5.44,11.06,"Year: 2022
+Mean change: -5.8%
+SD: ±11.1%"
+2022,ssp126,SRZ,-6.43,5.46,0.4,30.55,12.09,"Year: 2022
+Mean change: 5.5%
+SD: ±12.1%"
+2022,ssp585,GPZi,-8.85,1.17,1.42,10.55,6.4,"Year: 2022
+Mean change: 1.2%
+SD: ±6.4%"
+2022,ssp585,GPZii,-8.26,1.6,-3.36,19.14,9.2,"Year: 2022
+Mean change: 1.6%
+SD: ±9.2%"
+2022,ssp585,GPZiii,-57.92,-10.92,-7.06,19.81,23.71,"Year: 2022
+Mean change: -10.9%
+SD: ±23.7%"
+2022,ssp585,KRZ,-5.14,4.77,-0.54,25.76,11.18,"Year: 2022
+Mean change: 4.8%
+SD: ±11.2%"
+2022,ssp585,SOSS,-19.16,5.63,-1.44,38.22,18.91,"Year: 2022
+Mean change: 5.6%
+SD: ±18.9%"
+2022,ssp585,SRZ,-22.16,-3.02,-4.08,19.56,12.21,"Year: 2022
+Mean change: -3%
+SD: ±12.2%"
+2023,ssp126,GPZi,-12.13,-1.01,0.91,7.18,6.59,"Year: 2023
+Mean change: -1%
+SD: ±6.6%"
+2023,ssp126,GPZii,-13.46,-6.33,-6.43,6.81,5.87,"Year: 2023
+Mean change: -6.3%
+SD: ±5.9%"
+2023,ssp126,GPZiii,-17.4,-6.81,-6.08,7.32,7.58,"Year: 2023
+Mean change: -6.8%
+SD: ±7.6%"
+2023,ssp126,KRZ,-6.76,-0.25,-0.84,9.62,4.88,"Year: 2023
+Mean change: -0.2%
+SD: ±4.9%"
+2023,ssp126,SOSS,-23.27,4.67,3.27,27.7,16.67,"Year: 2023
+Mean change: 4.7%
+SD: ±16.7%"
+2023,ssp126,SRZ,-32.24,-5.7,-5.48,18.49,15.61,"Year: 2023
+Mean change: -5.7%
+SD: ±15.6%"
+2023,ssp585,GPZi,-11.47,-2.06,-1.16,4.45,5.46,"Year: 2023
+Mean change: -2.1%
+SD: ±5.5%"
+2023,ssp585,GPZii,-6.83,1.92,-1.07,21.01,8.69,"Year: 2023
+Mean change: 1.9%
+SD: ±8.7%"
+2023,ssp585,GPZiii,-21.27,-5.89,-7.73,8.35,8.97,"Year: 2023
+Mean change: -5.9%
+SD: ±9%"
+2023,ssp585,KRZ,-16.23,0.47,1.5,19.12,8.94,"Year: 2023
+Mean change: 0.5%
+SD: ±8.9%"
+2023,ssp585,SOSS,-20.25,-5.9,-5.89,6.77,7.19,"Year: 2023
+Mean change: -5.9%
+SD: ±7.2%"
+2023,ssp585,SRZ,-35.25,-9.92,-7.47,16.32,15.08,"Year: 2023
+Mean change: -9.9%
+SD: ±15.1%"
+2024,ssp126,GPZi,-9.49,-1.64,-1.87,7.31,5.69,"Year: 2024
+Mean change: -1.6%
+SD: ±5.7%"
+2024,ssp126,GPZii,-15.29,-5.96,-5.45,5.33,5.5,"Year: 2024
+Mean change: -6%
+SD: ±5.5%"
+2024,ssp126,GPZiii,-18.05,-3.14,-6.48,19.74,11.97,"Year: 2024
+Mean change: -3.1%
+SD: ±12%"
+2024,ssp126,KRZ,-3.77,4.35,3.59,20.8,7.8,"Year: 2024
+Mean change: 4.3%
+SD: ±7.8%"
+2024,ssp126,SOSS,-34.11,-11.83,-7.52,4.04,11.57,"Year: 2024
+Mean change: -11.8%
+SD: ±11.6%"
+2024,ssp126,SRZ,-27.41,-5.7,-5.64,15.51,14.25,"Year: 2024
+Mean change: -5.7%
+SD: ±14.2%"
+2024,ssp585,GPZi,-22.22,-8.01,-8.44,6.37,9.21,"Year: 2024
+Mean change: -8%
+SD: ±9.2%"
+2024,ssp585,GPZii,-5.31,3.73,1.09,24.94,9.1,"Year: 2024
+Mean change: 3.7%
+SD: ±9.1%"
+2024,ssp585,GPZiii,-21.25,-6.76,-7.2,9.13,9.23,"Year: 2024
+Mean change: -6.8%
+SD: ±9.2%"
+2024,ssp585,KRZ,-22.37,-7.9,-6.15,1.21,8.13,"Year: 2024
+Mean change: -7.9%
+SD: ±8.1%"
+2024,ssp585,SOSS,-17.08,-3.14,-3.15,14.57,9.73,"Year: 2024
+Mean change: -3.1%
+SD: ±9.7%"
+2024,ssp585,SRZ,-24.66,-12.46,-13.13,9.86,11.4,"Year: 2024
+Mean change: -12.5%
+SD: ±11.4%"
+2025,ssp126,GPZi,-22.93,-6.41,-7.23,5.81,7.45,"Year: 2025
+Mean change: -6.4%
+SD: ±7.4%"
+2025,ssp126,GPZii,-11.39,-2.87,-3.96,3.87,5.25,"Year: 2025
+Mean change: -2.9%
+SD: ±5.2%"
+2025,ssp126,GPZiii,-41.87,-13.53,-9.78,-1.17,12.01,"Year: 2025
+Mean change: -13.5%
+SD: ±12%"
+2025,ssp126,KRZ,-17.45,-5.94,-4.46,5.49,6.68,"Year: 2025
+Mean change: -5.9%
+SD: ±6.7%"
+2025,ssp126,SOSS,-19.63,-0.92,-5.23,38.16,17.81,"Year: 2025
+Mean change: -0.9%
+SD: ±17.8%"
+2025,ssp126,SRZ,-27.45,-3.3,-1.07,8.66,10.11,"Year: 2025
+Mean change: -3.3%
+SD: ±10.1%"
+2025,ssp585,GPZi,-8.17,-2.19,-1.22,3.34,3.86,"Year: 2025
+Mean change: -2.2%
+SD: ±3.9%"
+2025,ssp585,GPZii,-4.41,3.91,2.51,28.61,9.68,"Year: 2025
+Mean change: 3.9%
+SD: ±9.7%"
+2025,ssp585,GPZiii,-12.26,-6.16,-8.18,10.98,7.03,"Year: 2025
+Mean change: -6.2%
+SD: ±7%"
+2025,ssp585,KRZ,-10.39,1.62,1.18,20.72,10.04,"Year: 2025
+Mean change: 1.6%
+SD: ±10%"
+2025,ssp585,SOSS,-11.21,5.44,-2.16,39.31,17.81,"Year: 2025
+Mean change: 5.4%
+SD: ±17.8%"
+2025,ssp585,SRZ,-27.73,-11.03,-9.11,0.43,8.22,"Year: 2025
+Mean change: -11%
+SD: ±8.2%"
+2026,ssp126,GPZi,-21.63,-8.02,-5.38,1.84,8.26,"Year: 2026
+Mean change: -8%
+SD: ±8.3%"
+2026,ssp126,GPZii,-8.78,-2.93,-4.16,4.48,4.63,"Year: 2026
+Mean change: -2.9%
+SD: ±4.6%"
+2026,ssp126,GPZiii,-35.1,-15.06,-10.94,-3.87,10.14,"Year: 2026
+Mean change: -15.1%
+SD: ±10.1%"
+2026,ssp126,KRZ,-8.5,-0.16,-3.93,20.86,9.36,"Year: 2026
+Mean change: -0.2%
+SD: ±9.4%"
+2026,ssp126,SOSS,-33.65,-9.48,-7.78,6.08,11.01,"Year: 2026
+Mean change: -9.5%
+SD: ±11%"
+2026,ssp126,SRZ,-57,-12.66,-4.03,17.83,24.5,"Year: 2026
+Mean change: -12.7%
+SD: ±24.5%"
+2026,ssp585,GPZi,-8.53,-2.77,-3.1,4.83,4.01,"Year: 2026
+Mean change: -2.8%
+SD: ±4%"
+2026,ssp585,GPZii,-10.58,1.48,-1.39,28.99,12.39,"Year: 2026
+Mean change: 1.5%
+SD: ±12.4%"
+2026,ssp585,GPZiii,-19.07,-8.55,-11.06,5.18,7.36,"Year: 2026
+Mean change: -8.6%
+SD: ±7.4%"
+2026,ssp585,KRZ,-11.22,-0.94,-1.4,8.41,7.03,"Year: 2026
+Mean change: -0.9%
+SD: ±7%"
+2026,ssp585,SOSS,-9.12,-0.06,0.67,9.37,6.18,"Year: 2026
+Mean change: -0.1%
+SD: ±6.2%"
+2026,ssp585,SRZ,-11.79,2.06,-0.06,29.01,12.09,"Year: 2026
+Mean change: 2.1%
+SD: ±12.1%"
+2027,ssp126,GPZi,-26.82,-10.17,-9.1,6.96,10.14,"Year: 2027
+Mean change: -10.2%
+SD: ±10.1%"
+2027,ssp126,GPZii,-6.31,-3.05,-3.91,3.03,3,"Year: 2027
+Mean change: -3%
+SD: ±3%"
+2027,ssp126,GPZiii,-24.57,-15.31,-13.84,-7.01,6.15,"Year: 2027
+Mean change: -15.3%
+SD: ±6.2%"
+2027,ssp126,KRZ,-13.33,-5.65,-6.1,5.6,6.45,"Year: 2027
+Mean change: -5.7%
+SD: ±6.4%"
+2027,ssp126,SOSS,-18.51,0.52,-4.82,40.66,17,"Year: 2027
+Mean change: 0.5%
+SD: ±17%"
+2027,ssp126,SRZ,-54.62,-14.77,-7.43,24.63,23.22,"Year: 2027
+Mean change: -14.8%
+SD: ±23.2%"
+2027,ssp585,GPZi,-8.53,0.16,0.95,9.49,5.41,"Year: 2027
+Mean change: 0.2%
+SD: ±5.4%"
+2027,ssp585,GPZii,-10.92,0.73,-2.89,26.65,10.57,"Year: 2027
+Mean change: 0.7%
+SD: ±10.6%"
+2027,ssp585,GPZiii,-24.01,-12.25,-11.82,-1.31,6.44,"Year: 2027
+Mean change: -12.2%
+SD: ±6.4%"
+2027,ssp585,KRZ,-14.87,-5.14,-6.93,9.24,6.74,"Year: 2027
+Mean change: -5.1%
+SD: ±6.7%"
+2027,ssp585,SOSS,-26.86,-0.37,-4.56,30.93,17.71,"Year: 2027
+Mean change: -0.4%
+SD: ±17.7%"
+2027,ssp585,SRZ,-14.78,7.31,11.18,34.88,15.79,"Year: 2027
+Mean change: 7.3%
+SD: ±15.8%"
+2028,ssp126,GPZi,-24.46,-2.97,-5.87,23.79,12.44,"Year: 2028
+Mean change: -3%
+SD: ±12.4%"
+2028,ssp126,GPZii,-7.22,-2.28,-3.55,5.42,4.36,"Year: 2028
+Mean change: -2.3%
+SD: ±4.4%"
+2028,ssp126,GPZiii,-28.91,-12.6,-12.68,5.01,10,"Year: 2028
+Mean change: -12.6%
+SD: ±10%"
+2028,ssp126,KRZ,-15.37,-2.98,-6.61,16.44,9.81,"Year: 2028
+Mean change: -3%
+SD: ±9.8%"
+2028,ssp126,SOSS,-14.56,4.04,-3.9,38.87,18.95,"Year: 2028
+Mean change: 4%
+SD: ±19%"
+2028,ssp126,SRZ,-23.29,4.98,2.84,49.87,20.01,"Year: 2028
+Mean change: 5%
+SD: ±20%"
+2028,ssp585,GPZi,-13.52,-5.31,-5.46,2.61,5.14,"Year: 2028
+Mean change: -5.3%
+SD: ±5.1%"
+2028,ssp585,GPZii,-6.86,1.37,-0.8,22.66,8.38,"Year: 2028
+Mean change: 1.4%
+SD: ±8.4%"
+2028,ssp585,GPZiii,-18.87,-3.09,-6.22,20.06,12.28,"Year: 2028
+Mean change: -3.1%
+SD: ±12.3%"
+2028,ssp585,KRZ,-11.24,-1.18,-0.46,7.5,5.18,"Year: 2028
+Mean change: -1.2%
+SD: ±5.2%"
+2028,ssp585,SOSS,-15.06,-0.56,-4.5,21.9,11.09,"Year: 2028
+Mean change: -0.6%
+SD: ±11.1%"
+2028,ssp585,SRZ,-26.72,-11.53,-10.85,1.56,9.88,"Year: 2028
+Mean change: -11.5%
+SD: ±9.9%"
+2029,ssp126,GPZi,-20.73,-3.02,-2.76,9,8.87,"Year: 2029
+Mean change: -3%
+SD: ±8.9%"
+2029,ssp126,GPZii,-9.35,0.3,-2.22,14.92,8.55,"Year: 2029
+Mean change: 0.3%
+SD: ±8.6%"
+2029,ssp126,GPZiii,-27.09,-11.89,-11.96,4.88,9.21,"Year: 2029
+Mean change: -11.9%
+SD: ±9.2%"
+2029,ssp126,KRZ,-15.33,-4.36,-5.6,6.34,7.39,"Year: 2029
+Mean change: -4.4%
+SD: ±7.4%"
+2029,ssp126,SOSS,-27.89,-4.47,-4.88,17.81,12.4,"Year: 2029
+Mean change: -4.5%
+SD: ±12.4%"
+2029,ssp126,SRZ,-22.99,2.66,4.97,30.53,16.19,"Year: 2029
+Mean change: 2.7%
+SD: ±16.2%"
+2029,ssp585,GPZi,-14.97,-3.94,-6.12,10.65,8.54,"Year: 2029
+Mean change: -3.9%
+SD: ±8.5%"
+2029,ssp585,GPZii,-9.34,-1.41,-3.55,18.05,7.79,"Year: 2029
+Mean change: -1.4%
+SD: ±7.8%"
+2029,ssp585,GPZiii,-24.07,-9.42,-6.81,3.43,9.68,"Year: 2029
+Mean change: -9.4%
+SD: ±9.7%"
+2029,ssp585,KRZ,-12.57,-1.25,-3.62,17.3,9.24,"Year: 2029
+Mean change: -1.2%
+SD: ±9.2%"
+2029,ssp585,SOSS,-17.72,1.08,-4.5,29.59,16.81,"Year: 2029
+Mean change: 1.1%
+SD: ±16.8%"
+2029,ssp585,SRZ,-32.08,-13.33,-14.34,5.63,12.72,"Year: 2029
+Mean change: -13.3%
+SD: ±12.7%"
+2030,ssp126,GPZi,-10.31,-2.69,-3.92,7.57,6.13,"Year: 2030
+Mean change: -2.7%
+SD: ±6.1%"
+2030,ssp126,GPZii,-24.61,-3.71,-3.05,15.57,11.89,"Year: 2030
+Mean change: -3.7%
+SD: ±11.9%"
+2030,ssp126,GPZiii,-21.26,-3.97,-10.45,35.25,19.83,"Year: 2030
+Mean change: -4%
+SD: ±19.8%"
+2030,ssp126,KRZ,-13.47,3.62,0.8,32.88,12.78,"Year: 2030
+Mean change: 3.6%
+SD: ±12.8%"
+2030,ssp126,SOSS,-27.23,-4.37,-5.03,32.57,15.04,"Year: 2030
+Mean change: -4.4%
+SD: ±15%"
+2030,ssp126,SRZ,-16.35,2.09,2.13,21.18,9.78,"Year: 2030
+Mean change: 2.1%
+SD: ±9.8%"
+2030,ssp585,GPZi,-9.75,-3.38,-1.91,2.37,3.99,"Year: 2030
+Mean change: -3.4%
+SD: ±4%"
+2030,ssp585,GPZii,-9.89,-1.86,-4.58,13.38,6.49,"Year: 2030
+Mean change: -1.9%
+SD: ±6.5%"
+2030,ssp585,GPZiii,-23.81,-7.94,-4.65,5.72,9.23,"Year: 2030
+Mean change: -7.9%
+SD: ±9.2%"
+2030,ssp585,KRZ,-13.98,-2.64,-1.89,10.31,7,"Year: 2030
+Mean change: -2.6%
+SD: ±7%"
+2030,ssp585,SOSS,-17.66,-7.75,-9.6,9.85,8.31,"Year: 2030
+Mean change: -7.8%
+SD: ±8.3%"
+2030,ssp585,SRZ,-53.31,-15.37,-12.37,11.79,21.26,"Year: 2030
+Mean change: -15.4%
+SD: ±21.3%"
+2031,ssp126,GPZi,-11.12,-4.79,-4.6,3.47,5.57,"Year: 2031
+Mean change: -4.8%
+SD: ±5.6%"
+2031,ssp126,GPZii,-11.56,-3.79,-4.83,8.71,5.93,"Year: 2031
+Mean change: -3.8%
+SD: ±5.9%"
+2031,ssp126,GPZiii,-35.41,-18.01,-14.82,-4.7,9.55,"Year: 2031
+Mean change: -18%
+SD: ±9.6%"
+2031,ssp126,KRZ,-24.5,-7.05,-4.63,6.75,9.66,"Year: 2031
+Mean change: -7%
+SD: ±9.7%"
+2031,ssp126,SOSS,-12.13,-1.89,-1.96,11.22,7.07,"Year: 2031
+Mean change: -1.9%
+SD: ±7.1%"
+2031,ssp126,SRZ,-17.89,0.98,0.47,19.27,11.41,"Year: 2031
+Mean change: 1%
+SD: ±11.4%"
+2031,ssp585,GPZi,-23.91,-7.13,-5.96,1.68,8.33,"Year: 2031
+Mean change: -7.1%
+SD: ±8.3%"
+2031,ssp585,GPZii,-10.2,-2.03,-3.06,9.6,5.58,"Year: 2031
+Mean change: -2%
+SD: ±5.6%"
+2031,ssp585,GPZiii,-21.53,-2.86,-0.32,11.93,10.1,"Year: 2031
+Mean change: -2.9%
+SD: ±10.1%"
+2031,ssp585,KRZ,-15.46,-2.61,-1.77,8.66,6.05,"Year: 2031
+Mean change: -2.6%
+SD: ±6%"
+2031,ssp585,SOSS,-48.71,-9.64,-5.52,27.64,23.13,"Year: 2031
+Mean change: -9.6%
+SD: ±23.1%"
+2031,ssp585,SRZ,-62.53,-17.08,-13.88,30.22,28.7,"Year: 2031
+Mean change: -17.1%
+SD: ±28.7%"
+2032,ssp126,GPZi,-11.67,0.07,2.14,15.54,8.72,"Year: 2032
+Mean change: 0.1%
+SD: ±8.7%"
+2032,ssp126,GPZii,-16.54,-5.14,-4.72,6.08,6.11,"Year: 2032
+Mean change: -5.1%
+SD: ±6.1%"
+2032,ssp126,GPZiii,-24.96,-2.02,-8.43,37.99,20.5,"Year: 2032
+Mean change: -2%
+SD: ±20.5%"
+2032,ssp126,KRZ,-17.49,1.84,0.07,30.24,12.71,"Year: 2032
+Mean change: 1.8%
+SD: ±12.7%"
+2032,ssp126,SOSS,-10.79,-0.26,-2.22,17.9,8.29,"Year: 2032
+Mean change: -0.3%
+SD: ±8.3%"
+2032,ssp126,SRZ,-19.14,1.59,1.16,24.78,11.9,"Year: 2032
+Mean change: 1.6%
+SD: ±11.9%"
+2032,ssp585,GPZi,-10.4,-4.74,-5.4,3.35,4.29,"Year: 2032
+Mean change: -4.7%
+SD: ±4.3%"
+2032,ssp585,GPZii,-10.21,0.2,-0.05,8.26,6.86,"Year: 2032
+Mean change: 0.2%
+SD: ±6.9%"
+2032,ssp585,GPZiii,-23.07,-0.95,-0.56,25.2,12.91,"Year: 2032
+Mean change: -0.9%
+SD: ±12.9%"
+2032,ssp585,KRZ,-21.65,-9.45,-6.71,-2.3,7.15,"Year: 2032
+Mean change: -9.4%
+SD: ±7.2%"
+2032,ssp585,SOSS,-44.51,-11.63,-6.78,4.71,14.9,"Year: 2032
+Mean change: -11.6%
+SD: ±14.9%"
+2032,ssp585,SRZ,-16.7,-0.17,-4.97,22.23,13.44,"Year: 2032
+Mean change: -0.2%
+SD: ±13.4%"
+2033,ssp126,GPZi,-12.85,-3.66,-2.62,4.35,5.77,"Year: 2033
+Mean change: -3.7%
+SD: ±5.8%"
+2033,ssp126,GPZii,-14.11,-6.07,-6.58,3.08,5.38,"Year: 2033
+Mean change: -6.1%
+SD: ±5.4%"
+2033,ssp126,GPZiii,-35.97,-16.48,-13.87,-3.38,10.57,"Year: 2033
+Mean change: -16.5%
+SD: ±10.6%"
+2033,ssp126,KRZ,-19.46,-5.94,-7.05,9.21,9.03,"Year: 2033
+Mean change: -5.9%
+SD: ±9%"
+2033,ssp126,SOSS,-7.47,1.44,-2.34,19.13,9.98,"Year: 2033
+Mean change: 1.4%
+SD: ±10%"
+2033,ssp126,SRZ,-20.19,2.8,1.9,40.65,17.45,"Year: 2033
+Mean change: 2.8%
+SD: ±17.4%"
+2033,ssp585,GPZi,-12.35,-6.34,-8.42,4.96,5.62,"Year: 2033
+Mean change: -6.3%
+SD: ±5.6%"
+2033,ssp585,GPZii,-7.34,-2.86,-4.14,7.87,4.73,"Year: 2033
+Mean change: -2.9%
+SD: ±4.7%"
+2033,ssp585,GPZiii,-27.57,-6.17,0.2,6.33,12.34,"Year: 2033
+Mean change: -6.2%
+SD: ±12.3%"
+2033,ssp585,KRZ,-18.68,-6.08,-6.01,4.55,6.52,"Year: 2033
+Mean change: -6.1%
+SD: ±6.5%"
+2033,ssp585,SOSS,-21.58,-5.37,-7.15,43.54,18.82,"Year: 2033
+Mean change: -5.4%
+SD: ±18.8%"
+2033,ssp585,SRZ,-42.55,-15.47,-11.54,3.32,16.71,"Year: 2033
+Mean change: -15.5%
+SD: ±16.7%"
+2034,ssp126,GPZi,-17.14,-6.05,-7.41,7.71,8.22,"Year: 2034
+Mean change: -6%
+SD: ±8.2%"
+2034,ssp126,GPZii,-7.94,-3.2,-4.68,8.75,5.09,"Year: 2034
+Mean change: -3.2%
+SD: ±5.1%"
+2034,ssp126,GPZiii,-29.38,-3.09,-8.22,28.53,18.59,"Year: 2034
+Mean change: -3.1%
+SD: ±18.6%"
+2034,ssp126,KRZ,-21.36,1.6,2.74,21.13,12.44,"Year: 2034
+Mean change: 1.6%
+SD: ±12.4%"
+2034,ssp126,SOSS,-24.11,-4.58,-7.11,19.4,12.78,"Year: 2034
+Mean change: -4.6%
+SD: ±12.8%"
+2034,ssp126,SRZ,-53.83,-13.77,-9.52,15.54,22.33,"Year: 2034
+Mean change: -13.8%
+SD: ±22.3%"
+2034,ssp585,GPZi,-11.31,-4.51,-3.83,5.43,4.9,"Year: 2034
+Mean change: -4.5%
+SD: ±4.9%"
+2034,ssp585,GPZii,-9.47,-3.7,-6.38,6.7,5.64,"Year: 2034
+Mean change: -3.7%
+SD: ±5.6%"
+2034,ssp585,GPZiii,-32.5,-14.31,-14.68,3.51,12.59,"Year: 2034
+Mean change: -14.3%
+SD: ±12.6%"
+2034,ssp585,KRZ,-20.04,-6.37,-5.51,4.89,7.86,"Year: 2034
+Mean change: -6.4%
+SD: ±7.9%"
+2034,ssp585,SOSS,-26.18,-8.12,-8.85,11.33,9.93,"Year: 2034
+Mean change: -8.1%
+SD: ±9.9%"
+2034,ssp585,SRZ,-18.84,-2.68,-4.02,18.73,10.29,"Year: 2034
+Mean change: -2.7%
+SD: ±10.3%"
+2035,ssp126,GPZi,-15.02,-5.15,-4,3.96,6.94,"Year: 2035
+Mean change: -5.2%
+SD: ±6.9%"
+2035,ssp126,GPZii,-16.8,-4.16,-6.41,11.38,8.95,"Year: 2035
+Mean change: -4.2%
+SD: ±8.9%"
+2035,ssp126,GPZiii,-31.44,-11.31,-7.8,5.05,13.29,"Year: 2035
+Mean change: -11.3%
+SD: ±13.3%"
+2035,ssp126,KRZ,-23.11,-2.25,0.46,6.18,9.19,"Year: 2035
+Mean change: -2.2%
+SD: ±9.2%"
+2035,ssp126,SOSS,-45.81,-12.23,-6.99,8.89,18.38,"Year: 2035
+Mean change: -12.2%
+SD: ±18.4%"
+2035,ssp126,SRZ,-21.65,-3.43,-2.62,11.28,9.72,"Year: 2035
+Mean change: -3.4%
+SD: ±9.7%"
+2035,ssp585,GPZi,-14.2,-5.47,-6.47,6.97,6.63,"Year: 2035
+Mean change: -5.5%
+SD: ±6.6%"
+2035,ssp585,GPZii,-11.12,0.72,-0.73,17.76,10.07,"Year: 2035
+Mean change: 0.7%
+SD: ±10.1%"
+2035,ssp585,GPZiii,-26.91,-10.43,-10.17,0.83,7.54,"Year: 2035
+Mean change: -10.4%
+SD: ±7.5%"
+2035,ssp585,KRZ,-21.41,-3.76,-4.71,19,12.42,"Year: 2035
+Mean change: -3.8%
+SD: ±12.4%"
+2035,ssp585,SOSS,-20.01,-6.4,-9.87,36.94,16.71,"Year: 2035
+Mean change: -6.4%
+SD: ±16.7%"
+2035,ssp585,SRZ,-19.92,-2.73,-2.85,22.91,12.84,"Year: 2035
+Mean change: -2.7%
+SD: ±12.8%"
+2036,ssp126,GPZi,-15.85,-6.34,-7.45,3.36,6.58,"Year: 2036
+Mean change: -6.3%
+SD: ±6.6%"
+2036,ssp126,GPZii,-8.16,-0.56,-3.8,11.63,7.39,"Year: 2036
+Mean change: -0.6%
+SD: ±7.4%"
+2036,ssp126,GPZiii,-33.47,-10.13,-11.52,8.17,12.95,"Year: 2036
+Mean change: -10.1%
+SD: ±12.9%"
+2036,ssp126,KRZ,-24.59,-3.66,-2.65,21.62,14.34,"Year: 2036
+Mean change: -3.7%
+SD: ±14.3%"
+2036,ssp126,SOSS,-15.02,5.9,-1.17,38.4,18.58,"Year: 2036
+Mean change: 5.9%
+SD: ±18.6%"
+2036,ssp126,SRZ,-22.31,-1.74,-2.91,23.28,12.93,"Year: 2036
+Mean change: -1.7%
+SD: ±12.9%"
+2036,ssp585,GPZi,-18.22,-5.84,-6.83,5.97,8.47,"Year: 2036
+Mean change: -5.8%
+SD: ±8.5%"
+2036,ssp585,GPZii,-7.25,-1.37,-1.56,4.81,3.78,"Year: 2036
+Mean change: -1.4%
+SD: ±3.8%"
+2036,ssp585,GPZiii,-32.34,-15.55,-14.96,0.67,9.46,"Year: 2036
+Mean change: -15.6%
+SD: ±9.5%"
+2036,ssp585,KRZ,-21.81,-3.8,-2.46,9.61,11.23,"Year: 2036
+Mean change: -3.8%
+SD: ±11.2%"
+2036,ssp585,SOSS,-16.14,-4.05,-7.85,17.39,11.29,"Year: 2036
+Mean change: -4%
+SD: ±11.3%"
+2036,ssp585,SRZ,-36.56,-6.54,-10.01,33.19,20.14,"Year: 2036
+Mean change: -6.5%
+SD: ±20.1%"
+2037,ssp126,GPZi,-16.47,-5.67,-8.67,7.95,8.48,"Year: 2037
+Mean change: -5.7%
+SD: ±8.5%"
+2037,ssp126,GPZii,-14.54,-3.94,-3.42,2.58,4.93,"Year: 2037
+Mean change: -3.9%
+SD: ±4.9%"
+2037,ssp126,GPZiii,-35.36,-11.74,-11.05,-0.12,10.28,"Year: 2037
+Mean change: -11.7%
+SD: ±10.3%"
+2037,ssp126,KRZ,-25.66,-3.93,-2.55,13.67,11.74,"Year: 2037
+Mean change: -3.9%
+SD: ±11.7%"
+2037,ssp126,SOSS,-16.89,-6.93,-7.73,6.9,7.78,"Year: 2037
+Mean change: -6.9%
+SD: ±7.8%"
+2037,ssp126,SRZ,-31.81,-9.62,-10.72,23.32,16.92,"Year: 2037
+Mean change: -9.6%
+SD: ±16.9%"
+2037,ssp585,GPZi,-15.84,-4.06,-2.84,11.17,8.87,"Year: 2037
+Mean change: -4.1%
+SD: ±8.9%"
+2037,ssp585,GPZii,-7.91,-0.73,-0.46,7,4.78,"Year: 2037
+Mean change: -0.7%
+SD: ±4.8%"
+2037,ssp585,GPZiii,-29.81,-7.82,-10.26,11.96,12.19,"Year: 2037
+Mean change: -7.8%
+SD: ±12.2%"
+2037,ssp585,KRZ,-22.4,3.01,2.95,31.59,15.57,"Year: 2037
+Mean change: 3%
+SD: ±15.6%"
+2037,ssp585,SOSS,-15.86,-2.92,-7.56,13.66,10.28,"Year: 2037
+Mean change: -2.9%
+SD: ±10.3%"
+2037,ssp585,SRZ,-21.79,2.45,2.92,33.47,15.81,"Year: 2037
+Mean change: 2.5%
+SD: ±15.8%"
+2038,ssp126,GPZi,-16.91,-3.9,-6.61,12.7,9.4,"Year: 2038
+Mean change: -3.9%
+SD: ±9.4%"
+2038,ssp126,GPZii,-7.71,-5.05,-5.66,-0.19,2.38,"Year: 2038
+Mean change: -5%
+SD: ±2.4%"
+2038,ssp126,GPZiii,-37.09,-8.17,-6.8,12.34,13.92,"Year: 2038
+Mean change: -8.2%
+SD: ±13.9%"
+2038,ssp126,KRZ,-26.46,-2.19,-2.54,11.7,10.56,"Year: 2038
+Mean change: -2.2%
+SD: ±10.6%"
+2038,ssp126,SOSS,-31.38,-9.59,-6.93,2.72,11.02,"Year: 2038
+Mean change: -9.6%
+SD: ±11%"
+2038,ssp126,SRZ,-23.74,-4.47,-1.11,17.95,13.76,"Year: 2038
+Mean change: -4.5%
+SD: ±13.8%"
+2038,ssp585,GPZi,-17.69,-3.36,-2.02,12.73,9.28,"Year: 2038
+Mean change: -3.4%
+SD: ±9.3%"
+2038,ssp585,GPZii,-8.82,-3.41,-3.87,3.57,3.99,"Year: 2038
+Mean change: -3.4%
+SD: ±4%"
+2038,ssp585,GPZiii,-32.69,-11.3,-13.96,28.84,17.46,"Year: 2038
+Mean change: -11.3%
+SD: ±17.5%"
+2038,ssp585,KRZ,-23.05,-7.58,-4.34,0.48,7.63,"Year: 2038
+Mean change: -7.6%
+SD: ±7.6%"
+2038,ssp585,SOSS,-10.16,-4.42,-5.13,3.48,4.45,"Year: 2038
+Mean change: -4.4%
+SD: ±4.4%"
+2038,ssp585,SRZ,-22.39,-0.36,3.68,14.71,10.93,"Year: 2038
+Mean change: -0.4%
+SD: ±10.9%"
+2039,ssp126,GPZi,-17.43,-5.77,-10.64,11.82,9.64,"Year: 2039
+Mean change: -5.8%
+SD: ±9.6%"
+2039,ssp126,GPZii,-7.31,-4.05,-4.69,1.35,3.34,"Year: 2039
+Mean change: -4%
+SD: ±3.3%"
+2039,ssp126,GPZiii,-38.77,-15.43,-13.27,-2.28,11.64,"Year: 2039
+Mean change: -15.4%
+SD: ±11.6%"
+2039,ssp126,KRZ,-27.45,-3.81,-3.82,13.2,11.72,"Year: 2039
+Mean change: -3.8%
+SD: ±11.7%"
+2039,ssp126,SOSS,-11.77,4.4,-1.46,41.14,17.72,"Year: 2039
+Mean change: 4.4%
+SD: ±17.7%"
+2039,ssp126,SRZ,-24.52,-1.43,-4.66,36.75,16.9,"Year: 2039
+Mean change: -1.4%
+SD: ±16.9%"
+2039,ssp585,GPZi,-14.92,-3.17,-2.56,11.05,8.08,"Year: 2039
+Mean change: -3.2%
+SD: ±8.1%"
+2039,ssp585,GPZii,-17.52,-6.53,-5.52,-0.56,5.3,"Year: 2039
+Mean change: -6.5%
+SD: ±5.3%"
+2039,ssp585,GPZiii,-32.51,-10.24,-6.74,1.75,10.04,"Year: 2039
+Mean change: -10.2%
+SD: ±10%"
+2039,ssp585,KRZ,-23.74,-0.05,-3.56,25.78,16.44,"Year: 2039
+Mean change: 0%
+SD: ±16.4%"
+2039,ssp585,SOSS,-23.35,-3.73,-3.3,8.65,9.39,"Year: 2039
+Mean change: -3.7%
+SD: ±9.4%"
+2039,ssp585,SRZ,-22.78,-7.55,-6.86,6.26,9.86,"Year: 2039
+Mean change: -7.6%
+SD: ±9.9%"
+2040,ssp126,GPZi,-18.06,-5.73,-4.64,3.73,7.35,"Year: 2040
+Mean change: -5.7%
+SD: ±7.3%"
+2040,ssp126,GPZii,-9.18,-3.7,-4.08,4.47,4.09,"Year: 2040
+Mean change: -3.7%
+SD: ±4.1%"
+2040,ssp126,GPZiii,-40.4,-11.16,-14.3,22.94,16.19,"Year: 2040
+Mean change: -11.2%
+SD: ±16.2%"
+2040,ssp126,KRZ,-28.55,0.52,5.59,17.02,14.96,"Year: 2040
+Mean change: 0.5%
+SD: ±15%"
+2040,ssp126,SOSS,-13.56,-0.92,-2.6,17.05,10.03,"Year: 2040
+Mean change: -0.9%
+SD: ±10%"
+2040,ssp126,SRZ,-25.35,-4.92,-4.44,23.78,15.84,"Year: 2040
+Mean change: -4.9%
+SD: ±15.8%"
+2040,ssp585,GPZi,-21.05,-8.67,-10.73,11.7,9.15,"Year: 2040
+Mean change: -8.7%
+SD: ±9.2%"
+2040,ssp585,GPZii,-13.96,-5.7,-7.44,6.25,6.59,"Year: 2040
+Mean change: -5.7%
+SD: ±6.6%"
+2040,ssp585,GPZiii,-33.86,-12.35,-12.76,11.09,11.47,"Year: 2040
+Mean change: -12.3%
+SD: ±11.5%"
+2040,ssp585,KRZ,-24.37,-2.27,-0.13,11.66,11.02,"Year: 2040
+Mean change: -2.3%
+SD: ±11%"
+2040,ssp585,SOSS,-18.99,4.59,-0.97,45.82,19.31,"Year: 2040
+Mean change: 4.6%
+SD: ±19.3%"
+2040,ssp585,SRZ,-64.24,-18.93,-14.55,26.46,26.32,"Year: 2040
+Mean change: -18.9%
+SD: ±26.3%"
+2041,ssp126,GPZi,-19.35,-7.44,-8.41,1.53,8.19,"Year: 2041
+Mean change: -7.4%
+SD: ±8.2%"
+2041,ssp126,GPZii,-10.98,-3.2,-6.68,9.89,7.5,"Year: 2041
+Mean change: -3.2%
+SD: ±7.5%"
+2041,ssp126,GPZiii,-41.88,-7.36,-8.45,18.98,17.67,"Year: 2041
+Mean change: -7.4%
+SD: ±17.7%"
+2041,ssp126,KRZ,-29.56,-5.3,-5.29,12.78,12.35,"Year: 2041
+Mean change: -5.3%
+SD: ±12.3%"
+2041,ssp126,SOSS,-14.34,2.29,-1.86,40.42,16.82,"Year: 2041
+Mean change: 2.3%
+SD: ±16.8%"
+2041,ssp126,SRZ,-26.16,-0.02,-0.24,15.36,13.6,"Year: 2041
+Mean change: 0%
+SD: ±13.6%"
+2041,ssp585,GPZi,-16.69,-2.69,-3.28,15.98,11.02,"Year: 2041
+Mean change: -2.7%
+SD: ±11%"
+2041,ssp585,GPZii,-12.5,-4.8,-6.21,14.26,7.87,"Year: 2041
+Mean change: -4.8%
+SD: ±7.9%"
+2041,ssp585,GPZiii,-35.22,-15.46,-16.22,-0.21,9.31,"Year: 2041
+Mean change: -15.5%
+SD: ±9.3%"
+2041,ssp585,KRZ,-24.84,2.46,-0.61,33.35,16.22,"Year: 2041
+Mean change: 2.5%
+SD: ±16.2%"
+2041,ssp585,SOSS,-12.2,-3.85,-3.99,5,5.86,"Year: 2041
+Mean change: -3.9%
+SD: ±5.9%"
+2041,ssp585,SRZ,-23.1,1.39,-4.19,27.66,17.22,"Year: 2041
+Mean change: 1.4%
+SD: ±17.2%"
+2042,ssp126,GPZi,-20.75,-2.94,-0.53,12.56,11.51,"Year: 2042
+Mean change: -2.9%
+SD: ±11.5%"
+2042,ssp126,GPZii,-20.53,-7.51,-7.54,3.48,6.33,"Year: 2042
+Mean change: -7.5%
+SD: ±6.3%"
+2042,ssp126,GPZiii,-43.22,-13.1,-11.83,0.01,12.27,"Year: 2042
+Mean change: -13.1%
+SD: ±12.3%"
+2042,ssp126,KRZ,-30.43,-4.83,-5.63,7.3,11.59,"Year: 2042
+Mean change: -4.8%
+SD: ±11.6%"
+2042,ssp126,SOSS,-15.29,-6.94,-7.77,6.22,7.73,"Year: 2042
+Mean change: -6.9%
+SD: ±7.7%"
+2042,ssp126,SRZ,-26.75,7.75,3.8,37.86,19.29,"Year: 2042
+Mean change: 7.8%
+SD: ±19.3%"
+2042,ssp585,GPZi,-15.16,-2.55,-0.33,8.67,8.21,"Year: 2042
+Mean change: -2.5%
+SD: ±8.2%"
+2042,ssp585,GPZii,-11.44,-7.53,-8.15,-2.56,3.08,"Year: 2042
+Mean change: -7.5%
+SD: ±3.1%"
+2042,ssp585,GPZiii,-36.54,-9.24,-12.91,17.75,15.85,"Year: 2042
+Mean change: -9.2%
+SD: ±15.8%"
+2042,ssp585,KRZ,-25.37,-2.23,-1.41,8.25,9.87,"Year: 2042
+Mean change: -2.2%
+SD: ±9.9%"
+2042,ssp585,SOSS,-10.68,-1.92,-2.81,15.85,8.19,"Year: 2042
+Mean change: -1.9%
+SD: ±8.2%"
+2042,ssp585,SRZ,-23.14,-5.14,-8.95,22.64,15.34,"Year: 2042
+Mean change: -5.1%
+SD: ±15.3%"
+2043,ssp126,GPZi,-19.3,-3.72,-2.86,11.97,8.79,"Year: 2043
+Mean change: -3.7%
+SD: ±8.8%"
+2043,ssp126,GPZii,-14.18,-7.33,-8.48,8.73,6.62,"Year: 2043
+Mean change: -7.3%
+SD: ±6.6%"
+2043,ssp126,GPZiii,-44.54,-15.73,-17,1.44,12.75,"Year: 2043
+Mean change: -15.7%
+SD: ±12.8%"
+2043,ssp126,KRZ,-31.23,-7.02,-5.64,7.66,10.66,"Year: 2043
+Mean change: -7%
+SD: ±10.7%"
+2043,ssp126,SOSS,-29.15,-7.73,-7.43,6.34,10.86,"Year: 2043
+Mean change: -7.7%
+SD: ±10.9%"
+2043,ssp126,SRZ,-27.19,3.1,9.36,26.21,19.48,"Year: 2043
+Mean change: 3.1%
+SD: ±19.5%"
+2043,ssp585,GPZi,-15.34,-7.16,-8.59,2,5.58,"Year: 2043
+Mean change: -7.2%
+SD: ±5.6%"
+2043,ssp585,GPZii,-12.89,-6.88,-6.76,1.71,4.17,"Year: 2043
+Mean change: -6.9%
+SD: ±4.2%"
+2043,ssp585,GPZiii,-37.84,-13.83,-11.72,-1.85,10.16,"Year: 2043
+Mean change: -13.8%
+SD: ±10.2%"
+2043,ssp585,KRZ,-26.08,-6.87,-5.94,3.84,8.24,"Year: 2043
+Mean change: -6.9%
+SD: ±8.2%"
+2043,ssp585,SOSS,-19.98,-6.46,-6.39,1.46,6.6,"Year: 2043
+Mean change: -6.5%
+SD: ±6.6%"
+2043,ssp585,SRZ,-23.26,-4.5,-7.33,15.72,12.57,"Year: 2043
+Mean change: -4.5%
+SD: ±12.6%"
+2044,ssp126,GPZi,-19.65,-1.48,-0.71,15.06,10.15,"Year: 2044
+Mean change: -1.5%
+SD: ±10.2%"
+2044,ssp126,GPZii,-14.78,-5.55,-7.13,8.43,6.98,"Year: 2044
+Mean change: -5.6%
+SD: ±7%"
+2044,ssp126,GPZiii,-45.83,-13.03,-10.23,7.2,14.14,"Year: 2044
+Mean change: -13%
+SD: ±14.1%"
+2044,ssp126,KRZ,-31.95,-5.58,-4.81,14.16,12.05,"Year: 2044
+Mean change: -5.6%
+SD: ±12.1%"
+2044,ssp126,SOSS,-37.91,-10.73,-8.01,6.5,14.05,"Year: 2044
+Mean change: -10.7%
+SD: ±14.1%"
+2044,ssp126,SRZ,-27.75,14.65,12.29,46.41,22.87,"Year: 2044
+Mean change: 14.7%
+SD: ±22.9%"
+2044,ssp585,GPZi,-15.66,-5.88,-8.22,14.18,8.31,"Year: 2044
+Mean change: -5.9%
+SD: ±8.3%"
+2044,ssp585,GPZii,-9.45,-3.33,-2.91,4.16,4.17,"Year: 2044
+Mean change: -3.3%
+SD: ±4.2%"
+2044,ssp585,GPZiii,-39.17,-14.69,-13.54,-1.33,10.37,"Year: 2044
+Mean change: -14.7%
+SD: ±10.4%"
+2044,ssp585,KRZ,-26.74,-5.83,-4.82,8.84,11.84,"Year: 2044
+Mean change: -5.8%
+SD: ±11.8%"
+2044,ssp585,SOSS,-12.33,1.37,-0.67,19.69,11.21,"Year: 2044
+Mean change: 1.4%
+SD: ±11.2%"
+2044,ssp585,SRZ,-23.58,-6.94,-12.08,24,17.02,"Year: 2044
+Mean change: -6.9%
+SD: ±17%"
+2045,ssp126,GPZi,-20.14,-6.39,-5.11,2.47,6.96,"Year: 2045
+Mean change: -6.4%
+SD: ±7%"
+2045,ssp126,GPZii,-14.98,-5.7,-6.39,2.2,5.85,"Year: 2045
+Mean change: -5.7%
+SD: ±5.8%"
+2045,ssp126,GPZiii,-47.02,-13.66,-16.68,14.1,18.34,"Year: 2045
+Mean change: -13.7%
+SD: ±18.3%"
+2045,ssp126,KRZ,-32.58,-11.51,-7.65,0.49,10.22,"Year: 2045
+Mean change: -11.5%
+SD: ±10.2%"
+2045,ssp126,SOSS,-29.28,-8.93,-14.1,26.23,16.43,"Year: 2045
+Mean change: -8.9%
+SD: ±16.4%"
+2045,ssp126,SRZ,-28.37,-0.51,-2.79,38.8,18.82,"Year: 2045
+Mean change: -0.5%
+SD: ±18.8%"
+2045,ssp585,GPZi,-16.01,-2.89,-1.59,8.62,7.82,"Year: 2045
+Mean change: -2.9%
+SD: ±7.8%"
+2045,ssp585,GPZii,-10.54,-6.19,-6.85,1.8,3.74,"Year: 2045
+Mean change: -6.2%
+SD: ±3.7%"
+2045,ssp585,GPZiii,-40.53,-13.96,-12.07,8.9,13.61,"Year: 2045
+Mean change: -14%
+SD: ±13.6%"
+2045,ssp585,KRZ,-27.16,-2.78,-1.01,10.18,10.52,"Year: 2045
+Mean change: -2.8%
+SD: ±10.5%"
+2045,ssp585,SOSS,-14.68,-2.94,-2.57,19.61,9.62,"Year: 2045
+Mean change: -2.9%
+SD: ±9.6%"
+2045,ssp585,SRZ,-24.06,6.43,4.7,43.43,20.83,"Year: 2045
+Mean change: 6.4%
+SD: ±20.8%"
+2046,ssp126,GPZi,-22.61,-11.26,-13.05,5.44,9.75,"Year: 2046
+Mean change: -11.3%
+SD: ±9.8%"
+2046,ssp126,GPZii,-29.51,-9.92,-10.19,7.55,9.89,"Year: 2046
+Mean change: -9.9%
+SD: ±9.9%"
+2046,ssp126,GPZiii,-48.21,-10.27,-9.48,11.85,17.09,"Year: 2046
+Mean change: -10.3%
+SD: ±17.1%"
+2046,ssp126,KRZ,-33.28,-11.9,-12.42,9.43,11.51,"Year: 2046
+Mean change: -11.9%
+SD: ±11.5%"
+2046,ssp126,SOSS,-21.25,-3.96,-4.93,35,17.1,"Year: 2046
+Mean change: -4%
+SD: ±17.1%"
+2046,ssp126,SRZ,-43.87,-9.54,-16.01,48.48,29.82,"Year: 2046
+Mean change: -9.5%
+SD: ±29.8%"
+2046,ssp585,GPZi,-16.45,-6.31,-5.96,3.08,6.83,"Year: 2046
+Mean change: -6.3%
+SD: ±6.8%"
+2046,ssp585,GPZii,-11.29,-3.95,-6,17.23,8.75,"Year: 2046
+Mean change: -4%
+SD: ±8.8%"
+2046,ssp585,GPZiii,-41.92,-15.21,-15.77,9.45,13.48,"Year: 2046
+Mean change: -15.2%
+SD: ±13.5%"
+2046,ssp585,KRZ,-27.31,-5.39,-3.06,6.26,10.7,"Year: 2046
+Mean change: -5.4%
+SD: ±10.7%"
+2046,ssp585,SOSS,-12.34,2.16,-0.66,30.28,13.06,"Year: 2046
+Mean change: 2.2%
+SD: ±13.1%"
+2046,ssp585,SRZ,-31.26,-4.91,-6.86,36.65,19.14,"Year: 2046
+Mean change: -4.9%
+SD: ±19.1%"
+2047,ssp126,GPZi,-21.26,-5.85,-5.22,16.12,10.77,"Year: 2047
+Mean change: -5.8%
+SD: ±10.8%"
+2047,ssp126,GPZii,-17.73,-1.68,-3.9,18.78,12.67,"Year: 2047
+Mean change: -1.7%
+SD: ±12.7%"
+2047,ssp126,GPZiii,-49.36,-14.58,-15.85,23.83,17.93,"Year: 2047
+Mean change: -14.6%
+SD: ±17.9%"
+2047,ssp126,KRZ,-33.92,-10.68,-8.87,13.79,12.66,"Year: 2047
+Mean change: -10.7%
+SD: ±12.7%"
+2047,ssp126,SOSS,-33.48,-6.64,-9.73,27.42,18.27,"Year: 2047
+Mean change: -6.6%
+SD: ±18.3%"
+2047,ssp126,SRZ,-31.32,-1.46,-6.58,47.68,27.46,"Year: 2047
+Mean change: -1.5%
+SD: ±27.5%"
+2047,ssp585,GPZi,-18.01,-5.35,-3.59,5.91,8.84,"Year: 2047
+Mean change: -5.3%
+SD: ±8.8%"
+2047,ssp585,GPZii,-10.8,-0.07,-4.62,21.83,11.24,"Year: 2047
+Mean change: -0.1%
+SD: ±11.2%"
+2047,ssp585,GPZiii,-43.24,-17.76,-15.82,-3.54,12.41,"Year: 2047
+Mean change: -17.8%
+SD: ±12.4%"
+2047,ssp585,KRZ,-27.36,-6.92,-5.17,11.61,11.83,"Year: 2047
+Mean change: -6.9%
+SD: ±11.8%"
+2047,ssp585,SOSS,-13.17,2.36,1.36,31.57,14.23,"Year: 2047
+Mean change: 2.4%
+SD: ±14.2%"
+2047,ssp585,SRZ,-25.72,10.12,11.12,53.25,20.85,"Year: 2047
+Mean change: 10.1%
+SD: ±20.9%"
+2048,ssp126,GPZi,-21.56,-4.67,-5.03,15.28,10.64,"Year: 2048
+Mean change: -4.7%
+SD: ±10.6%"
+2048,ssp126,GPZii,-20.42,-3.33,-3.46,12.67,10.15,"Year: 2048
+Mean change: -3.3%
+SD: ±10.2%"
+2048,ssp126,GPZiii,-50.46,-10.11,-7.19,10.76,17.54,"Year: 2048
+Mean change: -10.1%
+SD: ±17.5%"
+2048,ssp126,KRZ,-34.32,-0.79,-4.77,41.34,22.45,"Year: 2048
+Mean change: -0.8%
+SD: ±22.4%"
+2048,ssp126,SOSS,-22.29,5.97,-3.56,51.35,25.23,"Year: 2048
+Mean change: 6%
+SD: ±25.2%"
+2048,ssp126,SRZ,-29.8,-1.07,-2.44,38.57,19.2,"Year: 2048
+Mean change: -1.1%
+SD: ±19.2%"
+2048,ssp585,GPZi,-20.9,-9,-9.6,8.98,9.5,"Year: 2048
+Mean change: -9%
+SD: ±9.5%"
+2048,ssp585,GPZii,-16.14,-0.93,-1.78,12.57,9.59,"Year: 2048
+Mean change: -0.9%
+SD: ±9.6%"
+2048,ssp585,GPZiii,-44.48,-12.8,-16.21,15.67,19.3,"Year: 2048
+Mean change: -12.8%
+SD: ±19.3%"
+2048,ssp585,KRZ,-29.24,-6.49,-8.26,19.59,16.61,"Year: 2048
+Mean change: -6.5%
+SD: ±16.6%"
+2048,ssp585,SOSS,-13.48,3.64,-3.06,35.2,16.7,"Year: 2048
+Mean change: 3.6%
+SD: ±16.7%"
+2048,ssp585,SRZ,-26.45,-6.01,-2.69,4.44,10.67,"Year: 2048
+Mean change: -6%
+SD: ±10.7%"
+2049,ssp126,GPZi,-21.79,-4.81,-4.32,7.48,9.11,"Year: 2049
+Mean change: -4.8%
+SD: ±9.1%"
+2049,ssp126,GPZii,-15.31,-3.86,-6.21,9.33,7.11,"Year: 2049
+Mean change: -3.9%
+SD: ±7.1%"
+2049,ssp126,GPZiii,-51.55,-16.56,-11.95,-1.86,15.07,"Year: 2049
+Mean change: -16.6%
+SD: ±15.1%"
+2049,ssp126,KRZ,-34.63,-6.49,-5.92,13.13,13.66,"Year: 2049
+Mean change: -6.5%
+SD: ±13.7%"
+2049,ssp126,SOSS,-22.05,-8.19,-7.78,2.03,8.37,"Year: 2049
+Mean change: -8.2%
+SD: ±8.4%"
+2049,ssp126,SRZ,-29.74,2.98,-3.06,37.76,22.23,"Year: 2049
+Mean change: 3%
+SD: ±22.2%"
+2049,ssp585,GPZi,-17.91,-0.63,-2.46,15.93,13.48,"Year: 2049
+Mean change: -0.6%
+SD: ±13.5%"
+2049,ssp585,GPZii,-14.17,-5.28,-6.44,4.89,5.15,"Year: 2049
+Mean change: -5.3%
+SD: ±5.2%"
+2049,ssp585,GPZiii,-45.66,-12.83,-7.53,7.94,14.58,"Year: 2049
+Mean change: -12.8%
+SD: ±14.6%"
+2049,ssp585,KRZ,-27.67,-1.95,-2.65,30.57,17.01,"Year: 2049
+Mean change: -2%
+SD: ±17%"
+2049,ssp585,SOSS,-27.78,-7.88,-11.46,18.76,13.92,"Year: 2049
+Mean change: -7.9%
+SD: ±13.9%"
+2049,ssp585,SRZ,-26.89,3.87,1.86,27.4,17.14,"Year: 2049
+Mean change: 3.9%
+SD: ±17.1%"
+2050,ssp126,GPZi,-22.2,-10.34,-11.31,0.76,8.9,"Year: 2050
+Mean change: -10.3%
+SD: ±8.9%"
+2050,ssp126,GPZii,-14.2,-4.52,-4.63,8.92,6.56,"Year: 2050
+Mean change: -4.5%
+SD: ±6.6%"
+2050,ssp126,GPZiii,-52.6,-8.08,-5.49,25.93,20.72,"Year: 2050
+Mean change: -8.1%
+SD: ±20.7%"
+2050,ssp126,KRZ,-35.1,-5.46,-3.77,5.25,11.35,"Year: 2050
+Mean change: -5.5%
+SD: ±11.3%"
+2050,ssp126,SOSS,-21.94,-4.77,-4.29,10.09,9.44,"Year: 2050
+Mean change: -4.8%
+SD: ±9.4%"
+2050,ssp126,SRZ,-33.22,-6.96,-7.26,33.34,18.65,"Year: 2050
+Mean change: -7%
+SD: ±18.6%"
+2050,ssp585,GPZi,-18.01,-4.12,-1.54,4.43,8.4,"Year: 2050
+Mean change: -4.1%
+SD: ±8.4%"
+2050,ssp585,GPZii,-12.21,-8,-7.28,-6.18,1.9,"Year: 2050
+Mean change: -8%
+SD: ±1.9%"
+2050,ssp585,GPZiii,-46.75,-13.63,-18.7,20.23,21.18,"Year: 2050
+Mean change: -13.6%
+SD: ±21.2%"
+2050,ssp585,KRZ,-28.07,-6.66,-4.29,3.09,9.16,"Year: 2050
+Mean change: -6.7%
+SD: ±9.2%"
+2050,ssp585,SOSS,-14.48,-0.39,0.15,18.25,10.27,"Year: 2050
+Mean change: -0.4%
+SD: ±10.3%"
+2050,ssp585,SRZ,-26.97,-1.83,-1.97,25.94,15.35,"Year: 2050
+Mean change: -1.8%
+SD: ±15.3%"
+2051,ssp126,GPZi,-22.66,-9.89,-12.93,0.8,7.58,"Year: 2051
+Mean change: -9.9%
+SD: ±7.6%"
+2051,ssp126,GPZii,-13.79,-7.01,-7.02,4.18,5,"Year: 2051
+Mean change: -7%
+SD: ±5%"
+2051,ssp126,GPZiii,-53.59,-16.43,-12.85,-3.53,15,"Year: 2051
+Mean change: -16.4%
+SD: ±15%"
+2051,ssp126,KRZ,-35.85,-12.93,-12.81,7.85,11.99,"Year: 2051
+Mean change: -12.9%
+SD: ±12%"
+2051,ssp126,SOSS,-22.11,-3.21,-4.36,16.07,11.29,"Year: 2051
+Mean change: -3.2%
+SD: ±11.3%"
+2051,ssp126,SRZ,-30.96,-5.38,-5.59,23.27,17.69,"Year: 2051
+Mean change: -5.4%
+SD: ±17.7%"
+2051,ssp585,GPZi,-18.08,-4,-1.79,3.27,7.16,"Year: 2051
+Mean change: -4%
+SD: ±7.2%"
+2051,ssp585,GPZii,-13.07,-6.61,-6.74,3.08,4.46,"Year: 2051
+Mean change: -6.6%
+SD: ±4.5%"
+2051,ssp585,GPZiii,-47.93,-18,-11.2,-0.87,18.59,"Year: 2051
+Mean change: -18%
+SD: ±18.6%"
+2051,ssp585,KRZ,-28.77,-4.26,-2.9,12.21,11.54,"Year: 2051
+Mean change: -4.3%
+SD: ±11.5%"
+2051,ssp585,SOSS,-14.35,-1.37,0.03,13.9,9.95,"Year: 2051
+Mean change: -1.4%
+SD: ±9.9%"
+2051,ssp585,SRZ,-26.88,-6.55,-8.72,14.83,13.8,"Year: 2051
+Mean change: -6.6%
+SD: ±13.8%"
+2052,ssp126,GPZi,-23.07,-3.89,-2.93,11.79,11.14,"Year: 2052
+Mean change: -3.9%
+SD: ±11.1%"
+2052,ssp126,GPZii,-13.62,-1.74,-4.38,19.42,10.27,"Year: 2052
+Mean change: -1.7%
+SD: ±10.3%"
+2052,ssp126,GPZiii,-54.58,-14.95,-13.38,4.18,16.26,"Year: 2052
+Mean change: -14.9%
+SD: ±16.3%"
+2052,ssp126,KRZ,-36.62,-7.88,-4.44,8.03,13.08,"Year: 2052
+Mean change: -7.9%
+SD: ±13.1%"
+2052,ssp126,SOSS,-22.47,5.52,1.49,31.68,18.32,"Year: 2052
+Mean change: 5.5%
+SD: ±18.3%"
+2052,ssp126,SRZ,-29.85,3.01,1.67,26.28,16.12,"Year: 2052
+Mean change: 3%
+SD: ±16.1%"
+2052,ssp585,GPZi,-18.11,-3.56,-4.42,12.56,9.03,"Year: 2052
+Mean change: -3.6%
+SD: ±9%"
+2052,ssp585,GPZii,-16.19,-4.34,-5.56,7.33,7.04,"Year: 2052
+Mean change: -4.3%
+SD: ±7%"
+2052,ssp585,GPZiii,-48.84,-8.19,-9.95,25.44,20.36,"Year: 2052
+Mean change: -8.2%
+SD: ±20.4%"
+2052,ssp585,KRZ,-29.42,-4.74,-2.57,6.55,9.73,"Year: 2052
+Mean change: -4.7%
+SD: ±9.7%"
+2052,ssp585,SOSS,-14.9,-0.15,-1.86,19.52,11.09,"Year: 2052
+Mean change: -0.1%
+SD: ±11.1%"
+2052,ssp585,SRZ,-26.65,-5.12,-4.3,21.81,12.33,"Year: 2052
+Mean change: -5.1%
+SD: ±12.3%"
+2053,ssp126,GPZi,-23.46,-12.02,-15.11,6.77,10.2,"Year: 2053
+Mean change: -12%
+SD: ±10.2%"
+2053,ssp126,GPZii,-13.49,-2.55,-4.27,11.68,7.75,"Year: 2053
+Mean change: -2.5%
+SD: ±7.8%"
+2053,ssp126,GPZiii,-55.56,-11.79,-8.15,18.52,19.99,"Year: 2053
+Mean change: -11.8%
+SD: ±20%"
+2053,ssp126,KRZ,-37.27,-7,-4.56,17.77,15.96,"Year: 2053
+Mean change: -7%
+SD: ±16%"
+2053,ssp126,SOSS,-22.57,3.61,-2.76,36.88,20.09,"Year: 2053
+Mean change: 3.6%
+SD: ±20.1%"
+2053,ssp126,SRZ,-29.7,-2.23,-7.49,35.25,20.1,"Year: 2053
+Mean change: -2.2%
+SD: ±20.1%"
+2053,ssp585,GPZi,-18.15,-4.41,-2.8,4.83,8.58,"Year: 2053
+Mean change: -4.4%
+SD: ±8.6%"
+2053,ssp585,GPZii,-10.83,-4.16,-4.64,3.73,4.88,"Year: 2053
+Mean change: -4.2%
+SD: ±4.9%"
+2053,ssp585,GPZiii,-49.79,-12.05,-7.9,9.57,17.89,"Year: 2053
+Mean change: -12.1%
+SD: ±17.9%"
+2053,ssp585,KRZ,-30.06,-3.11,-4.56,15.5,12.76,"Year: 2053
+Mean change: -3.1%
+SD: ±12.8%"
+2053,ssp585,SOSS,-23.97,-7.04,-3.61,4.7,11.15,"Year: 2053
+Mean change: -7%
+SD: ±11.2%"
+2053,ssp585,SRZ,-26.27,-0.23,1,16.03,13.43,"Year: 2053
+Mean change: -0.2%
+SD: ±13.4%"
+2054,ssp126,GPZi,-23.68,-7.41,-6.36,4.11,8.94,"Year: 2054
+Mean change: -7.4%
+SD: ±8.9%"
+2054,ssp126,GPZii,-13.1,-3.2,-4.46,3.73,5.38,"Year: 2054
+Mean change: -3.2%
+SD: ±5.4%"
+2054,ssp126,GPZiii,-56.48,-18.67,-16.45,-5.42,14.79,"Year: 2054
+Mean change: -18.7%
+SD: ±14.8%"
+2054,ssp126,KRZ,-37.62,-6.2,-4.69,14.13,15.61,"Year: 2054
+Mean change: -6.2%
+SD: ±15.6%"
+2054,ssp126,SOSS,-31.13,-10.09,-13.31,15.15,16.63,"Year: 2054
+Mean change: -10.1%
+SD: ±16.6%"
+2054,ssp126,SRZ,-29.44,5.12,8.1,34.87,19.63,"Year: 2054
+Mean change: 5.1%
+SD: ±19.6%"
+2054,ssp585,GPZi,-18.22,-3.96,-5.27,8.33,9.06,"Year: 2054
+Mean change: -4%
+SD: ±9.1%"
+2054,ssp585,GPZii,-12.26,-5.11,-5.45,5.71,5.36,"Year: 2054
+Mean change: -5.1%
+SD: ±5.4%"
+2054,ssp585,GPZiii,-50.69,-17.71,-15.12,1.14,14.46,"Year: 2054
+Mean change: -17.7%
+SD: ±14.5%"
+2054,ssp585,KRZ,-30.64,-4.48,-8.78,27.01,16.4,"Year: 2054
+Mean change: -4.5%
+SD: ±16.4%"
+2054,ssp585,SOSS,-17.23,2.04,2.15,19.8,12.61,"Year: 2054
+Mean change: 2%
+SD: ±12.6%"
+2054,ssp585,SRZ,-25.87,1.25,4.25,15.35,12.65,"Year: 2054
+Mean change: 1.2%
+SD: ±12.7%"
+2055,ssp126,GPZi,-23.75,-6.37,-4.57,11.06,10.16,"Year: 2055
+Mean change: -6.4%
+SD: ±10.2%"
+2055,ssp126,GPZii,-11.99,-1.61,-0.81,6.06,5.41,"Year: 2055
+Mean change: -1.6%
+SD: ±5.4%"
+2055,ssp126,GPZiii,-57.35,-16.66,-16.59,12.58,20.99,"Year: 2055
+Mean change: -16.7%
+SD: ±21%"
+2055,ssp126,KRZ,-37.62,-3.94,-2.12,14.85,15.27,"Year: 2055
+Mean change: -3.9%
+SD: ±15.3%"
+2055,ssp126,SOSS,-36.79,-2.78,-1.07,23.98,22.6,"Year: 2055
+Mean change: -2.8%
+SD: ±22.6%"
+2055,ssp126,SRZ,-45.13,-9.39,-7.76,16.82,23.04,"Year: 2055
+Mean change: -9.4%
+SD: ±23%"
+2055,ssp585,GPZi,-18.22,-1.81,-3.45,21.58,12.96,"Year: 2055
+Mean change: -1.8%
+SD: ±13%"
+2055,ssp585,GPZii,-9.42,-4.25,-6.1,10.68,5.95,"Year: 2055
+Mean change: -4.2%
+SD: ±6%"
+2055,ssp585,GPZiii,-51.59,-6.76,-2.31,19.6,19.94,"Year: 2055
+Mean change: -6.8%
+SD: ±19.9%"
+2055,ssp585,KRZ,-31,-3.79,-3.27,21.55,13.48,"Year: 2055
+Mean change: -3.8%
+SD: ±13.5%"
+2055,ssp585,SOSS,-21.45,-7.67,-7.93,11.67,11.4,"Year: 2055
+Mean change: -7.7%
+SD: ±11.4%"
+2055,ssp585,SRZ,-25.51,2.71,4.48,27.9,17.3,"Year: 2055
+Mean change: 2.7%
+SD: ±17.3%"
+2056,ssp126,GPZi,-23.65,-7.22,-6.24,9.46,9.26,"Year: 2056
+Mean change: -7.2%
+SD: ±9.3%"
+2056,ssp126,GPZii,-10.87,-3.33,-4.62,9.14,6.31,"Year: 2056
+Mean change: -3.3%
+SD: ±6.3%"
+2056,ssp126,GPZiii,-58.17,-11.95,-13.76,21.11,21.64,"Year: 2056
+Mean change: -11.9%
+SD: ±21.6%"
+2056,ssp126,KRZ,-37.48,-6.98,-6.87,6.88,12.29,"Year: 2056
+Mean change: -7%
+SD: ±12.3%"
+2056,ssp126,SOSS,-26.89,-7.12,-5.15,15.21,14.09,"Year: 2056
+Mean change: -7.1%
+SD: ±14.1%"
+2056,ssp126,SRZ,-28.78,2.51,2.99,23.29,14.58,"Year: 2056
+Mean change: 2.5%
+SD: ±14.6%"
+2056,ssp585,GPZi,-18.22,-5.16,-7.29,9.3,9.95,"Year: 2056
+Mean change: -5.2%
+SD: ±9.9%"
+2056,ssp585,GPZii,-14.55,-7.05,-7.5,-2.13,3.72,"Year: 2056
+Mean change: -7%
+SD: ±3.7%"
+2056,ssp585,GPZiii,-52.46,-20.25,-19.61,0.5,14.11,"Year: 2056
+Mean change: -20.2%
+SD: ±14.1%"
+2056,ssp585,KRZ,-31.19,-4.33,-4.09,14.6,14.22,"Year: 2056
+Mean change: -4.3%
+SD: ±14.2%"
+2056,ssp585,SOSS,-19.9,-4.29,-8.48,16.33,11.28,"Year: 2056
+Mean change: -4.3%
+SD: ±11.3%"
+2056,ssp585,SRZ,-25.26,7.6,6.19,32.55,17.84,"Year: 2056
+Mean change: 7.6%
+SD: ±17.8%"
+2057,ssp126,GPZi,-23.45,-7.3,-4.29,5.4,8.24,"Year: 2057
+Mean change: -7.3%
+SD: ±8.2%"
+2057,ssp126,GPZii,-11.13,-4.15,-5.35,6.99,5.98,"Year: 2057
+Mean change: -4.2%
+SD: ±6%"
+2057,ssp126,GPZiii,-58.96,-17.86,-13.04,-5.93,15.8,"Year: 2057
+Mean change: -17.9%
+SD: ±15.8%"
+2057,ssp126,KRZ,-37.47,-9.35,-7.54,2.68,11,"Year: 2057
+Mean change: -9.3%
+SD: ±11%"
+2057,ssp126,SOSS,-24.96,-0.85,-1.56,33.93,19.15,"Year: 2057
+Mean change: -0.8%
+SD: ±19.1%"
+2057,ssp126,SRZ,-28.22,-4.57,-5.01,24.32,16.09,"Year: 2057
+Mean change: -4.6%
+SD: ±16.1%"
+2057,ssp585,GPZi,-18.3,-4.82,-10.12,16.19,12.63,"Year: 2057
+Mean change: -4.8%
+SD: ±12.6%"
+2057,ssp585,GPZii,-11.73,-6.24,-8.44,5.27,6.18,"Year: 2057
+Mean change: -6.2%
+SD: ±6.2%"
+2057,ssp585,GPZiii,-53.32,-16.61,-12.55,12.31,18.54,"Year: 2057
+Mean change: -16.6%
+SD: ±18.5%"
+2057,ssp585,KRZ,-31.3,-5.91,-5.23,20.06,14.14,"Year: 2057
+Mean change: -5.9%
+SD: ±14.1%"
+2057,ssp585,SOSS,-20.87,-5.07,-4.94,10.12,10.49,"Year: 2057
+Mean change: -5.1%
+SD: ±10.5%"
+2057,ssp585,SRZ,-25.08,2.3,3.5,30.88,15.16,"Year: 2057
+Mean change: 2.3%
+SD: ±15.2%"
+2058,ssp126,GPZi,-23.19,-7.77,-8.29,4.78,8.82,"Year: 2058
+Mean change: -7.8%
+SD: ±8.8%"
+2058,ssp126,GPZii,-13.09,-2.14,-3.76,11.62,8.96,"Year: 2058
+Mean change: -2.1%
+SD: ±9%"
+2058,ssp126,GPZiii,-59.74,-17.34,-13.72,-3,16.21,"Year: 2058
+Mean change: -17.3%
+SD: ±16.2%"
+2058,ssp126,KRZ,-37.61,-9.44,-8.3,16.41,15.57,"Year: 2058
+Mean change: -9.4%
+SD: ±15.6%"
+2058,ssp126,SOSS,-25.61,-6.23,-3.45,4.02,9.43,"Year: 2058
+Mean change: -6.2%
+SD: ±9.4%"
+2058,ssp126,SRZ,-27.61,4.31,10.67,20.95,14.63,"Year: 2058
+Mean change: 4.3%
+SD: ±14.6%"
+2058,ssp585,GPZi,-18.4,-4.49,-7.47,20.64,12.14,"Year: 2058
+Mean change: -4.5%
+SD: ±12.1%"
+2058,ssp585,GPZii,-11.7,-5.74,-6.5,2.47,4.54,"Year: 2058
+Mean change: -5.7%
+SD: ±4.5%"
+2058,ssp585,GPZiii,-54.14,-10.2,-5.8,20.95,20.99,"Year: 2058
+Mean change: -10.2%
+SD: ±21%"
+2058,ssp585,KRZ,-31.45,-5.45,-6.17,8.76,12.39,"Year: 2058
+Mean change: -5.4%
+SD: ±12.4%"
+2058,ssp585,SOSS,-33.54,-8.74,-4.99,17.55,16.81,"Year: 2058
+Mean change: -8.7%
+SD: ±16.8%"
+2058,ssp585,SRZ,-24.94,-1.87,1.02,14.75,12.58,"Year: 2058
+Mean change: -1.9%
+SD: ±12.6%"
+2059,ssp126,GPZi,-22.87,-7.69,-6.41,0.73,7.82,"Year: 2059
+Mean change: -7.7%
+SD: ±7.8%"
+2059,ssp126,GPZii,-13.16,-2.88,-4.09,5.99,6.73,"Year: 2059
+Mean change: -2.9%
+SD: ±6.7%"
+2059,ssp126,GPZiii,-60.43,-15.99,-17.9,20.11,20.56,"Year: 2059
+Mean change: -16%
+SD: ±20.6%"
+2059,ssp126,KRZ,-37.69,-9.52,-8.92,11.95,14.77,"Year: 2059
+Mean change: -9.5%
+SD: ±14.8%"
+2059,ssp126,SOSS,-29.25,-0.37,-2.27,27.4,18.05,"Year: 2059
+Mean change: -0.4%
+SD: ±18%"
+2059,ssp126,SRZ,-26.95,0.56,1.4,29.2,15.64,"Year: 2059
+Mean change: 0.6%
+SD: ±15.6%"
+2059,ssp585,GPZi,-18.72,-4.31,-5.2,8.5,10.01,"Year: 2059
+Mean change: -4.3%
+SD: ±10%"
+2059,ssp585,GPZii,-11.11,-4.13,-5.08,8.75,5.78,"Year: 2059
+Mean change: -4.1%
+SD: ±5.8%"
+2059,ssp585,GPZiii,-54.93,-13.52,-9.24,14.34,19.18,"Year: 2059
+Mean change: -13.5%
+SD: ±19.2%"
+2059,ssp585,KRZ,-31.66,-4.03,-1.74,10.46,12,"Year: 2059
+Mean change: -4%
+SD: ±12%"
+2059,ssp585,SOSS,-22.64,0.09,1.26,16.87,11.86,"Year: 2059
+Mean change: 0.1%
+SD: ±11.9%"
+2059,ssp585,SRZ,-25.05,0.45,-1.57,29.67,15.19,"Year: 2059
+Mean change: 0.4%
+SD: ±15.2%"
+2060,ssp126,GPZi,-22.38,-6.23,-5.44,12.4,10.58,"Year: 2060
+Mean change: -6.2%
+SD: ±10.6%"
+2060,ssp126,GPZii,-12.99,-4.46,-4.69,5.16,5.32,"Year: 2060
+Mean change: -4.5%
+SD: ±5.3%"
+2060,ssp126,GPZiii,-61.05,-17.26,-12.61,1.37,18.18,"Year: 2060
+Mean change: -17.3%
+SD: ±18.2%"
+2060,ssp126,KRZ,-37.67,-10.34,-8.72,9.82,12.25,"Year: 2060
+Mean change: -10.3%
+SD: ±12.2%"
+2060,ssp126,SOSS,-26.24,3.27,-2.44,54.84,25.22,"Year: 2060
+Mean change: 3.3%
+SD: ±25.2%"
+2060,ssp126,SRZ,-26.02,16.39,13.61,90.23,34.52,"Year: 2060
+Mean change: 16.4%
+SD: ±34.5%"
+2060,ssp585,GPZi,-19.15,-2.05,-3.6,21.11,12.28,"Year: 2060
+Mean change: -2%
+SD: ±12.3%"
+2060,ssp585,GPZii,-11.79,-4.33,-6.28,6.99,6.82,"Year: 2060
+Mean change: -4.3%
+SD: ±6.8%"
+2060,ssp585,GPZiii,-55.68,-13.66,-9.14,7.73,18.75,"Year: 2060
+Mean change: -13.7%
+SD: ±18.8%"
+2060,ssp585,KRZ,-31.89,1.8,1.22,43.07,19.71,"Year: 2060
+Mean change: 1.8%
+SD: ±19.7%"
+2060,ssp585,SOSS,-23.25,-3.57,-2.41,18.39,12.07,"Year: 2060
+Mean change: -3.6%
+SD: ±12.1%"
+2060,ssp585,SRZ,-25.33,1.9,2.73,32.84,16.59,"Year: 2060
+Mean change: 1.9%
+SD: ±16.6%"
+2061,ssp126,GPZi,-21.74,2.02,-0.97,43.4,19.2,"Year: 2061
+Mean change: 2%
+SD: ±19.2%"
+2061,ssp126,GPZii,-11.87,-1.41,-3.49,13.78,8.64,"Year: 2061
+Mean change: -1.4%
+SD: ±8.6%"
+2061,ssp126,GPZiii,-61.62,-19.1,-12.27,-6.16,16.72,"Year: 2061
+Mean change: -19.1%
+SD: ±16.7%"
+2061,ssp126,KRZ,-37.59,-2.51,-1.92,19.5,15.65,"Year: 2061
+Mean change: -2.5%
+SD: ±15.7%"
+2061,ssp126,SOSS,-25.57,-4.59,-2.69,14.63,11.3,"Year: 2061
+Mean change: -4.6%
+SD: ±11.3%"
+2061,ssp126,SRZ,-24.72,18.41,17.59,79.47,29.81,"Year: 2061
+Mean change: 18.4%
+SD: ±29.8%"
+2061,ssp585,GPZi,-19.57,-3.79,-4.13,10.19,10.15,"Year: 2061
+Mean change: -3.8%
+SD: ±10.2%"
+2061,ssp585,GPZii,-15.08,-5.1,-6.29,7.02,6.56,"Year: 2061
+Mean change: -5.1%
+SD: ±6.6%"
+2061,ssp585,GPZiii,-56.38,-13.51,-10.21,26.14,23.18,"Year: 2061
+Mean change: -13.5%
+SD: ±23.2%"
+2061,ssp585,KRZ,-32.33,-9.47,-10.4,6.52,11.51,"Year: 2061
+Mean change: -9.5%
+SD: ±11.5%"
+2061,ssp585,SOSS,-23.73,-5.76,-3.36,9.68,9.81,"Year: 2061
+Mean change: -5.8%
+SD: ±9.8%"
+2061,ssp585,SRZ,-25.52,2.17,2.18,27.98,15.52,"Year: 2061
+Mean change: 2.2%
+SD: ±15.5%"
+2062,ssp126,GPZi,-21.4,-1.69,0.7,11.73,10.72,"Year: 2062
+Mean change: -1.7%
+SD: ±10.7%"
+2062,ssp126,GPZii,-14.81,-3,-5.08,14.26,9.34,"Year: 2062
+Mean change: -3%
+SD: ±9.3%"
+2062,ssp126,GPZiii,-62.15,-12.09,-8.15,19.27,22.5,"Year: 2062
+Mean change: -12.1%
+SD: ±22.5%"
+2062,ssp126,KRZ,-37.36,-4.7,-2.6,10.43,12.8,"Year: 2062
+Mean change: -4.7%
+SD: ±12.8%"
+2062,ssp126,SOSS,-24.61,4.33,1.03,30.03,18.06,"Year: 2062
+Mean change: 4.3%
+SD: ±18.1%"
+2062,ssp126,SRZ,-23.59,15.75,22.06,44.91,21.61,"Year: 2062
+Mean change: 15.8%
+SD: ±21.6%"
+2062,ssp585,GPZi,-19.82,2.53,1.66,33.98,16.36,"Year: 2062
+Mean change: 2.5%
+SD: ±16.4%"
+2062,ssp585,GPZii,-11.56,-0.76,-3.7,14.9,9.08,"Year: 2062
+Mean change: -0.8%
+SD: ±9.1%"
+2062,ssp585,GPZiii,-57.05,-14.11,-9.88,6.46,18.51,"Year: 2062
+Mean change: -14.1%
+SD: ±18.5%"
+2062,ssp585,KRZ,-32.98,0.17,2.87,19.47,15.97,"Year: 2062
+Mean change: 0.2%
+SD: ±16%"
+2062,ssp585,SOSS,-24.49,1.63,0.94,23.55,15.54,"Year: 2062
+Mean change: 1.6%
+SD: ±15.5%"
+2062,ssp585,SRZ,-25.29,19.7,15.49,94.53,34.11,"Year: 2062
+Mean change: 19.7%
+SD: ±34.1%"
+2063,ssp126,GPZi,-21.48,-2.08,-1.3,13.68,10.01,"Year: 2063
+Mean change: -2.1%
+SD: ±10%"
+2063,ssp126,GPZii,-13.73,-3.83,-5.45,7.53,6.72,"Year: 2063
+Mean change: -3.8%
+SD: ±6.7%"
+2063,ssp126,GPZiii,-62.68,-15.03,-8.06,0.74,18.36,"Year: 2063
+Mean change: -15%
+SD: ±18.4%"
+2063,ssp126,KRZ,-37.21,-7.31,-8.15,18.72,16.91,"Year: 2063
+Mean change: -7.3%
+SD: ±16.9%"
+2063,ssp126,SOSS,-23.55,-0.64,-0.81,22.86,14.97,"Year: 2063
+Mean change: -0.6%
+SD: ±15%"
+2063,ssp126,SRZ,-22.93,13.73,13.87,39.04,18.75,"Year: 2063
+Mean change: 13.7%
+SD: ±18.8%"
+2063,ssp585,GPZi,-20.08,-4.24,-4.38,11.13,9.43,"Year: 2063
+Mean change: -4.2%
+SD: ±9.4%"
+2063,ssp585,GPZii,-23.45,-8.27,-7.87,8.52,8.75,"Year: 2063
+Mean change: -8.3%
+SD: ±8.8%"
+2063,ssp585,GPZiii,-57.66,-14,-17.06,33.24,25.58,"Year: 2063
+Mean change: -14%
+SD: ±25.6%"
+2063,ssp585,KRZ,-33.47,-9.27,-8.99,4.32,10.29,"Year: 2063
+Mean change: -9.3%
+SD: ±10.3%"
+2063,ssp585,SOSS,-38.94,-11.56,-6.15,4.44,15.38,"Year: 2063
+Mean change: -11.6%
+SD: ±15.4%"
+2063,ssp585,SRZ,-24.97,7.47,13.89,23.46,17.17,"Year: 2063
+Mean change: 7.5%
+SD: ±17.2%"
+2064,ssp126,GPZi,-21.79,-5.29,-5.02,9.37,9.42,"Year: 2064
+Mean change: -5.3%
+SD: ±9.4%"
+2064,ssp126,GPZii,-12.69,-2.91,-1.74,14.67,8.05,"Year: 2064
+Mean change: -2.9%
+SD: ±8.1%"
+2064,ssp126,GPZiii,-63.18,-16.73,-10.08,2.4,18.96,"Year: 2064
+Mean change: -16.7%
+SD: ±19%"
+2064,ssp126,KRZ,-37.07,-2.58,2.83,9.04,13.99,"Year: 2064
+Mean change: -2.6%
+SD: ±14%"
+2064,ssp126,SOSS,-22.48,-4.04,-2.64,11.16,10.58,"Year: 2064
+Mean change: -4%
+SD: ±10.6%"
+2064,ssp126,SRZ,-22.57,2.27,1.58,36.99,17.44,"Year: 2064
+Mean change: 2.3%
+SD: ±17.4%"
+2064,ssp585,GPZi,-20.5,-7.27,-6.61,9.24,9.47,"Year: 2064
+Mean change: -7.3%
+SD: ±9.5%"
+2064,ssp585,GPZii,-17.41,-6.01,-8.72,8.53,8.64,"Year: 2064
+Mean change: -6%
+SD: ±8.6%"
+2064,ssp585,GPZiii,-58.23,-12.85,-8.44,16.77,22.11,"Year: 2064
+Mean change: -12.8%
+SD: ±22.1%"
+2064,ssp585,KRZ,-33.7,-5.7,-7.67,18.37,16.57,"Year: 2064
+Mean change: -5.7%
+SD: ±16.6%"
+2064,ssp585,SOSS,-26.56,-0.89,-4,33.9,18.48,"Year: 2064
+Mean change: -0.9%
+SD: ±18.5%"
+2064,ssp585,SRZ,-24.79,-6.09,-11.45,29.26,18.59,"Year: 2064
+Mean change: -6.1%
+SD: ±18.6%"
+2065,ssp126,GPZi,-22.27,-8.94,-8.48,7.2,8.14,"Year: 2065
+Mean change: -8.9%
+SD: ±8.1%"
+2065,ssp126,GPZii,-17.17,-1.43,-1.69,15.14,11.75,"Year: 2065
+Mean change: -1.4%
+SD: ±11.8%"
+2065,ssp126,GPZiii,-63.64,-12.2,-11.32,27.09,23.94,"Year: 2065
+Mean change: -12.2%
+SD: ±23.9%"
+2065,ssp126,KRZ,-36.79,-5.78,-4.87,7.96,12.88,"Year: 2065
+Mean change: -5.8%
+SD: ±12.9%"
+2065,ssp126,SOSS,-21.23,-0.37,-5.15,36.28,19.65,"Year: 2065
+Mean change: -0.4%
+SD: ±19.6%"
+2065,ssp126,SRZ,-50.92,-10.12,-8.6,32.71,25.81,"Year: 2065
+Mean change: -10.1%
+SD: ±25.8%"
+2065,ssp585,GPZi,-20.78,-3.75,-2.54,9.19,10.32,"Year: 2065
+Mean change: -3.8%
+SD: ±10.3%"
+2065,ssp585,GPZii,-15.56,-3.79,-7.23,21.54,10.84,"Year: 2065
+Mean change: -3.8%
+SD: ±10.8%"
+2065,ssp585,GPZiii,-58.79,-14.85,-7.65,3.22,18.77,"Year: 2065
+Mean change: -14.8%
+SD: ±18.8%"
+2065,ssp585,KRZ,-33.72,-1.13,3.08,18.43,14.85,"Year: 2065
+Mean change: -1.1%
+SD: ±14.8%"
+2065,ssp585,SOSS,-27.76,8.59,0.96,61.1,27.91,"Year: 2065
+Mean change: 8.6%
+SD: ±27.9%"
+2065,ssp585,SRZ,-36.84,-4.33,1.4,23.61,22.2,"Year: 2065
+Mean change: -4.3%
+SD: ±22.2%"
+2066,ssp126,GPZi,-22.85,-8.03,-6.88,9.83,8.98,"Year: 2066
+Mean change: -8%
+SD: ±9%"
+2066,ssp126,GPZii,-17.66,-1.36,-3.36,20.54,12.63,"Year: 2066
+Mean change: -1.4%
+SD: ±12.6%"
+2066,ssp126,GPZiii,-64.08,-13.39,-8.45,16.32,21.77,"Year: 2066
+Mean change: -13.4%
+SD: ±21.8%"
+2066,ssp126,KRZ,-36.4,-2.26,-7.66,35.59,21.43,"Year: 2066
+Mean change: -2.3%
+SD: ±21.4%"
+2066,ssp126,SOSS,-23.8,-8.54,-10.12,16.92,12.28,"Year: 2066
+Mean change: -8.5%
+SD: ±12.3%"
+2066,ssp126,SRZ,-36.71,-12.59,-14.49,17.55,17.31,"Year: 2066
+Mean change: -12.6%
+SD: ±17.3%"
+2066,ssp585,GPZi,-20.85,-0.81,-0.97,14.02,11.96,"Year: 2066
+Mean change: -0.8%
+SD: ±12%"
+2066,ssp585,GPZii,-17.01,-5.71,-9.37,15.19,10.3,"Year: 2066
+Mean change: -5.7%
+SD: ±10.3%"
+2066,ssp585,GPZiii,-59.32,-10,-3.78,24.51,22.88,"Year: 2066
+Mean change: -10%
+SD: ±22.9%"
+2066,ssp585,KRZ,-33.72,-3.67,-0.57,9.72,13.2,"Year: 2066
+Mean change: -3.7%
+SD: ±13.2%"
+2066,ssp585,SOSS,-28.82,1.91,1.35,24.43,17.5,"Year: 2066
+Mean change: 1.9%
+SD: ±17.5%"
+2066,ssp585,SRZ,-24.1,7.18,7.59,27.58,16.39,"Year: 2066
+Mean change: 7.2%
+SD: ±16.4%"
+2067,ssp126,GPZi,-23.42,-10.24,-12.74,16.42,13.45,"Year: 2067
+Mean change: -10.2%
+SD: ±13.4%"
+2067,ssp126,GPZii,-16.56,-1,0.38,15.72,11.12,"Year: 2067
+Mean change: -1%
+SD: ±11.1%"
+2067,ssp126,GPZiii,-64.49,-13.45,-5.51,9.87,21.8,"Year: 2067
+Mean change: -13.4%
+SD: ±21.8%"
+2067,ssp126,KRZ,-36.14,-6,-5.34,21.21,14.66,"Year: 2067
+Mean change: -6%
+SD: ±14.7%"
+2067,ssp126,SOSS,-29.09,0.41,-1.26,39,20.2,"Year: 2067
+Mean change: 0.4%
+SD: ±20.2%"
+2067,ssp126,SRZ,-61.92,-12.79,-11.24,33.22,31.61,"Year: 2067
+Mean change: -12.8%
+SD: ±31.6%"
+2067,ssp585,GPZi,-20.89,-3.25,-3.43,10.21,10.18,"Year: 2067
+Mean change: -3.2%
+SD: ±10.2%"
+2067,ssp585,GPZii,-20.76,-8.97,-13.08,17.25,11.55,"Year: 2067
+Mean change: -9%
+SD: ±11.6%"
+2067,ssp585,GPZiii,-59.82,-11.35,-6.86,23,21.72,"Year: 2067
+Mean change: -11.3%
+SD: ±21.7%"
+2067,ssp585,KRZ,-33.95,-9.4,-10.6,13.82,13.24,"Year: 2067
+Mean change: -9.4%
+SD: ±13.2%"
+2067,ssp585,SOSS,-29.39,-9.59,-7.82,8.29,12.36,"Year: 2067
+Mean change: -9.6%
+SD: ±12.4%"
+2067,ssp585,SRZ,-23.61,5.64,6.68,31.4,16.66,"Year: 2067
+Mean change: 5.6%
+SD: ±16.7%"
+2068,ssp126,GPZi,-23.88,-7.24,-5.87,6.86,8.65,"Year: 2068
+Mean change: -7.2%
+SD: ±8.7%"
+2068,ssp126,GPZii,-16.23,-1.64,-0.79,12.8,8.96,"Year: 2068
+Mean change: -1.6%
+SD: ±9%"
+2068,ssp126,GPZiii,-64.86,-17.99,-12.79,1.48,19.33,"Year: 2068
+Mean change: -18%
+SD: ±19.3%"
+2068,ssp126,KRZ,-36.05,-7.97,-5.31,9.47,11.46,"Year: 2068
+Mean change: -8%
+SD: ±11.5%"
+2068,ssp126,SOSS,-22.37,0.29,0.01,41.51,18.5,"Year: 2068
+Mean change: 0.3%
+SD: ±18.5%"
+2068,ssp126,SRZ,-23.15,4.31,6.01,39.18,19.56,"Year: 2068
+Mean change: 4.3%
+SD: ±19.6%"
+2068,ssp585,GPZi,-21.01,-4.78,-5.81,8.61,9.5,"Year: 2068
+Mean change: -4.8%
+SD: ±9.5%"
+2068,ssp585,GPZii,-19.64,-7.22,-8.49,10.53,10.03,"Year: 2068
+Mean change: -7.2%
+SD: ±10%"
+2068,ssp585,GPZiii,-60.32,-13.07,-10.61,23.04,22.62,"Year: 2068
+Mean change: -13.1%
+SD: ±22.6%"
+2068,ssp585,KRZ,-34.26,-4.97,-4.58,11.03,12.84,"Year: 2068
+Mean change: -5%
+SD: ±12.8%"
+2068,ssp585,SOSS,-36.15,-10.97,-4.82,13.28,16.82,"Year: 2068
+Mean change: -11%
+SD: ±16.8%"
+2068,ssp585,SRZ,-23.16,7.56,7.46,46.93,19.04,"Year: 2068
+Mean change: 7.6%
+SD: ±19%"
+2069,ssp126,GPZi,-25.01,-12.9,-13.5,5.1,8.72,"Year: 2069
+Mean change: -12.9%
+SD: ±8.7%"
+2069,ssp126,GPZii,-14.91,3.31,1.29,29.39,13.83,"Year: 2069
+Mean change: 3.3%
+SD: ±13.8%"
+2069,ssp126,GPZiii,-65.19,-18.91,-13.55,-0.63,19.01,"Year: 2069
+Mean change: -18.9%
+SD: ±19%"
+2069,ssp126,KRZ,-36.12,-4.56,-7.49,18.39,16.23,"Year: 2069
+Mean change: -4.6%
+SD: ±16.2%"
+2069,ssp126,SOSS,-21.52,-2.57,-2.56,22.1,14.47,"Year: 2069
+Mean change: -2.6%
+SD: ±14.5%"
+2069,ssp126,SRZ,-46.92,-15.29,-15.09,15.18,19.52,"Year: 2069
+Mean change: -15.3%
+SD: ±19.5%"
+2069,ssp585,GPZi,-21.11,-1.04,-0.65,14.88,11.53,"Year: 2069
+Mean change: -1%
+SD: ±11.5%"
+2069,ssp585,GPZii,-20.16,-3.46,-5.79,19.55,11.9,"Year: 2069
+Mean change: -3.5%
+SD: ±11.9%"
+2069,ssp585,GPZiii,-60.79,-12.31,-16.05,34.99,26.37,"Year: 2069
+Mean change: -12.3%
+SD: ±26.4%"
+2069,ssp585,KRZ,-34.58,-4.48,-2.79,9.24,12.44,"Year: 2069
+Mean change: -4.5%
+SD: ±12.4%"
+2069,ssp585,SOSS,-30.45,-1.82,-1.07,28,16.19,"Year: 2069
+Mean change: -1.8%
+SD: ±16.2%"
+2069,ssp585,SRZ,-22.97,6.33,6.61,56.24,23.51,"Year: 2069
+Mean change: 6.3%
+SD: ±23.5%"
+2070,ssp126,GPZi,-24.92,-11.14,-15.78,22.82,13.29,"Year: 2070
+Mean change: -11.1%
+SD: ±13.3%"
+2070,ssp126,GPZii,-12.81,-1.65,-3.69,8.52,6.98,"Year: 2070
+Mean change: -1.6%
+SD: ±7%"
+2070,ssp126,GPZiii,-65.48,-5.87,-9.04,57.66,33.2,"Year: 2070
+Mean change: -5.9%
+SD: ±33.2%"
+2070,ssp126,KRZ,-36.28,-10.3,-9.28,17.74,13.95,"Year: 2070
+Mean change: -10.3%
+SD: ±13.9%"
+2070,ssp126,SOSS,-22.25,3.74,0.92,31,16.11,"Year: 2070
+Mean change: 3.7%
+SD: ±16.1%"
+2070,ssp126,SRZ,-31.07,-7.96,-19.59,65.24,28.69,"Year: 2070
+Mean change: -8%
+SD: ±28.7%"
+2070,ssp585,GPZi,-21.11,-1.95,-1.26,12.21,10.8,"Year: 2070
+Mean change: -2%
+SD: ±10.8%"
+2070,ssp585,GPZii,-19.88,-5.61,-7.74,14.64,10.48,"Year: 2070
+Mean change: -5.6%
+SD: ±10.5%"
+2070,ssp585,GPZiii,-61.18,-20.68,-16.55,2.16,18.34,"Year: 2070
+Mean change: -20.7%
+SD: ±18.3%"
+2070,ssp585,KRZ,-34.74,-3.07,-5.57,23.61,16.74,"Year: 2070
+Mean change: -3.1%
+SD: ±16.7%"
+2070,ssp585,SOSS,-30.7,-0.01,0.99,17.76,14.09,"Year: 2070
+Mean change: 0%
+SD: ±14.1%"
+2070,ssp585,SRZ,-22.97,7.86,6.81,50.75,19.94,"Year: 2070
+Mean change: 7.9%
+SD: ±19.9%"
+2071,ssp126,GPZi,-29.51,-14.76,-15.83,4.2,11.27,"Year: 2071
+Mean change: -14.8%
+SD: ±11.3%"
+2071,ssp126,GPZii,-10.77,0.26,-3.13,18.97,10.09,"Year: 2071
+Mean change: 0.3%
+SD: ±10.1%"
+2071,ssp126,GPZiii,-65.71,-16.53,-11.03,9.02,20.18,"Year: 2071
+Mean change: -16.5%
+SD: ±20.2%"
+2071,ssp126,KRZ,-36.62,-6.12,-5.67,20.44,15.05,"Year: 2071
+Mean change: -6.1%
+SD: ±15.1%"
+2071,ssp126,SOSS,-37.4,-8.99,-6.33,27.13,19.64,"Year: 2071
+Mean change: -9%
+SD: ±19.6%"
+2071,ssp126,SRZ,-77.79,-23.92,-18.55,4.22,30.67,"Year: 2071
+Mean change: -23.9%
+SD: ±30.7%"
+2071,ssp585,GPZi,-20.93,-1.6,-1.95,15.66,12.12,"Year: 2071
+Mean change: -1.6%
+SD: ±12.1%"
+2071,ssp585,GPZii,-19.28,-4.42,-7.04,17.46,10.59,"Year: 2071
+Mean change: -4.4%
+SD: ±10.6%"
+2071,ssp585,GPZiii,-61.57,-10.28,-10.61,30.58,25.31,"Year: 2071
+Mean change: -10.3%
+SD: ±25.3%"
+2071,ssp585,KRZ,-34.71,-5.73,-5.49,16.63,13.53,"Year: 2071
+Mean change: -5.7%
+SD: ±13.5%"
+2071,ssp585,SOSS,-30.99,-6.6,-6.64,15.89,15.17,"Year: 2071
+Mean change: -6.6%
+SD: ±15.2%"
+2071,ssp585,SRZ,-23.02,6.03,0.93,42.52,21.91,"Year: 2071
+Mean change: 6%
+SD: ±21.9%"
+2072,ssp126,GPZi,-26.06,-7.96,-6.92,2.33,9.25,"Year: 2072
+Mean change: -8%
+SD: ±9.2%"
+2072,ssp126,GPZii,-10.81,1.57,-1.23,19.74,10.39,"Year: 2072
+Mean change: 1.6%
+SD: ±10.4%"
+2072,ssp126,GPZiii,-65.93,-15.58,-10.34,6.35,19.81,"Year: 2072
+Mean change: -15.6%
+SD: ±19.8%"
+2072,ssp126,KRZ,-36.84,-1.59,-2.8,19.27,16.86,"Year: 2072
+Mean change: -1.6%
+SD: ±16.9%"
+2072,ssp126,SOSS,-34.41,-8.17,-8.22,22.58,16.74,"Year: 2072
+Mean change: -8.2%
+SD: ±16.7%"
+2072,ssp126,SRZ,-40.64,-11.74,-12.53,24.48,19.78,"Year: 2072
+Mean change: -11.7%
+SD: ±19.8%"
+2072,ssp585,GPZi,-20.7,-2.9,-3.12,14.71,11.66,"Year: 2072
+Mean change: -2.9%
+SD: ±11.7%"
+2072,ssp585,GPZii,-19.03,-6.06,-7.31,8.25,7.86,"Year: 2072
+Mean change: -6.1%
+SD: ±7.9%"
+2072,ssp585,GPZiii,-61.94,-16.6,-11.2,11.3,20.89,"Year: 2072
+Mean change: -16.6%
+SD: ±20.9%"
+2072,ssp585,KRZ,-34.66,-6.19,-7.06,8.35,12.83,"Year: 2072
+Mean change: -6.2%
+SD: ±12.8%"
+2072,ssp585,SOSS,-31.17,1.55,0.99,29,17.25,"Year: 2072
+Mean change: 1.6%
+SD: ±17.2%"
+2072,ssp585,SRZ,-23.01,13.76,10.16,50.89,24.18,"Year: 2072
+Mean change: 13.8%
+SD: ±24.2%"
+2073,ssp126,GPZi,-26.19,-7.56,-7.45,8.18,10.18,"Year: 2073
+Mean change: -7.6%
+SD: ±10.2%"
+2073,ssp126,GPZii,-11.4,-1.86,-4.53,13.78,7.57,"Year: 2073
+Mean change: -1.9%
+SD: ±7.6%"
+2073,ssp126,GPZiii,-66.13,-17.47,-17.17,11.63,21.21,"Year: 2073
+Mean change: -17.5%
+SD: ±21.2%"
+2073,ssp126,KRZ,-36.88,-5.11,-5.17,20.38,14.16,"Year: 2073
+Mean change: -5.1%
+SD: ±14.2%"
+2073,ssp126,SOSS,-25.75,-11.75,-12.26,11.54,12.11,"Year: 2073
+Mean change: -11.8%
+SD: ±12.1%"
+2073,ssp126,SRZ,-26.37,0.35,0.31,22.77,16.55,"Year: 2073
+Mean change: 0.3%
+SD: ±16.6%"
+2073,ssp585,GPZi,-20.66,-5.03,-6.67,16.7,11.95,"Year: 2073
+Mean change: -5%
+SD: ±11.9%"
+2073,ssp585,GPZii,-19.33,-2.98,-5.29,18.1,10.48,"Year: 2073
+Mean change: -3%
+SD: ±10.5%"
+2073,ssp585,GPZiii,-62.34,-16.72,-7.49,1.63,18.88,"Year: 2073
+Mean change: -16.7%
+SD: ±18.9%"
+2073,ssp585,KRZ,-34.62,1.38,-5.24,46.5,23.02,"Year: 2073
+Mean change: 1.4%
+SD: ±23%"
+2073,ssp585,SOSS,-30.84,1.02,2.11,37.03,18.74,"Year: 2073
+Mean change: 1%
+SD: ±18.7%"
+2073,ssp585,SRZ,-50.62,-10.12,-13.32,35.65,27.45,"Year: 2073
+Mean change: -10.1%
+SD: ±27.4%"
+2074,ssp126,GPZi,-26.1,-9.53,-10.35,13.35,10.29,"Year: 2074
+Mean change: -9.5%
+SD: ±10.3%"
+2074,ssp126,GPZii,-8.55,-0.44,-1.45,9.48,6.93,"Year: 2074
+Mean change: -0.4%
+SD: ±6.9%"
+2074,ssp126,GPZiii,-66.31,-22.81,-18.44,-4.54,18.04,"Year: 2074
+Mean change: -22.8%
+SD: ±18%"
+2074,ssp126,KRZ,-37,-11.48,-10.87,9.98,12.53,"Year: 2074
+Mean change: -11.5%
+SD: ±12.5%"
+2074,ssp126,SOSS,-24.69,2.67,0.41,40.67,23.07,"Year: 2074
+Mean change: 2.7%
+SD: ±23.1%"
+2074,ssp126,SRZ,-26.62,2.35,2.59,39.69,18.01,"Year: 2074
+Mean change: 2.4%
+SD: ±18%"
+2074,ssp585,GPZi,-20.64,-1.46,-2.84,13.73,12.09,"Year: 2074
+Mean change: -1.5%
+SD: ±12.1%"
+2074,ssp585,GPZii,-20.26,-5.01,-6.74,17.61,12.7,"Year: 2074
+Mean change: -5%
+SD: ±12.7%"
+2074,ssp585,GPZiii,-62.71,-12.25,-4.83,6.78,21.43,"Year: 2074
+Mean change: -12.2%
+SD: ±21.4%"
+2074,ssp585,KRZ,-34.62,0.31,2.64,20.16,15.31,"Year: 2074
+Mean change: 0.3%
+SD: ±15.3%"
+2074,ssp585,SOSS,-30.3,-7.68,-7.03,15.44,15.34,"Year: 2074
+Mean change: -7.7%
+SD: ±15.3%"
+2074,ssp585,SRZ,-23.56,4.22,1.89,27.2,15.82,"Year: 2074
+Mean change: 4.2%
+SD: ±15.8%"
+2075,ssp126,GPZi,-25.9,-6.76,-8.2,23.37,13.15,"Year: 2075
+Mean change: -6.8%
+SD: ±13.2%"
+2075,ssp126,GPZii,-7.75,-1.13,-1.51,6.57,6.06,"Year: 2075
+Mean change: -1.1%
+SD: ±6.1%"
+2075,ssp126,GPZiii,-66.46,-13.29,-13.68,34.68,26.83,"Year: 2075
+Mean change: -13.3%
+SD: ±26.8%"
+2075,ssp126,KRZ,-37.16,-11.02,-8.61,3.2,11.39,"Year: 2075
+Mean change: -11%
+SD: ±11.4%"
+2075,ssp126,SOSS,-24.42,-8.35,-5.98,7.65,10.44,"Year: 2075
+Mean change: -8.3%
+SD: ±10.4%"
+2075,ssp126,SRZ,-26.68,3.9,3.31,42.36,19.59,"Year: 2075
+Mean change: 3.9%
+SD: ±19.6%"
+2075,ssp585,GPZi,-20.59,-0.15,-1.64,15.03,12.59,"Year: 2075
+Mean change: -0.1%
+SD: ±12.6%"
+2075,ssp585,GPZii,-21.59,-6.47,-4.8,8.12,8.56,"Year: 2075
+Mean change: -6.5%
+SD: ±8.6%"
+2075,ssp585,GPZiii,-63.07,-13.84,-8.83,16.35,22.04,"Year: 2075
+Mean change: -13.8%
+SD: ±22%"
+2075,ssp585,KRZ,-34.75,-0.93,-0.7,23.47,16.11,"Year: 2075
+Mean change: -0.9%
+SD: ±16.1%"
+2075,ssp585,SOSS,-30.04,5.7,6.42,39.13,20.39,"Year: 2075
+Mean change: 5.7%
+SD: ±20.4%"
+2075,ssp585,SRZ,-23.71,1.8,2.51,21.23,13.63,"Year: 2075
+Mean change: 1.8%
+SD: ±13.6%"
+2076,ssp126,GPZi,-25.41,-7.57,-8.69,18.31,12.23,"Year: 2076
+Mean change: -7.6%
+SD: ±12.2%"
+2076,ssp126,GPZii,-12.35,-1.72,-5.04,7.79,7.56,"Year: 2076
+Mean change: -1.7%
+SD: ±7.6%"
+2076,ssp126,GPZiii,-66.5,-21.77,-17.23,-6.13,17.49,"Year: 2076
+Mean change: -21.8%
+SD: ±17.5%"
+2076,ssp126,KRZ,-37.19,-12.09,-10.05,4.79,10.99,"Year: 2076
+Mean change: -12.1%
+SD: ±11%"
+2076,ssp126,SOSS,-26.97,-2.94,-5.05,28.11,19.11,"Year: 2076
+Mean change: -2.9%
+SD: ±19.1%"
+2076,ssp126,SRZ,-26.5,-1.11,-5.64,29.99,16.57,"Year: 2076
+Mean change: -1.1%
+SD: ±16.6%"
+2076,ssp585,GPZi,-20.52,-2.91,-5.63,12.97,11.53,"Year: 2076
+Mean change: -2.9%
+SD: ±11.5%"
+2076,ssp585,GPZii,-22.63,-7.56,-6.06,13.13,9.94,"Year: 2076
+Mean change: -7.6%
+SD: ±9.9%"
+2076,ssp585,GPZiii,-63.4,-15.5,-10.12,10.89,21.14,"Year: 2076
+Mean change: -15.5%
+SD: ±21.1%"
+2076,ssp585,KRZ,-34.94,0.69,5.28,20.72,15.51,"Year: 2076
+Mean change: 0.7%
+SD: ±15.5%"
+2076,ssp585,SOSS,-29.64,-4.19,-1.15,23.59,18.18,"Year: 2076
+Mean change: -4.2%
+SD: ±18.2%"
+2076,ssp585,SRZ,-26.39,-0.53,-0.25,37.71,20.5,"Year: 2076
+Mean change: -0.5%
+SD: ±20.5%"
+2077,ssp126,GPZi,-24.69,-5.88,-6.44,8.3,10.59,"Year: 2077
+Mean change: -5.9%
+SD: ±10.6%"
+2077,ssp126,GPZii,-11.11,-0.61,-3.09,13.04,8.79,"Year: 2077
+Mean change: -0.6%
+SD: ±8.8%"
+2077,ssp126,GPZiii,-66.46,-11.18,-4.12,20.64,23.38,"Year: 2077
+Mean change: -11.2%
+SD: ±23.4%"
+2077,ssp126,KRZ,-37.01,-11.99,-10.97,2.83,10.03,"Year: 2077
+Mean change: -12%
+SD: ±10%"
+2077,ssp126,SOSS,-24.76,-8.79,-8.28,14.92,13.03,"Year: 2077
+Mean change: -8.8%
+SD: ±13%"
+2077,ssp126,SRZ,-26.16,1.06,2.62,20.95,17.89,"Year: 2077
+Mean change: 1.1%
+SD: ±17.9%"
+2077,ssp585,GPZi,-20.48,-3.92,-4.62,8.92,9.35,"Year: 2077
+Mean change: -3.9%
+SD: ±9.3%"
+2077,ssp585,GPZii,-23.25,-5.8,-6.38,10.01,10.1,"Year: 2077
+Mean change: -5.8%
+SD: ±10.1%"
+2077,ssp585,GPZiii,-63.73,-14.65,-10.22,2.34,19.92,"Year: 2077
+Mean change: -14.7%
+SD: ±19.9%"
+2077,ssp585,KRZ,-35.22,-0.92,4.28,15.77,14.23,"Year: 2077
+Mean change: -0.9%
+SD: ±14.2%"
+2077,ssp585,SOSS,-29.39,4.18,3.66,30.65,20.06,"Year: 2077
+Mean change: 4.2%
+SD: ±20.1%"
+2077,ssp585,SRZ,-23.7,1.16,2.69,23.65,15.57,"Year: 2077
+Mean change: 1.2%
+SD: ±15.6%"
+2078,ssp126,GPZi,-24.08,-6.21,-4.73,14.73,10.97,"Year: 2078
+Mean change: -6.2%
+SD: ±11%"
+2078,ssp126,GPZii,-10.31,-1.74,-4.35,9.16,6.87,"Year: 2078
+Mean change: -1.7%
+SD: ±6.9%"
+2078,ssp126,GPZiii,-66.36,-12.39,-6.78,27.84,26.75,"Year: 2078
+Mean change: -12.4%
+SD: ±26.8%"
+2078,ssp126,KRZ,-36.61,-3.49,-7.69,23.97,17.5,"Year: 2078
+Mean change: -3.5%
+SD: ±17.5%"
+2078,ssp126,SOSS,-23.03,-3.62,-4.5,40.11,18.99,"Year: 2078
+Mean change: -3.6%
+SD: ±19%"
+2078,ssp126,SRZ,-28.23,-4.67,-9.99,32.91,21.97,"Year: 2078
+Mean change: -4.7%
+SD: ±22%"
+2078,ssp585,GPZi,-20.41,-0.24,-1.46,23.52,13.98,"Year: 2078
+Mean change: -0.2%
+SD: ±14%"
+2078,ssp585,GPZii,-23.27,-7.54,-10.02,7.57,8.33,"Year: 2078
+Mean change: -7.5%
+SD: ±8.3%"
+2078,ssp585,GPZiii,-64.08,-13.38,-7.94,22.99,23.96,"Year: 2078
+Mean change: -13.4%
+SD: ±24%"
+2078,ssp585,KRZ,-35.7,0.17,2.83,18.22,15.73,"Year: 2078
+Mean change: 0.2%
+SD: ±15.7%"
+2078,ssp585,SOSS,-38.33,-8.58,-5.38,37.05,22.42,"Year: 2078
+Mean change: -8.6%
+SD: ±22.4%"
+2078,ssp585,SRZ,-33.73,9.69,13.51,57.92,28.62,"Year: 2078
+Mean change: 9.7%
+SD: ±28.6%"
+2079,ssp126,GPZi,-23.48,-6.03,-5.27,13.41,10.8,"Year: 2079
+Mean change: -6%
+SD: ±10.8%"
+2079,ssp126,GPZii,-16.52,-5.86,-5.63,3.76,6.27,"Year: 2079
+Mean change: -5.9%
+SD: ±6.3%"
+2079,ssp126,GPZiii,-66.07,-15.38,-5.01,8.73,23.22,"Year: 2079
+Mean change: -15.4%
+SD: ±23.2%"
+2079,ssp126,KRZ,-35.87,-8.73,-6.79,9.33,11.65,"Year: 2079
+Mean change: -8.7%
+SD: ±11.7%"
+2079,ssp126,SOSS,-28.18,-6.8,-4.07,16.08,15.32,"Year: 2079
+Mean change: -6.8%
+SD: ±15.3%"
+2079,ssp126,SRZ,-32.05,-6.8,-15.29,22.87,20.55,"Year: 2079
+Mean change: -6.8%
+SD: ±20.6%"
+2079,ssp585,GPZi,-20.42,-0.41,-0.61,19.84,13.61,"Year: 2079
+Mean change: -0.4%
+SD: ±13.6%"
+2079,ssp585,GPZii,-22.81,-6.82,-8.73,16.43,10.51,"Year: 2079
+Mean change: -6.8%
+SD: ±10.5%"
+2079,ssp585,GPZiii,-64.41,-13.96,-7.85,20.7,25.66,"Year: 2079
+Mean change: -14%
+SD: ±25.7%"
+2079,ssp585,KRZ,-36.08,0.46,2.43,30.24,17.72,"Year: 2079
+Mean change: 0.5%
+SD: ±17.7%"
+2079,ssp585,SOSS,-29.76,-0.95,0.89,28.76,17.99,"Year: 2079
+Mean change: -0.9%
+SD: ±18%"
+2079,ssp585,SRZ,-22.9,11.21,12.72,49.77,22.43,"Year: 2079
+Mean change: 11.2%
+SD: ±22.4%"
+2080,ssp126,GPZi,-22.75,-2.72,-2.39,15.34,11.91,"Year: 2080
+Mean change: -2.7%
+SD: ±11.9%"
+2080,ssp126,GPZii,-17.15,-7.11,-7.26,3.1,7.67,"Year: 2080
+Mean change: -7.1%
+SD: ±7.7%"
+2080,ssp126,GPZiii,-65.74,-20.88,-16.52,0.09,19.83,"Year: 2080
+Mean change: -20.9%
+SD: ±19.8%"
+2080,ssp126,KRZ,-34.93,-5.81,-3.58,17.05,15.85,"Year: 2080
+Mean change: -5.8%
+SD: ±15.8%"
+2080,ssp126,SOSS,-32.13,-9.73,-8.67,7.34,14.12,"Year: 2080
+Mean change: -9.7%
+SD: ±14.1%"
+2080,ssp126,SRZ,-25.15,11.76,13.37,44.04,22.74,"Year: 2080
+Mean change: 11.8%
+SD: ±22.7%"
+2080,ssp585,GPZi,-20.49,-2.79,-1.24,11.92,10.08,"Year: 2080
+Mean change: -2.8%
+SD: ±10.1%"
+2080,ssp585,GPZii,-22.33,-8.56,-10.22,15.54,10.88,"Year: 2080
+Mean change: -8.6%
+SD: ±10.9%"
+2080,ssp585,GPZiii,-64.7,-13.76,-6.32,18.79,24.9,"Year: 2080
+Mean change: -13.8%
+SD: ±24.9%"
+2080,ssp585,KRZ,-36.23,-2,-1.4,19.79,15.65,"Year: 2080
+Mean change: -2%
+SD: ±15.7%"
+2080,ssp585,SOSS,-30.49,-2.53,-0.36,34.77,21.29,"Year: 2080
+Mean change: -2.5%
+SD: ±21.3%"
+2080,ssp585,SRZ,-22.41,8.36,11.38,31.89,16.25,"Year: 2080
+Mean change: 8.4%
+SD: ±16.2%"
+2081,ssp126,GPZi,-21.99,-4.36,-4.16,18.89,13.31,"Year: 2081
+Mean change: -4.4%
+SD: ±13.3%"
+2081,ssp126,GPZii,-14.93,-2.43,-1.59,10.42,8.88,"Year: 2081
+Mean change: -2.4%
+SD: ±8.9%"
+2081,ssp126,GPZiii,-65.43,-15.47,-10.25,13.22,21.78,"Year: 2081
+Mean change: -15.5%
+SD: ±21.8%"
+2081,ssp126,KRZ,-33.9,-2.53,-1.63,16.53,15.71,"Year: 2081
+Mean change: -2.5%
+SD: ±15.7%"
+2081,ssp126,SOSS,-26.27,0.16,-3.23,44.96,25.26,"Year: 2081
+Mean change: 0.2%
+SD: ±25.3%"
+2081,ssp126,SRZ,-29.86,-0.42,-4.14,41.77,24.06,"Year: 2081
+Mean change: -0.4%
+SD: ±24.1%"
+2081,ssp585,GPZi,-20.43,-0.99,0.15,15.68,12.53,"Year: 2081
+Mean change: -1%
+SD: ±12.5%"
+2081,ssp585,GPZii,-22.48,-4.48,-6.94,20.57,12.14,"Year: 2081
+Mean change: -4.5%
+SD: ±12.1%"
+2081,ssp585,GPZiii,-64.98,-17.65,-13.83,3.54,21.74,"Year: 2081
+Mean change: -17.6%
+SD: ±21.7%"
+2081,ssp585,KRZ,-36.54,-4.09,-5.13,13.62,14.81,"Year: 2081
+Mean change: -4.1%
+SD: ±14.8%"
+2081,ssp585,SOSS,-31.13,6.34,2.26,42.66,25.19,"Year: 2081
+Mean change: 6.3%
+SD: ±25.2%"
+2081,ssp585,SRZ,-21.81,20.17,12.71,65.14,29.98,"Year: 2081
+Mean change: 20.2%
+SD: ±30%"
+2082,ssp126,GPZi,-21.85,-6.18,-5.92,16.36,12.56,"Year: 2082
+Mean change: -6.2%
+SD: ±12.6%"
+2082,ssp126,GPZii,-20.25,-9.51,-12.79,7.25,9.38,"Year: 2082
+Mean change: -9.5%
+SD: ±9.4%"
+2082,ssp126,GPZiii,-65.07,-11.32,-4.75,19.28,24.06,"Year: 2082
+Mean change: -11.3%
+SD: ±24.1%"
+2082,ssp126,KRZ,-32.84,-1.7,0.91,14.57,14.34,"Year: 2082
+Mean change: -1.7%
+SD: ±14.3%"
+2082,ssp126,SOSS,-23.48,-9.58,-11.88,6.38,9.79,"Year: 2082
+Mean change: -9.6%
+SD: ±9.8%"
+2082,ssp126,SRZ,-24.82,5.83,1.62,56.35,28.57,"Year: 2082
+Mean change: 5.8%
+SD: ±28.6%"
+2082,ssp585,GPZi,-20.19,0.33,2.88,20.04,13.25,"Year: 2082
+Mean change: 0.3%
+SD: ±13.2%"
+2082,ssp585,GPZii,-22.58,-4.45,-4.68,20.54,12.91,"Year: 2082
+Mean change: -4.4%
+SD: ±12.9%"
+2082,ssp585,GPZiii,-65.28,-17.71,-10.92,4.69,21.59,"Year: 2082
+Mean change: -17.7%
+SD: ±21.6%"
+2082,ssp585,KRZ,-36.69,-0.6,-0.66,21.4,18.15,"Year: 2082
+Mean change: -0.6%
+SD: ±18.1%"
+2082,ssp585,SOSS,-31.4,6.54,4.33,50.55,24.87,"Year: 2082
+Mean change: 6.5%
+SD: ±24.9%"
+2082,ssp585,SRZ,-21.15,15.98,14.42,78.86,28.85,"Year: 2082
+Mean change: 16%
+SD: ±28.9%"
+2083,ssp126,GPZi,-22.13,-3.04,-0.57,17.9,12.55,"Year: 2083
+Mean change: -3%
+SD: ±12.6%"
+2083,ssp126,GPZii,-18.95,-7.58,-8.82,5.4,8.9,"Year: 2083
+Mean change: -7.6%
+SD: ±8.9%"
+2083,ssp126,GPZiii,-64.63,-15.45,-10.86,13.06,21.74,"Year: 2083
+Mean change: -15.4%
+SD: ±21.7%"
+2083,ssp126,KRZ,-31.93,-6.79,-7.74,7.88,12.45,"Year: 2083
+Mean change: -6.8%
+SD: ±12.4%"
+2083,ssp126,SOSS,-23.94,10.97,0.77,52.88,24.89,"Year: 2083
+Mean change: 11%
+SD: ±24.9%"
+2083,ssp126,SRZ,-25.1,4.71,-2.99,60.63,26.03,"Year: 2083
+Mean change: 4.7%
+SD: ±26%"
+2083,ssp585,GPZi,-20.12,0.16,0.83,19.41,12.59,"Year: 2083
+Mean change: 0.2%
+SD: ±12.6%"
+2083,ssp585,GPZii,-22.35,-6.26,-6.18,15.45,9.67,"Year: 2083
+Mean change: -6.3%
+SD: ±9.7%"
+2083,ssp585,GPZiii,-65.61,-15.27,-7.94,20.53,25.54,"Year: 2083
+Mean change: -15.3%
+SD: ±25.5%"
+2083,ssp585,KRZ,-36.6,-2.51,-0.4,18.71,15.35,"Year: 2083
+Mean change: -2.5%
+SD: ±15.3%"
+2083,ssp585,SOSS,-31.11,-1.47,4.44,12.46,14.85,"Year: 2083
+Mean change: -1.5%
+SD: ±14.8%"
+2083,ssp585,SRZ,-20.92,21.79,20.97,93.48,33.23,"Year: 2083
+Mean change: 21.8%
+SD: ±33.2%"
+2084,ssp126,GPZi,-20.88,-2,-0.29,12.74,10.88,"Year: 2084
+Mean change: -2%
+SD: ±10.9%"
+2084,ssp126,GPZii,-26.72,-3.88,-4.57,15.18,13.91,"Year: 2084
+Mean change: -3.9%
+SD: ±13.9%"
+2084,ssp126,GPZiii,-64.25,-17.27,-13.34,0.31,19.71,"Year: 2084
+Mean change: -17.3%
+SD: ±19.7%"
+2084,ssp126,KRZ,-31.32,-4.33,-1.74,8.02,11.61,"Year: 2084
+Mean change: -4.3%
+SD: ±11.6%"
+2084,ssp126,SOSS,-24.8,2.8,1.28,33.78,16.05,"Year: 2084
+Mean change: 2.8%
+SD: ±16%"
+2084,ssp126,SRZ,-25.54,15.92,16.12,63.29,28.1,"Year: 2084
+Mean change: 15.9%
+SD: ±28.1%"
+2084,ssp585,GPZi,-20.39,1.75,4.13,22.03,13.54,"Year: 2084
+Mean change: 1.8%
+SD: ±13.5%"
+2084,ssp585,GPZii,-22.31,-5.32,-6.52,22.81,11.97,"Year: 2084
+Mean change: -5.3%
+SD: ±12%"
+2084,ssp585,GPZiii,-65.93,-21.92,-19.09,1.61,19.16,"Year: 2084
+Mean change: -21.9%
+SD: ±19.2%"
+2084,ssp585,KRZ,-36.35,2.41,1.93,27.17,18.07,"Year: 2084
+Mean change: 2.4%
+SD: ±18.1%"
+2084,ssp585,SOSS,-31.15,-7.46,-4.38,19.83,17.61,"Year: 2084
+Mean change: -7.5%
+SD: ±17.6%"
+2084,ssp585,SRZ,-21.19,19.91,15.93,78.52,28.39,"Year: 2084
+Mean change: 19.9%
+SD: ±28.4%"
+2085,ssp126,GPZi,-21.75,-11.28,-12.08,2.26,8.53,"Year: 2085
+Mean change: -11.3%
+SD: ±8.5%"
+2085,ssp126,GPZii,-23.04,2.79,1.19,30.83,17.11,"Year: 2085
+Mean change: 2.8%
+SD: ±17.1%"
+2085,ssp126,GPZiii,-64.01,-22.77,-19.14,-1.41,17.12,"Year: 2085
+Mean change: -22.8%
+SD: ±17.1%"
+2085,ssp126,KRZ,-30.91,-2.42,-5.13,16.87,14.3,"Year: 2085
+Mean change: -2.4%
+SD: ±14.3%"
+2085,ssp126,SOSS,-25.65,-5.6,-1.39,3.21,10.84,"Year: 2085
+Mean change: -5.6%
+SD: ±10.8%"
+2085,ssp126,SRZ,-58.25,-14.91,-20.47,63.2,34.05,"Year: 2085
+Mean change: -14.9%
+SD: ±34%"
+2085,ssp585,GPZi,-20.89,-0.28,-1.64,22.49,12.9,"Year: 2085
+Mean change: -0.3%
+SD: ±12.9%"
+2085,ssp585,GPZii,-22.28,-6.73,-7.66,5.78,8.07,"Year: 2085
+Mean change: -6.7%
+SD: ±8.1%"
+2085,ssp585,GPZiii,-66.27,-18.2,-10.76,15,23.14,"Year: 2085
+Mean change: -18.2%
+SD: ±23.1%"
+2085,ssp585,KRZ,-36.11,-2.99,-3.16,14.66,14.23,"Year: 2085
+Mean change: -3%
+SD: ±14.2%"
+2085,ssp585,SOSS,-30.87,-2.71,-0.09,18.16,14.7,"Year: 2085
+Mean change: -2.7%
+SD: ±14.7%"
+2085,ssp585,SRZ,-21.78,12.79,11.72,59.32,22.45,"Year: 2085
+Mean change: 12.8%
+SD: ±22.4%"
+2086,ssp126,GPZi,-20.9,-5.95,-8.19,13.71,11.91,"Year: 2086
+Mean change: -6%
+SD: ±11.9%"
+2086,ssp126,GPZii,-16.29,-1.65,-2.29,12.58,10.38,"Year: 2086
+Mean change: -1.6%
+SD: ±10.4%"
+2086,ssp126,GPZiii,-63.81,-9.89,-9.51,36.99,29.41,"Year: 2086
+Mean change: -9.9%
+SD: ±29.4%"
+2086,ssp126,KRZ,-30.49,-6.56,-7.05,21.45,15.03,"Year: 2086
+Mean change: -6.6%
+SD: ±15%"
+2086,ssp126,SOSS,-26.67,-9.47,-7.71,5.25,11.23,"Year: 2086
+Mean change: -9.5%
+SD: ±11.2%"
+2086,ssp126,SRZ,-27.07,-0.51,-7.49,35.99,21.31,"Year: 2086
+Mean change: -0.5%
+SD: ±21.3%"
+2086,ssp585,GPZi,-21.55,0.72,-1.63,29.85,15.94,"Year: 2086
+Mean change: 0.7%
+SD: ±15.9%"
+2086,ssp585,GPZii,-22.06,-6.3,-7.54,15.69,10.13,"Year: 2086
+Mean change: -6.3%
+SD: ±10.1%"
+2086,ssp585,GPZiii,-66.6,-18.91,-12.65,0.79,20.52,"Year: 2086
+Mean change: -18.9%
+SD: ±20.5%"
+2086,ssp585,KRZ,-35.84,2.75,1.51,47.15,21.78,"Year: 2086
+Mean change: 2.8%
+SD: ±21.8%"
+2086,ssp585,SOSS,-31.09,0.69,3.87,20.99,16.32,"Year: 2086
+Mean change: 0.7%
+SD: ±16.3%"
+2086,ssp585,SRZ,-22.51,14.66,9.16,64.66,28.4,"Year: 2086
+Mean change: 14.7%
+SD: ±28.4%"
+2087,ssp126,GPZi,-21.13,-6.58,-4.85,9.08,11.03,"Year: 2087
+Mean change: -6.6%
+SD: ±11%"
+2087,ssp126,GPZii,-14.79,-1.19,0.29,14.88,9.58,"Year: 2087
+Mean change: -1.2%
+SD: ±9.6%"
+2087,ssp126,GPZiii,-63.62,-16.84,-15.6,9.34,21,"Year: 2087
+Mean change: -16.8%
+SD: ±21%"
+2087,ssp126,KRZ,-30.19,-5.1,-4.44,17.75,12.32,"Year: 2087
+Mean change: -5.1%
+SD: ±12.3%"
+2087,ssp126,SOSS,-27.78,-12.16,-14.46,7.12,12.5,"Year: 2087
+Mean change: -12.2%
+SD: ±12.5%"
+2087,ssp126,SRZ,-53.11,-10.29,-15.61,36.31,28.07,"Year: 2087
+Mean change: -10.3%
+SD: ±28.1%"
+2087,ssp585,GPZi,-22.33,-0.28,-0.38,19.2,14.44,"Year: 2087
+Mean change: -0.3%
+SD: ±14.4%"
+2087,ssp585,GPZii,-22.09,-9.41,-10.29,12.35,9.53,"Year: 2087
+Mean change: -9.4%
+SD: ±9.5%"
+2087,ssp585,GPZiii,-66.89,-12.21,-12.46,36.88,30.76,"Year: 2087
+Mean change: -12.2%
+SD: ±30.8%"
+2087,ssp585,KRZ,-35.59,-8.48,-7.31,13.8,16.8,"Year: 2087
+Mean change: -8.5%
+SD: ±16.8%"
+2087,ssp585,SOSS,-31.41,-6.49,-2.15,14.7,15.64,"Year: 2087
+Mean change: -6.5%
+SD: ±15.6%"
+2087,ssp585,SRZ,-23.53,13.75,11.44,58.42,24.62,"Year: 2087
+Mean change: 13.8%
+SD: ±24.6%"
+2088,ssp126,GPZi,-21.58,-8.6,-8.73,4.12,8.45,"Year: 2088
+Mean change: -8.6%
+SD: ±8.4%"
+2088,ssp126,GPZii,-14.49,-3.65,-5.74,21.22,9.87,"Year: 2088
+Mean change: -3.6%
+SD: ±9.9%"
+2088,ssp126,GPZiii,-63.45,-16.14,-13.69,12.05,22.12,"Year: 2088
+Mean change: -16.1%
+SD: ±22.1%"
+2088,ssp126,KRZ,-30.29,-6.92,-7.43,16.31,12.65,"Year: 2088
+Mean change: -6.9%
+SD: ±12.7%"
+2088,ssp126,SOSS,-29,-12.11,-10.23,0.13,10.48,"Year: 2088
+Mean change: -12.1%
+SD: ±10.5%"
+2088,ssp126,SRZ,-28.55,-2.84,-0.41,12.98,12.44,"Year: 2088
+Mean change: -2.8%
+SD: ±12.4%"
+2088,ssp585,GPZi,-23.07,0.83,-0.12,24.22,15.01,"Year: 2088
+Mean change: 0.8%
+SD: ±15%"
+2088,ssp585,GPZii,-22.62,-9.42,-12.07,14.08,11.21,"Year: 2088
+Mean change: -9.4%
+SD: ±11.2%"
+2088,ssp585,GPZiii,-67.14,-18.17,-13.33,6.22,22.41,"Year: 2088
+Mean change: -18.2%
+SD: ±22.4%"
+2088,ssp585,KRZ,-35.33,4.37,0.58,39.07,22.73,"Year: 2088
+Mean change: 4.4%
+SD: ±22.7%"
+2088,ssp585,SOSS,-31.83,-2.52,1.79,18.46,16.23,"Year: 2088
+Mean change: -2.5%
+SD: ±16.2%"
+2088,ssp585,SRZ,-24.63,12.43,11.88,49.23,23.03,"Year: 2088
+Mean change: 12.4%
+SD: ±23%"
+2089,ssp126,GPZi,-27.51,-10.72,-8.47,5.7,12.04,"Year: 2089
+Mean change: -10.7%
+SD: ±12%"
+2089,ssp126,GPZii,-15.39,-1.12,-1.9,16.14,10.04,"Year: 2089
+Mean change: -1.1%
+SD: ±10%"
+2089,ssp126,GPZiii,-63.36,-21.23,-17.45,-0.53,18.44,"Year: 2089
+Mean change: -21.2%
+SD: ±18.4%"
+2089,ssp126,KRZ,-30.68,-6.8,-8.09,18.75,13.56,"Year: 2089
+Mean change: -6.8%
+SD: ±13.6%"
+2089,ssp126,SOSS,-44.1,-16.85,-11.95,-0.78,14.41,"Year: 2089
+Mean change: -16.9%
+SD: ±14.4%"
+2089,ssp126,SRZ,-45.02,-13.28,-12.76,25.89,20.95,"Year: 2089
+Mean change: -13.3%
+SD: ±21%"
+2089,ssp585,GPZi,-23.57,4.61,-1.81,50.81,22.07,"Year: 2089
+Mean change: 4.6%
+SD: ±22.1%"
+2089,ssp585,GPZii,-26.64,-14.25,-14.19,3.5,9.43,"Year: 2089
+Mean change: -14.2%
+SD: ±9.4%"
+2089,ssp585,GPZiii,-67.24,-3.18,-9.9,62.24,40.29,"Year: 2089
+Mean change: -3.2%
+SD: ±40.3%"
+2089,ssp585,KRZ,-34.96,2.98,1,27.87,18.96,"Year: 2089
+Mean change: 3%
+SD: ±19%"
+2089,ssp585,SOSS,-33.44,-14.45,-16.98,5.32,14.11,"Year: 2089
+Mean change: -14.4%
+SD: ±14.1%"
+2089,ssp585,SRZ,-25.62,16.25,23.98,59.03,31.23,"Year: 2089
+Mean change: 16.2%
+SD: ±31.2%"
+2090,ssp126,GPZi,-23.67,-9.55,-11.48,10.98,12.49,"Year: 2090
+Mean change: -9.6%
+SD: ±12.5%"
+2090,ssp126,GPZii,-16.8,-0.76,-1.3,25.26,12.21,"Year: 2090
+Mean change: -0.8%
+SD: ±12.2%"
+2090,ssp126,GPZiii,-63.38,-15.1,-10.17,1.22,19.84,"Year: 2090
+Mean change: -15.1%
+SD: ±19.8%"
+2090,ssp126,KRZ,-31.19,-6.9,-7.17,16.57,14.4,"Year: 2090
+Mean change: -6.9%
+SD: ±14.4%"
+2090,ssp126,SOSS,-32.76,-12.28,-11.62,10.48,13.81,"Year: 2090
+Mean change: -12.3%
+SD: ±13.8%"
+2090,ssp126,SRZ,-53.38,-12.27,-14.55,32.85,23.75,"Year: 2090
+Mean change: -12.3%
+SD: ±23.8%"
+2090,ssp585,GPZi,-23.94,4.05,3.49,30,17.53,"Year: 2090
+Mean change: 4%
+SD: ±17.5%"
+2090,ssp585,GPZii,-26.11,-13.23,-15.02,11.08,10.93,"Year: 2090
+Mean change: -13.2%
+SD: ±10.9%"
+2090,ssp585,GPZiii,-67.27,-13.81,-10.22,16.56,25.47,"Year: 2090
+Mean change: -13.8%
+SD: ±25.5%"
+2090,ssp585,KRZ,-34.59,1.27,1.62,20.59,16.14,"Year: 2090
+Mean change: 1.3%
+SD: ±16.1%"
+2090,ssp585,SOSS,-32.76,2.15,0.3,41.58,23.79,"Year: 2090
+Mean change: 2.1%
+SD: ±23.8%"
+2090,ssp585,SRZ,-26.56,17.07,21.36,48.41,24.63,"Year: 2090
+Mean change: 17.1%
+SD: ±24.6%"
+2091,ssp126,GPZi,-23.19,-3.66,-1.38,10.14,11.28,"Year: 2091
+Mean change: -3.7%
+SD: ±11.3%"
+2091,ssp126,GPZii,-17.81,-3.7,-2.47,14.05,9.76,"Year: 2091
+Mean change: -3.7%
+SD: ±9.8%"
+2091,ssp126,GPZiii,-63.46,-14.57,-11.97,17.88,22.61,"Year: 2091
+Mean change: -14.6%
+SD: ±22.6%"
+2091,ssp126,KRZ,-31.68,-3.74,-2.52,12.12,12.74,"Year: 2091
+Mean change: -3.7%
+SD: ±12.7%"
+2091,ssp126,SOSS,-32.94,-2.27,-7.54,39.17,22.69,"Year: 2091
+Mean change: -2.3%
+SD: ±22.7%"
+2091,ssp126,SRZ,-30.42,-2.03,-2.08,36.93,18.65,"Year: 2091
+Mean change: -2%
+SD: ±18.6%"
+2091,ssp585,GPZi,-24.26,-0.6,1.01,22.89,14.56,"Year: 2091
+Mean change: -0.6%
+SD: ±14.6%"
+2091,ssp585,GPZii,-26.34,-8.98,-12.42,24.12,15.29,"Year: 2091
+Mean change: -9%
+SD: ±15.3%"
+2091,ssp585,GPZiii,-67.25,-8.72,-0.45,21.57,27.59,"Year: 2091
+Mean change: -8.7%
+SD: ±27.6%"
+2091,ssp585,KRZ,-34.35,0.79,2.29,24.37,16.45,"Year: 2091
+Mean change: 0.8%
+SD: ±16.4%"
+2091,ssp585,SOSS,-33.04,-7.65,-4.08,11.18,14.36,"Year: 2091
+Mean change: -7.7%
+SD: ±14.4%"
+2091,ssp585,SRZ,-27.45,10.57,9.54,51.01,26.11,"Year: 2091
+Mean change: 10.6%
+SD: ±26.1%"
+2092,ssp126,GPZi,-23.52,-13.25,-13.65,-1.44,6.33,"Year: 2092
+Mean change: -13.2%
+SD: ±6.3%"
+2092,ssp126,GPZii,-18.44,-1.55,-3.23,15.88,12.25,"Year: 2092
+Mean change: -1.6%
+SD: ±12.2%"
+2092,ssp126,GPZiii,-63.53,-22.02,-23.68,4.83,18.97,"Year: 2092
+Mean change: -22%
+SD: ±19%"
+2092,ssp126,KRZ,-32.27,-9.53,-10.14,4.36,10.09,"Year: 2092
+Mean change: -9.5%
+SD: ±10.1%"
+2092,ssp126,SOSS,-33.61,-6.86,-6.68,28.01,16.61,"Year: 2092
+Mean change: -6.9%
+SD: ±16.6%"
+2092,ssp126,SRZ,-30.82,-10.98,-13.1,24.71,15.56,"Year: 2092
+Mean change: -11%
+SD: ±15.6%"
+2092,ssp585,GPZi,-24.65,1.06,4.2,21.69,14.77,"Year: 2092
+Mean change: 1.1%
+SD: ±14.8%"
+2092,ssp585,GPZii,-27.34,-8.91,-10.41,13.67,12.79,"Year: 2092
+Mean change: -8.9%
+SD: ±12.8%"
+2092,ssp585,GPZiii,-67.27,-14.15,-12,15.28,24.17,"Year: 2092
+Mean change: -14.2%
+SD: ±24.2%"
+2092,ssp585,KRZ,-34.2,-1.52,1.2,20.77,16.25,"Year: 2092
+Mean change: -1.5%
+SD: ±16.2%"
+2092,ssp585,SOSS,-33.38,-0.56,1.99,24.28,18.14,"Year: 2092
+Mean change: -0.6%
+SD: ±18.1%"
+2092,ssp585,SRZ,-28.35,13.24,9.38,61.25,26.32,"Year: 2092
+Mean change: 13.2%
+SD: ±26.3%"
+2093,ssp126,GPZi,-23.77,-8.6,-7.73,9.86,11.19,"Year: 2093
+Mean change: -8.6%
+SD: ±11.2%"
+2093,ssp126,GPZii,-18.45,2.2,-1.3,25.15,13.24,"Year: 2093
+Mean change: 2.2%
+SD: ±13.2%"
+2093,ssp126,GPZiii,-63.59,-13.87,-6.98,6.18,21.68,"Year: 2093
+Mean change: -13.9%
+SD: ±21.7%"
+2093,ssp126,KRZ,-32.82,-6,-4.2,4.83,11.23,"Year: 2093
+Mean change: -6%
+SD: ±11.2%"
+2093,ssp126,SOSS,-33.67,-0.6,-6.5,25.91,20.16,"Year: 2093
+Mean change: -0.6%
+SD: ±20.2%"
+2093,ssp126,SRZ,-31.22,-6.97,-11.74,25.09,17.3,"Year: 2093
+Mean change: -7%
+SD: ±17.3%"
+2093,ssp585,GPZi,-24.87,3.83,1.22,40.49,19.31,"Year: 2093
+Mean change: 3.8%
+SD: ±19.3%"
+2093,ssp585,GPZii,-27.69,-9.62,-9.78,13.69,11.75,"Year: 2093
+Mean change: -9.6%
+SD: ±11.8%"
+2093,ssp585,GPZiii,-67.33,-13.36,-9.41,17.75,25.9,"Year: 2093
+Mean change: -13.4%
+SD: ±25.9%"
+2093,ssp585,KRZ,-33.98,5.19,0.65,50.96,23.26,"Year: 2093
+Mean change: 5.2%
+SD: ±23.3%"
+2093,ssp585,SOSS,-33.76,-8.3,-5.41,21.07,17.93,"Year: 2093
+Mean change: -8.3%
+SD: ±17.9%"
+2093,ssp585,SRZ,-29.11,16.94,21.36,66.1,26.59,"Year: 2093
+Mean change: 16.9%
+SD: ±26.6%"
+2094,ssp126,GPZi,-23.99,-9.87,-9.46,11.65,10.1,"Year: 2094
+Mean change: -9.9%
+SD: ±10.1%"
+2094,ssp126,GPZii,-17.86,-4.42,-3.25,7,7.12,"Year: 2094
+Mean change: -4.4%
+SD: ±7.1%"
+2094,ssp126,GPZiii,-63.67,-15.23,-13.03,21.53,22.77,"Year: 2094
+Mean change: -15.2%
+SD: ±22.8%"
+2094,ssp126,KRZ,-33.18,-6.05,-5.68,16.21,12.78,"Year: 2094
+Mean change: -6%
+SD: ±12.8%"
+2094,ssp126,SOSS,-33.65,-7.9,-9.68,26.81,19.52,"Year: 2094
+Mean change: -7.9%
+SD: ±19.5%"
+2094,ssp126,SRZ,-31.56,-2.8,-1.47,26.63,17.16,"Year: 2094
+Mean change: -2.8%
+SD: ±17.2%"
+2094,ssp585,GPZi,-25,-0.06,-0.58,21.33,14.01,"Year: 2094
+Mean change: -0.1%
+SD: ±14%"
+2094,ssp585,GPZii,-27.4,-12.1,-15.02,12.41,10.97,"Year: 2094
+Mean change: -12.1%
+SD: ±11%"
+2094,ssp585,GPZiii,-67.38,-8.78,-3.96,23,26.75,"Year: 2094
+Mean change: -8.8%
+SD: ±26.8%"
+2094,ssp585,KRZ,-33.81,-5.96,-7.57,15.76,14.49,"Year: 2094
+Mean change: -6%
+SD: ±14.5%"
+2094,ssp585,SOSS,-33.76,0.18,0.57,29.89,21.07,"Year: 2094
+Mean change: 0.2%
+SD: ±21.1%"
+2094,ssp585,SRZ,-29.81,16.47,18.11,61.99,26.02,"Year: 2094
+Mean change: 16.5%
+SD: ±26%"
+2095,ssp126,GPZi,-24.23,-9.84,-11.7,12.76,10.56,"Year: 2095
+Mean change: -9.8%
+SD: ±10.6%"
+2095,ssp126,GPZii,-17.41,-3.44,-3.77,12.38,8.66,"Year: 2095
+Mean change: -3.4%
+SD: ±8.7%"
+2095,ssp126,GPZiii,-63.75,-19.28,-13.25,-2.18,18.22,"Year: 2095
+Mean change: -19.3%
+SD: ±18.2%"
+2095,ssp126,KRZ,-33.32,-4.82,-7.62,22.62,17.38,"Year: 2095
+Mean change: -4.8%
+SD: ±17.4%"
+2095,ssp126,SOSS,-42.85,-13.3,-8.71,17.86,19.7,"Year: 2095
+Mean change: -13.3%
+SD: ±19.7%"
+2095,ssp126,SRZ,-36.13,-12.36,-15.73,14.39,18.93,"Year: 2095
+Mean change: -12.4%
+SD: ±18.9%"
+2095,ssp585,GPZi,-25.15,0.93,2.04,20.65,14.11,"Year: 2095
+Mean change: 0.9%
+SD: ±14.1%"
+2095,ssp585,GPZii,-27.3,-11.18,-14.17,8.21,11,"Year: 2095
+Mean change: -11.2%
+SD: ±11%"
+2095,ssp585,GPZiii,-67.43,-19.33,-13.84,9.38,22.4,"Year: 2095
+Mean change: -19.3%
+SD: ±22.4%"
+2095,ssp585,KRZ,-33.96,-3.46,-3.51,15.41,14.27,"Year: 2095
+Mean change: -3.5%
+SD: ±14.3%"
+2095,ssp585,SOSS,-33.3,-2.73,4.47,12.44,15.78,"Year: 2095
+Mean change: -2.7%
+SD: ±15.8%"
+2095,ssp585,SRZ,-30.48,18.23,24.18,57.47,25.13,"Year: 2095
+Mean change: 18.2%
+SD: ±25.1%"
+2096,ssp126,GPZi,-24.42,-8.35,-7.73,7.36,9.48,"Year: 2096
+Mean change: -8.3%
+SD: ±9.5%"
+2096,ssp126,GPZii,-16.6,-1.82,-4.68,19.13,11.44,"Year: 2096
+Mean change: -1.8%
+SD: ±11.4%"
+2096,ssp126,GPZiii,-63.81,-10.29,-9.96,27.02,26.53,"Year: 2096
+Mean change: -10.3%
+SD: ±26.5%"
+2096,ssp126,KRZ,-33.29,-9.16,-9.89,12.45,11.2,"Year: 2096
+Mean change: -9.2%
+SD: ±11.2%"
+2096,ssp126,SOSS,-34.41,-11.18,-11.06,22.58,17.82,"Year: 2096
+Mean change: -11.2%
+SD: ±17.8%"
+2096,ssp126,SRZ,-31.93,-1.04,-0.75,26.17,17.83,"Year: 2096
+Mean change: -1%
+SD: ±17.8%"
+2096,ssp585,GPZi,-25.19,3.79,3.58,35.55,17.92,"Year: 2096
+Mean change: 3.8%
+SD: ±17.9%"
+2096,ssp585,GPZii,-27.81,-14.39,-17.67,2.88,9.68,"Year: 2096
+Mean change: -14.4%
+SD: ±9.7%"
+2096,ssp585,GPZiii,-67.51,-15.51,-12.5,8.11,22.28,"Year: 2096
+Mean change: -15.5%
+SD: ±22.3%"
+2096,ssp585,KRZ,-34.37,-5.56,-3.78,14.5,13.11,"Year: 2096
+Mean change: -5.6%
+SD: ±13.1%"
+2096,ssp585,SOSS,-33.64,-9.22,-8.93,15.86,18.72,"Year: 2096
+Mean change: -9.2%
+SD: ±18.7%"
+2096,ssp585,SRZ,-30.92,26.22,27.38,79.7,31.13,"Year: 2096
+Mean change: 26.2%
+SD: ±31.1%"
+2097,ssp126,GPZi,-24.51,-12.16,-13.97,9.59,9.55,"Year: 2097
+Mean change: -12.2%
+SD: ±9.6%"
+2097,ssp126,GPZii,-17.98,-5.89,-4.6,9.1,7.44,"Year: 2097
+Mean change: -5.9%
+SD: ±7.4%"
+2097,ssp126,GPZiii,-63.83,-15.01,-8.6,10.85,21.39,"Year: 2097
+Mean change: -15%
+SD: ±21.4%"
+2097,ssp126,KRZ,-33.39,-9.96,-8.1,10.19,11.47,"Year: 2097
+Mean change: -10%
+SD: ±11.5%"
+2097,ssp126,SOSS,-34.45,-3.33,-8.26,39.3,23.71,"Year: 2097
+Mean change: -3.3%
+SD: ±23.7%"
+2097,ssp126,SRZ,-73.32,-17.07,-16.24,31.12,32.36,"Year: 2097
+Mean change: -17.1%
+SD: ±32.4%"
+2097,ssp585,GPZi,-25.19,1.41,0.89,32.68,16.34,"Year: 2097
+Mean change: 1.4%
+SD: ±16.3%"
+2097,ssp585,GPZii,-28.91,-14.73,-16.74,4.87,9.61,"Year: 2097
+Mean change: -14.7%
+SD: ±9.6%"
+2097,ssp585,GPZiii,-67.6,-17.44,-12.46,7.87,21.47,"Year: 2097
+Mean change: -17.4%
+SD: ±21.5%"
+2097,ssp585,KRZ,-34.82,0.92,-1.9,45.6,21.79,"Year: 2097
+Mean change: 0.9%
+SD: ±21.8%"
+2097,ssp585,SOSS,-32.88,1.91,5.93,36.71,21.84,"Year: 2097
+Mean change: 1.9%
+SD: ±21.8%"
+2097,ssp585,SRZ,-31.19,18.54,14.67,68.72,29.56,"Year: 2097
+Mean change: 18.5%
+SD: ±29.6%"
+2098,ssp126,GPZi,-24.26,-0.23,-6.97,50.96,22.22,"Year: 2098
+Mean change: -0.2%
+SD: ±22.2%"
+2098,ssp126,GPZii,-20.9,-9.24,-8.28,0.05,7.29,"Year: 2098
+Mean change: -9.2%
+SD: ±7.3%"
+2098,ssp126,GPZiii,-63.74,-8.36,-7.16,36.44,28.52,"Year: 2098
+Mean change: -8.4%
+SD: ±28.5%"
+2098,ssp126,KRZ,-33.46,-6.65,-6.09,16.74,13.76,"Year: 2098
+Mean change: -6.7%
+SD: ±13.8%"
+2098,ssp126,SOSS,-41.95,-18.19,-16.37,13.42,18.33,"Year: 2098
+Mean change: -18.2%
+SD: ±18.3%"
+2098,ssp126,SRZ,-31.55,13.25,13.58,95.63,36.44,"Year: 2098
+Mean change: 13.2%
+SD: ±36.4%"
+2098,ssp585,GPZi,-25.41,-0.24,-0.65,27.31,16.99,"Year: 2098
+Mean change: -0.2%
+SD: ±17%"
+2098,ssp585,GPZii,-30.22,-12.29,-15.57,19.37,14.13,"Year: 2098
+Mean change: -12.3%
+SD: ±14.1%"
+2098,ssp585,GPZiii,-67.7,-12.26,-7.67,14.07,25.24,"Year: 2098
+Mean change: -12.3%
+SD: ±25.2%"
+2098,ssp585,KRZ,-35.21,-3.83,-6.25,24.6,15.89,"Year: 2098
+Mean change: -3.8%
+SD: ±15.9%"
+2098,ssp585,SOSS,-32.71,-5.59,-0.83,19.86,18.17,"Year: 2098
+Mean change: -5.6%
+SD: ±18.2%"
+2098,ssp585,SRZ,-31.59,16.54,13.47,74.9,32.26,"Year: 2098
+Mean change: 16.5%
+SD: ±32.3%"
+2099,ssp126,GPZi,-23.87,-5.87,-3.41,8.28,10.65,"Year: 2099
+Mean change: -5.9%
+SD: ±10.7%"
+2099,ssp126,GPZii,-20.04,-9.49,-7.73,0.61,6.75,"Year: 2099
+Mean change: -9.5%
+SD: ±6.8%"
+2099,ssp126,GPZiii,-63.59,-18.38,-11.32,0.98,18.79,"Year: 2099
+Mean change: -18.4%
+SD: ±18.8%"
+2099,ssp126,KRZ,-33.52,-11.15,-10.43,16.11,12.98,"Year: 2099
+Mean change: -11.2%
+SD: ±13%"
+2099,ssp126,SOSS,-34.78,-4.81,-6.15,38.28,21.81,"Year: 2099
+Mean change: -4.8%
+SD: ±21.8%"
+2099,ssp126,SRZ,-32.5,1.41,-2.09,36.28,25.15,"Year: 2099
+Mean change: 1.4%
+SD: ±25.1%"
+2099,ssp585,GPZi,-25.78,3.45,3.32,33.93,18.49,"Year: 2099
+Mean change: 3.5%
+SD: ±18.5%"
+2099,ssp585,GPZii,-31.64,-13.77,-15.94,3.39,12.49,"Year: 2099
+Mean change: -13.8%
+SD: ±12.5%"
+2099,ssp585,GPZiii,-67.8,-14.64,-8.82,12.58,23.25,"Year: 2099
+Mean change: -14.6%
+SD: ±23.2%"
+2099,ssp585,KRZ,-35.38,1.16,-0.61,30.54,18.44,"Year: 2099
+Mean change: 1.2%
+SD: ±18.4%"
+2099,ssp585,SOSS,-32.54,-3.31,-2.08,22.39,19.39,"Year: 2099
+Mean change: -3.3%
+SD: ±19.4%"
+2099,ssp585,SRZ,-32.03,17.28,10.45,73.55,32.85,"Year: 2099
+Mean change: 17.3%
+SD: ±32.9%"
+2100,ssp126,GPZi,-23.61,-8.81,-9.98,14.47,11.57,"Year: 2100
+Mean change: -8.8%
+SD: ±11.6%"
+2100,ssp126,GPZii,-16.29,-6.56,-8.33,14.36,9.01,"Year: 2100
+Mean change: -6.6%
+SD: ±9%"
+2100,ssp126,GPZiii,-63.45,-13.09,-5.26,4.55,21.07,"Year: 2100
+Mean change: -13.1%
+SD: ±21.1%"
+2100,ssp126,KRZ,-33.75,-3.88,-5.18,17.43,14.07,"Year: 2100
+Mean change: -3.9%
+SD: ±14.1%"
+2100,ssp126,SOSS,-39.21,-13.04,-10.37,26.51,18.72,"Year: 2100
+Mean change: -13%
+SD: ±18.7%"
+2100,ssp126,SRZ,-43.5,-7.33,-14.35,60.77,34.84,"Year: 2100
+Mean change: -7.3%
+SD: ±34.8%"
+2100,ssp585,GPZi,-26.24,2.36,1.29,32.51,17.79,"Year: 2100
+Mean change: 2.4%
+SD: ±17.8%"
+2100,ssp585,GPZii,-32.71,-12.78,-18.07,20.99,16.44,"Year: 2100
+Mean change: -12.8%
+SD: ±16.4%"
+2100,ssp585,GPZiii,-67.94,-14.99,-11.51,21.65,25.63,"Year: 2100
+Mean change: -15%
+SD: ±25.6%"
+2100,ssp585,KRZ,-35.4,0.32,1.4,20.72,16.68,"Year: 2100
+Mean change: 0.3%
+SD: ±16.7%"
+2100,ssp585,SOSS,-32.43,-0.96,1.93,23.37,20.54,"Year: 2100
+Mean change: -1%
+SD: ±20.5%"
+2100,ssp585,SRZ,-32.51,22.79,16.67,89.99,37.12,"Year: 2100
+Mean change: 22.8%
+SD: ±37.1%"
