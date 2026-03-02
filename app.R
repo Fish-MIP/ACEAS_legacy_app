@@ -64,12 +64,14 @@ ts_data <- read_csv(
 # Load CCAMLR spatial data
 CCAMLR_Areas <- load_ASDs()
 EEZs <- load_EEZs()
-ANT <- load_Coastline()
+ant_ice <- read_sf("data/map_layers/antarctic_ice.shp")
+sh <- read_sf("data/map_layers/south_hem_countries.shp")
 
 # Get spatial region lists (now includes subregions)
-region_list <- maps_data |>
-  distinct(region_name) |>
-  pull(region_name)
+fao_list <- maps_data |>
+  distinct(fao) |>
+  drop_na() |> 
+  pull(fao)
 
 # Get subregion list
 subregion_list <- maps_data |>
@@ -84,6 +86,11 @@ mpa_list <- maps_data |>
   arrange(mpa) |> 
   pull()
 
+eez_list <- maps_data |> 
+  distinct(eez) |> 
+  drop_na() |> 
+  arrange(eez) |> 
+  pull()
 
 map_files <- list.files("data/projection_maps/", full.names = T)
 
@@ -515,7 +522,7 @@ server <- function(input, output, session) {
   # Update region choices based on region type
   observe({
     if(input$region_type == "CCAMLR"){
-      choices <- ant_sectors$region_name
+      choices <- fao_list
     }else if(input$region_type == "CCAMLR_sub"){
       # Use spatially-matched subregions from the data
       choices <- subregion_list
@@ -524,7 +531,7 @@ server <- function(input, output, session) {
       choices <- mpa_list
     }else if(input$region_type == "EEZ"){
       # Get unique EEZ names (exclude CCAMLR regions)
-      choices <- region_list[!region_list %in% ant_sectors$region_name]
+      choices <- eez_list
     }else{
       choices <- "Southern Ocean"
     }
@@ -557,9 +564,15 @@ server <- function(input, output, session) {
     proj_cv <- filtered |>
       str_subset("cv_en.*shp") |>
       read_sf()
+    
+    # Create title for maps with projected change
+    map_title <- paste0(input$selected_region, " - ", 
+                        ifelse(input$map_scenario == "ssp126", "SSP1-2.6", 
+                               "SSP5-8.5"), " - ", input$map_decade)
 
     return(list(proj_rast = proj_rast,
-                proj_cv = proj_cv))
+                proj_cv = proj_cv,
+                title = map_title))
   })
 
   # Render map
@@ -582,17 +595,13 @@ server <- function(input, output, session) {
                         name = "% change in fish biomass")+
       geom_sf(data = cv_mask, color = "grey40", shape = 4, size = 0.2, 
               show.legend = F)+
-      geom_sf(data = ANT, fill = "grey99", colour = "grey60")+
+      geom_sf(data = ant_ice, fill = "grey99", colour = "grey60")+
       geom_sf(data = CCAMLR_Areas, fill = NA, colour = "red", lwd = 0.5)+
       geom_sf(data = EEZs, fill = NA, colour = "orange", lwd = 0.5)+
-      geom_sf(data = countries50, fill = "grey60", colour = "grey60")+
-      coord_sf(crs = "+proj=ortho +lat_0=-90 +lon_0=0",
-               ylim = c(-4000000, 4000000), xlim = c(-4000000, 4100000))+
-      labs(title = paste0(
-        input$selected_region, " - ",
-        ifelse(input$map_scenario == "ssp126", "SSP1-2.6", "SSP5-8.5"), " - ",
-        input$map_decade),
-        caption = "Stippling indicates high intermodel spread (CV > 1)")+
+      geom_sf(data = sh, fill = "grey60", colour = "grey60")+
+      lims(y = c(-4000000, 4000000), x = c(-4000000, 4100000))+
+      labs(title = map_data()$title,
+           caption = "Stippling indicates high intermodel spread (CV > 1)")+
       theme_bw()+
       theme(panel.border = element_rect(colour = NA),
             plot.title = element_text(hjust = 0.5, size = 14, face = "bold"),
@@ -1226,8 +1235,8 @@ server <- function(input, output, session) {
   #   p <- p +
   #     geom_sf(data = CCAMLR_Areas, fill = NA, colour = "grey60", lwd = 0.8) +
   #     geom_sf(data = EEZs, fill = NA, colour = "orange", lwd = 0.6) +
-  #     geom_sf(data = ANT, fill = "grey99", colour = "grey60") +
-  #     geom_sf(data = countries50, fill = "grey60", colour = "grey60") +
+  #     geom_sf(data = ant_ice, fill = "grey99", colour = "grey60") +
+  #     geom_sf(data = sh, fill = "grey60", colour = "grey60") +
   #     coord_sf(
   #       crs = "+proj=ortho +lat_0=-90 +lon_0=0",
   #       ylim = c(-4000000, 4000000),
