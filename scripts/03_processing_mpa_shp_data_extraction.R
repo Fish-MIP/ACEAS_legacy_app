@@ -5,11 +5,13 @@
 
 
 # Loading libraries -------------------------------------------------------
+library(readr)
 library(dplyr)
+library(tidyr)
+library(stringr)
+library(purrr)
 library(sf)
 library(terra)
-library(CCAMLRGIS)
-library(ggplot2)
 
 
 # Loading MEM ensemble output file ----------------------------------------
@@ -93,9 +95,10 @@ create_maps_data <- function(maps_data, grouping){
   }
 }
 
-create_maps_data(maps_data, "region_name")
-create_maps_data(maps_data, "subregion")
+create_maps_data(maps_data, "fao")
 create_maps_data(maps_data, "mpa")
+create_maps_data(maps_data, "subregion")
+create_maps_data(maps_data, "eez")
 # Creates panantarctic datasets
 create_maps_data(maps_data, NULL)
 
