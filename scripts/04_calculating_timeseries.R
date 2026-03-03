@@ -9,11 +9,8 @@ library(dplyr)
 library(data.table)
 library(stringr)
 library(purrr)
-# library(terra)
-# library(stars)
 library(sf)
 library(CCAMLRGIS)
-
 
 
 # CCAMLR spatial management -----------------------------------------------
@@ -23,10 +20,8 @@ ccamlr_areas <- load_ASDs() |>
   select(GAR_Short_Label) |> 
   rename(subregion = GAR_Short_Label)
 
-eez <- load_EEZs() |> 
-  mutate(eez = str_remove_all(str_remove(GAR_Name, "EEZ "), " \\(.*"), 
-         .before = geometry) |> 
-  select(eez)
+# Loading edited EEZ layer including Macquarie Island
+eez <- read_sf("data/map_layers/ccamlr_eez_macq_epsg6932.shp")
 
 ccamlr_mpas <- read_sf("data/map_layers/ccamlr_mpas_wgs84.shp") |> 
   select(!mpa_code)
@@ -66,15 +61,16 @@ area_gfdl_df <- area_gfdl_df |>
   st_transform(st_crs(ccamlr_areas)) |> 
   st_join(ccamlr_areas) |> 
   st_join(eez) |> 
-  st_drop_geometry()
+  st_drop_geometry() |> 
+  mutate(so = ifelse(!is.na(fao), "Southern Ocean", NA))
 
 area_ipsl_df <- area_ipsl_df |> 
   st_join(ccamlr_mpas) |> 
   st_transform(st_crs(ccamlr_areas)) |> 
   st_join(ccamlr_areas) |> 
   st_join(eez) |> 
-  st_drop_geometry()
-
+  st_drop_geometry() |> 
+  mutate(so = ifelse(!is.na(fao), "Southern Ocean", NA))
 
 
 #Getting a list of files containing biomass data
@@ -89,7 +85,7 @@ members <- str_extract(global_files, "annual_(.*)_(h|s)", group = 1) |>
   unique()
 
 #Define groups to be processed
-grouping <- c("fao", "mpa", "subregion", "eez")
+grouping <- c("fao", "mpa", "subregion", "eez", "so")
 
 #Define output folder
 out_folder <- "data/mem_outputs"
@@ -183,11 +179,11 @@ for(group in grouping){
 }
 
 
+list.files("data/ensemble_outputs", pattern = "^ensemble_perc_bio", 
+           full.names = T) |> 
+  map(fread) |> 
+  bind_rows() |> 
+  write_csv(
+    file.path("data/ensemble_outputs",
+              "ensemble_perc_change_fish_bio_ts_all-ssp_all-reg_1950-2100.csv"))
 
-
-
-
-## Spatial data -----------------------------------------------------------
-# Load all spatial data files (exclude timeseries files)
-# maps_data <- list.files("data/ensemble_outputs/", pattern = "^ensemble",
-#                         full.names = TRUE) |>

@@ -36,10 +36,25 @@ ccamlr_areas <- load_ASDs() |>
   select(GAR_Short_Label) |> 
   rename(subregion = GAR_Short_Label)
 
+# Loading EEZs officially recognised by CCAMLR
 eez <- load_EEZs() |> 
   mutate(eez = str_remove_all(str_remove(GAR_Name, "EEZ "), " \\(.*"), 
          .before = geometry) |> 
   select(eez)
+
+# Adding Macquarie Island to EEZ shapefile
+eez <- read_sf(file.path("/rd/gem/private/shared_resources",
+                         "EEZ_v11_20191118/eez_v11.shp")) |> 
+  filter(str_detect(GEONAME, "Macquarie")) |> 
+  mutate(eez = str_extract(GEONAME, "\\((.+?)\\)", group = 1)) |> 
+  select(eez) |> 
+  st_transform(st_crs(eez)) |> 
+  bind_rows(eez)
+
+# Saving edited EEZ shapefile for later use
+eez |> 
+  write_sf("data/map_layers/ccamlr_eez_macq_epsg6932.shp")
+
 
 ccamlr_mpas <- read_sf("data/map_layers/ccamlr_mpas_wgs84.shp") |> 
   select(!mpa_code)
@@ -80,22 +95,3 @@ summary_stats <- maps_data |>
 summary_stats |>
   write_csv("data/ensemble_perc_change_summ-stats_all-ssp_mid-end-century_all-reg.csv")
 
-
-## Temporal data ----------------------------------------------------------
-# Load all timeseries files (exclude files with spatial data)
-ts_data <- list.files("data/ensemble_outputs", 
-                       pattern = "^mean_ensemble_perc_change_fish_bio.*",
-                       full.names = TRUE) |> 
-  map(fread) |> 
-  bind_rows() |> 
-  mutate(region_name = str_remove(name, ", .*")) |> 
-  mutate(region_name = str_remove(region_name, " Ocean")) |> 
-  select(!c(continent, fao_official, name)) |>
-  mutate(tooltip = paste0(
-    "Year: ", year, "\n",
-    "Mean change: ", round(mean_change, 1), "%\n",
-    "SD: ±", round(sd_change, 1), "%"
-  ))
-  
-ts_data |> 
-  write_csv("data/mean_ensemble_perc_change_fish_bio_timeseries_all-ssp_all-reg_1950-2100.csv")

@@ -1,5 +1,4 @@
-## Processing Marine Protected Areas shapefile for the Southern Ocean prior to 
-# data extraction
+## Processing ensemble outputs to create maps of projected biomass change
 # Author: Denisse Fierro Arcos
 # Date: 2026-02-26
 
@@ -34,6 +33,7 @@ create_maps_data <- function(maps_data, grouping){
       group_split()
   }else{
     reg_split <- maps_data |> 
+      drop_na(fao) |> 
       group_by(decade, scenario) |> 
       group_split()
   }
@@ -95,6 +95,8 @@ create_maps_data <- function(maps_data, grouping){
   }
 }
 
+
+# Applying function to all groupings --------------------------------------
 create_maps_data(maps_data, "fao")
 create_maps_data(maps_data, "mpa")
 create_maps_data(maps_data, "subregion")
