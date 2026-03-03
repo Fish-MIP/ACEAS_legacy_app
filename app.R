@@ -483,17 +483,11 @@ ui <- navbarPage(
     fluidRow(
       column(
         12,
-        h3("Summary Statistics"),
-        p("Download comprehensive summary statistics for all regions, ",
-          "scenarios, and time periods."),
-        downloadButton("download_summary", "Download Summary Statistics"),
-        br(), br(),
-        
-        h3("About this tool"),
-        p("This interactive tool visualizes fish biomass change projections ",
-          "under differentclimate scenarios for Antarctic waters. Projections ",
-          "are based on the FishMIP (Fisheries and Marine Ecosystem Model ",
-          "Intercomparison Project) ensemble of 10 marine ecosystem models."),
+        p("This interactive tool allows user to visualize projected fish biomass",
+          "  change  under different emissions scenarios in the waters ",
+          "surrounding the Antarctic continent. Projections are based on the ",
+          "FishMIP (Fisheries and Marine Ecosystem Model Intercomparison ",
+          "Project) ensemble of 10 marine ecosystem models."),
         br(),
         
         h4("Data Sources"),
@@ -525,7 +519,14 @@ ui <- navbarPage(
         h4("Acknowledgments"),
         p("This tool was developed to support understanding of climate change ",
           "impacts on Antarctic marine ecosystems. We acknowledge the FishMIP ",
-          "community and all contributing modelling groups.")
+          "community and all contributing modelling groups."),
+        br(),
+        
+        h3("Summary Statistics"),
+        p("Download comprehensive summary statistics for all regions, ",
+          "scenarios, and time periods."),
+        downloadButton("download_summary", "Download Summary Statistics"),
+        br()
       )
     )
   )
@@ -665,18 +666,9 @@ server <- function(input, output, session) {
   # Reactive data for time series
   ts_plot_data <- reactive({
     req(input$selected_region)
-
-    # For CCAMLR regions, use the selected region directly
-    # For other types, try to match with available time series data
-    # if(input$region_type == "fao"){
+    
     ts_data |>
       filter(!!sym(input$region_type) == input$selected_region)
-    # }else{
-    #   # For other region types, show time series for the parent CCAMLR region 
-    #   # if available. Otherwise return empty data
-    #   ts_data |>
-    #     filter(region_name == input$selected_region)
-    # }
   })
 
   # Render time series plot
