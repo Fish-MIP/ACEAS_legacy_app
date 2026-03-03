@@ -58,12 +58,15 @@ summary_stats <- read_csv(
   "data/ensemble_perc_change_summ-stats_all-ssp_mid-end-century_all-reg.csv")
 
 # Time series data
+# ts_data <- read_csv(
+#   "data/mean_ensemble_perc_change_fish_bio_timeseries_all-ssp_all-reg_1950-2100.csv")
 ts_data <- read_csv(
-  "data/mean_ensemble_perc_change_fish_bio_timeseries_all-ssp_all-reg_1950-2100.csv")
+  file.path("data/ensemble_outputs",
+            "ensemble_perc_change_fish_bio_ts_all-ssp_all-reg_1950-2100.csv"))
 
 # Load CCAMLR spatial data
 CCAMLR_Areas <- load_ASDs()
-EEZs <- load_EEZs()
+EEZs <- read_sf("data/map_layers/ccamlr_eez_macq_epsg6932.shp")
 ant_ice <- read_sf("data/map_layers/antarctic_ice.shp")
 sh <- read_sf("data/map_layers/south_hem_countries.shp")
 
@@ -167,7 +170,8 @@ ui <- navbarPage(
         ),
         h1(class = "title-main", "Southern Ocean Projections Explorer"),
         h2(class = "title-sub", 
-           "Results from the Southern Ocean Marine Ecosystem Model Ensemble (SOMEME)")
+           "Results from the Southern Ocean Marine Ecosystem Model Ensemble 
+           (SOMEME)")
       ),
       div(
         class = "header-right",
@@ -191,24 +195,24 @@ ui <- navbarPage(
         h4(strong("Select region and scenario:")),
         radioButtons(
           "region_type",
-          "Choose region type",
+          "Choose region type (Maps and time series)",
           choiceNames = c("CCAMLR Statistical Areas", "CCAMLR Subdivisions", 
                           "CCAMLR Marine Protected Areas", 
-                          "Exclusive Economic Zones", "Southern Ocean"),
-          choiceValues = c("CCAMLR", "CCAMLR_sub", "CCAMLR_mpa", "EEZ", 
-                           "southern-ocean"),
-          selected = "CCAMLR"
+                          "Exclusive Economic Zones", 
+                          "Southern Ocean (CCMALR convention area)"),
+          choiceValues = c("fao", "subregion", "mpa", "eez", "so"),
+          selected = "fao"
         ),
         
         selectInput(
           "selected_region",
-          "Choose your area of interest",
+          "Choose area of interest  (Maps and time series)",
           choices = NULL
         ),
         
         radioButtons(
           "map_scenario",
-          "Choose emissions scenario",
+          "Choose emissions scenario  (Maps only)",
           choiceNames = c("SSP1-2.6 (low emissions)", 
                           "SSP5-8.5 (high emissions)"),
           choiceValues = c("ssp126", "ssp585"),
@@ -217,7 +221,7 @@ ui <- navbarPage(
         
         radioButtons(
           "map_decade",
-          "Choose projection period",
+          "Choose projection period  (Maps only)",
           choiceNames = c("2041-2050 (medium term)", "2091-2100 (long term)"),
           choiceValues = c("2041-2050", "2091-2100"),
           selected = "2041-2050"
@@ -297,21 +301,27 @@ ui <- navbarPage(
               br(),
               conditionalPanel(
                 condition = 
-                  "input.global_model == 'DBPM' && (input.global_model_variable == 'Biomass' || input.global_model_variable == 'Catches')",
+                  "input.global_model == 'DBPM' && 
+                (input.global_model_variable == 'Biomass' || 
+                input.global_model_variable == 'Catches')",
                 p(textOutput("global_model_description")),
                 girafeOutput("plot_global_model_map", height = "600px")
               ),
               conditionalPanel(
                 condition = 
-                  "input.global_model != 'DBPM' || (input.global_model_variable != 'Biomass' && input.global_model_variable != 'Catches')",
-                p("Data for this model/variable combination is not yet available."),
+                  "input.global_model != 'DBPM' || 
+                (input.global_model_variable != 'Biomass' && 
+                input.global_model_variable != 'Catches')",
+                p("Data for this model/variable combination is not yet 
+                  available."),
                 p(em("Under development."))
               )
             ),
             tabPanel("Time series",
               br(),
               conditionalPanel(
-                condition = "input.global_model == 'DBPM' && input.global_model_variable == 'Catches'",
+                condition = "input.global_model == 'DBPM' && 
+                input.global_model_variable == 'Catches'",
                 p("Time series of simulated vs observed catches for DBPM model",
                   " (1961-2010)."),
                 selectInput(
@@ -332,7 +342,8 @@ ui <- navbarPage(
               ),
               conditionalPanel(
                 condition = 
-                  "input.global_model != 'DBPM' || input.global_model_variable != 'Catches'",
+                  "input.global_model != 'DBPM' || 
+                input.global_model_variable != 'Catches'",
                 p("Time series evaluation is currently only available for DBPM", 
                   " catches."),
                 p(em("Additional model/variable combinations are under ", 
@@ -343,7 +354,8 @@ ui <- navbarPage(
               br(),
               conditionalPanel(
                 condition = 
-                  "input.global_model == 'DBPM' && input.global_model_variable == 'Catches'",
+                  "input.global_model == 'DBPM' && 
+                input.global_model_variable == 'Catches'",
                 p("Statistical performance metrics comparing DBPM simulated ",
                   "catches against observations."),
                 selectInput(
@@ -381,7 +393,8 @@ ui <- navbarPage(
               ),
               conditionalPanel(
                 condition = 
-                  "input.global_model != 'DBPM' || input.global_model_variable != 'Catches'",
+                  "input.global_model != 'DBPM' ||
+                input.global_model_variable != 'Catches'",
                 p("Performance metrics are currently only available for DBPM ",
                   "catches."),
                 p(em("Additional model/variable combinations are under ",
@@ -486,8 +499,10 @@ ui <- navbarPage(
         h4("Data Sources"),
         tags$ul(
           tags$li("Fish biomass projections: FishMIP ensemble (10 models)"),
-          tags$li("Spatial boundaries: CCAMLRGIS package (CCAMLR Stastitical areas and EEZs)"),
-          tags$li("Climate scenarios: SSP1-2.6 (low emissions) and SSP5-8.5 (high emissions)"),
+          tags$li("Spatial boundaries: CCAMLRGIS package (CCAMLR Stastitical 
+                  areas and EEZs)"),
+          tags$li("Climate scenarios: SSP1-2.6 (low emissions) and SSP5-8.5 
+                  (high emissions)"),
           tags$li("Reference period: 2005-2014 mean")
         ),
         br(),
@@ -495,7 +510,8 @@ ui <- navbarPage(
         h4("How to cite"),
         p("When using data or visualizations from this tool, please cite:"),
         tags$ul(
-          tags$li("FishMIP Southern Projections Explorer: Interactive tool for Antarctic fish biomass projections"),
+          tags$li("FishMIP Southern Projections Explorer: Interactive tool for 
+                  Antarctic fish biomass projections"),
           tags$li("FishMIP collaboration and contributing modeling groups"),
           tags$li("CCAMLRGIS package for spatial data")
         ),
@@ -521,15 +537,15 @@ server <- function(input, output, session) {
   ## Fish biomass projected maps ---------------------------------------------
   # Update region choices based on region type
   observe({
-    if(input$region_type == "CCAMLR"){
+    if(input$region_type == "fao"){
       choices <- fao_list
-    }else if(input$region_type == "CCAMLR_sub"){
+    }else if(input$region_type == "subregion"){
       # Use spatially-matched subregions from the data
       choices <- subregion_list
-    }else if(input$region_type == "CCAMLR_mpa"){
+    }else if(input$region_type == "mpa"){
       # Use MPA list
       choices <- mpa_list
-    }else if(input$region_type == "EEZ"){
+    }else if(input$region_type == "eez"){
       # Get unique EEZ names (exclude CCAMLR regions)
       choices <- eez_list
     }else{
@@ -541,13 +557,6 @@ server <- function(input, output, session) {
   # Reactive data for maps
   map_data <- reactive({
     req(input$selected_region, input$map_scenario, input$map_decade)
-
-    # Filter data
-    # filtered <- maps_data |>
-    #   filter(
-    #     scenario == input$map_scenario,
-    #     decade == input$map_decade
-    #   )
 
     # Further filter by region type
     filtered <- map_files |>
@@ -597,7 +606,7 @@ server <- function(input, output, session) {
               show.legend = F)+
       geom_sf(data = ant_ice, fill = "grey99", colour = "grey60")+
       geom_sf(data = CCAMLR_Areas, fill = NA, colour = "red", lwd = 0.5)+
-      geom_sf(data = EEZs, fill = NA, colour = "orange", lwd = 0.5)+
+      geom_sf(data = EEZs, fill = NA, colour = "#7570b3", lwd = 0.5)+
       geom_sf(data = sh, fill = "grey60", colour = "grey60")+
       lims(y = c(-4000000, 4000000), x = c(-4000000, 4100000))+
       labs(title = map_data()$title,
@@ -619,40 +628,37 @@ server <- function(input, output, session) {
         opts_selection(type = "none", only_shiny = TRUE)
       )
   })
-  # 
-  # # Download map data
-  # output$download_map <- downloadHandler(
-  #   filename = function() {
-  #     region_clean <- gsub("[, ]", "_", input$selected_region)
-  #     paste0(
-  #       "fishmip_", region_clean, "_",
-  #       input$map_scenario, "_",
-  #       input$map_decade, ".csv"
-  #     )
-  #   },
-  #   content = function(file) {
-  #     req(input$selected_region, input$map_scenario, input$map_decade)
-  #     
-  #     data_to_download <- maps_data |>
-  #       filter(
-  #         scenario == input$map_scenario,
-  #         decade == input$map_decade
-  #       )
-  #     
-  #     if (input$region_type == "CCAMLR") {
-  #       data_to_download <- data_to_download |> 
-  #         filter(region == input$selected_region)
-  #     } else {
-  #       data_to_download <- data_to_download |> 
-  #         filter(region_name == input$selected_region)
-  #     }
-  #     
-  #     data_to_download <- data_to_download |>
-  #       select(-tooltip, -rowid)
-  #     
-  #     write_csv(data_to_download, file)
-  #   }
-  # )
+
+  # Download map data
+  output$download_map <- downloadHandler(
+    filename = function() {
+      # region_clean <- gsub("[, ]", "_", input$selected_region)
+      region_clean <- str_replace(str_to_lower(input$selected_region), " ", "-")
+      paste0("fishmip_ensemble_", region_clean, "_", input$map_scenario, "_",
+             input$map_decade, ".csv")
+    },
+    content = function(file) {
+      req(input$selected_region, input$map_scenario, input$map_decade)
+
+      data_to_download <- maps_data |>
+        filter(scenario == input$map_scenario,
+               decade == input$map_decade)
+      
+      if(input$region_type != "so"){
+        data_to_download <- data_to_download |> 
+          filter(!!sym(input$region_type) == input$selected_region)
+        grouping <- c("fao", "mpa", "subregion", "eez")
+        grouping <- grouping[!c("fao", "mpa", "subregion", "eez") %in% input$region_type]
+        data_to_download <- data_to_download |>
+          select(!grouping)
+        }else{
+          data_to_download <- data_to_download |> 
+            drop_na(fao) |> 
+            select(!fao:eez)
+      }
+      write_csv(data_to_download, file)
+    }
+  )
   
 
   ## Fish biomass projected timeseries ------------------------------------
@@ -662,15 +668,15 @@ server <- function(input, output, session) {
 
     # For CCAMLR regions, use the selected region directly
     # For other types, try to match with available time series data
-    if(input$region_type == "CCAMLR"){
-      ts_data |>
-        filter(region_name == input$selected_region)
-    }else{
-      # For other region types, show time series for the parent CCAMLR region 
-      # if available. Otherwise return empty data
-      ts_data |>
-        filter(region_name == input$selected_region)
-    }
+    # if(input$region_type == "fao"){
+    ts_data |>
+      filter(!!sym(input$region_type) == input$selected_region)
+    # }else{
+    #   # For other region types, show time series for the parent CCAMLR region 
+    #   # if available. Otherwise return empty data
+    #   ts_data |>
+    #     filter(region_name == input$selected_region)
+    # }
   })
 
   # Render time series plot
