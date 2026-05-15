@@ -11,6 +11,8 @@ library(CCAMLRGIS)
 library(ggplot2)
 library(lwgeom)
 
+
+# Allowing CCAMLR MPA shapefile to cross the intl dateline ----------------
 # MPA GPZiii crosses the international dateline. We will split this area in
 # two polygons to avoid issues when extracting data
 ccamlr_mpas <- load_MPAs()
@@ -39,7 +41,7 @@ ggplot()+
   geom_sf(data = split_line_west, color = "blue")
 
 
-# Splitting MPA -----------------------------------------------------------
+## Splitting MPA ----------------------------------------------------------
 # Needs to be split twice to ensure east and west sides do not cross the 
 # international dateline
 gpz_iii_east <- st_split(st_geometry(gpz_iii), split_line_east) |> 
@@ -71,7 +73,7 @@ gpz_iii_shp |>
   ggplot()+geom_sf()
 
 
-# Replacing original MPA polygon with multipolygon ------------------------
+## Replacing original MPA polygon with multipolygon ------------------------
 ccamlr_mpas_fixed <- ccamlr_mpas |> 
   select(GAR_Short_Label) |> 
   rename(mpa = GAR_Short_Label) |> 
@@ -87,6 +89,3 @@ ccamlr_mpas_fixed |>
 # Saving to disk
 ccamlr_mpas_fixed |> 
   write_sf("data/map_layers/ccamlr_mpas_wgs84.shp")
-
-
-
