@@ -7,7 +7,6 @@
 library(readr)
 library(tidyr)
 library(dplyr)
-library(data.table)
 library(stringr)
 library(purrr)
 library(sf)
@@ -75,8 +74,9 @@ maps_data <- maps_data |>
 
 # Saving data frame with CCAMLR management areas data
 maps_data |>
-  write_csv(
-    "data/ensemble_perc_change_fish_bio_all-ssp_mid-end-century_all-reg.csv")
+  write_csv(file.path(
+    "/rd/gem/public/fishmip/aceas_legacy", 
+    "ensemble_perc_change_fish_bio_all-ssp_mid-end-century_all-reg.csv"))
 
 
 ### Create summary statistics table ---------------------------------------
@@ -93,5 +93,7 @@ summary_stats <- maps_data |>
 
 # Saving data frame with summary statistics
 summary_stats |>
-  write_csv("data/ensemble_perc_change_summ-stats_all-ssp_mid-end-century_all-reg.csv")
+  write_csv(file.path(
+    "/rd/gem/public/fishmip/aceas_legacy", 
+    "ensemble_perc_change_summ-stats_all-ssp_mid-end-century_all-reg.csv"))
 
