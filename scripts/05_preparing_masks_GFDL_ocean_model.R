@@ -12,7 +12,6 @@ library(ggplot2)
 library(stringr)
 
 
-
 # Loading shapefiles with regional data -----------------------------------
 # CRS WGS 84
 fao <- read_sf(
@@ -78,6 +77,7 @@ mask_1deg_so <- mask_1deg |>
 
 # Saving result
 mask_1deg_so |> 
+  st_drop_geometry() |> 
   write.csv(
     file.path("/rd/gem/private/shared_resources/SouthernOceanMasks",
               "gfdl-mom6-cobalt2_areacello_60arcmin_southern-ocean_fixed.csv"), 
@@ -118,6 +118,7 @@ mask_025deg_so <- mask_025deg |>
 
 # Saving result
 mask_025deg_so |> 
+  st_drop_geometry() |> 
   write.csv(
     file.path("/rd/gem/private/shared_resources/SouthernOceanMasks",
               "gfdl-mom6-cobalt2_areacello_15arcmin_southern-ocean_fixed.csv"), 
