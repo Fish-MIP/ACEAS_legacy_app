@@ -73,7 +73,7 @@ mask_1deg_so <- mask_1deg |>
                        "485", .default = GAR_Short_Label),
          GAR_Name = case_when(is.na(GAR_Name) & GAR_Short_Label == "485" ~ 
                                 "Subarea 48.5", .default = GAR_Name)) |> 
-  rename("subreg_code" = "GAR_Short_Label", "subreg" = "GAR_Name")
+  rename("subreg" = "GAR_Short_Label", "subreg_name" = "GAR_Name")
 
 # Saving result
 mask_1deg_so |> 
@@ -114,7 +114,7 @@ mask_025deg_so <- mask_025deg |>
                                 "Subarea 48.5", 
                               is.na(GAR_Name) & GAR_Short_Label == "481" ~ 
                                 "Subarea 48.1", .default = GAR_Name)) |> 
-  rename("subreg_code" = "GAR_Short_Label", "subreg" = "GAR_Name")
+  rename("subreg" = "GAR_Short_Label", "subreg_name" = "GAR_Name")
 
 # Saving result
 mask_025deg_so |> 
