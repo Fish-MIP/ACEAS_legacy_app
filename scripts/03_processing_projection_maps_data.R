@@ -81,7 +81,7 @@ create_maps_data <- function(maps_data, grouping){
   }
   
   
-  out_folder <- "data/projection_maps"
+  out_folder <- "/rd/gem/public/fishmip/aceas_legacy/projection_maps"
   if(!dir.exists(out_folder)){
     dir.create(out_folder)
   }
