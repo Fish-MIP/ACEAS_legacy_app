@@ -64,7 +64,7 @@ mask_1deg_so <- mask_1deg |>
                            is.na(OCEAN) & F_CODE == "48" ~ "Atlantic",
                            is.na(OCEAN) & F_CODE == "58" ~ "Indian",
                            .default = OCEAN))|> 
-  rename("ccmalr_code" = "F_CODE", "ccamlr_name" = "OCEAN") |> 
+  rename("fao_code" = "F_CODE", "fao" = "OCEAN") |> 
   st_transform(st_crs(ccamlr_areas)) |> 
   st_join(ccamlr_areas) |> 
   st_join(eez) |> 
@@ -73,7 +73,7 @@ mask_1deg_so <- mask_1deg |>
                        "485", .default = GAR_Short_Label),
          GAR_Name = case_when(is.na(GAR_Name) & GAR_Short_Label == "485" ~ 
                                 "Subarea 48.5", .default = GAR_Name)) |> 
-  rename("ccmalr_sub_code" = "GAR_Short_Label", "ccamlr_sub_name" = "GAR_Name")
+  rename("subreg_code" = "GAR_Short_Label", "subreg" = "GAR_Name")
 
 # Saving result
 mask_1deg_so |> 
@@ -101,7 +101,7 @@ mask_025deg_so <- mask_025deg |>
                            is.na(OCEAN) & F_CODE == "48" ~ "Atlantic",
                            is.na(OCEAN) & F_CODE == "58" ~ "Indian",
                            .default = OCEAN))|> 
-  rename("ccmalr_code" = "F_CODE", "ccamlr_name" = "OCEAN") |> 
+  rename("fao_code" = "F_CODE", "fao" = "OCEAN") |> 
   st_transform(st_crs(ccamlr_areas)) |> 
   st_join(ccamlr_areas) |> 
   st_join(eez) |> 
@@ -114,7 +114,7 @@ mask_025deg_so <- mask_025deg |>
                                 "Subarea 48.5", 
                               is.na(GAR_Name) & GAR_Short_Label == "481" ~ 
                                 "Subarea 48.1", .default = GAR_Name)) |> 
-  rename("ccmalr_sub_code" = "GAR_Short_Label", "ccamlr_sub_name" = "GAR_Name")
+  rename("subreg_code" = "GAR_Short_Label", "subreg" = "GAR_Name")
 
 # Saving result
 mask_025deg_so |> 
