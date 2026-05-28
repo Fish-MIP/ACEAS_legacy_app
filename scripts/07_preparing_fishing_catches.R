@@ -10,7 +10,6 @@ library(lubridate)
 library(stringr)
 library(purrr)
 library(arrow)
-library(ggplot2)
 
 
 # Loading GFDL masks ------------------------------------------------------
