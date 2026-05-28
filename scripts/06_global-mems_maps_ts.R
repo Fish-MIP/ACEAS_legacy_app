@@ -1,6 +1,6 @@
-# Calculating time series from global MEM outputs
+# Calculating time series and maps from global MEM outputs
 # Author: Denisse Fierro Arcos
-# Date last update: 2026-05-13
+# Date last update: 2026-05-25
 
 
 # Loading libraries -------------------------------------------------------
@@ -11,7 +11,6 @@ library(lubridate)
 library(stringr)
 library(purrr)
 library(arrow)
-library(ggplot2)
 
 
 # Regridding DBEM outputs from 0.5 to 1 deg -------------------------------
@@ -34,12 +33,13 @@ regrid_land_mask <- function(file_path_input, target_grid, land_mask, ...){
     str_replace("30arcmin", "60arcmin")
   ras <- rast(file_path_input)
   ras_reg <- resample(ras, target_grid, ...)*land_mask
-  writeCDF(ras_reg, fn, overwrite = T)
+  # Adding metadata
+  writeCDF(ras_reg, fn, overwrite = T, varname = varnames(ras),
+           longname = longnames(ras), unit = units(ras))
 }
 
 dbem_files |> 
   map(\(x) regrid_land_mask(x, grid_1deg, grid_1deg, method = "bilinear"))
-
 
 
 # Calculating total catches (tc) from EcoOcean outputs --------------------
@@ -134,19 +134,18 @@ crop_ras_df <- function(file_path_input, output_folder, crop_ext, reg_name,
                   paste0(reg_name, "_annual_"))
   }
   
-  # Get variable name from file name
-  var <- str_extract(fn, paste0("_.*[arcmin|default]_(.*)_", reg_name), 
-                     group = 1)
-  
   # Load raster and crop it
   ras <- rast(file_path_input) |> 
     crop(crop_ext) 
   
+  # Get metadata
+  var <- varnames(ras)
+  long_var <- longnames(ras)
   ras_unit <- unique(units(ras))
   
   ras <- ras |> 
     as.data.frame(xy = T, time = T) |> 
-    pivot_longer(!x:y, names_to = "time", values_to = var) |> 
+    pivot_longer(!x:y, names_to = "time", values_to = "vals") |> 
     mutate(time = as_date(time))
   
   if(annual){
@@ -155,19 +154,17 @@ crop_ras_df <- function(file_path_input, output_folder, crop_ext, reg_name,
     # TCB - Total Consumer Biomass will be averaged per grid cell per year
     if(var == "tcb"){
       ras <- ras |> 
-        summarise(!!sym(var) := mean(!!sym(var), na.rm = T), 
-                  .by = c(x, y, year))
+        summarise(vals = mean(vals, na.rm = T), .by = c(x, y, year))
       # TC - Total Catches will be summed per grid cell per year
       }else if(var == "tc"){
         ras <- ras |> 
-          summarise(!!sym(var) := sum(!!sym(var), na.rm = T), 
-                    .by = c(x, y, year))
+          summarise(vals = sum(vals, na.rm = T), .by = c(x, y, year))
     }
   }
   
   # Adding units to data frame
   ras <- ras |> 
-    mutate(unit = ras_unit)
+    mutate(unit = ras_unit, variable = var, long_var = long_var)
   
   # Save cropped data as parquet
   ras |>
@@ -179,18 +176,17 @@ raster_files |>
   map(\(x) crop_ras_df(x, out_folder, so_ext, "southern-ocean"))
 
 
-
 # Calculating time series -------------------------------------------------
 ## Loading mask files containing regions of interest ----------------------
 mask_1deg <- read_csv_arrow(list.files(
   "/rd/gem/private/shared_resources/SouthernOceanMasks", 
   pattern = "gfdl-mom6.*60arcmin.*csv$", full.names = T)) |> 
-  mutate(so = ifelse(!is.na(ccamlr_name), "Southern Ocean", NA))
+  mutate(so = ifelse(!is.na(fao), "Southern Ocean", NA))
 
 mask_025deg <- read_csv_arrow(list.files(
   "/rd/gem/private/shared_resources/SouthernOceanMasks", 
   pattern = "gfdl-mom6.*15arcmin.*csv$", full.names = T)) |> 
-  mutate(so = ifelse(!is.na(ccamlr_name), "Southern Ocean", NA))
+  mutate(so = ifelse(!is.na(fao), "Southern Ocean", NA))
 
 
 ## Getting list of files containing global MEM outputs --------------------
@@ -198,7 +194,7 @@ mem_files <- list.files(out_folder, pattern = "southern-ocean_annual",
                         full.names = T)
 
 #Define groups to be processed
-grouping <- c("ccamlr_name", "mpa", "ccamlr_sub_name", "eez", "so")
+grouping <- c("fao", "mpa", "subreg", "eez", "so")
 
 #Define output folder
 out_folder <- "/rd/gem/public/fishmip/aceas_legacy/global_mems"
@@ -212,6 +208,8 @@ if(!dir.exists(out_ts)){
   dir.create(out_ts)
 }
 
+
+### Processing data for time series plots --------------------------------
 for(m in mem_files){
   fn <- basename(m)
   for(group in grouping){
@@ -231,19 +229,17 @@ for(m in mem_files){
       print(paste0("processing '", fn, "' file, using 0.25 degree mask"))
     }
     
-    varname <- str_extract(fn, "[n|t]_([a-z]+)_southern", group = 1)
     model_name <- str_extract(fn, "(^[a-z]+)_gfdl", group = 1)
     
     df_model <- read_parquet(m) |> 
-      mutate(mem_name = model_name) |> 
       left_join(area_grid, by = c("x", "y")) |> 
       drop_na(!!sym(group)) |> 
       #Calculate weighted mean for output variable
-      summarise(mean_val = weighted.mean(!!sym(varname), cellareao, na.rm = T), 
-                std_val = sd(!!sym(varname), na.rm = T),
-                .by = c(mem_name, year, !!sym(group), unit)) |> 
+      summarise(mean_val = weighted.mean(vals, cellareao, na.rm = T), 
+                std_val = sd(vals, na.rm = T),
+                .by = c(year, !!sym(group), unit, variable, long_var)) |> 
       #Calculate percentage change
-      mutate(variable = varname, resolution = res)
+      mutate(mem_name = model_name, resolution = res)
     
     fout <- file.path(out_ts, str_replace(fn, "_southern-ocean_annual_", 
                                           paste0("_", group, "_annual-ts_")))
@@ -254,11 +250,13 @@ for(m in mem_files){
 }
 
 
-# Creating a single file for each simulation ------------------------------
+##### Creating a single file for each simulation --------------------------
 nat_df <- list.files(out_ts, pattern = str_c("nat.*annual-ts_"), 
                      full.names = T) |> 
   map(\(x) read_parquet(x)) |> 
-  bind_rows()
+  bind_rows() |> 
+  mutate(ymin = ifelse(mean_val-std_val < 0, 0, mean_val-std_val),
+         ymax = mean_val+std_val, .after = std_val)
 
 nat_df |> 
   write_parquet(file.path(
@@ -268,7 +266,9 @@ nat_df |>
 histsoc_df <- list.files(out_ts, pattern = str_c("histsoc.*annual-ts_"), 
                          full.names = T) |> 
   map(\(x) read_parquet(x)) |> 
-  bind_rows()
+  bind_rows() |> 
+  mutate(ymin = ifelse(mean_val-std_val < 0, 0, mean_val-std_val),
+         ymax = mean_val+std_val, .after = std_val)
 
 histsoc_df |> 
   write_parquet(file.path(
@@ -276,4 +276,66 @@ histsoc_df |>
     "gfdl-mom6-cobalt2_obsclim_histsoc_all-regs_yearly_perc_bio_change.parquet"))
 
 
+### Processing data for maps ---------------------------------------------
+# Defining output folder
+out_maps <- file.path(out_folder, "maps")
+if(!dir.exists(out_maps)){
+  dir.create(out_maps)
+}
 
+for(m in mem_files){
+  fn <- basename(m)
+  #Select correct area of grid cell and keep only information for grid cells
+  #for the selected grouping only 
+  if(str_detect(m, "60arcmin")){
+    area_grid <- mask_1deg |> 
+      select(x, y, all_of(grouping)) 
+    res <- "1deg"
+    print(paste0("processing '", fn, "' file, using 1 degree mask"))
+  }else if(str_detect(m, "default")){
+    area_grid <- mask_025deg |> 
+      select(x, y, all_of(grouping))
+    res <- "025deg"
+    print(paste0("processing '", fn, "' file, using 0.25 degree mask"))
+  }
+  
+  model_name <- str_extract(fn, "(^[a-z]+)_gfdl", group = 1)
+  
+  df_model <- read_parquet(m) |> 
+    summarise(mean_val = mean(vals, na.rm = T),
+              .by = c(x, y, unit, variable, long_var)) |> 
+    left_join(area_grid, by = c("x", "y")) |> 
+    #Calculate percentage change
+    mutate(mem_name = model_name, resolution = res)
+  
+  fout <- file.path(out_maps, str_replace(fn, "_annual_", "_mean-maps_"))
+  
+  df_model |> 
+    write_parquet(fout)
+}
+
+
+##### Creating a single file for each simulation --------------------------
+nat_df <- list.files(out_maps, pattern = str_c("nat.*_mean-maps_"), 
+                     full.names = T) |> 
+  map(\(x) read_parquet(x)) |> 
+  bind_rows()
+
+nat_df |> 
+  st_as_sf(coords = c("x", "y"), crs = st_crs(4326)) |> 
+  st_transform(crs = "+proj=ortho +lat_0=-90 +lon_0=0") |>
+  write_sf(file.path(
+    out_folder, 
+    "gfdl-mom6-cobalt2_obsclim_nat_all-regs_mean_change.shp"))
+
+histsoc_df <- list.files(out_maps, pattern = str_c("histsoc.*_mean-maps_"), 
+                         full.names = T) |> 
+  map(\(x) read_parquet(x)) |> 
+  bind_rows() 
+
+histsoc_df |>
+  st_as_sf(coords = c("x", "y"), crs = st_crs(4326)) |> 
+  st_transform(crs = "+proj=ortho +lat_0=-90 +lon_0=0") |> 
+  write_sf(file.path(
+    out_folder,
+    "gfdl-mom6-cobalt2_obsclim_histsoc_all-regs_mean_change.shp"))
