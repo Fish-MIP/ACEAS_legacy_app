@@ -21,9 +21,9 @@ options(sass.cache = FALSE)
 
 # Mizer outputs -----------------------------------------------------------
 # Regional model outputs for Prydz Bay
-prydz_bay_data <- read_csv_arrow(
-  "data/mizer_biomass_yield_timeseries_summary_per_year_tonnes.csv")
-
+mizer_data <- read_parquet(file.path(
+    "/rd/gem/public/fishmip/aceas_legacy/regional_mems",
+    "mizer_gfdl-mom6-cobalt2_obsclim_histsoc_default_catches-biomass.parquet"))
 
 # Ensemble outputs --------------------------------------------------------
 # Spatial data
@@ -57,6 +57,11 @@ catch_all <- read_parquet(file.path("/rd/gem/public/fishmip/aceas_legacy",
 maps_global_mem <- read_sf(file.path(
   global_mem_dir,
   "gfdl-mom6-cobalt2_obsclim_histsoc_all-regs_mean_change.shp"))
+
+
+# Regional MEMs -----------------------------------------------------------
+reg_mem_info <- read_parquet("data/regional_model_info.parquet")
+
 
 # Load CCAMLR spatial data
 CCAMLR_Areas <- load_ASDs()
@@ -159,80 +164,101 @@ ui <- navbarPage(
            "reference period (2005-2014) for Antarctic waters.",
            br(), br(),
            
-           sidebarLayout(
-             ### Navbar Tab 1: Side bar ---------------------------------------
-             sidebarPanel(
-               h4(strong("Select region and scenario:")),
-               radioButtons("region_type",
-                            "Choose region type (Maps and time series)",
-                            choiceNames = 
-                              c("CCAMLR Statistical Areas", 
-                                "CCAMLR Subdivisions", 
-                                "CCAMLR Marine Protected Areas", 
-                                "Exclusive Economic Zones", 
-                                "Southern Ocean (CCAMLR convention area)"),
-                            choiceValues = c("fao", "subregion", "mpa", "eez",
-                                             "so"),
-                            selected = "fao"),
-               
-               selectInput("selected_region",
-                           "Choose area of interest (Maps and time series)",
-                           choices = NULL),
-               
-               radioButtons("map_scenario",
-                            "Choose emissions scenario  (Maps only)",
-                            choiceNames = c("SSP1-2.6 (low emissions)", 
-                                            "SSP5-8.5 (high emissions)"),
-                            choiceValues = c("ssp126", "ssp585"),
-                            selected = "ssp126"),
-               
-               radioButtons("map_decade",
-                            "Choose projection period  (Maps only)",
-                            choiceNames = c("2041-2050 (medium term)", 
-                                            "2091-2100 (long term)"),
-                            choiceValues = c("2041-2050", "2091-2100"),
-                            selected = "2041-2050"),
-               
-               br(),
-               
-               p("Click 'Download' to get the data used to create plots."),
-               downloadButton("download_map", "Download")
-             ),# Navbar tab 1 sidebar ends
-             
-             
-             ### Navbar Tab 1: Main panel -------------------------------------
-             mainPanel(
-               tabsetPanel(
-                 ##### Navbar Tab 1: Map panel --------------------------------
-                 tabPanel("Map",
+           tabsetPanel(
+             ##### Navbar Tab 1: Map panel --------------------------------
+             tabPanel("Map", fluid = T,
+                      br(),
+                      p("Mean change in marine biomass for the selected ",
+                        "scenario and time frame."),
+                      sidebarLayout(
+                        ### Navbar Tab 1: Side bar -------------------------
+                        sidebarPanel(
+                          h4(strong("Select region and scenario:")),
+                          radioButtons("region_type_maps",
+                                       "Choose region type",
+                                       choiceNames = 
+                                         c("CCAMLR Statistical Areas", 
+                                           "CCAMLR Subdivisions", 
+                                           "CCAMLR Marine Protected Areas", 
+                                           "Exclusive Economic Zones", 
+                                           "Southern Ocean (CCAMLR convention area)"),
+                                       choiceValues = c("fao", "subregion", 
+                                                        "mpa", "eez", "so"),
+                                       selected = "fao"),
+                          
+                          selectInput("selected_region_maps",
+                                      "Choose area of interest",
+                                      choices = NULL),
+                          
+                          radioButtons("map_scenario",
+                                       "Choose emissions scenario",
+                                       choiceNames = c("SSP1-2.6 (low emissions)", 
+                                                       "SSP5-8.5 (high emissions)"),
+                                       choiceValues = c("ssp126", "ssp585"),
+                                       selected = "ssp126"),
+                          
+                          radioButtons("map_decade",
+                                       "Choose projection period",
+                                       choiceNames = c("2041-2050 (medium term)", 
+                                                       "2091-2100 (long term)"),
+                                       choiceValues = c("2041-2050", "2091-2100"),
+                                       selected = "2041-2050"),
+                          
                           br(),
-                          p("Mean change in marine biomass for the selected ",
-                            "scenario and time frame."),
-                          withLoader(
-                            girafeOutput("plot_map", height = "600px")
-                            ) # withLoader ends
-                 ),
-                 ##### Navbar Tab 1: Time series panel ------------------------
-                 tabPanel("Time series",
+                          
+                          p("Click 'Download' to get the data used to create 
+                            maps."),
+                          downloadButton("download_map", "Download")
+                        ),# Navbar tab 1 sidebar ends
+                        mainPanel(withLoader(
+                          girafeOutput("plot_map", height = "600px")
+                        ))
+                      )
+             ),
+             tabPanel("Time series", fluid = T,
+                      br(),
+                      p("Mean percentage change in marine biomass (1950-",
+                        "2100) relative to the historical reference period",
+                        " (2005-2014) derived from the FishMIP model ",
+                        "ensemble under two emissions scenarios: SSP1-2.6 ",
+                        "and SSP5-8.5. Shaded areas show the standard ",
+                        "deviation across the 10 marine ecosystem models ",
+                        "included in the ensemble."),
+                      sidebarLayout(
+                        ### Navbar Tab 1: Side bar ---------------------------
+                        sidebarPanel(
+                          h4(strong("Select region and scenario:")),
+                          radioButtons("region_type_ts",
+                                       "Choose region type",
+                                       choiceNames = 
+                                         c("CCAMLR Statistical Areas", 
+                                           "CCAMLR Subdivisions", 
+                                           "CCAMLR Marine Protected Areas", 
+                                           "Exclusive Economic Zones", 
+                                           "Southern Ocean (CCAMLR convention area)"),
+                                       choiceValues = c("fao", "subregion", 
+                                                        "mpa", "eez", "so"),
+                                       selected = "fao"),
+                          
+                          selectInput("selected_region_ts",
+                                      "Choose area of interest",
+                                      choices = NULL),
+                          
                           br(),
-                          p("Mean percentage change in marine biomass (1950-",
-                            "2100) relative to the historical reference period",
-                            " (2005-2014) derived from the FishMIP model ",
-                            "ensemble under two emissions scenarios: SSP1-2.6 ",
-                            "and SSP5-8.5. Shaded areas show the standard ",
-                            "deviation across the 10 marine ecosystem models ",
-                            "included in the ensemble."),
-                          withLoader(
-                            girafeOutput("plot_ts", height = "550px", 
-                                         width = "700px")
-                            ) # withLoader ends
-                 )
-               )
-             )# Navbar tab 1 main panel ends
-           )# Navbar tab 1 side layout ends
-  ),# Navbar tab 1 tab panel ends
-  
-  
+                          
+                          p("Click 'Download' to get the data used to create 
+                            time series plots."),
+                          downloadButton("download_ts", "Download")
+                        ),# Navbar tab 1 sidebar ends
+                        mainPanel(withLoader(
+                          girafeOutput("plot_ts", height = "550px", 
+                                       width = "700px")) 
+                          ) # Main panel Tab 1 "Time series" ends
+                        ) # sidebarLayout Tab 1 "Time series" ends
+                      ) # Tabpanel Tab 1 "Time series" ends
+             ) # TabsetPanel Tab 1 ends
+           ), # tabPanel Tab 1 ends
+           
   ## Navbar Tab 2: Model Evaluation ------------------------------------------
   navbarMenu("Model Evaluation",
     ### Navbar Tab 2 Menu 1: Global MEMs -------------------------------------
@@ -344,39 +370,36 @@ ui <- navbarPage(
                  
                  selectInput("regional_selected_region",
                              "Choose area of interest",
-                             choices = "Prydz Bay"),
+                             choices = unique(reg_mem_info$region_name)),
                  
-                 selectInput("regional_model",
-                             "Choose FishMIP regional marine ecosystem model",
-                             choices = c("Mizer"),
-                             selected = "Mizer"),
-                 ),
+                 selectizeInput("regional_model",
+                                "Choose FishMIP regional marine ecosystem model",
+                                choices = NULL),
+                 
+                 selectInput("regional_model_variable",
+                             "Choose variable",
+                             choices = c("Catches" = "tc", 
+                                         "Biomass" = "tcb"),
+                             selected = "Catches"),
+                 ), # Navbar tab 2 menu 2 sidebarPanel ends
                mainPanel(
                  tabsetPanel(
                    tabPanel("Time series",
                             br(),
-                            # withLoader(
-                            #   girafeOutput("regional_plot_ts", 
-                            #                height = "550px", width = "750px")
-                            # )
-                   ),
-                   tabPanel("About",
+                            withLoader(
+                              girafeOutput("regional_plot_ts",
+                                           height = "550px", width = "750px"))
+                            ), # Navbar tab 2 menu 2 time series panel ends
+                   tabPanel("About this model",
                             br(),
-                            # withLoader(
-                            #   textOutput("about_text"),
-                            #   verbatimTextOutput("about_code")
-                            # )
-                   )
-                 )
-               )
-               
-             ) # Navbar tab 2 menu 2 main panel (maps) ends
-
-             
-    )# Navbar tab 2 menu 2 'Regional model' ends
-  ),# Navbar tab 2 main menu ends
+                            uiOutput("github_markdown")
+                            ) # Navbar tab 2 menu 2 about panel ends
+                   ) # Navbar tab 2 menu 2 tabsetPanel ends
+                 ) # Navbar tab 2 menu 2 main panel ends
+             ) # Navbar tab 2 menu 2 sidebarLayout ends
+             )# Navbar tab 2 menu 2 'Regional model' ends
+    ),# Navbar tab 2 (Model evaluation) main menu ends
   
-
   ## Navbar Tab 3: About -----------------------------------------------------
   tabPanel("About",
            fluidRow(
@@ -489,31 +512,31 @@ server <- function(input, output, session) {
   ## Tab 1: Fish biomass projected maps --------------------------------------
   # Update region choices based on region type
   observe({
-    if(input$region_type == "fao"){
+    if(input$region_type_maps == "fao"){
       choices <- fao_list
-    }else if(input$region_type == "subregion"){
+    }else if(input$region_type_maps == "subregion"){
       # Use spatially-matched subregions from the data
       choices <- subregion_list
-    }else if(input$region_type == "mpa"){
+    }else if(input$region_type_maps == "mpa"){
       # Use MPA list
       choices <- mpa_list
-    }else if(input$region_type == "eez"){
+    }else if(input$region_type_maps == "eez"){
       # Get unique EEZ names (exclude CCAMLR regions)
       choices <- eez_list
     }else{
       choices <- "Southern Ocean"
     }
-    updateSelectInput(session, "selected_region", choices = choices)
+    updateSelectInput(session, "selected_region_maps", choices = choices)
   })
   
   ### Tab 1: Reactive data for maps ------------------------------------------
   map_data <- reactive({
-    req(input$selected_region, input$map_scenario, input$map_decade)
+    req(input$selected_region_maps, input$map_scenario, input$map_decade)
     
     # Further filter by region type
     filtered <- map_files |>
       str_subset(paste0(
-        str_replace_all(str_to_lower(input$selected_region), " ", "-"), 
+        str_replace_all(str_to_lower(input$selected_region_maps), " ", "-"), 
         "_", input$map_decade, "_", input$map_scenario))
     
     # Find file with mean values and load data 
@@ -527,7 +550,7 @@ server <- function(input, output, session) {
       read_sf()
     
     # Create title for maps with projected change
-    map_title <- paste0(input$selected_region, " - ", 
+    map_title <- paste0(input$selected_region_maps, " - ", 
                         ifelse(input$map_scenario == "ssp126", "SSP1-2.6", 
                                "SSP5-8.5"), " - ", input$map_decade)
     
@@ -585,24 +608,23 @@ server <- function(input, output, session) {
   #### Tab 1: Downloading data for maps ---------------------------------------
   output$download_map <- downloadHandler(
     filename = function() {
-      # region_clean <- gsub("[, ]", "_", input$selected_region)
-      region_clean <- str_replace(str_to_lower(input$selected_region), " ", "-")
+      region_clean <- str_replace(str_to_lower(input$selected_region_maps), " ", "-")
       paste0("fishmip_ensemble_", region_clean, "_", input$map_scenario, "_",
              input$map_decade, ".csv")
     },
     content = function(file) {
-      req(input$selected_region, input$map_scenario, input$map_decade)
+      req(input$selected_region_maps, input$map_scenario, input$map_decade)
       
       data_to_download <- maps_data |>
         filter(scenario == input$map_scenario,
                decade == input$map_decade)
       
-      if(input$region_type != "so"){
+      if(input$region_type_maps != "so"){
         data_to_download <- data_to_download |> 
-          filter(!!sym(input$region_type) == input$selected_region)
+          filter(!!sym(input$region_type_maps) == input$selected_region_maps)
         grouping <- c("fao", "mpa", "subregion", "eez")
         grouping <- grouping[!c("fao", "mpa", "subregion", "eez") %in%
-                               input$region_type]
+                               input$region_type_maps]
         data_to_download <- data_to_download |>
           select(!grouping)
       }else{
@@ -615,12 +637,32 @@ server <- function(input, output, session) {
   )
   
   ### Tab 1: Reactive data for time series plots -----------------------------
+  ## Tab 2: Fish biomass projected time series -------------------------------
+  # Update region choices based on region type
+  observe({
+    if(input$region_type_ts == "fao"){
+      choices <- fao_list
+    }else if(input$region_type_ts == "subregion"){
+      # Use spatially-matched subregions from the data
+      choices <- subregion_list
+    }else if(input$region_type_ts == "mpa"){
+      # Use MPA list
+      choices <- mpa_list
+    }else if(input$region_type_ts == "eez"){
+      # Get unique EEZ names (exclude CCAMLR regions)
+      choices <- eez_list
+    }else{
+      choices <- "Southern Ocean"
+    }
+    updateSelectInput(session, "selected_region_ts", choices = choices)
+  })
+  
   # Reactive data for time series
   ts_plot_data <- reactive({
-    req(input$selected_region)
+    req(input$selected_region_ts)
     
     ts_data |>
-      filter(!!sym(input$region_type) == input$selected_region)
+      filter(!!sym(input$region_type_ts) == input$selected_region_ts)
   })
   
   #### Tab 1: Rendering time series plots -------------------------------------
@@ -647,7 +689,7 @@ server <- function(input, output, session) {
                         name = "Scenarios",
                         labels = c("Historical", "SSP1-2.6", "SSP5-8.5"))+
       scale_x_continuous(breaks = seq(1950, 2100, 10))+
-      labs(title = paste("Fish biomass change:", input$selected_region),
+      labs(title = paste("Fish biomass change:", input$selected_region_ts),
            y = "Change in exploitable fish biomass (%)")+
       guides(color = guide_legend(nrow = 1, title.position = "left"))+
       theme_classic()+
@@ -665,28 +707,20 @@ server <- function(input, output, session) {
       girafe_options(opts_selection(type = "none", only_shiny = TRUE))
   })
   
-  # # Download time series data
-  # output$download_ts <- downloadHandler(
-  #   filename = function() {
-  #     region_clean <- gsub("[, ]", "_", input$selected_region)
-  #     paste0("fishmip_timeseries_", region_clean, "_1950-2100.csv")
-  #   },
-  #   content = function(file) {
-  #     data_to_download <- ts_plot_data() |>
-  #       select(-tooltip)
-  #     write_csv(data_to_download, file)
-  #   }
-  # )
-  # 
-  # # Download summary statistics
-  # output$download_summary <- downloadHandler(
-  #   filename = function() {
-  #     paste0("fishmip_summary_statistics_", Sys.Date(), ".csv")
-  #   },
-  #   content = function(file) {
-  #     write_csv(summary_stats, file)
-  #   }
-  # )
+  # Download time series data
+  output$download_ts <- downloadHandler(
+    filename = function() {
+      region_clean <- str_replace(str_to_lower(input$selected_region_ts),
+                                  " ", "-")
+      paste0("fishmip_ensemble_timeseries_", region_clean, "_1950-2100.csv")
+    },
+    content = function(file) {
+      req(input$selected_region_ts)
+      data_to_download <- ts_plot_data() |>
+        select(-tooltip)
+      write_csv(data_to_download, file)
+    }
+  )
   
   
   ## Tab 2 Menu 1: Global MEM evaluation ---------------------------------
@@ -822,8 +856,53 @@ server <- function(input, output, session) {
   })
   
   ## Tab 2 Menu 2: Regional MEM evaluation -------------------------------
+  ### Tab 2 Menu 2: Reactive data for maps and time series -------------------
+  observeEvent(input$regional_selected_region,{
+    mems_reg <- reg_mem_info |>
+      filter(region_name == input$regional_selected_region) |>
+      pull(mem_name)
+    updateSelectizeInput(session, "regional_model", choices = mems_reg)
+  })
   
+  regional_model_data <- reactive({
+    req(input$regional_model, input$regional_selected_region, 
+        input$regional_model_variable)
+    
+    # DBPM data available for both biomass and catches
+    ts <- mizer_data |> 
+      filter(variable == input$regional_model_variable)
+    
+    return(ts)
+  })
   
+  #### Tab 2 Menu 2: Rendering maps of mean biomass/catch estimates ----------
+  output$regional_plot_ts <- renderGirafe({
+    ts_data <- regional_model_data()
+    
+    cb_lab <- str_c(unique(ts_data$long_var), " (", unique(ts_data$unit), ")")
+    
+    p <- ggplot(ts_data, aes(year))+
+      geom_ribbon(aes(ymin = q25, ymax = q75, fill = species), alpha = 0.3)+
+      geom_line(aes(y = median, color = species))+
+      facet_wrap(~species, scales = "free_y")+
+      theme_bw()+
+      labs(y = cb_lab)+
+      theme(legend.position = "none", axis.title.x = element_blank())
+    
+    girafe(ggobj = p, height_svg = 12, width_svg = 16) |>
+      girafe_options(opts_selection(type = "none", only_shiny = TRUE),
+                     opts_tooltip(opacity = 0.8))
+  })
+  
+  output$github_markdown <- renderUI({ 
+    url <- reg_mem_info |>
+      filter(region_name == input$regional_selected_region &
+               mem_name == input$regional_model) |> 
+      pull(url)
+    temp <- tempfile(fileext = ".md")
+    download.file(url, destfile = temp, quiet = T)
+    includeMarkdown(temp)
+  })
 }
 
 
